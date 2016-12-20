@@ -1,0 +1,35 @@
+[Adblock Plus 2.0]
+! Version: 201309251226
+! Title: X Files: NoFacebookAds
+! NFA elimina la pubblicita' dal noto Social Network, compatibile anche con la nuova TimeLine di Facebook
+! Last modified: 25-09-2013
+! Expires: 20 days
+! Homepage: http://noads.it
+! Home: http://noads.it
+! Blog: http://gioxx.org/tag/x-files
+! 
+! [Gruppo di filtri per bloccare elementi]/blocking
+https://*.11nux.com/pixel?ad_id=
+||pixel.facebook.com/ajax/*
+###FB_HorrorBox
+! [Gruppo di filtri per nascondere elementi]/elemhide
+facebook.com##DIV[class="ad_capsule"]
+facebook.com##DIV[class="social_ad"]
+facebook.com##DIV[class="sponsor"]
+facebook.com##DIV[id="sponsor"]
+facebook.com##DIV[id="sidebar_ads"]
+facebook.com##DIV[class="ads"]
+facebook.com##DIV[id="ads"]
+facebook.com##DIV[id="announce"]
+facebook.com##DIV[class="profile_sidebar_ads"]
+facebook.com##DIV[class="adcolumn"]
+facebook.com##DIV[class="adcolumn_header"]
+facebook.com##DIV[class="bumper"]
+facebook.com##DIV[id="adcolumn_advertise"]
+facebook.com##DIV[id="pagelet_adbox"]
+facebook.com##[id^="600"]
+facebook.com##.fbTimelineSideAds.fixed_elem
+facebook.com###pagelet_side_ads.fbTimelineSideAds
+facebook.com###pagelet_side_ads
+facebook.com##div[class="ego_column"]
+/hads-

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Version: 201610241224
+! Version: 201612201621
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 24-10-2016
+! Last modified: 20-12-2016
 ! Expires: 3 days
 ! Homepage: http://noads.it
 ! Home: http://noads.it
@@ -1809,6 +1809,14 @@ about:blank$popup,domain=katproxy.com|filmpertutti.eu|catanzaroinforma.it|extrat
 ||exhaustionlaurenbremsstrahlung.info^$popup
 ||onclickads.net^
 |http://ruckusschroederraspberry.com/path/ads/
+||jbgehhqvfppf.com^
+||popads.net^
+||edvbyybaviln.com^
+||codeonclick.com^
+||trktrk.pw^$popup
+||cokeandpopcorn.ch/ads/*
+||googlesyndication.com/pagead/*
+||googlesyndication.com/simgad/
 ! [Gruppo di filtri per nascondere elementi]/elemhide
 http://ilgarantista.it/wp-content/uploads/adv-skin.jpg
 everyeye.it##.banner_destra
@@ -3938,6 +3946,36 @@ ansa.it##.4wNET
 ansa.it###mirago
 sportmediaset.mediaset.it##[id^="scr_"][style*="left: -428px"]
 treccani.it##[class*="-adv"]
+downloadtwittervideo.com##.adsbygoogle
+linkiesta.it##.kskdDiv
+ilfattoquotidiano.it##[id^="glfb-sticky"]
+it.tinypic.com##A[href^="//vacwrite.com/clicktag.eng"]
+arstechnica.com###daehtsam-da
+ddunlimited.net##[src^="http://www.liveadexchanger.com/"]
+doodle.com###banner
+doodle.com###skyrightcontainer
+icxm.net##.adsbygoogle
+ritenuta.it##.adsbygoogle
+cokeandpopcorn.ch##.tabula
+cokeandpopcorn.ch##.skyscraper
+cokeandpopcorn.ch##IFRAME[src*="cokeandpopcorn.ch/ads/"]
+cokeandpopcorn.ch##.adgrid
+dagospia.com###btop
+dagospia.com###bright
+dagospia.com###bleft
+dagospia.com##[id^="div-gpt-ad"]
+sport.sky.it##[class^="adv_"]
+getemoji.com##A[href*="amazon.com/Audible-Free-Trial"]
+codeforgeek.com##[id^="bsap_"]
+codeforgeek.com##[id^="gtp-ado"]
+codeforgeek.com##.adsoptimal-slot
+codeforgeek.com##.adsbygoogle
+lastpass.com###ad
+support-at-lastpass-dot-com###ad
+sport.sky.it##[class^="adform-"]
+downdetector.com##.ad
+milano.mentelocale.it##[id^="Adv"]
+mybest.it##[id^="div-gpt-ad"]
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
@@ -3989,6 +4027,7 @@ uploaded.net##IFRAME[style="border:0px solid #000000"][src="about:blank"]
 tuttomercatoweb.com##.clear
 fcinternews.it##.adsbygoogle
 hdblog.it##.banner_list_container
+ansa.it###advCustomMainDivBg
 ##.c_ligatus_nxn
 osxdaily.com##.adsbygoogle
 osxdaily.com##[id^="tfasyncframe_"][width="300"]
@@ -4013,7 +4052,6 @@ ebay.it###rtm_html_644
 ||quattroruote.it^$popup,domain=openload.co
 ||adnanny.com^$popup
 ||gameforge.com^$popup
-||popads.net^$popup
 ||bet365.com^$popup
 ||adv.adsbwm.com^$popup
 ||adv.onadpop.com^$popup
@@ -4280,6 +4318,30 @@ emuparadise.me##.mctable1345
 ||doublepimp.com^$popup
 http://www.cultura.rai.it/$popup
 ||bitterstrawberry.org^$popup,domain=simply-hentai.com
+osxdaily.com##.adsbygoogle
+osxdaily.com##[id^="tfasyncframe_"][width="300"]
+computerworld.com##.ad
+guidafisco.it##[class^="ad"]
+mytaste.it##.panorama
+tecnologici.net##.adsbygoogle
+cheatsfactor.com##.adsbygoogle
+sky.it###admasthead
+sky.it###adv_wpclickdiv
+sky.it###adwallpaper
+guidatv.sky.it##.banner_publicitario
+leganerd.com##[id^="banner_mpu"]
+ucicinemas.it###adv-strip-container
+xboxdvr.com##[class^="ad-container"]
+ebay.it###rtm_html_644
+bannerflow.com###banner
+camelcamelcamel.com##[id^="ad_center"]
+fattoincasadabenedetta.it##.bsm
+fattoincasadabenedetta.it##.adsbygoogle
+ticketone.it##[id^="google_ads_iframe"]
+salepepe.it##[id^="adv"]
+salepepe.it##[id^="box-adv"]
+salepepe.it##[class*="adv"]
+salepepe.it##.adsense
 ##.adsbox
 ##.center_ads
 .php?zoneid=
