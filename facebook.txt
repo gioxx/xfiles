@@ -1,0 +1,73 @@
+[Adblock Plus 2.0]
+! Version: 201611251035
+! Title: X Files: NoFacebookAds
+! NFA: rimuovi la pubblicità da Facebook!
+! Last modified: 25-11-2016
+! Expires: 30 days
+! Homepage: http://noads.it
+! Home: http://noads.it
+! Blog: http://gioxx.org/tag/x-files
+! 
+@@||www.facebook.com/ads/$elemhide
+@@||www.facebook.com/ajax/ads/$xmlhttprequest,domain=www.facebook.com
+###pagelet_side_ads
+##.adsCategoryIcon
+##.adsCategoryTitleLink
+/hads-
+apps.facebook.com##div[style="margin: 0px; width: 760px; height: 90px; text-align: center; vertical-align: middle;"]
+facebook.com###MessagingNetegoWrapper
+facebook.com###headerArea
+facebook.com###home_sponsor_nile
+facebook.com###home_stream > .uiUnifiedStory[data-ft*="\"ei\":\""]
+facebook.com###leaderboard
+facebook.com###pagelet_ads_when_no_friend_list_suggestion
+facebook.com###pagelet_games_rhc
+facebook.com###pagelet_growth_expanding_cta
+facebook.com##.-cx-PRIVATE-fbAdUnit__root
+facebook.com##.-cx-PRIVATE-fbEmu__root
+facebook.com##.-cx-PRIVATE-fbFacebarTypeaheadToken__sponsored
+facebook.com##.-cx-PRIVATE-snowliftAds__root
+facebook.com##.-cx-PRIVATE-spyml__story
+facebook.com##.-cx-PUBLIC-fbAdUnit__root
+facebook.com##._24n
+facebook.com##._24o
+facebook.com##._3qj-
+facebook.com##._4u8
+facebook.com##.adv
+facebook.com##.ego_spo
+facebook.com##.fbAdUnit
+facebook.com##.fbEmu
+facebook.com##.fbEmuBlock
+facebook.com##.fbEmuComboList
+facebook.com##.fbEmuEgo
+facebook.com##.fbEmuEgoUnit
+facebook.com##.fbEmuLink
+facebook.com##.fbPhotoAdsCol
+facebook.com##.fbTimelineSideAds
+facebook.com##.fixedAux .pbm
+facebook.com##.generic_dialog.pop_dialog.generic_dialog_modal
+facebook.com##.muffin.group
+facebook.com##.ownsection[role="option"]
+facebook.com##[data-referrer="pagelet_side_ads"]
+facebook.com##[href^="/ads/adboard/"]
+facebook.com##a[ajaxify^="/ajax/emu/end.php?"]
+facebook.com##a[href^="/ajax/emu/end.php?"]
+facebook.com##div[class="ego_column _5qrt"]
+facebook.com##div[class="ego_column _8_9"]
+facebook.com##div[class="ego_column pagelet _5qrt"]
+facebook.com##div[class="ego_column pagelet"]
+facebook.com##div[class="ego_column"]
+facebook.com##div[id^="sponsoredTickerStory_"]
+facebook.com##div[id^="substream_"] ._5jmm[data-dedupekey][data-cursor][data-ftr="1"][data-fte="1"]:not([data-timestamp])
+facebook.com##div[id^="substream_"] div[data-ft*="\"ei\":\""]
+facebook.com##div[id^="topnews_main_stream_"] div[data-ft*="\"ei\":\""]
+facebook.com##ul[id^="typeahead_list_"] > ._20e._6_k._55y_
+m.facebook.com,touch.facebook.com##.aymlCoverFlow
+m.facebook.com,touch.facebook.com##.aymlNewCoverFlow[data-ft*="\"is_sponsored\":\"1\""]
+m.facebook.com,touch.facebook.com##.pyml
+m.facebook.com,touch.facebook.com##.storyStream > ._6t2[data-sigil="marea"]
+m.facebook.com,touch.facebook.com##.storyStream > .fullwidth._539p
+m.facebook.com,touch.facebook.com##.storyStream > article[id^="u_"]._676
+m.facebook.com,touch.facebook.com##.storyStream > article[id^="u_"].storyAggregation
+||atdmt.com^$third-party
+||fbcdn.net^*/flyers/$domain=facebook.com
