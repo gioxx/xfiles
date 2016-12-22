@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Version: 201612201621
+! Version: 201612221043
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 20-12-2016
+! Last modified: 22-12-2016
 ! Expires: 3 days
 ! Homepage: http://noads.it
 ! Home: http://noads.it
@@ -1599,7 +1599,6 @@ http://*.notipedia.it/wp-content/plugins/better-stop-adblock/
 |http://*/*/sendspace-pop.html$popup
 |http://*.sharelive.net/?lpid=$popup
 |http://*.reachadv.it/728x90
-|http://track.adform.net/*/?bn=
 |http://*.juiceadv.net/banner_iframe.asp
 ||advdl.ammadv.it^
 ||ivid.it^$popup
@@ -1734,7 +1733,6 @@ about:blank$popup,domain=katproxy.com|filmpertutti.eu|catanzaroinforma.it|extrat
 ||s.ad125m.com^
 ||wagital.com/Wagital-Ads.html
 |http://www.buono-spesa.it/?aid=
-|http://track.adform.net/Serving/TrackPoint
 |http://reytv.co/adds/
 |http://*.cb01.org/120x600_ad
 ||advplace.com^
@@ -1817,6 +1815,8 @@ about:blank$popup,domain=katproxy.com|filmpertutti.eu|catanzaroinforma.it|extrat
 ||cokeandpopcorn.ch/ads/*
 ||googlesyndication.com/pagead/*
 ||googlesyndication.com/simgad/
+||minoto-video.com^$domain=forum.telefonino.net
+||adform.net^
 ! [Gruppo di filtri per nascondere elementi]/elemhide
 http://ilgarantista.it/wp-content/uploads/adv-skin.jpg
 everyeye.it##.banner_destra
@@ -3976,6 +3976,15 @@ sport.sky.it##[class^="adform-"]
 downdetector.com##.ad
 milano.mentelocale.it##[id^="Adv"]
 mybest.it##[id^="div-gpt-ad"]
+telefonino.net##.TopWidget.TopWidget--spaced-spaced
+telefonino.net###dotnAdDivSkDxImg
+forum.telefonino.net##[id^="crt-"]
+forum.telefonino.net###dotnAdDivSkSxImg
+forum.telefonino.net###dotnAdDivSkDx
+forum.telefonino.net###dotnAdDivSkSx
+forum.telefonino.net###dotnAdDivSkLbImg
+forum.telefonino.net##.viewSupportBlock
+forum.telefonino.net###dotnAdDivSkLb
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
