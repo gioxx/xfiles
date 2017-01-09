@@ -1,12 +1,13 @@
-[Adblock Plus 2.0]
-! Version: 201612221043
+[Adblock Plus 2.8]
+! Version: 201701091209
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 22-12-2016
+! Last modified: 09-01-2017
 ! Expires: 3 days
 ! Homepage: http://noads.it
 ! Home: http://noads.it
 ! Blog: http://gioxx.org/tag/x-files
+! Hosting lista: GitHub.com
 !
 ! [Gruppo di filtri per permettere elementi]/whitelist
 @@||betrad.com/geo/h1.js$domain=corriere.it|gazzetta.it
@@ -1817,6 +1818,13 @@ about:blank$popup,domain=katproxy.com|filmpertutti.eu|catanzaroinforma.it|extrat
 ||googlesyndication.com/simgad/
 ||minoto-video.com^$domain=forum.telefonino.net
 ||adform.net^
+||linktrker.com^$popup
+||adbutler-meson.com^
+||scorecardresearch.com^
+||educing.info^
+||04dn8g4f.space^
+|data:,$popup,domain=nowvideo.li
+|javascript:setTimeout$popup,domain=nowvideo.li
 ! [Gruppo di filtri per nascondere elementi]/elemhide
 http://ilgarantista.it/wp-content/uploads/adv-skin.jpg
 everyeye.it##.banner_destra
@@ -3985,6 +3993,23 @@ forum.telefonino.net###dotnAdDivSkSx
 forum.telefonino.net###dotnAdDivSkLbImg
 forum.telefonino.net##.viewSupportBlock
 forum.telefonino.net###dotnAdDivSkLb
+lettera43.it###bleft
+lettera43.it###bright
+uploaded.net##.pico-overlay
+uploaded.net##.pico-content
+uploaded.net###fakeContentBoxContainer
+supereroi-news.com##.adsbygoogle
+notizie.tiscali.it###sticky_container
+notizie.tiscali.it##[id^="_forebase_sat_"]
+nowvideo.li##.mgbox
+italia-film.me##.mejs-container.svg.mejs-video
+italia-film.me##IFRAME[src*="italia-film.me/player/play.php"]
+gamona.de##[class$="banner"]
+gamona.de##.werbung._sky
+gamona.de##[id*="adblock_"]
+smartworld.it##.adv
+smartworld.it##[id^="google_ads_iframe"]
+smartworld.it##[class^="teads-"]
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
@@ -4424,4 +4449,5 @@ youtube.com###feed-pyv-container
 youtube.com###video-masthead
 ||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
 ! [Gruppo di filtri blocco di sicurezza]
+mvxtryurrox7889.info##HTML*
 ##a[href*="flashplayer-updates.com"]
