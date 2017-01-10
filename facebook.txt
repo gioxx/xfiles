@@ -1,12 +1,13 @@
 [Adblock Plus 2.0]
-! Version: 201611251035
+! Version: 201701100917
 ! Title: X Files: NoFacebookAds
 ! NFA: rimuovi la pubblicità da Facebook!
-! Last modified: 25-11-2016
+! Last modified: 10-01-2017
 ! Expires: 30 days
 ! Homepage: http://noads.it
 ! Home: http://noads.it
 ! Blog: http://gioxx.org/tag/x-files
+! Hosting lista: GitHub.com
 ! 
 @@||www.facebook.com/ads/$elemhide
 @@||www.facebook.com/ajax/ads/$xmlhttprequest,domain=www.facebook.com
