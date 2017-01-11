@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201701091209
+! Version: 201701111156
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 09-01-2017
+! Last modified: 11-01-2017
 ! Expires: 3 days
 ! Homepage: http://noads.it
 ! Home: http://noads.it
@@ -1825,6 +1825,12 @@ about:blank$popup,domain=katproxy.com|filmpertutti.eu|catanzaroinforma.it|extrat
 ||04dn8g4f.space^
 |data:,$popup,domain=nowvideo.li
 |javascript:setTimeout$popup,domain=nowvideo.li
+||2mdn.net^
+||valdinievoleoggi.it/sponsorsmap.php
+||valdinievoleoggi.it/public/data_upload2/2016/11/foto_98040_nome_1478533967.JPG
+||valdinievoleoggi.it/public/data_upload2/2016/12/foto_98850_nome_1482166722.JPG
+||valdinievoleoggi.it/public/data_upload2/2016/12/foto_98851_nome_1482166813.JPG
+||valdinievoleoggi.it/images/brandinileft.jpg?t=
 ! [Gruppo di filtri per nascondere elementi]/elemhide
 http://ilgarantista.it/wp-content/uploads/adv-skin.jpg
 everyeye.it##.banner_destra
@@ -4010,6 +4016,16 @@ gamona.de##[id*="adblock_"]
 smartworld.it##.adv
 smartworld.it##[id^="google_ads_iframe"]
 smartworld.it##[class^="teads-"]
+valdinievoleoggi.it###skinlink
+valdinievoleoggi.it##.tpl_banners_top_banner
+valdinievoleoggi.it##.tpl_colsx_bannercontainer
+valdinievoleoggi.it##.tpl_banners_coldx_bannercontainer
+valdinievoleoggi.it##.tpl_banners_coldxjs_bannercontainer
+valdinievoleoggi.it##.tpl_banners_coldxjs2_bannercontainer
+valdinievoleoggi.it##.tpl_banners_coldxjs3_bannercontainer
+valdinievoleoggi.it##.tpl_banners_A5_bannercontainer
+valdinievoleoggi.it##.tpl_testata_search
+appcrawlr.com##[id^="google_ads_iframe"]
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
