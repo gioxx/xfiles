@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201701251543
+! Version: 201702131456
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 25-01-2017
+! Last modified: 13-02-2017
 ! Expires: 3 days
 ! Homepage: http://noads.it
 ! Home: http://noads.it
@@ -29,6 +29,7 @@ http://ad*.adpdx.com/
 ||syndication.exoclick.com^$popup
 ||fwmrm.net^$~object-subrequest,third-party
 ||lp.ilivid.com^$popup,image,~image
+||v1n7c.com^$third-party,script
 ||nuggad.net^$third-party,domain=~serviziopubblico.it
 http://adbanner.advertstream.com/banners/
 http://advhd.banzaiadv.it/skin/*.jpg
@@ -1880,7 +1881,6 @@ subito.it##DIV[class="google_list"]
 webnews.it##DIV[class="adv_300"]
 parliamodivideogiochi.it##DIV[class="banner_top"]
 tvblog.it##DIV[class^="adv a-"]
-airliners.net##DIV[id="taboola-bottom-main-column"]
 libero.it##DIV[id="trovamorebox"]
 hwupgrade.it##DIV[class="banner300x250"]
 hwupgrade.it##DIV[id="top300x250-container"]
@@ -3274,7 +3274,6 @@ oilproject.org###sideAdv
 computerandvideogames.com##.promo.promo--leaderboard
 computerandvideogames.com##.promo__content
 computerandvideogames.com##.promo.promo--mpu
-computerandvideogames.com##[id^="taboola-below-article-thumbnails"]
 polygon.com##.m-ad.m-ad__medrec
 maps.google.com###adunit
 servizioallerta.it##[id^="google_ads_iframe"]
@@ -3502,7 +3501,6 @@ altadefinizione.tv##[id$="_reklam"]
 altadefinizione.tv##[class$="_gizle"]
 altadefinizione.tv##[id^="reklam"]
 giardiniblog.com##.adsbygoogle
-repubblica.it##[id^="taboola"]
 gottabemobile.com##[id^="google_ads_iframe"]
 gottabemobile.com##.adsbygoogle
 gottabemobile.com##.ad-inserter
@@ -3543,7 +3541,6 @@ telegramstickers.altervista.org##[class^=" banner_altervista"]
 subito.it###banner_leaderboard
 subito.it##[class^="sponsor_"]
 commandwindows.com##.ezoic-ad
-commandwindows.com##[id^="taboola-"]
 it.blastingnews.com##.row.dfp-leaderbord
 ilfattoquotidiano.it##.wp_bannerize
 tv.ilfattoquotidiano.it##IFRAME[src^="http://l.casa.it/cobrand/"]
@@ -3744,7 +3741,6 @@ ilfattoquotidiano.it##[id^="adv-sticky-"]
 zdnet.com##[class^="ad-leader"]
 zdnet.com##.ad-wrap
 zdnet.com##.vendor-text-link
-zdnet.com##[data-component="taboola"]
 hackerspace.kinja.com##.ad-container
 punypng.com###ad-leaderboard
 player.plavid.com##.plavidAdsOverlay
@@ -3956,6 +3952,16 @@ milanotoday.it##A[href*="milanotoday.it/~vda"]
 notebookcheck.it##[id^="google_ads_iframe"]
 ##[id^="div-gpt-ad-"]
 ansa.it##[id^="dotnAd"]
+ilsoftware.it##[id^="ADleaderboard"]
+ilsoftware.it##.w_banner
+ilsoftware.it##[id^="google_ads_iframe"]
+gizmodo.com##[id^="ad-"]
+reddit.com##[class^="sponsor-"]
+ascii-code.com##.adsbygoogle
+linkedin.com##[class^="ad-banner"]
+parmatoday.it##A[href*="parmatoday.it/~vda/__/o.php"]
+parmatoday.it##IFRAME[src*="iframe.php?format=300"]
+###taboola-below-article-thumbnails
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
@@ -4133,7 +4139,6 @@ guide-informatica.com##.adsbygoogle
 ||sms-mmm.com^$popup
 mail.yahoo.com###slot-mb-msg-read
 mail.yahoo.com###slot_MB
-forumdicucito.com##[id^="taboola"]
 eurosport.yahoo.com##DIV[class^="yom-ad"]
 ow.ly##.adbox
 computers.tutsplus.com##.ad.view
