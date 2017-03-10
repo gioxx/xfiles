@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201702131456
+! Version: 201703101737
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 13-02-2017
+! Last modified: 10-03-2017
 ! Expires: 3 days
 ! Homepage: http://noads.it
 ! Home: http://noads.it
@@ -3962,6 +3962,28 @@ linkedin.com##[class^="ad-banner"]
 parmatoday.it##A[href*="parmatoday.it/~vda/__/o.php"]
 parmatoday.it##IFRAME[src*="iframe.php?format=300"]
 ###taboola-below-article-thumbnails
+miui.it##.ad-banner
+miui.it##.adsbygoogle
+scontiamolo.com##.adsbygoogle
+##[id^="taboola-right"]
+metacritic.com###tynt-amzn-iframe-1
+metacritic.com##.tynt-bottom-bar
+##[id^="taboola-below"]
+pcworld.com###content-recommender
+experts-exchange.com##.adBox
+chromecasthelp.net##.adsbygoogle
+ebay.it##[id^="google_ads_iframe"]
+lastampa.it##[class$="_adv"]
+lastampa.it##[class$="_Sign"]
+lastampa.it###mirago
+mediaset.it##.promoADV
+ilrestodelcarlino.it##IMG[src*="securepubads"]
+autoscout24.it##.detailsAdContainer
+reggiosera.it##.sb-banner
+reggiosera.it###header-middle
+reggiosera.it##.adunit
+reggiosera.it##[id^="google-ad"]
+tiscali.it##[id*="adpostunit"]
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
