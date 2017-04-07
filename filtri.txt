@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201703101737
+! Version: 201704071126
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 10-03-2017
+! Last modified: 07-04-2017
 ! Expires: 3 days
 ! Homepage: http://noads.it
 ! Home: http://noads.it
@@ -55,7 +55,7 @@ http://*.linearadio.it/bnrs/
 http://*.sassuolo2000.it/bnrs/
 http://*.mangaforever.net/*/mercatino-sfondo-*.*
 ://adv.$domain=~sky.it|~la7.it|~la7.tv|~tre.it|~tzetze.it
-||ad.doubleclick.net^$~object-subrequest,third-party
+||ad.doubleclick.net^$~object-subrequest,third-party,domain=~mediaset.it|~imasdk.googleapis.com
 ||partner.googleadservices.com^$third-party
 /api/ads/*
 /eas_tag.1.0.js
@@ -428,7 +428,7 @@ http://ads*.bpath.com
 http://ads*.extreme-players.de/
 http://ads*.msn.com
 http://ads*.youporn.com
-http://ads.*/*$domain=~mail.yahoo.com|~docs.yahoo.com|~finance.yahoo.com|~teleradiopadrepio.it|~tzetze.it|~reachadv.it
+http://ads.*/*$domain=~mail.yahoo.com|~docs.yahoo.com|~finance.yahoo.com|~teleradiopadrepio.it|~tzetze.it|~reachadv.it|~mediaset.it
 http://ads.arcuspubblicita.it
 http://ads.bitage.it
 http://ads.capitan-trash.com
@@ -1825,7 +1825,6 @@ about:blank$popup,domain=katproxy.com|filmpertutti.eu|catanzaroinforma.it|extrat
 ||04dn8g4f.space^
 |data:,$popup,domain=nowvideo.li
 |javascript:setTimeout$popup,domain=nowvideo.li
-||2mdn.net^
 ||valdinievoleoggi.it/sponsorsmap.php
 ||valdinievoleoggi.it/public/data_upload2/2016/11/foto_98040_nome_1478533967.JPG
 ||valdinievoleoggi.it/public/data_upload2/2016/12/foto_98850_nome_1482166722.JPG
@@ -3984,6 +3983,24 @@ reggiosera.it###header-middle
 reggiosera.it##.adunit
 reggiosera.it##[id^="google-ad"]
 tiscali.it##[id*="adpostunit"]
+screenweek.it##[class^="teads-"]
+blog.screenweek.it##.masthead
+screenweek.it###sticky-adv
+screenweek.it##[id^="cto_iframe"]
+screenweek.it##[class^="adv-"]
+telefonino.net##IFRAME[srcdoc*="TheOutplay Widget"]
+forum.telefonino.net##OBJECT[data^="/new_files/img/widget_2c.swf"]
+motherboard.vice.com##.ad-unit
+motherboard.vice.com###editorial-videoplayer
+androidcentral.com###rev-flicker
+theandroidsoul.com##.adsbygoogle
+hdblog.it##IFRAME[src*="adventertainment.it/clickart/adv"]
+oxfordsbsguy.com##.adsbygoogle
+windows-commandline.com##.adsbygoogle
+virgilio.it##[id^="google_ads_iframe"]
+virgilio.it###adwallpaper
+virgilio.it###admputop
+virgilio.it##A[href*="adclick."]
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
