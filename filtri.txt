@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201704071126
+! Version: 201705221535
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 07-04-2017
+! Last modified: 22-05-2017
 ! Expires: 3 days
 ! Homepage: http://noads.it
 ! Home: http://noads.it
@@ -1832,6 +1832,7 @@ about:blank$popup,domain=katproxy.com|filmpertutti.eu|catanzaroinforma.it|extrat
 ||valdinievoleoggi.it/images/brandinileft.jpg?t=
 ||dwentymgplvrizqhieugzkozmqjxrxcyxeqdjvcbjmrhnkguwk.com^
 ||popcash.net^
+||pirateproxy.cc/static/ads/*
 ! [Gruppo di filtri per nascondere elementi]/elemhide
 http://ilgarantista.it/wp-content/uploads/adv-skin.jpg
 everyeye.it##.banner_destra
@@ -4001,6 +4002,24 @@ virgilio.it##[id^="google_ads_iframe"]
 virgilio.it###adwallpaper
 virgilio.it###admputop
 virgilio.it##A[href*="adclick."]
+tuttoandroid.net##[href*="adclick"]
+howtogeek.com##.bidtellect-native-ad
+today.it##[href*="ad"]
+bbc.com##[id^="bbccom_leaderboard_"]
+bbc.com##.bbccom_advert
+windowscentral.com##[class$="ad gpt"]
+windowscentral.com##[id^="rcjsload_"]
+monova.org##A[href*="adskeeper.co.uk"]
+itechtics.com##[class*="ad box"]
+itechtics.com##.ezoic-ad
+mondofox.it###bright
+mondofox.it###bleft
+mondofox.it##[href*="adclick.g.doubleclick.net"]
+dailygame.net##[data-ns="billboard"]
+dailygame.net##[id^="google_ads_iframe"]
+bufale.net##.adsbygoogle
+bufale.net##[id^="advn_"]
+bufale.net##[class^="teads-"]
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
