@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201705221535
+! Version: 201707051052
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 22-05-2017
+! Last modified: 05-07-2017
 ! Expires: 3 days
 ! Homepage: http://noads.it
 ! Home: http://noads.it
@@ -32,6 +32,7 @@ http://ad*.adpdx.com/
 ||v1n7c.com^$third-party,script
 ||nuggad.net^$third-party,domain=~serviziopubblico.it
 http://adbanner.advertstream.com/banners/
+||ads.exoclick.com^
 http://advhd.banzaiadv.it/skin/*.jpg
 |http:$subdocument,third-party,domain=2ad.in|adf.ly|adfoc.us|adv.li|allmyvideos.net|j.gs|linkbucksmedia.com|q.gs|shr77.com|tigerleech.com|u.bb|vidspot.net
 ||nexac.com^$third-party
@@ -1833,6 +1834,15 @@ about:blank$popup,domain=katproxy.com|filmpertutti.eu|catanzaroinforma.it|extrat
 ||dwentymgplvrizqhieugzkozmqjxrxcyxeqdjvcbjmrhnkguwk.com^
 ||popcash.net^
 ||pirateproxy.cc/static/ads/*
+||qwepw.com^$popup
+||afftrack.com^$popup
+||tradedoubler.com^$popup
+||onesafe-software.com^$popup
+||hhourtrk2.com^$popup
+||axa-assistance.it^$popup
+||annuncicdn.it/creativities/kijiji_skin
+||maxonclick.com/a/display.php
+||254a.com^$popup
 ! [Gruppo di filtri per nascondere elementi]/elemhide
 http://ilgarantista.it/wp-content/uploads/adv-skin.jpg
 everyeye.it##.banner_destra
@@ -1841,6 +1851,8 @@ unvideoalgiorno.it##[class^="ed_Related_Sponsor_"]
 unvideoalgiorno.it##[href^="http://edintorni.net/related/service/sponsor/"]
 androidworld.it##.advstrip
 firedrive.com##DIV[id="fdpc_cont"]
+ilpost.it###bleft
+ilpost.it###bright
 colorburned.com##DIV[class^="singleAd"]
 howtogeek.com##IFRAME[id^="google_ads_iframe"]
 colorburned.com##DIV[class="topBarAd"]
@@ -4020,6 +4032,31 @@ dailygame.net##[id^="google_ads_iframe"]
 bufale.net##.adsbygoogle
 bufale.net##[id^="advn_"]
 bufale.net##[class^="teads-"]
+labnol.org##.adsbygoogle
+my-personaltrainer.it##[id$="adv"]
+wired.it##[class^="teads-"]
+spaziogames.it##[onclick^="window.open('https://adclick"]
+nextquotidiano.it##.adsbygoogle
+gamesurf.tiscali.it##[src*="afr.php"]
+mondoxbox.com##IAS-AD
+mondoxbox.com##DIV[style^="width: 480px; height: 270px; z-index: 2147483647; position: fixed; right: 25px;"]
+kijiji.it##.skin-link
+kijiji.it##[class^="adsense-"]
+wired.it##[id^="playerAdv_"]
+wired.it###overlayBackground
+ilgiornale.it##[id$="adv-12"]
+ilgiornale.it##[id$="adv-2"]
+ilgiornale.it##[id$="adv-3"]
+ilgiornale.it##[id$="adv-5"]
+diigo.com##.footerAD
+sportmediaset.mediaset.it##[id^="gemini-"]
+corrieredellacalabria.it##.gkBcg
+corrieredellacalabria.it##DIV[style="position: fixed !important; top: -9px !important; text-align:center !important; z-index: 0 !important; width: 100%; height: 100%;"]
+corrieredellacalabria.it###sovrapposto
+corrieredellacalabria.it##.t3-slider-inner
+corrieredellacalabria.it##.bannergroup
+wired.it###adv_bkg
+ravennatoday.it##[href*="oadest=h"]
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
@@ -4028,6 +4065,9 @@ apkmirror.com##.adsbygoogle
 osxdaily.com##.adsbygoogle
 osxdaily.com##[id^="tfasyncframe_"]
 xboxdvr.com##.ad-container
+sicurauto.it##[id^="jadv_"]
+netflixlovers.it##.adsbygoogle
+sunetflix.it##.adsbygoogle
 xboxdvr.com##[id^="ox_"][width="300"][height="250"]
 greasyfork.org###script-show-info-ad
 ###advertisementLigatus
