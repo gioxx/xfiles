@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201707051052
+! Version: 201707171454
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 05-07-2017
+! Last modified: 17-07-2017
 ! Expires: 3 days
 ! Homepage: http://noads.it
 ! Home: http://noads.it
@@ -1843,6 +1843,7 @@ about:blank$popup,domain=katproxy.com|filmpertutti.eu|catanzaroinforma.it|extrat
 ||annuncicdn.it/creativities/kijiji_skin
 ||maxonclick.com/a/display.php
 ||254a.com^$popup
+||gazzettadiparma.it/widget/banner/bannerIframe.jsp
 ! [Gruppo di filtri per nascondere elementi]/elemhide
 http://ilgarantista.it/wp-content/uploads/adv-skin.jpg
 everyeye.it##.banner_destra
@@ -4057,12 +4058,38 @@ corrieredellacalabria.it##.t3-slider-inner
 corrieredellacalabria.it##.bannergroup
 wired.it###adv_bkg
 ravennatoday.it##[href*="oadest=h"]
+missilehugger.com##.ad
+virgilio.it###adnative
+virgilio.it##[id^="admpu"]
+virgilio.it##[id^="hp_hook-300x250"]
+virgilio.it##[id^="hp_hook-970x90"]
+gazzettadiparma.it##.banner_head
+gazzettadiparma.it##.bannervcms
+napolitoday.it##.ad_poll
+napolitoday.it##.story.sponsored-story
+libero.it##[class^="iol-ads-"]
+libero.it##[id^="adtop"]
+libero.it###adleftcol
+libero.it##[id^="adright"]
+libero.it##[id^="adbox"]
+libero.it##[data-widget-type^="adbox"]
+libero.it##[id$="ad-banner"]
+libero.it##[id$="ad-skyscraper"]
+mail.libero.it##.communication-layer.green
+subito.it###bs_textlinks
+estense.com###adbg
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
 ||cam4.it^$popup
 apkmirror.com##.adsbygoogle
 osxdaily.com##.adsbygoogle
+libero.it##[src*="weborama.fr/advertiser/"]
+libero.it##.advContFixed
+webnews.it##[id^="jadv_leoadv"]
+webnews.it###bottomAd
+androidpit.it##[id^="ad_"]
+iacchite.com##.adsbygoogle
 osxdaily.com##[id^="tfasyncframe_"]
 xboxdvr.com##.ad-container
 sicurauto.it##[id^="jadv_"]
