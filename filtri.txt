@@ -1,12 +1,12 @@
 [Adblock Plus 2.8]
-! Version: 201707171454
+! Version: 201708241018
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 17-07-2017
-! Expires: 3 days
-! Homepage: http://noads.it
-! Home: http://noads.it
-! Blog: http://gioxx.org/tag/x-files
+! Last modified: 24-08-2017
+! Expires: 10 days
+! Homepage: https://xfiles.noads.it
+! Home: https://xfiles.noads.it
+! Blog: https://gioxx.org/tag/x-files
 ! Hosting lista: GitHub.com
 !
 ! [Gruppo di filtri per permettere elementi]/whitelist
@@ -358,7 +358,7 @@ http://ad*.adfarm*.adition.com
 http://ad*.banners.phoneaccess.com
 http://ad*.emediate.dk/
 http://ad*.liverail.com/$domain=~reachadv.it
-http://ad*.neodatagroup.com$domain=~rai.tv|~rai.it
+http://ad*.neodatagroup.com$domain=~rai.tv|~rai.it|~raiplay.it
 http://ad-catgeo.paginegialle.it
 http://ad-catgeo.virgilio.it
 http://ad.100.tbn.ru
@@ -1432,7 +1432,7 @@ http://*.clickpoint.com/*/load_page.c
 http://banners.italianfriendfinder.com/
 http://*.gigacenter.it/*/banner/
 http://*.griddix.com/*/banners/
-http://*.neodatagroup.com/ad/$domain=~rai.tv|~rai.it
+http://*.neodatagroup.com/ad/$domain=~rai.tv|~rai.it|~raiplay.it
 http://*.griddix.com/banner/
 http://ad.reklamstore.com/
 http://aff.indirdik.com/view?
@@ -1780,7 +1780,6 @@ about:blank$popup,domain=katproxy.com|filmpertutti.eu|catanzaroinforma.it|extrat
 ||adnetworkperformance.com^$popup
 ||fugdownload509.xyz^$popup
 ||mpredir-ac-101.com^$popup
-||liveadexchanger.com^$popup
 ||serving.plexop.net^
 ||amazon-adsystem.com^
 ||mysalessystem.com^$popup
@@ -1844,6 +1843,8 @@ about:blank$popup,domain=katproxy.com|filmpertutti.eu|catanzaroinforma.it|extrat
 ||maxonclick.com/a/display.php
 ||254a.com^$popup
 ||gazzettadiparma.it/widget/banner/bannerIframe.jsp
+||yabidos.com^
+||liveadexchanger.com^
 ! [Gruppo di filtri per nascondere elementi]/elemhide
 http://ilgarantista.it/wp-content/uploads/adv-skin.jpg
 everyeye.it##.banner_destra
@@ -4078,6 +4079,23 @@ libero.it##[id$="ad-skyscraper"]
 mail.libero.it##.communication-layer.green
 subito.it###bs_textlinks
 estense.com###adbg
+sport.sky.it##[id^="skinadv"]
+sport.sky.it##[id^="adagio"]
+sport.sky.it##[id^="adv-mpu"]
+sport.sky.it##[class*="outbrain"]
+turbolab.it##.economics-handstop-warning
+turbolab.it##.adsbygoogle
+moto.it##[class^="google-adv"]
+izismile.com##[id*="Composite"]
+mgid.com##[id*="Composite"]
+izismile.com###mgiframe
+izismile.com##[class^="ban_"]
+notizie.it##[id^="infsCrit"]
+notizie.it##.4wNET
+notizie.it###mirago
+notizie.it##.ed-widget
+notizie.it##.addoor-widget
+raiplay.it##.inboxBanner
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
