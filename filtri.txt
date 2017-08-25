@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201708241018
+! Version: 201708250940
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 24-08-2017
+! Last modified: 25-08-2017
 ! Expires: 10 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -25,6 +25,7 @@
 @@||noads.it^$document
 ! [Gruppo di filtri per bloccare elementi]/blocking
 http://ad*.adpdx.com/
+||ddunlimited.net^$popup
 ||ashleymadison.com^$popup
 ||syndication.exoclick.com^$popup
 ||fwmrm.net^$~object-subrequest,third-party
@@ -4096,6 +4097,8 @@ notizie.it###mirago
 notizie.it##.ed-widget
 notizie.it##.addoor-widget
 raiplay.it##.inboxBanner
+pillamaro.it##.adsbygoogle
+pillamaro.it##[class$="adspot-title"]
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
