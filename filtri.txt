@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 201709261027
+! Version: 201709261517
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
 ! Last modified: 26-09-2017
@@ -1635,7 +1635,6 @@ http://*.notipedia.it/wp-content/plugins/better-stop-adblock/
 |http://*.applezein.net/*/728x90
 |http://*.iphonedevices.net/*/clixsense.jpg
 |http://*.office-outlook.com/images/banners/
-|http://*.hdblog.it/adserver/
 |http://mirrorstack.com/?q=r_ads3
 |http://ad.360yield.com/ad
 |http://*.engine.adsupply.com/
@@ -1848,6 +1847,9 @@ about:blank$popup,domain=katproxy.com|filmpertutti.eu|catanzaroinforma.it|extrat
 ||liveadexchanger.com^
 ||img.html.it/banner/
 ||srv.juiceadv.com/banner_iframe.asp?*
+||adclick.g.doubleclick.net^$popup
+||ollo.it^$popup
+||hdblog.it/adserver/
 ! [Gruppo di filtri per nascondere elementi]/elemhide
 http://ilgarantista.it/wp-content/uploads/adv-skin.jpg
 everyeye.it##.banner_destra
