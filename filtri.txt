@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201709201100
+! Version: 201709261027
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 20-09-2017
+! Last modified: 26-09-2017
 ! Expires: 10 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -3985,6 +3985,10 @@ tvblog.it##.adv
 tvblog.it##[id^="adv"]
 flickr.com##[class^="ad-iframe"]
 tuttomercatoweb.com##[href*="adclick.g.doubleclick.net"]
+tiscali.it##[id^="dotnAdDivSk"]
+tiscali.it##[id^="advCustom"]
+tiscali.it##[class^="vsb-pos"]
+tiscali.it###shopping
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
@@ -4398,3 +4402,14 @@ youtube.com###video-masthead
 ! [Gruppo di filtri blocco di sicurezza]
 mvxtryurrox7889.info##HTML*
 ##a[href*="flashplayer-updates.com"]
+! [Gruppo di filtri sperimentali]
+##.adsbox
+##.adsbox
+##.advn_zone
+##.afs_ads
+/fuckadblock.js
+||chameleon.ad/banner/$third-party
+||as-farm.com^$third-party
+||entitlements.jwplayer.com^$third-party
+||rtax.criteo.com^$third-party
+||viglink.com/images/pixel.gif
