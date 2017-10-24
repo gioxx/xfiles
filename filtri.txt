@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201710091024
+! Version: 201710241102
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 09-10-2017
+! Last modified: 24-10-2017
 ! Expires: 10 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -1851,6 +1851,9 @@ about:blank$popup,domain=katproxy.com|filmpertutti.eu|catanzaroinforma.it|extrat
 ||hdblog.it/adserver/
 ||p.adsymptotic.com^
 ||62b70ac32d4614b.com^
+||banners.mellowads.com^
+||mellowads.com/view/*
+||mgid.com^
 ! [Gruppo di filtri per nascondere elementi]/elemhide
 http://ilgarantista.it/wp-content/uploads/adv-skin.jpg
 everyeye.it##.banner_destra
@@ -3994,6 +3997,7 @@ tiscali.it##[class^="vsb-pos"]
 tiscali.it###shopping
 tiscali.it##IFRAME[src^="//player.sky.it"]
 altadefinizione.bid##.ads
+condominioweb.com##DIV[style="float:left; min-height:278px;   width:128px"]
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
