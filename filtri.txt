@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201710241102
+! Version: 201710261151
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 24-10-2017
+! Last modified: 26-10-2017
 ! Expires: 10 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -1854,6 +1854,7 @@ about:blank$popup,domain=katproxy.com|filmpertutti.eu|catanzaroinforma.it|extrat
 ||banners.mellowads.com^
 ||mellowads.com/view/*
 ||mgid.com^
+||secure-ds.serving-sys.com/BurstingScript/programmatic/liquidhtml5shells/CS/SKIN/*
 ! [Gruppo di filtri per nascondere elementi]/elemhide
 http://ilgarantista.it/wp-content/uploads/adv-skin.jpg
 everyeye.it##.banner_destra
@@ -3998,6 +3999,14 @@ tiscali.it###shopping
 tiscali.it##IFRAME[src^="//player.sky.it"]
 altadefinizione.bid##.ads
 condominioweb.com##DIV[style="float:left; min-height:278px;   width:128px"]
+corrieredellosport.it###EB_BODY_CURSOR
+serving-sys.com##.shrinkToFit
+notizie.it##[id*="ad-"]
+notizie.it##[id^="outbrain_widget"]
+notizie.it##[srcdoc*="<title>TheOutplay Widget</title>"]
+iltempo.it##.bannervcms
+notizie.it##IMG[src*="bs.serving-sys.com/serving/adServer"]
+notizie.it##[id^="n1ad"]
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
