@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 201711141114
+! Version: 201711141128
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
 ! Last modified: 14-11-2017
@@ -4018,6 +4018,8 @@ gazzetta.it##[class^="adv-"]
 gazzetta.it##[class^="mkt-780"]
 gazzetta.it##IFRAME[src*="External-Content/"]
 coinmarketcap.com##[class$="Fbnc"]
+##IFRAME[src*="player.deatv.it/?autoplay=true"]
+ricettedalmondo.it###wvid_main
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
