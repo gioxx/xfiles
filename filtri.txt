@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201711141128
+! Version: 201711241252
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 14-11-2017
+! Last modified: 24-11-2017
 ! Expires: 10 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -1855,6 +1855,12 @@ about:blank$popup,domain=katproxy.com|filmpertutti.eu|catanzaroinforma.it|extrat
 ||mellowads.com/view/*
 ||mgid.com^
 ||secure-ds.serving-sys.com/BurstingScript/programmatic/liquidhtml5shells/CS/SKIN/*
+||tomshw.it/data/images/4/0/6/0/skin-
+||widget.worldfilia.net/widget.php?*
+||forumfree.it/src/showads.js
+pcgamer.site$popup
+||adexchangedirect.com/ufp/send.php
+||venturead.com/script/*
 ! [Gruppo di filtri per nascondere elementi]/elemhide
 http://ilgarantista.it/wp-content/uploads/adv-skin.jpg
 everyeye.it##.banner_destra
@@ -4020,6 +4026,12 @@ gazzetta.it##IFRAME[src*="External-Content/"]
 coinmarketcap.com##[class$="Fbnc"]
 ##IFRAME[src*="player.deatv.it/?autoplay=true"]
 ricettedalmondo.it###wvid_main
+tomshw.it##A[href*="adclick"]
+tomshw.it###dfp-skin
+tomshw.it###adv_top
+tomshw.it##.event-autopromo
+tomshw.it##[src*="cstatic.weborama.fr/advertiser/"]
+tomshw.it##[id*="floorad_"]
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
