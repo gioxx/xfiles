@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201711241252
+! Version: 201712121418
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 24-11-2017
+! Last modified: 12-12-2017
 ! Expires: 10 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -1861,6 +1861,12 @@ about:blank$popup,domain=katproxy.com|filmpertutti.eu|catanzaroinforma.it|extrat
 pcgamer.site$popup
 ||adexchangedirect.com/ufp/send.php
 ||venturead.com/script/*
+||advertising.com^
+||asset.pagefair.net/ads.min.js
+||komoona.com^
+||ps.eyeota.net^
+||securepubads.g.doubleclick.net/gampad/ads?*
+||image2.pubmatic.com/AdServer/*
 ! [Gruppo di filtri per nascondere elementi]/elemhide
 http://ilgarantista.it/wp-content/uploads/adv-skin.jpg
 everyeye.it##.banner_destra
@@ -4032,6 +4038,13 @@ tomshw.it###adv_top
 tomshw.it##.event-autopromo
 tomshw.it##[src*="cstatic.weborama.fr/advertiser/"]
 tomshw.it##[id*="floorad_"]
+diarioinenglish.com##A[href^="https://adclick"]
+diarioinenglish.com##[id*="AdWallpaper"]
+diarioinenglish.com##[class^="publi"]
+boredpanda.com##.tznAfWgNrs
+boredpanda.com##[class$="top-ad"]
+tiscali.it##.tiscali-skyTg
+tiscali.it##.tiscali-milleunadonna-tp
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
@@ -4040,6 +4053,7 @@ libero.it##[src*="weborama.fr/advertiser/"]
 libero.it##.advContFixed
 webnews.it##[id^="jadv_leoadv"]
 webnews.it###bottomAd
+phica.net###g62f
 androidpit.it##[id^="ad_"]
 osxdaily.com##[id^="tfasyncframe_"]
 xboxdvr.com##.ad-container
@@ -4446,6 +4460,8 @@ youtube.com###video-masthead
 mvxtryurrox7889.info##HTML*
 ##a[href*="flashplayer-updates.com"]
 ! [Gruppo di filtri sperimentali]
+boredpanda.com##img[src^="data:image/png;base64,"]
+boredpanda.com##img[src^="data:image/jpeg;base64,"]
 ##.adsbox
 ##.adsbox
 ##.advn_zone
