@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201801031608
+! Version: 201801051456
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 03-01-2018
+! Last modified: 05-01-2018
 ! Expires: 10 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -4052,6 +4052,8 @@ boredpanda.com##.tznAfWgNrs
 boredpanda.com##[class$="top-ad"]
 tiscali.it##.tiscali-skyTg
 tiscali.it##.tiscali-milleunadonna-tp
+dissapore.com##.adv
+vice.com##[class^="ad-unit"]
 ! [Gruppo di filtri suggeriti dagli utenti]
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
@@ -4062,7 +4064,6 @@ libero.it##.advContFixed
 webnews.it##[id^="jadv_leoadv"]
 webnews.it###bottomAd
 phica.net###g62f
-dissapore.com##.adv
 androidpit.it##[id^="ad_"]
 osxdaily.com##[id^="tfasyncframe_"]
 xboxdvr.com##.ad-container
