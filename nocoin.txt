@@ -1,0 +1,71 @@
+[Adblock Plus 2.8]
+! Version: 201801101405
+! Title: X Files: NoCoin List
+! NoCoin List blocca siti web che minano Bitcoin utilizzando le risorse del browser
+! Last modified: 10-01-2018
+! Expires: 10 days
+! Homepage: https://xfiles.noads.it
+! Home: https://xfiles.noads.it
+! Blog: https://gioxx.org/tag/x-files
+! Hosting lista: GitHub.com
+! 
+coinhive.com/li##HTML *
+coin-hive.com/li##HTML *
+coinhive.com/captch##HTML *
+coin-hive.com/captch##HTML *
+coinhive.com/prox##HTML *
+coin-hive.com/prox##HTML *
+jsecoin.com/serve##HTML *
+server.jsecoin.com##HTML *
+load.jsecoin.com##HTML *
+static.reasedoper.pw##HTML *
+mataharirama.xyz##HTML *
+listat.biz##HTML *
+lmodr.biz##HTML *
+minecrunch.co/web##HTML *
+minemytraffic.com##HTML *
+crypto-loot.com/li##HTML *
+crypto-loot.com/prox##HTML *
+2giga.link/wprox##HTML *
+2giga.link/hive/lib##HTML *
+ppoi.org/lib##HTML *
+ppoi.org/token##HTML *
+coinerra.com/lib##HTML *
+coin-have.com/c##HTML *
+kisshentai.net/Content/js/c-hive.j##HTML *
+miner.pr0gramm.com/xmr.min.j##HTML *
+kiwifarms.net/js/Jawsh/xmr/xmr.min.j##HTML *
+anime.reactor.cc/js/ch/cryptonight.was##HTML *
+joyreactor.cc/ws/ch##HTML *
+kissdoujin.com/Content/js/c-hive.j##HTML *
+minero.pw/miner.min.j##HTML *
+coinnebula.com/lib##HTML *
+coinnebula.com/prox##HTML *
+afminer.com/code##HTML *
+coinblind.com/lib##HTML *
+webmine.cz/mine##HTML *
+monerominer.rocks/scripts/miner.j##HTML *
+monerominer.rocks/miner.ph##HTML *
+cdn.cloudcoins.co/javascript/cloudcoins.min.j##HTML *
+coinlab.biz/lib/coinlab.j##HTML *
+papoto.com/lib##HTML *
+cookiescript.info/libs##HTML *
+cookiescriptcdn.pro/libs##HTML *
+rocks.io/assets##HTML *
+rocks.io/prox##HTML *
+ad-miner.com/lib##HTML *
+party-nngvitbizn.now.sh##HTML *
+cryptoloot.pro/lib##HTML *
+host.d-ns.ga##HTML *
+baiduccdn1.com/lib##HTML *
+jsccnn.com/content/vidm.min.j##HTML *
+jscdndel.com/content/vidm.min.j##HTML *
+mine.nahnoji.cz##HTML *
+goredirect.party/assets##HTML *
+miner.pr0gramm.com/pm.min.j##HTML *
+miner.cryptobara.com/client##HTML *
+digger.cryptobara.com/client##HTML *
+digger.cryptobara.com##HTML *
+kickass.cd/m.j##HTML *
+morningdigit.com##HTML *
+
