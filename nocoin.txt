@@ -1,71 +1,71 @@
 [Adblock Plus 2.8]
-! Version: 201801101405
+! Version: 201801110939
 ! Title: X Files: NoCoin List
 ! NoCoin List blocca siti web che minano Bitcoin utilizzando le risorse del browser
-! Last modified: 10-01-2018
+! Last modified: 11-01-2018
 ! Expires: 10 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
 ! Blog: https://gioxx.org/tag/x-files
 ! Hosting lista: GitHub.com
 ! 
-coinhive.com/li##HTML *
-coin-hive.com/li##HTML *
-coinhive.com/captch##HTML *
-coin-hive.com/captch##HTML *
-coinhive.com/prox##HTML *
-coin-hive.com/prox##HTML *
-jsecoin.com/serve##HTML *
-server.jsecoin.com##HTML *
-load.jsecoin.com##HTML *
-static.reasedoper.pw##HTML *
-mataharirama.xyz##HTML *
-listat.biz##HTML *
-lmodr.biz##HTML *
-minecrunch.co/web##HTML *
-minemytraffic.com##HTML *
-crypto-loot.com/li##HTML *
-crypto-loot.com/prox##HTML *
-2giga.link/wprox##HTML *
-2giga.link/hive/lib##HTML *
-ppoi.org/lib##HTML *
-ppoi.org/token##HTML *
-coinerra.com/lib##HTML *
-coin-have.com/c##HTML *
-kisshentai.net/Content/js/c-hive.j##HTML *
-miner.pr0gramm.com/xmr.min.j##HTML *
-kiwifarms.net/js/Jawsh/xmr/xmr.min.j##HTML *
-anime.reactor.cc/js/ch/cryptonight.was##HTML *
-joyreactor.cc/ws/ch##HTML *
-kissdoujin.com/Content/js/c-hive.j##HTML *
-minero.pw/miner.min.j##HTML *
-coinnebula.com/lib##HTML *
-coinnebula.com/prox##HTML *
-afminer.com/code##HTML *
-coinblind.com/lib##HTML *
-webmine.cz/mine##HTML *
-monerominer.rocks/scripts/miner.j##HTML *
-monerominer.rocks/miner.ph##HTML *
-cdn.cloudcoins.co/javascript/cloudcoins.min.j##HTML *
-coinlab.biz/lib/coinlab.j##HTML *
-papoto.com/lib##HTML *
-cookiescript.info/libs##HTML *
-cookiescriptcdn.pro/libs##HTML *
-rocks.io/assets##HTML *
-rocks.io/prox##HTML *
-ad-miner.com/lib##HTML *
-party-nngvitbizn.now.sh##HTML *
-cryptoloot.pro/lib##HTML *
-host.d-ns.ga##HTML *
-baiduccdn1.com/lib##HTML *
-jsccnn.com/content/vidm.min.j##HTML *
-jscdndel.com/content/vidm.min.j##HTML *
-mine.nahnoji.cz##HTML *
-goredirect.party/assets##HTML *
-miner.pr0gramm.com/pm.min.j##HTML *
-miner.cryptobara.com/client##HTML *
-digger.cryptobara.com/client##HTML *
-digger.cryptobara.com##HTML *
-kickass.cd/m.j##HTML *
-morningdigit.com##HTML *
+coinhive.com/lib^$third-party
+coin-hive.com/lib^$third-party
+coinhive.com/captcha^$third-party
+coin-hive.com/captcha^$third-party
+coinhive.com/proxy^$third-party
+coin-hive.com/proxy^$third-party
+jsecoin.com/server^$third-party
+server.jsecoin.com/^$third-party
+load.jsecoin.com/^$third-party
+static.reasedoper.pw/^$third-party
+mataharirama.xyz/^$third-party
+listat.biz/^$third-party
+lmodr.biz/^$third-party
+minecrunch.co/web/^$third-party
+minemytraffic.com/^$third-party
+crypto-loot.com/lib^$third-party
+crypto-loot.com/proxy^$third-party
+2giga.link/wproxy^$third-party
+2giga.link/hive/lib/^$third-party
+ppoi.org/lib/^$third-party
+ppoi.org/token/^$third-party
+coinerra.com/lib/^$third-party
+coin-have.com/c/^$third-party
+kisshentai.net/Content/js/c-hive.js^$third-party
+miner.pr0gramm.com/xmr.min.js^$third-party
+kiwifarms.net/js/Jawsh/xmr/xmr.min.js^$third-party
+anime.reactor.cc/js/ch/cryptonight.wasm^$third-party
+joyreactor.cc/ws/ch/^$third-party
+kissdoujin.com/Content/js/c-hive.js^$third-party
+minero.pw/miner.min.js^$third-party
+coinnebula.com/lib/^$third-party
+coinnebula.com/proxy^$third-party
+afminer.com/code/^$third-party
+coinblind.com/lib/^$third-party
+webmine.cz/miner^$third-party
+monerominer.rocks/scripts/miner.js^$third-party
+monerominer.rocks/miner.php^$third-party
+cdn.cloudcoins.co/javascript/cloudcoins.min.js^$third-party
+coinlab.biz/lib/coinlab.js^$third-party
+papoto.com/lib/^$third-party
+cookiescript.info/libs/^$third-party
+cookiescriptcdn.pro/libs/^$third-party
+rocks.io/assets/^$third-party
+rocks.io/proxy^$third-party
+ad-miner.com/lib/^$third-party
+party-nngvitbizn.now.sh/^$third-party
+cryptoloot.pro/lib/^$third-party
+host.d-ns.ga/^$third-party
+baiduccdn1.com/lib/^$third-party
+jsccnn.com/content/vidm.min.js^$third-party
+jscdndel.com/content/vidm.min.js^$third-party
+mine.nahnoji.cz/^$third-party
+goredirect.party/assets/^$third-party
+miner.pr0gramm.com/pm.min.js^$third-party
+miner.cryptobara.com/client/^$third-party
+digger.cryptobara.com/client/^$third-party
+digger.cryptobara.com/^$third-party
+kickass.cd/m.js^$third-party
+morningdigit.com/^$third-party
 
