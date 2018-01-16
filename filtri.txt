@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201801051456
+! Version: 201801161224
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 05-01-2018
+! Last modified: 16-01-2018
 ! Expires: 10 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -1880,6 +1880,8 @@ everyeye.it##.banner_destra
 ansa.it##.edSponsor
 unvideoalgiorno.it##[class^="ed_Related_Sponsor_"]
 unvideoalgiorno.it##[href^="http://edintorni.net/related/service/sponsor/"]
+sourceforge.net###banner-sterling
+sourceforge.net##.sterling
 androidworld.it##.advstrip
 firedrive.com##DIV[id="fdpc_cont"]
 ilpost.it###bleft
