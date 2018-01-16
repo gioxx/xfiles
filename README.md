@@ -27,7 +27,7 @@ Dove non diversamente specificato, la lista **ABP X Files viene rilasciata con l
 
 Please note that ABP X Files have a strict "Italian policy". No support is offered for websites of any other language. If you require support for a different website, I suggest that you remove the X Files list and choose a subscription better suited to your browsing needs (from the [Known Adblock Plus subscriptions page](http://adblockplus.org/en/subscriptions)).
 
-Credits
+Grazie!
 -------
 Qualche ringraziamento:
 
