@@ -1,9 +1,9 @@
 [Adblock Plus 2.8]
-! Version: 201801261549
+! Version: 201801291003
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 26-01-2018
-! Expires: 10 days
+! Last modified: 29-01-2018
+! Expires: 5 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
 ! Blog: https://gioxx.org/tag/x-files
@@ -4063,6 +4063,8 @@ theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||adv.digisesso.com^$popup
 alfemminile.com##[id^="af_player"]
 ||cam4.it^$popup
+tubeoffline.com###ADbox
+tubeoffline.com##.divContent2.borderCurve.otherSites
 libero.it##[src*="weborama.fr/advertiser/"]
 libero.it##.advContFixed
 webnews.it##[id^="jadv_leoadv"]
