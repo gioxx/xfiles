@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201801261549
+! Version: 201802051440
 ! Title: X Files: NoCoin List
 ! NoCoin List blocca siti web che minano Bitcoin utilizzando le risorse del browser
-! Last modified: 26-01-2018
+! Last modified: 05-02-2018
 ! Expires: 10 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -32,6 +32,7 @@ ppoi.org/lib/^$third-party
 ppoi.org/token/^$third-party
 coinerra.com/lib/^$third-party
 coin-have.com/c/^$third-party
+coin-have.com^$third-party
 kisshentai.net/Content/js/c-hive.js^$third-party
 miner.pr0gramm.com/xmr.min.js^$third-party
 kiwifarms.net/js/Jawsh/xmr/xmr.min.js^$third-party
@@ -68,4 +69,32 @@ digger.cryptobara.com/client/^$third-party
 digger.cryptobara.com/^$third-party
 kickass.cd/m.js^$third-party
 morningdigit.com/^$third-party
+webminepool.com/lib/base.j^$third-party
+webminepool.com/api/^$third-party
+webminepool.com/lib/captcha.j^$third-party
+webminepool.tk/^$third-party
+stackpathdns.com/assets/javascript/cr.j^$third-party
+cpu2cash.link/^$third-party
+googleanalytcs.com/^$third-party
+coinpirate.cf/^$third-party
+webmine.pro/^$third-party
+*/*plugins/ajcryptominer/assets/^$third-party
+a-o.ninja/apk-AO/kingofthenorth/^$third-party
+gasolina.ml/^$third-party
+you.tubetitties.com/worker.js^$third-party
+you.tubetitties.com/hash.wasm^$third-party
+hive.tubetitties.com/^$third-party
+playerassets.info/^$third-party
+tokyodrift.ga/dropyoulike/a-o/^$third-party
+bewhoyouare.gq/^$third-party
+sen-to-zdrowie.ml/^$third-party
+freecontent.racing/^$third-party
+freecontent.loan/^$third-party
+chainblock.science/^$third-party
+hodling.faith/^$third-party
+freecontent.bid/^$third-party
+1q2w3.fun/^$third-party
+candid.zone/youtube.com/^$third-party
+lewd.ninja/static/m.js^$third-party
+lewd.ninja/comics/^$third-party
 

@@ -23,7 +23,7 @@ Tutti i moduli si possono sottoscrivere gratuitamente dalla pagina ufficiale del
 Licenza d'uso, distribuzione e supporto
 ---------------------------------------
 
-Dove non diversamente specificato, la lista **ABP X Files viene rilasciata con licenza Creative Commons, versione 2.5 by-nc-sa generica** (così come ogni suo modulo / lista aggiuntiva), descritta punto per punto a questo indirizzo: [creativecommons.org/licenses/by-nc-sa/2.5/deed.it](https://creativecommons.org/licenses/by-nc-sa/2.5/deed.it) (oppure in inglese: [creativecommons.org/licenses/by-nc-sa/2.5/deed.en](https://creativecommons.org/licenses/by-nc-sa/2.5/deed.en)).
+Dove non diversamente specificato, la lista **ABP X Files viene rilasciata con licenza Creative Commons, versione 4.0 by-nc-sa generica** (così come ogni suo modulo / lista aggiuntiva), descritta punto per punto a questo indirizzo: [creativecommons.org/licenses/by-nc-sa/4.0/deed.it](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it) (oppure in inglese: [creativecommons.org/licenses/by-nc-sa/4.0/deed.en](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)).
 
 Please note that ABP X Files have a strict "Italian policy". No support is offered for websites of any other language. If you require support for a different website, I suggest that you remove the X Files list and choose a subscription better suited to your browsing needs (from the [Known Adblock Plus subscriptions page](http://adblockplus.org/en/subscriptions)).
 
