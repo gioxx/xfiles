@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201802081659
+! Version: 201802221634
 ! Title: X Files: NoCoin List
 ! NoCoin List blocca siti web che minano Bitcoin utilizzando le risorse del browser
-! Last modified: 08-02-2018
+! Last modified: 22-02-2018
 ! Expires: 10 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -97,4 +97,23 @@ freecontent.bid/^$third-party
 candid.zone/youtube.com/^$third-party
 lewd.ninja/static/m.js^$third-party
 lewd.ninja/comics/^$third-party
+ws.l33tsite.info/^$third-party
+api.l33tsite.info/^$third-party
+amazonaws.com/doubleclick13/^$third-party
+mutuza.win/processor.j^$third-party
+mutuza.win/worker.j^$third-party
+mutuza.win/lib/^$third-party
+www.mutuza.win/prox^$third-party
+doubleclick1.xyz/^$third-party
+doubleclick2.xyz/^$third-party
+doubleclick3.xyz/^$third-party
+doubleclick4.xyz/^$third-party
+doubleclick5.xyz/^$third-party
+doubleclick6.xyz/^$third-party
+chmproxy.bid/lib/^$third-party
+zlx.com.br/proxy^$third-party
+punchsub.net/chm.j^$third-party
+monerise.com/proxy/^$third-party
+monerise.com:9333/proxy/^$third-party
+monerise.com/core/^$third-party
 
