@@ -2,7 +2,7 @@
 ! Version: 201810301126
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 30-10-2018
+! Last modified: 21-11-2018
 ! Expires: 5 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -1896,7 +1896,6 @@ firedrive.com##DIV[id="fdpc_cont"]
 ilpost.it###bleft
 ilpost.it###bright
 colorburned.com##DIV[class^="singleAd"]
-howtogeek.com##IFRAME[id^="google_ads_iframe"]
 colorburned.com##DIV[class="topBarAd"]
 s.yimg.com##.ad-tl2b.small
 ###footer_ad
@@ -1934,7 +1933,6 @@ jooble.it##DIV[id="dRightBanner"]
 subito.it##DIV[class="google_list"]
 webnews.it##DIV[class="adv_300"]
 parliamodivideogiochi.it##DIV[class="banner_top"]
-tvblog.it##DIV[class^="adv a-"]
 libero.it##DIV[id="trovamorebox"]
 hwupgrade.it##DIV[class="banner300x250"]
 hwupgrade.it##DIV[id="top300x250-container"]
@@ -1964,7 +1962,6 @@ deviantart.com##.da-custom-ad-box
 deviantart.com##.dp-ad-chrome
 pornhub.com###pb_block
 androidworld.it##.adv_esterno
-ilgiornale.it##[id^="google_ads_iframe"]
 ilgiornale.it##.block.block-ilg-adsense
 simply-hentai.com###divExoLayerWrapper
 pornmd.com##.advertisement
@@ -1974,13 +1971,10 @@ rapidvideo.org###hidiv
 nowvideo.ec##[class^="ad"]
 nowvideo.at##[class^="ad"]
 nowvideo.li##[class^="ad"]
-playboy.com##[id^="google_ads_iframe"]
 mesgmy.ebay.it###rtm_html_831
 xhamster.com###plAds
 backin.net##DIV[style=" width:100%;height:100%;"]
 milanocam.it##.overcam_advertising_text
-games.hdblog.it##[id^="banner3_"]
-muccapazzapazza.altervista.org##.banner_altervista_300X250
 ##[id^="bsa"][style$="opacity: 0.95;"]
 subito.it##.box_sponsor
 washingtonpost.com##.leaderboard.ad-hideable
@@ -1992,7 +1986,6 @@ comesiscrive.it##.b300
 comesiscrive.it##.pure-u-1-4
 pokeritaliaweb.org##.overlay
 ninjamarketing.it##.adv
-hongkiat.com##[id^="google_ads_iframe"]
 ##.adv_630
 newalbumreleases.net##DIV[class="banner"]
 newalbumreleases.net##DIV[class="bannerhead"]
@@ -2035,7 +2028,6 @@ oggitreviso.it##DIV[class^="banner"]
 mangaforever.net##DIV[id="advertisetop"]
 mangaforever.net##DIV[id="advertiseright"]
 mangaforever.net##DIV[id="advertiseleft"]
-mangaforever.net##DIV[id="advertiseright"]
 ilmessaggero.it##DIV[id="Login"]
 ilmessaggero.it##DIV[class^="blockUI"]
 avaxhome.ws##DIV[id^="MarketGid"]
@@ -2084,8 +2076,6 @@ bitcity.it##DIV[id="banner"]
 yahoo.com##DIV[id="adeast"]
 compgroups.net##DIV[class="lqm_ad"]
 bitcity.it##DIV[id="banner-120x600"]
-ansa.it##DIV[id="banner970x30strip"]
-ansa.it##DIV[id="banner984x45strip"]
 romatoday.it##DIV[class="h-banner left nomobile"]
 romatoday.it##DIV[class="adv980 nomobile"]
 romatoday.it##DIV[class="h-banner right nomobile"]
@@ -2109,7 +2099,6 @@ blog.screenweek.it##DIV[id="background-adv"]
 faccedagioco.com##DIV[id="adl_300x250"]
 faccedagioco.com##DIV[class="banner_728"]
 trovabanche.it##DIV[id="ctl00_advHeader_divMOL"]
-ravennanotizie.it##IFRAME[id="google_ads_iframe_/3004074/Romagnaplusbanner_0"]
 lolstatistics.com##IFRAME[id="vn_uim_supb"]
 google.com##DIV[id="pmocntr2"]
 digitalangel.it##DIV[class="box textwidget sponsor"]
@@ -2206,7 +2195,6 @@ findicons.com##.detail_ad
 findicons.com##.search_results_ad
 findicons.com##.side_ad
 freemodding.it##.bnr
-gamesurf.tiscali.it###banner300x250c20
 gamesurf.tiscali.it##.b234
 gamesurf.tiscali.it##.b300x250
 gamesurf.tiscali.it##.b728
@@ -2215,7 +2203,6 @@ gamesurf.tiscali.it##.new-headbanner
 gazzetta.it##.pubblicita
 gazzetta.it##.rightcol_div_openx2
 gazzetta.it##.sponsored
-gioxx.org##DIV[class="boxliquida"]
 google.com##.g3rtn-ad-site
 hostingtalk.it###BannerTop
 hostingtalk.it###CornerAd
@@ -2368,7 +2355,6 @@ doodle.com###header
 computing.net###top_banner
 mangafox.com##.ad728x90
 mangafox.com##.ad300x250.left
-mangafox.com###topad
 mangafox.com##.ad300x250.right
 prontoimprese.it##.bnn
 varese.net###banner_1
@@ -2414,7 +2400,6 @@ softairmania.it##DIV[id="ad_global_header1"]
 softairmania.it##DIV[id="samsporteadv"]
 softairmania.it##DIV[id="ad_global_below_navbar"]
 trailersland.com##DIV[ID="parentPubb"]
-google.it##DIV[id="tads"]
 tuttouomini.it###mpu_banner
 tuttouomini.it##.ads
 tuttouomini.it###adv-frame
@@ -2436,26 +2421,20 @@ bbc.co.uk##DIV[class="bbccom_companion bbccom_visibility_show"]
 bbc.co.uk##DIV[id="blq-pre-mast"]
 techtipsgeek.com##.cont-ad
 techtipsgeek.com##.side-ad
-ansa.it##DIV[class="adv"]
 informarexresistere.fr##OBJECT[id="cto728x90_div7ff6d9d3af"]
 virgilio.it##DIV[id="IE9"]
 virgilio.it##DIV[id="skin_ADV_DIV"]
 agi.it##.banner
 agi.it##.adSense
-3bmeteo.com###adv_dx
-3bmeteo.com###adv_5
 w3schools.com##DIV[style="width:960px;height:94px;position:relative;margin-left:auto;margin-right:auto;margin:0px;padding:0px;overflow:hidden"]
 hwupgrade.it##DIV[id="adv728"]
 excite.it##DIV[class="sponsoredtextlinkseo_container"]
 torrentportal.com##IFRAME[id="topad1"]
-torrentportal.com##IFRAME[id="topad"]
 diretta.it##DIV[class="banner menu-banner"]
 diretta.it##DIV[class="banner"]
 libero.it###libero_header_adv
 libero.it###adv_300
 ansa.it##DIV[class="banner300x60a"]
-ansa.it##DIV[class="adv adv-top-page"]
-ansa.it##DIV[class="adv adv300x60"]
 vidtomp3.com##DIV[class="adsense"]
 meteo.it##DIV[class="Banner300x250"]
 maciverse.com##DIV[id="topArea"]
@@ -2608,7 +2587,6 @@ wplift.com##DIV[class="main_ad_container ad_container_1"]
 filehippo.com##.adroot
 direttastreaming.com##IFRAME[name="trovadeal"]
 tiscali.it###banner300x250c20
-tiscali.it###banner304x450c1
 tiscali.it##[id^="banner304x450"]
 jaxov.com##.ad-header
 zdnet.com##DIV[class^="mad_adcontainer"]
@@ -2652,12 +2630,10 @@ punto-informatico.it###IEPinningAlert
 mp3tag.de###adblock-download
 maps.google.it###iwad_container
 megaportale.biz##.forumline.module-advert
-media.photobucket.com###bannerAd
 youporn.com##.ad-right1
 youporn.com##.ad-right2
 telefonino.net###bannertop
 telefonino.net###bannerstrip
-telefonino.net###banner300x250
 telefonino.net###IEPinningAlert
 sharingfreelive.net##EMBED[src="http://www.xatech.com/web_gear/chat/chat.swf"]
 experts-exchange.com###adComponent
@@ -2670,7 +2646,6 @@ computing.net###rightbanner
 meteo.search.ch###sl_topbanner
 meteo.search.ch##.sl_banner.sl_screenonly
 gazzetta.it##.box-promo-pub-openx
-gamesurf.tiscali.it##[id^="dotnAd"]
 gamesurf.tiscali.it##[style="position: fixed; top: -1000px;"]
 gazzetta.it##.bacheca-mkt
 imore.com###banneradspace
@@ -2722,7 +2697,6 @@ filedropper.com##EMBED[src="images/336x280hivelocity.swf"]
 mediaset.it###box300x190_3b
 mediaset.it###spacer300x250
 virtualearn.blogosfere.it##.advertise
-serverfault.com###adzerk1
 windowsitpro.com###dnn_AdPaneTopRight
 upyou.it###obBannerLong
 petri.co.il###adkit_content-block
@@ -2755,7 +2729,6 @@ maps.google.it###mclip
 askstudent.com###aswift_1_anchor
 webmonkey.com##.advertisement
 shoutmeloud.com##.ad468
-stackoverflow.com###adzerk1
 giornalettismo.com##.adv
 l.yimg.com##.CAN_ad
 mail.yahoo.com###theAd
@@ -2940,7 +2913,6 @@ overclock.net###footer-ad
 primaonline.it###banner_top
 biteyourapple.net##.ads_content
 patentequiz.net###beEnTabInst0_wrapper
-patentequiz.net##[id^="google_ads_iframe_"]
 patentequiz.net###statsbar
 patentequiz.net##EMBED[src^="http://www.adsalsaitalybranch.com/imagenes/creatividades/"]
 oggitreviso.it###myModalBannerPopup
@@ -2993,7 +2965,6 @@ filesharingtalk.com###ad_thread_first_post_content
 faxalo.it##[href^="http://adphoto.photocity.it/AdPhoto/"]
 ilmessaggero.it##[name^="adAdform"]
 deviantart.com##DIV[class^="tower-ad-header"]
-da-ads.com##[id^="google_ads_iframe"]
 freeroms.com##IFRAME[src="http://www.freeroms.com/bigbox.html"]
 freeroms.com##IFRAME[src="http://freeroms.com/bigbox.html"]
 songslover.pk###html1
@@ -3006,15 +2977,8 @@ autoaspillo.com##DIV[id="apDiv1xskin"]
 riccardomasutti.com###vf59
 spaziogames.it##DIV[style="width:956px;height:250px;float:left;padding-bottom:10px;margin:0"]
 cittaceleste.it###beead_page
-ign.com##[id^="google_ads_iframe_"]
 ign.com##.ad_placement.ad_leaderboard.noprint
 corriere.it##DIV[id^="adform-adbox-"]
-ansa.it###dotnAdDivSkLbImg
-ansa.it###dotnAdDivSkLb
-ansa.it###dotnAdDivSkDxImg
-ansa.it###dotnAdDivSkDx
-ansa.it###dotnAdDivSkSxImg
-ansa.it###dotnAdDivSkSx
 gamesurf.tiscali.it##.strip
 tvblog.it##[id^="pub_"]
 parliamodivideogiochi.it##.skinl
@@ -3027,16 +2991,13 @@ iovivoaroma.it###skin_link_sx
 everyeye.it###topskin_clicktag
 aquaneva.it###linkAdw
 6sicuro.it##.background-link
-blog.wired.it##[id^="google_ads_iframe"]
 luca-mercatanti.com###fblikebg
 tripadvisor.it###ad728X90
 m.quotidiano.net##.container.center_all
-gadget.wired.it##[id^="google_ads_iframe"]
 parole.virgilio.it##[id^="ad"]
 nonsolocap.it##.ru
 wired.com##.advertisement
 mentelocale.it##[class^="Adv300x100"]
-mentelocale.it##[id^="google_ads_iframe_"]
 m.ilgiorno.it##.container.center_all
 m.ilrestodelcarlino.it##.container.center_all
 m.lanazione.it##.container.center_all
@@ -3047,12 +3008,10 @@ m.fotografidigitali.it##.container.center_all
 m.motorionline.com###google_ad
 m.prontoimprese.it##.center_all
 slidetomac.com###sidespotbox
-slidetomac.com##[id^="google_ads_iframe_"]
 slidetomac.com###ad_728h
 slidetomac.com###ad_336_singlebt
 edge-online.com##.doubleclick_widget_sky.box.ad
 edge-online.com##.doubleclick_widget_leaderboard
-edge-online.com##[id^="google_ads_iframe"]
 edge-online.com##[id^="doubleclick_widget_mpu-"]
 tuaw.com###adDiv
 notipedia.it##[style="z-index: 21; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); opacity: 0.9;"]
@@ -3064,13 +3023,10 @@ flickr.com###sihp-lrec
 email.it##[id^="ad"]
 email.it###tdBanner
 panorama-auto.it##.grid_4.PAA_spalla.advricaricamediamond
-tomshw.it##[id^="google_ads_iframe_"]
 everyeye.it##.adv_top
 hints.macworld.com##DIV[style="border-bottom: 2px solid #7B7B7B; padding-bottom:8px; margin-bottom:5px;"]
 vitadasmartphone.it##.ad-cell
 vitadasmartphone.it##.top-adv-space
-wired.it##[id^="google_ads_iframe"]
-androidiani.com##[id^="google_ads_iframe"]
 notizie.it##.wes_div
 hwdrivers.com##.tdban1
 hwdrivers.com##.content_728x90
@@ -3102,7 +3058,6 @@ outcast.it##.banner72890
 outcast.it##.banner300250
 outcast.it##.adv
 outcast.it##.banner250250
-digitaltrends.com##[id^="google_ads_iframe_"]
 hyperspin.com##.banner-ad
 mercatinomusicale.com###hdr_leaderboard
 mercatinomusicale.com###hp_boxbanner_mainbox
@@ -3111,20 +3066,15 @@ lafucina.it##.paulund_modal_box
 lafucina.it###top_ad
 lafucina.it##.col_ad
 lafucina.it##.sidebar-big-ad
-lafucina.it##[id^="google_ads_iframe"]
 applezein.net##.grid-box.width100.grid-h
 howto-outlook.com##DIV[style="height:280px;margin-bottom:0.5em;"]
 slipstick.com##.wdca_ad_item
-wiki.answers.com##[id^="google_ads_iframe"]
 downforeveryoneorjustme.com##.ad-container
-zedge.net##[id^="google_ads_iframe"]
-community.spiceworks.com##[id^="google_ads_iframe"]
 community.spiceworks.com##[id^="gsidebar-"]
 bs.serving-sys.com##[id^="ebStdBannerFlash"]
 answers.yahoo.com##[id^="Ad-"]
 answers.yahoo.com##[class$="AdBox"]
 answers.yahoo.com##[id*="AdWrapper"]
-itpro.co.uk##[id^="google_ads_iframe"]
 itpro.co.uk##.block.block-dfp
 cfos.de##.banner_left
 comprovendo.secondamano.it###TopBanner
@@ -3172,7 +3122,6 @@ dailymail.co.uk##.banner-adverts
 iconspedia.com##[id^="bsap_"]
 ansa.it##IMG[src^="/brasile_2014/img/banner/"]
 code.tutsplus.com##.post__inarticle-ad-template
-code.tutsplus.com##.ad.view.ad--leaderboard
 code.tutsplus.com##.ad.view
 oltreuomo.com###skinlink
 mauxa.com##.adv_top
@@ -3193,8 +3142,6 @@ bresciaoggi.it##.v3_horz-banner.v3_padding.skin-hide
 diretta.it###banner-top
 lolnexus.com##.ad-container
 neowin.net###billboard_placeholder
-tomsguide.com##[id^="google_ads_iframe"]
-extratorrent.cc##[id^="MarketGidComposite"]
 quickshop.shoppydoo.it###tp_728x90
 tecnoandroid.it##.background-cover[href]
 raisport.rai.it##.barraSipra
@@ -3220,12 +3167,8 @@ general-files.org##.download-button
 general-files.org##.sponsored_download
 ign.com##.ad-placement.ad-leaderboard
 gamestop.it###CustomSkin
-macworld.com##[id^="google_ads_iframe"]
 foxtv.it##.HiddenTablet.colLeft.MPU336
-blog.screenweek.it##[id^="google_ads_iframe"]
 blog.screenweek.it##.takeover
-androidpit.it###ad_leadfull
-androidpit.it###ad_mpu
 dphoneworld.net###wes_main
 dphoneworld.net###p_frame[src^="//player.plavid.com/player.php"]
 o365info.com##.googlepublisherpluginad
@@ -3238,7 +3181,6 @@ bergamonews.it###block-openx-11
 gilsmethod.com##[id^="ad_container"]
 gilsmethod.com###adsense_header
 gamemag.it###adv300top
-speedtest.net##[id^="google_ads_iframe"]
 speedtest.net###ad-top-wrap
 speedtest.net##[id^="div-gpt-ad"]
 speedtest.net##[class^="ad-vertical"]
@@ -3246,26 +3188,19 @@ pingtest.net##.towerad
 pingtest.net##.ad.testbanner
 searchenterprisedesktop.techtarget.com##.sign-up-wrapper
 searchenterprisedesktop.techtarget.com##.login-register
-searchenterprisedesktop.techtarget.com##[id^="google_ads_iframe"]
 searchenterprisedesktop.techtarget.com##.ad.ad-hp
 tuttosport.com##.box_Banner.bnr_728x90
 tuttosport.com##.box_Banner.bnr_300x250
-macupdate.com##[id^="google_ads_iframe"]
 macupdate.com###top_ad
-pcmag.com##[id^="google_ads_iframe"]
 creativemac.com##.topbannerad
 creativemac.com##.sideads
 tuttosport.com##[id^="ligatus_sportnetwork_"]
-pcworld.com##[id^="google_ads_iframe"]
 digitaltrends.com##.m-leaderboard
-ehow.com##[id^="google_ads_iframe"]
 thegamesmachine.it###Advertisement
 ilsole24ore.com###bannerTop
 unilibro.it##.active-skin
-forums.msexchange.org##[id^="google_ads_iframe"]
 gamepal.it###background-ad
 forum.notebookreview.com##.adBox
-forum.notebookreview.com##[id^="google_ads_iframe"]
 fileforum.betanews.com##.ad300
 perfectgeeks.com##.ads_1
 vg247.it##IMG[width="1260"][height="110"][src^="http://images.eurogamer.net/"]
@@ -3287,9 +3222,7 @@ oilproject.org###sideAdv
 computerandvideogames.com##.promo.promo--leaderboard
 computerandvideogames.com##.promo__content
 computerandvideogames.com##.promo.promo--mpu
-polygon.com##.m-ad.m-ad__medrec
 maps.google.com###adunit
-servizioallerta.it##[id^="google_ads_iframe"]
 servizioallerta.it##.ad.affiliate
 joystiq.com##[id^="adsDiv"]
 joystiq.com##[id^="div-gpt-ad"]
@@ -3305,7 +3238,6 @@ motori.excite.it###ligatus_populis_excite_smartbox_all
 alguer.it##.box_adv_728
 alguer.it##.adv_160x600
 alguer.it##.adv_120x240
-eurogamer.it##[id^="google_ads_iframe"]
 incredibilia.it##.single-post-ad
 unawave.de##.am
 unawave.de###googlebanner
@@ -3321,9 +3253,7 @@ tmag.it##.top-ad
 livesicilia.it##.banner_leaderboard
 livesicilia.it##.wes_div
 livesicilia.it###plavidAdsFormat
-livesicilia.it##[class^="flash-box-a-sponsor"]
 kotaku.co.uk##.commercial.commercial--leaderboard
-kotaku.co.uk##[id^="google_ads_iframe"]
 avvocati.it##.rightbanner
 headadmin.net##.content-ad
 thewindowsclub.com##[class^="ad ad-"]
@@ -3331,13 +3261,10 @@ imageshack.com##.promo-right
 wikihow.com##.wh_ad
 wikihow.com##[class^="wh_ad_inner adunit"]
 wikihow.com##.ad_label.ad_label
-forbes.com##[id^="google_ads_iframe"]
-webmail-static.libero.it##[id^="google_ads_iframe"]
 mail23a.webmail.libero.it##.advCnt
 pubblicitaitalia.it##.box.adsense
 pubblicitaitalia.it##.banner
 pubblicitaitalia.it##.banner_over_footer
-vanityfair.it##[id^="google_ads_iframe"]
 vanityfair.it##.sdbadv
 webnews.it##.adv_300_top.sidebar_widget
 ondemand.mtv.it###advTop
@@ -3349,10 +3276,8 @@ vg247.com##.leaderboards
 vg247.com##.ad
 vg247.com##.low-leader-container
 vg247.com###recommendations
-###taboola-below-main-column
 dailygreen.it###link_skin
 iphoneitalia.com##.wes_main.wes_footer
-cn24tv.it##.modPubblicita.clickableBanner
 cn24tv.it##.modPubblicita
 intoscana.it##.skin-marg
 forums.androidcentral.com##.netshelter-ad.gpt
@@ -3365,7 +3290,6 @@ amazon.it##[id^="search-desktop-advertising-bottom"]
 thegamesmachine.it###takeover_gv
 m.agi.it##.senseMob
 blog.chron.com##[id^="pmad"]
-blog.chron.com##[id^="google_ads_iframe"]
 blog.chron.com##.row1.clearfix
 blog.chron.com##.adContainer
 blog.chron.com##[id^="googleAd"]
@@ -3374,7 +3298,6 @@ roma.corriere.it##.ob_strip_container
 robertochibbaro.it##.above_content.box.pad15
 tripadvisor.it##.ad
 eurogamer.it##.related
-aranzulla.tecnologia.virgilio.it##[id^="google_ads_iframe"]
 tecnomani.com##[id^="netparade"]
 techzilla.it##[id^="div-gpt-ad"]
 kingdomgame.it##.adv_horizontal
@@ -3398,19 +3321,15 @@ cn24tv.it##[class^="ad6"]
 theitbros.com##.adhere
 cnet.com##.ad-leader-top
 msn.com##[data-aop="articletakeoverad_ad"]
-msn.com##.ad.non-empty-ad
 msn.com##.ad
 makeuseof.com##.sidebar-banner
 cn24tv.it##.popupBanner.clickableBanner
-mobile.hdblog.it##.gad_container
 androidpit.com###ad_leadfull
 androidpit.com##[id^="ad_mpu"]
 ilmessaggero.it###adv_BoxTop
-ilmessaggero.it##[id^="google_ads_iframe"]
 rapidvideo.org##.video_sta
 pmi.it##.banner
 lg.hdblog.it##.ads_container_top
-lg.hdblog.it##.gad_container
 thelostsheep.net##[id^="fancybox"]
 thelostsheep.net###adsensestory
 thelostsheep.net##DIV[style="width: 450px;height:300px;background-image:url('images/bella.png');background-repeat:no-repeat;margin:auto;"]
@@ -3426,13 +3345,10 @@ macusato.it##.widget-box.banner
 macusato.it###topbanner
 ticketone.it###banner
 imdb.com###top_ad_wrapper
-maketecheasier.com##[id^="google_ads_iframe"]
 pcprofessionale.it##[id^="ads300"]
 6sicuro.it##[id^="hotSpot"]
 nintendolife.com##.masthead
-nintendolife.com##[id^="google_ads_iframe"]
 nintendolife.com##.block.outbrain
-livenation.it##[id^="google_ads_iframe"]
 theguardian.com##[id*="-ad-"]
 statcounter.com##.top-banner
 labnol.org##.garectangle
@@ -3481,19 +3397,15 @@ download.cnet.com##[class^="adnl_"]
 download.cnet.com###spotBidHeader
 enterpriseios.com##.adsense
 it.cinema.yahoo.com##.CAN_ad
-altadefinizione.tv###reklam-468x60
 altadefinizione.tv##[id$="_reklam"]
 altadefinizione.tv##[class$="_gizle"]
 altadefinizione.tv##[id^="reklam"]
-gottabemobile.com##[id^="google_ads_iframe"]
 gottabemobile.com##.ad-inserter
-techtimes.com##[id^="google_ads_iframe"]
 techtimes.com##[class^="adunit"]
 techtimes.com##[id^="adunit_"]
 graphberry.com##.ads
 delicious.com##[class$="ad-container"]
 delicious.com##.ad-container
-aranzulla.it##[id^="google_ads_iframe"]
 getemoji.com##[id^="aswift_"]
 getemoji.com##IFRAME[src^="//banners.itunes.apple.com/"]
 getemoji.com##[id*="ad_banner"]
@@ -3520,7 +3432,6 @@ commandwindows.com##.ezoic-ad
 it.blastingnews.com##.row.dfp-leaderbord
 ilfattoquotidiano.it##.wp_bannerize
 tv.ilfattoquotidiano.it##IFRAME[src^="http://l.casa.it/cobrand/"]
-newsrimini.it##[id^="google_ads_iframe"]
 multiplayer.it##.sidebar_ads
 multiplayer.it##[id^="vsn-"][src^="http://video.netaddiction.it/"]
 ilfattoquotidiano.it###meetic_quad
@@ -3544,27 +3455,22 @@ engadget.com##[class^="ad header"]
 ilpost.it##.widget.adv
 amazon.it###DAr4
 wired.com##[data-js="leaderboard"]
-ansa.it##.span4.adv
 ansa.it##.ppn468
 3bmeteo.com##[href^="http://feed.4wnet.com/"]
 3bmeteo.com##.4wNET
 3bmeteo.com###mirago
 3bmeteo.com##[itemtype="http://www.schema.org/WPAdBlock"]
-milano.mentelocale.it###AdvMinisky
 iconshut.com##[id^="MarketGidScriptRoot"]
 mondoxbox.com##[id^="lwl_"].init
 ilgarantista.it##[id^="fancybox-"]
 ilgarantista.it##[class^="wpx_bannerize"]
-corriere.it##[id^="outbrain_widget"]
 postimg.org##[id^="MarketGidScriptRoot"]
 streamcloud.eu###javawarning
 investing.com###generalOverlay[style="display: block;"]
 investing.com##[id^="mainPopUp"]
 investing.com##.earAdv
 investing.com##.midHeader
-investing.com##[id^="google_ads_iframe"]
 marcheingol.it##IMG[title="source: imgur.com"]
-ccm.net##[id^="google_ads_iframe"]
 compnetworking.about.com##.gpt.leaderboard
 serverfault.com##[id^="adzerk"]
 chandoo.org##A[href="http://chandoo.org/wp/training-programs/"]
@@ -3578,11 +3484,9 @@ playboy.com##.ad-banner
 altroconsumo.it###skinClick
 explosm.net##.leaderboard-container
 kijiji.it###kelkoo-widget
-kijiji.it##[id^="google_ads_iframe"]
 gsmarena.com###topAdv
 techrepublic.com##.ad-leader-plus-top
 hdblog.it##[id^="banner"]
-serenovariabile.rai.it##.banner300x250
 ilmeteo.it###div-dfp-sticky
 rai.it##[id^="scr_check"]
 rai.it##.banner300x250
@@ -3609,7 +3513,6 @@ huffingtonpost.it##[id^="ad_right_"]
 huffingtonpost.it##.preview.sgc_promo
 androidiani.com##.criteo
 androidiani.com###post_
-ilfattoquotidiano.it##[id^="outbrain_widget"]
 ilfattoquotidiano.it###popad
 ilfattoquotidiano.it###crowdynews-iframe
 ilfattoquotidiano.it##.cnPoweredBy
@@ -3625,12 +3528,9 @@ last.fm##.related-ads
 money.cnn.com###ie_column
 money.cnn.com###adsquare
 money.cnn.com##[id^="js-outbrain-"]
-money.cnn.com##[id^="outbrain_widget_"]
-treccani.it##[class^="box-adv-300-"]
 groupon.it##.doubleclick
 opinioni.it##.top-728
 pinceladasdaweb.com.br###superbanner
-madtrip.co##[class^="adsbygoogle adslot"]
 panorama.it##[class$="_google_ads"]
 autoblog.it##[id^="advn_"]
 theverge.com##.m-ad
@@ -3644,7 +3544,6 @@ zeusnews.it###spotEsterno
 valledaostaglocal.it##.phpads_container
 valledaostaglocal.it##[class^="skinAdv"]
 valledaostaglocal.it##[id^="advertisingTop"]
-techrepublic.com##[id^="google_ads_iframe"]
 filehorse.com##[class^="ad_970"]
 blog.the-ebook-reader.com##.sovrn_ad_unit
 blog.the-ebook-reader.com##.ad-inserter
@@ -3652,20 +3551,10 @@ blog.the-ebook-reader.com##[class^="adspace-"]
 trovaprezzi.it###top-banner
 trovaprezzi.it###right-banner
 appletoolbox.com##.insert-post-ads
-macworld.co.uk##[id^="google_ads_iframe"]
 macworld.co.uk##.adContainer
 ibtimes.co.uk##.ad-container
 ibtimes.co.uk##.banner-box
-quotidiano.net##[id^="google_ads_iframe"]
 ddunlimited.net##A[href^="http://www.liveadexchanger.com/"]
-image.online-convert.com##[id^="google_ads_iframe"]
-image.online-convert.com##[class^="banner_468"]
-image.online-convert.com##.responsive_ad_top
-larena.it##[id^="google_ads_iframe"]
-masterchef.sky.it###adv_wpclickdiv
-experts-exchange.com##[id^="google_ads_iframe"]
-alvolante.it##[id^="google_ads_iframe"]
-cwi.it##[id^="google_ads_iframe"]
 quattroruote.it##.genericBanner.section
 dailymail.co.uk##.adHolder
 ilmattino.it###adv_LdbMastheadPush
@@ -3681,9 +3570,7 @@ la7.it##A[href^="http://adv.ilsole24ore.it/"]
 la7.it##.advertising
 hwupgrade.it###masthead_ad
 hwupgrade.it##.banner728x90
-fantagp.sky.it###adv_wpclickdiv
 fantagp.sky.it##.advHeader1
-fantagp.sky.it###adwallpaper
 ilfattoquotidiano.it##[id^="adv-sticky-"]
 zdnet.com##[class^="ad-leader"]
 zdnet.com##.ad-wrap
@@ -3692,7 +3579,6 @@ hackerspace.kinja.com##.ad-container
 punypng.com###ad-leaderboard
 player.plavid.com##.plavidAdsOverlay
 geekissimo.com###plavidAdsFormat
-confessionidiunadonna.altervista.org##.banner_altervista_300X250
 filehippo.com##[class^="ad-unit-"]
 filehippo.com###header-above-content-leaderboard
 filehippo.com##.vzaar-video-player
@@ -3700,30 +3586,22 @@ filehippo.com##.OUTBRAIN
 ravennanotizie.it##.banner728x90
 ravennanotizie.it##.home-intro
 ravennanotizie.it##.banner-top.cf
-blog.pianetadonna.it##.banner_altervista_300X250
 allkeyshop.com##A[href="http://www.allkeyshop.com/blog/lotteries/"]
 ##.banner_altervista_300X250
 delicious.com##.googleAd728
 hwlegend.com##[id^="divAd"]
 hwlegend.com##.mod_banners
 everyeye.it##.topskin
-gqitalia.it##[id^="google_ads_iframe"]
 gqitalia.it###adv_bkg_cont
 treccani.it##.top-banner-wrapper.hidden-xs
 monova.org##.adrclm_container
 mg.mgid.com##[id^="MarketGid"]
 dasolo.org##[id^="MarketGid"]
 macusato.it##.streamrow.sponsorrow
-mobileworld.it##[id^="google_ads_iframe"]
-cosedicasa.com##[id^="google_ads_iframe"]
 cosedicasa.com##.widget.section-widget.sidebar-banner
-dummies.com##[id^="google_ads_iframe"]
-dummies.com###div-gpt-ad-topbanner
 dummies.com##.OUTBRAIN.ob-shrink
 dummies.com##.ad-placement
 dummies.com##.outbrain-paid
-notizie.tiscali.it##[id^="dotnAd"]
-notizie.tiscali.it##[id^="advCustom"]
 notizie.tiscali.it##[id^="sticky_adv"]
 notizie.tiscali.it##.banner320x250
 notizie.tiscali.it##[class^="upstory-"]
@@ -3740,17 +3618,14 @@ downloadtorrentita.blogspot.it##.SC_TBlock
 aranzulla.it##.sr-in-text-wrapper.sr-hide.sr-show
 petapixel.com##.banners
 attaccomirato.com##[id^="ads300"]
-cinema.sky.it###adv_wpclickdiv
 game-experience.it##.wpInsert.wpInsertInPostAd
 webcache.googleusercontent.com##.banner_728
 ansa.it##.adv
 ansa.it##.TopWidget.TopWidget--ansa-motori
-badtaste.it##[id^="google_ads_iframe"]
 badtaste.it###badad
 milleguide.com##A[href^="http://www.amazon.it/gp/product/"]
 fullstuff.net##A[onclick*="http://easyjobprogram.link/"]
 fullstuff.net###banner_ad
-sourceforge.net##[id^="google_ads_iframe"]
 ilmeteo.it##.casadv
 aggiustatutto.it###floaterDiv
 macworld.co.uk##.bidtellect-native-ad
@@ -3851,7 +3726,6 @@ gamona.de##[class$="banner"]
 gamona.de##.werbung._sky
 gamona.de##[id*="adblock_"]
 smartworld.it##.adv
-smartworld.it##[id^="google_ads_iframe"]
 smartworld.it##[class^="teads-"]
 valdinievoleoggi.it###skinlink
 valdinievoleoggi.it##.tpl_banners_top_banner
@@ -3862,10 +3736,8 @@ valdinievoleoggi.it##.tpl_banners_coldxjs2_bannercontainer
 valdinievoleoggi.it##.tpl_banners_coldxjs3_bannercontainer
 valdinievoleoggi.it##.tpl_banners_A5_bannercontainer
 valdinievoleoggi.it##.tpl_testata_search
-appcrawlr.com##[id^="google_ads_iframe"]
 it.foursquare.com##[id^="div-gpt-ad"]
 ilpost.it##A[href*="adclick.g.doubleclick.net"]
-lastampa.it##[id^="adv-Position"]
 lastampa.it##[id^="adv-"]
 lastampa.it##DIV[onclick*="tariffa.it"]
 lastampa.it##A[href*="tariffa.it"]
@@ -3878,18 +3750,15 @@ windowsitpro.com###roadblockbackground
 windowsitpro.com##.ad640x480
 windowsitpro.com##[class$="doubleclick "]
 milanotoday.it##A[href*="milanotoday.it/~vda"]
-notebookcheck.it##[id^="google_ads_iframe"]
 ##[id^="div-gpt-ad-"]
 ansa.it##[id^="dotnAd"]
 ilsoftware.it##[id^="ADleaderboard"]
 ilsoftware.it##.w_banner
-ilsoftware.it##[id^="google_ads_iframe"]
 gizmodo.com##[id^="ad-"]
 reddit.com##[class^="sponsor-"]
 linkedin.com##[class^="ad-banner"]
 parmatoday.it##A[href*="parmatoday.it/~vda/__/o.php"]
 parmatoday.it##IFRAME[src*="iframe.php?format=300"]
-###taboola-below-article-thumbnails
 miui.it##.ad-banner
 ##[id^="taboola-right"]
 metacritic.com###tynt-amzn-iframe-1
@@ -3897,7 +3766,6 @@ metacritic.com##.tynt-bottom-bar
 ##[id^="taboola-below"]
 pcworld.com###content-recommender
 experts-exchange.com##.adBox
-ebay.it##[id^="google_ads_iframe"]
 lastampa.it##[class$="_adv"]
 lastampa.it##[class$="_Sign"]
 lastampa.it###mirago
@@ -3920,9 +3788,7 @@ motherboard.vice.com##.ad-unit
 motherboard.vice.com###editorial-videoplayer
 androidcentral.com###rev-flicker
 hdblog.it##IFRAME[src*="adventertainment.it/clickart/adv"]
-virgilio.it##[id^="google_ads_iframe"]
 virgilio.it###adwallpaper
-virgilio.it###admputop
 virgilio.it##A[href*="adclick."]
 tuttoandroid.net##[href*="adclick"]
 howtogeek.com##.bidtellect-native-ad
@@ -3938,7 +3804,6 @@ mondofox.it###bright
 mondofox.it###bleft
 mondofox.it##[href*="adclick.g.doubleclick.net"]
 dailygame.net##[data-ns="billboard"]
-dailygame.net##[id^="google_ads_iframe"]
 bufale.net##[id^="advn_"]
 bufale.net##[class^="teads-"]
 my-personaltrainer.it##[id$="adv"]
@@ -4022,7 +3887,6 @@ tvblog.it##.adv
 tvblog.it##[id^="adv"]
 flickr.com##[class^="ad-iframe"]
 tuttomercatoweb.com##[href*="adclick.g.doubleclick.net"]
-tiscali.it##[id^="dotnAdDivSk"]
 tiscali.it##[id^="advCustom"]
 tiscali.it##[class^="vsb-pos"]
 tiscali.it###shopping
@@ -4032,7 +3896,6 @@ condominioweb.com##DIV[style="float:left; min-height:278px;   width:128px"]
 corrieredellosport.it###EB_BODY_CURSOR
 serving-sys.com##.shrinkToFit
 notizie.it##[id*="ad-"]
-notizie.it##[id^="outbrain_widget"]
 notizie.it##[srcdoc*="<title>TheOutplay Widget</title>"]
 iltempo.it##.bannervcms
 notizie.it##IMG[src*="bs.serving-sys.com/serving/adServer"]
@@ -4126,7 +3989,6 @@ engadget.com###atwAdFrame0EAN
 bing.com##.b_ad
 accuweather.com###header-davek
 engadget.com###right-ads-rail
-theverge.com##.m-ad.m-ad__medrec.vert.vert300
 ||cintnetworks.com^$third-party
 ||adv.digisesso.com^$popup
 ||bam.nr-data.net^
@@ -4156,7 +4018,6 @@ puntocellulare.it##[id^="pb_300x250"]
 puntocellulare.it##[id^="pb_adsense"]
 puntocellulare.it###pb_leader
 puntocellulare.it###\34 68x60_TXT
-m.leggo.it##[id^="google_ads_iframe"]
 m.leggo.it##[id^="wr-cFrame-"]
 tech.attualissimo.it###leaderbord_new
 smallpdf.com##.result-ad
@@ -4187,7 +4048,6 @@ tuttomercatoweb.com##.clear
 hdblog.it##.banner_list_container
 ansa.it###advCustomMainDivBg
 ##.c_ligatus_nxn
-osxdaily.com##[id^="tfasyncframe_"][width="300"]
 computerworld.com##.ad
 guidafisco.it##[class^="ad"]
 mytaste.it##.panorama
@@ -4214,7 +4074,6 @@ ebay.it###rtm_html_644
 ||onclickpredictiv.com^$popup
 ||saluteperme.com^$popup
 ||bit.ly^$popup,domain=openload.co|fastvideo.eu
-leganerd.com###banner_mpu1
 informatblog.com##.onetag
 smereghetti.com##.adsxpls
 smereghetti.com##.widget.sidebar-widget.adsense_plugin_explosion_Widget
@@ -4235,7 +4094,6 @@ tuttoannunci.org###TB_overlay
 ||imagerip.net/images/2015/01/10/robin.png
 neowin.net##.widget-ad
 neowin.net##.header-banner-ads
-pcadvisor.co.uk##[id^="google_ads_iframe"]
 ||imagerip.net/images/2014/12/02/episodiodavedere.png
 ||imagerip.net/images/2014/12/02/episodiodascaricare.png
 it.xhamster.com###adTop
@@ -4259,7 +4117,6 @@ blog.bepuppy.com##.top-sidebar-wrapper
 blog.bepuppy.com##.ad-inserter
 trakt.tv##[id^="huckster-"]
 rai.tv##.banner300x250
-bgr.com##[id^="google_ads_iframe"]
 who.is##.advertisements
 sh.st###intermediate-ad
 sh.st##[id^="epom-"]
@@ -4283,8 +4140,6 @@ fileinfo.com###tlbspace
 fileinfo.com###linkunits
 it.xhamster.com##.adVideo
 documoo.tv###leader-wrapper
-makeuseof.com##.sidebar-banner
-nintendolife.com##[id^="google_ads_iframe"]
 nintendolife.com##[data-dfp-sizes="728x90,960x250,1260x110"]
 nintendolife.com##[id^="NL_MPU_"][data-dfp-sizes="300x250"]
 nintendon.it##[id^="div-gpt-ad"]
@@ -4292,28 +4147,19 @@ taggify.net##.tgf_textad
 droidviews.com##A[href*="http://*.advertising.com/click/"]
 droidviews.com##.span8.td-header-style-1
 it.xhamster.com###adBottom
-rai.tv##.banner300x250
-bgr.com##[id^="google_ads_iframe"]
-who.is##.advertisements
 ||sms-mmm.com^$popup
 mail.yahoo.com###slot-mb-msg-read
 mail.yahoo.com###slot_MB
 eurosport.yahoo.com##DIV[class^="yom-ad"]
 ow.ly##.adbox
 computers.tutsplus.com##.ad.view
-techhive.com##[id^="google_ads_iframe"]
 polygon.com##.m-ad
-multiplayer.it###personalization_ads
 |http://aff.camplace.com/uploads/banners/
-franchiseherald.com##[id^="google_ads_iframe"]
-latinospost.com##[id^="google_ads_iframe"]
-breathecast.com##[id^="google_ads_iframe_"]
 kickass.so##.advertising
 kickass.so##IFRAME[name^="spot_id"][src^="//ads"]
 kickass.so##[id^="MarketGidScriptRoot"]
 ansa.it##OBJECT[data^="http://timeseeker.thebelab.it/banner"]
 uk.businessinsider.com##.subnav-container
-uk.businessinsider.com##[id^="google_ads_iframe"]
 uk.businessinsider.com##.right-ad
 emuparadise.me##[class^="box ad"]
 emuparadise.me##[class^="ad_"]
@@ -4346,7 +4192,6 @@ motogp.com##.ads
 ||gpone.com/adserver/www/delivery/*
 eurosport.yahoo.com##.yom-ad
 eurosport.yahoo.com###sponsor
-cultofmac.com##[id^="google_ads_iframe"]
 |http://*.trafficfactory.biz//banners/
 tgcom24.mediaset.it##.spaceBanner
 tmz.com##.masthead-ad
@@ -4359,8 +4204,6 @@ tmz.com##.masthead-ad
 ||paaq.info^$popup
 huffingtonpost.com###adDiv
 huffingtonpost.com##[id^="adsDiv"]
-runtastic.com##[id^="google_ads_iframe"]
-runtastic.com##.l_ad_top
 videogiochi.com###banner-header
 hattrick.org###ctl00_ctl00_ucBannerTop_pnlBanner
 hattrick.org###ctl00_ctl00_ucBannerSkyscraper_pnlBanner
@@ -4380,7 +4223,6 @@ livinginterior.it###ADVleaderboard
 livinginterior.it###ADVrettangolo
 livinginterior.it###ADVleaderpiede
 livinginterior.it###ADVrettangolopiede
-androidworld.it##[id^="google_ads_iframe"]
 androidworld.it###ligatus_content_ad
 diritto24.ilsole24ore.com##.advHeader
 universomamma.it##[class^="ad m_bot"]
@@ -4401,8 +4243,6 @@ videopremium.me##DIV[style="height: 440px; width: 100%; position: fixed; top: 22
 urbanpost.it##.wes_div
 urbanpost.it###skinlink
 urbanpost.it##[id^="ligatus_speweb_"]
-games.hdblog.it##.ads_container_top
-games.hdblog.it##.ads.square
 swzone.it###banner728x90
 swzone.it###boxhome-adv
 neogaf.com##.goodie728
@@ -4418,7 +4258,6 @@ videopremium.me##.ads-left
 varesenews.it###adv_Skin
 varesenews.it###dx0rotazione
 varesenews.it###altodestrarotazione
-metacritic.com##[id^="google_ads_iframe"]
 trakt.tv###large-banner-ad
 trakt.tv##DIV[id="small-banner-bottom-ad"]
 trakt.tv###large-banner-bottom-ad
@@ -4451,22 +4290,9 @@ emuparadise.me##.mctable1345
 ||doublepimp.com^$popup
 http://www.cultura.rai.it/$popup
 ||bitterstrawberry.org^$popup,domain=simply-hentai.com
-osxdaily.com##[id^="tfasyncframe_"][width="300"]
-computerworld.com##.ad
-guidafisco.it##[class^="ad"]
-mytaste.it##.panorama
-sky.it###admasthead
-sky.it###adv_wpclickdiv
-sky.it###adwallpaper
-guidatv.sky.it##.banner_publicitario
-leganerd.com##[id^="banner_mpu"]
-ucicinemas.it###adv-strip-container
-xboxdvr.com##[class^="ad-container"]
-ebay.it###rtm_html_644
 bannerflow.com###banner
 camelcamelcamel.com##[id^="ad_center"]
 fattoincasadabenedetta.it##.bsm
-ticketone.it##[id^="google_ads_iframe"]
 salepepe.it##[id^="adv"]
 salepepe.it##[id^="box-adv"]
 salepepe.it##[class*="adv"]
@@ -4492,7 +4318,6 @@ salepepe.it##.adsense
 |http://comesiscrive.it/workspace/javascripts/sociallocker/
 billboard.com##[id^="internal_trc_"]
 billboard.com##[id^="trc_header_"]
-food24.ilsole24ore.com###bannerTop
 eurogamer.it###leaderboard
 eurogamer.it###skyscraper
 kijiji.it##.adsense-item
@@ -4519,7 +4344,6 @@ youtube.com###footer-ads
 ##.ytp-ad-progress-list
 youtube.com###watch-branded-actions
 youtube.com##a[href^="http://www.youtube.com/cthru?"]
-youtube.com##a[href^="http://www.youtube.com/cthru?"]
 youtube.com##.watch-extra-info-right
 youtube.com##.watch-extra-info-column
 youtube.com##.promoted-videos
@@ -4529,18 +4353,15 @@ youtube.com##.carousel-offer-url-container
 ||phobos.apple.com^$image,domain=youtube.com
 youtube.com###watch-buy-urls
 ||espn.vad.go.com^$domain=youtube.com
-youtube.com###watch-branded-actions
 =adunit&
 youtube.com###search-pva
 youtube.com###homepage-chrome-side-promo
 youtube.com###feedmodule-PRO
 youtube.com##DIV[id="homepage-sidebar-ads"]
 youtube.com###ad_creative_2
-youtube.com###footer-ads
 youtube.com##.masthead-ad-control
 marcheingol.it##IFRAME[src^="https://www.youtube.com/embed/"]
 youtube.com##.ad-div
-youtube.com###feed-pyv-container
 youtube.com###video-masthead
 ||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
 ! [Gruppo di filtri blocco di sicurezza]
@@ -4549,7 +4370,6 @@ mvxtryurrox7889.info##HTML*
 ! [Gruppo di filtri sperimentali]
 boredpanda.com##img[src^="data:image/png;base64,"]
 boredpanda.com##img[src^="data:image/jpeg;base64,"]
-##.adsbox
 ##.advn_zone
 ##.afs_ads
 /fuckadblock.js
@@ -4583,5 +4403,4 @@ community.spiceworks.com##.card-columns.card-columns--old
 community.spiceworks.com##.read-next-footer.js-read-next-footer.constrained-content.curated-items
 ctrl.blog##.adco.adu-in
 ctrl.blog##.adco.adco-fv
-ghacks.net##.adsbygoogle
 ||track.effiliation.com/servlet/
