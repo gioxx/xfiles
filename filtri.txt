@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 201905281540
+! Version: 201906031141
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 28-05-2019
+! Last modified: 03-06-2019
 ! Expires: 5 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -4586,6 +4586,21 @@ boredpanda.com##img[src^="data:image/jpeg;base64,"]
 ! [Gruppo di filtri ereditati da ABP WebExt]
 ||y-flickr.yahoo.com/ad?
 pagomeno.it###ad_panorama_top
+marapcana.life##.mgbox
+||cdn3.2conv.com/scripts/adframe.php
+2conv.com##.banner
+flaticon.com##.carbon-wrap
+buzzfeednews.com##.ad-wireframe-wrapper.ad-wireframe-wrapper--labeled
+||ragazzeinvendita.com/animatedBanner.php
+phica.net##.widget-content.restore.axd.axd_176
+phica.net##.ad_
+phica.net###popupTool
+phica.net###widget_200
+phica.net###widget_198
+phica.net##.ad_first-post_inner
+phica.net###widget_188
+||rivcash.com/webmaster/banners/ioriv/banner_468x60_it_2.gif
+open.online##.adv-middle.adv
 bloomberg.com##.leaderboard-ad-dummy
 uptobox.com##.ad6foo-banner-container
 rep.repubblica.it##.adv
