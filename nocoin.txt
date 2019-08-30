@@ -1,26 +1,16 @@
-! Version: 201908302006
-! Title: X Files: HWS Harmful WebSites
-! Harmful WebSites blocca siti web potenzialmente dannosi per la tua navigazione
+[Adblock Plus 2.8]
+! Version: 201908302014
+! Title: X Files: NoCoin List
+! NoCoin List blocca siti web che minano Bitcoin utilizzando le risorse del browser
 ! Last modified: 30-08-2019
 ! Expires: 10 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
 ! Blog: https://gioxx.org/tag/abpxfiles
 ! Hosting lista: GitHub.com
-! ! La lista di keraf non viene piu' aggiornata, per questo motivo ti propongo i filtri di hoshsadiq in attesa di capire come far evolvere NoCoin. Mantengo quindi tutti i crediti originali che puoi trovare subito qui sopra.
+! La lista di keraf non viene piu' aggiornata, per questo motivo ti propongo i filtri di hoshsadiq in attesa di capire come far evolvere NoCoin. Repository della lista: https://github.com/hoshsadiq/adblock-nocoin-list/
 !-------------------------------------------------------------------------------
 !
-[Adblock Plus 2.0]
-! Title: NoCoin Filter List
-! Expires: 1 days (update frequency)
-! Version: 174
-! Last modified: 27 Jul 2019
-! Homepage: https://github.com/hoshsadiq/adblock-nocoin-list/
-! Contribute: https://github.com/hoshsadiq/adblock-nocoin-list/issues
-! License: https://mit-license.org/
-! Description: This filter disables browser based miners such as coin-hive
-!-------------------------------------------------------------------------------
-
 ! Third Party blocking ---------------------------------------------------------
 ||cnhv.co^$third-party
 ||coin-hive.com^$third-party
