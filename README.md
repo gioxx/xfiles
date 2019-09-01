@@ -3,7 +3,9 @@ ABP X Files (xfiles.noads.it)
 ===================
 **Adblock Plus** filtra immagini, pubblicità, banner ed altri elementi "*bloccabili*" presenti sulle pagine web e permette quindi di navigare in un web più "*pulito e leggero*" perché privo di pubblicità invasiva. Include inoltre funzioni di sincronizzazione e di whitelisting. È un componente aggiuntivo nato per Mozilla Firefox, poi reso disponibile per altri browser.
 
-**X Files** è il nome del progetto nato per gioco, diventato punto di riferimento nazionale per il filtraggio della pubblicità invasiva su una moltitudine di siti web nostrani e internazionali. 3 i moduli disponibili attualmente, tutti liberamente scaricabili su https://xfiles.noads.it
+![ABP X Files - xfiles.noads.it](https://gioxx.org/wp-content/uploads/abpxfiles-NewHeaderText-bigBanner.jpg)
+
+**X Files** è il nome del progetto nato per gioco, diventato punto di riferimento nazionale per il filtraggio della pubblicità invasiva su una moltitudine di siti web nostrani e internazionali. Il sito web del progetto si trova all'indirizzo https://xfiles.noads.it
 
 ABP: AdBlock Plus
 -----------------
@@ -14,9 +16,10 @@ I moduli "*X Files*"
 -------------------
 
  - **X Files** (Modulo principale) "*xfs*": specifico per siti web italiani ma con un occhio di riguardo anche a quelli internazionali più visitati, è il modulo principale e lista ufficialmente riconosciuta (per l'Italia), completamente compatibile con AdBlock Plus e "*ben digerita*" anche da componenti aggiuntivi similari.
- - **NoFacebookAds** "*nfa*": nato dall'esigenza di bloccare le pubblicità sempre più presenti sul noto Social Network, questo modulo va a completare la protezione offerta da Adblock Plus e X Files. Compatibile con *X Files*, *Harmful WebSites* e *NoCoin*.
- - **Harmful WebSites** "*hws*": il modulo che serve a proteggere la navigazione dell'utente impedendogli di caricare dati da siti web potenzialmente pericolosi, si integra perfettamente alle sottoscrizioni già presenti nel tuo Adblock Plus. Si basa sulle liste pubbliche di "**Malware Domain List**" ([malwaredomainlist.com](http://www.malwaredomainlist.com/)), progetto non commerciale che cresce grazie alle segnalazioni della community, aggiornando abitualmente il database dei siti dannosi. Compatibile con *X Files*, *NoFacebookAds* e *NoCoin*.
- - **NoCoin List** "*nocoin*": Il modulo che serve a proteggersi dai siti web che tentano di utilizzare il browser per minare Bitcoin, si integra perfettamente con le sottoscrizioni già presenti nel tuo Adblock Plus. La blacklist si basa su "No Coin" ([github.com/keraf/NoCoin](https://github.com/keraf/NoCoin) di Keraf), progetto open-source e rilasciato sotto licenza MIT. Compatibile con *X Files*, *Harmful WebSites* e *NoFacebookAds*.
+ - **NoFacebookAds** "*nfa*": nato dall'esigenza di bloccare le pubblicità sempre più presenti sul noto Social Network, questo modulo va a completare la protezione offerta da Adblock Plus e X Files. Compatibile con *X Files* e *Harmful WebSites*.
+ - **Harmful WebSites** "*hws*": il modulo che serve a proteggere la navigazione dell'utente impedendogli di caricare dati da siti web potenzialmente pericolosi, si integra perfettamente alle sottoscrizioni già presenti nel tuo Adblock Plus. Si basa sui domini ancora attivi censiti da [Malware Domain List](https://github.com/Ultimate-Hosts-Blacklist/MalwareDomainList.com) e [ZeusTracker](https://github.com/Ultimate-Hosts-Blacklist/ZeusTracker_abuse.ch) per mezzo del progetto [Ultimate Hosts Blacklist](https://github.com/Ultimate-Hosts-Blacklist). Compatibile con *X Files* e *NoFacebookAds*.
+
+> **Attenzione**: a partire dal primo settembre 2019 **la lista filtri NoCoin non è più mantenuta e supportata**. Sul sito web ufficiale ho reso disponibile un'alternativa immediatamente sottoscrivibile, non appena pubblicherò l'articolo dedicato a questa novità sarà mio interesse aggiornare anche questo file README.
 
 Tutti i moduli si possono sottoscrivere gratuitamente dalla pagina ufficiale del progetto, all'indirizzo [xfiles.noads.it](https://xfiles.noads.it/).
 
