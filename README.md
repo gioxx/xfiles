@@ -19,7 +19,7 @@ I moduli "*X Files*"
  - **NoFacebookAds** "*nfa*": nato dall'esigenza di bloccare le pubblicità sempre più presenti sul noto Social Network, questo modulo va a completare la protezione offerta da Adblock Plus e X Files. Compatibile con *X Files* e *Harmful WebSites*.
  - **Harmful WebSites** "*hws*": il modulo che serve a proteggere la navigazione dell'utente impedendogli di caricare dati da siti web potenzialmente pericolosi, si integra perfettamente alle sottoscrizioni già presenti nel tuo Adblock Plus. Si basa sui domini ancora attivi censiti da [Malware Domain List](https://github.com/Ultimate-Hosts-Blacklist/MalwareDomainList.com) e [ZeusTracker](https://github.com/Ultimate-Hosts-Blacklist/ZeusTracker_abuse.ch) per mezzo del progetto [Ultimate Hosts Blacklist](https://github.com/Ultimate-Hosts-Blacklist). Compatibile con *X Files* e *NoFacebookAds*.
 
-> **Attenzione**: a partire dal primo settembre 2019 **la lista filtri NoCoin non è più mantenuta e supportata**. Sul sito web ufficiale ho reso disponibile un'alternativa immediatamente sottoscrivibile, non appena pubblicherò l'articolo dedicato a questa novità sarà mio interesse aggiornare anche questo file README.
+> **Attenzione**: a partire dal primo settembre 2019 **la lista filtri NoCoin non è più mantenuta e supportata**. Sul sito web ufficiale ho reso disponibile un'alternativa immediatamente sottoscrivibile, vedi https://gioxx.org/2019/09/02/abp-x-files-le-necessarie-modifiche-per-hws-e-nocoin/.
 
 Tutti i moduli si possono sottoscrivere gratuitamente dalla pagina ufficiale del progetto, all'indirizzo [xfiles.noads.it](https://xfiles.noads.it/).
 
