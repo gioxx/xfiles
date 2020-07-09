@@ -1,0 +1,9 @@
+! [ABP X Files - Whitelist]/whitelist
+@@||betrad.com/geo/h1.js$domain=corriere.it|gazzetta.it
+@@||betrad.com/pub/c/*.js$domain=corriere.it|gazzetta.it
+@@||google.com/jsapi$script,third-party
+@@||assistenza.sky.it^$document
+@@||esselungaacasa.it^$document
+@@||adv.ilsole24ore.it/crossdomain.xml$object-subrequest,domain=la7.it|la7.tv|~sky.it
+@@||manager.targetcircle.com^$document
+@@||console.cloud.google.com^$document
