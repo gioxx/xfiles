@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202007111513
+! Version: 202007111523
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
 ! Last modified: 11-07-2020
@@ -19,7 +19,6 @@
 @@||google.com/jsapi$script,third-party
 @@||manager.targetcircle.com^$document
 ! [ABP X Files - NO ADS]
-@@||fuorigio.co^$document
 @@||gioxx.org^$document
 @@||mozillaitalia.it^$document
 @@||mozillaitalia.net^$document
@@ -39,16 +38,10 @@
 1fichier.com##.native-slide-up
 2conv.com##.banner
 3bmeteo.com###admasthead
-3bmeteo.com###admasthead
-3bmeteo.com###adv_left_adv
 3bmeteo.com###adv_left_adv
 3bmeteo.com###adv_right_adv
-3bmeteo.com###adv_right_adv
-3bmeteo.com###banner_mobile_app
 3bmeteo.com###banner_mobile_app
 3bmeteo.com###banner_mobile_iol
-3bmeteo.com###banner_mobile_iol
-3bmeteo.com##DIV[id="sidebar-video-fixed"]
 3bmeteo.com##DIV[id="sidebar-video-fixed"]
 ||acceptable.a-ads.com/
 ||ad6media.fr^$script,popup
@@ -83,13 +76,7 @@ custom.simplemachines.org##DIV[class="anzeige_banner"]
 dday.it###barra_click_dx
 dday.it###barra_click_sx
 dellwindowsreinstallationguide.com###adtester-container
-dellwindowsreinstallationguide.com###adtester-container
-dellwindowsreinstallationguide.com###adtester-container
 dellwindowsreinstallationguide.com##.ezoic-ad
-dellwindowsreinstallationguide.com##.ezoic-ad
-dellwindowsreinstallationguide.com##.ezoic-ad
-dellwindowsreinstallationguide.com##.wpcnt.wpcnt-header
-dellwindowsreinstallationguide.com##.wpcnt.wpcnt-header
 dellwindowsreinstallationguide.com##.wpcnt.wpcnt-header
 digitaltrends.com##.dtads-slot.dtads-slot-leaderboard.dtads-desktop.callout.solid
 dilei.it###adv_left_div
@@ -114,8 +101,6 @@ favicon-generator.org##span[class*="ezoic-ad"]
 flaticon.com##.carbon-wrap
 flaticon.com##.premium-banner
 flickr.com##.g-moola-container.feed-ba
-flickr.com##.g-moola-container.feed-ba
-flickr.com###gpt-feed-billboard
 flickr.com###gpt-feed-billboard
 forbes.com##.top-ad-container
 fortune.com##.ad.ad-container.ad-wrapper.desktop-ad.tablet-ad.karma-ad
@@ -133,14 +118,12 @@ gazzetta.it###barra_click_dx
 gazzetta.it###barra_click_sx
 gazzetta.it###barra_click_top
 gazzetta.it##.bck-adv
-gazzetta.it##.bck-adv
 gazzetta.it##.teads-inread
 ghacks.net##.adsbygoogle
 gizmodo.com##.ad-mobile-inner
 greenme.it##DIV[id="adwallpaper"]
 hardreset.info##._ap_apex_ad
 helpdeskgeek.com##.adsense-block
-howtogeek.com###purch_Y_R_1_1
 howtogeek.com###purch_Y_R_1_1
 howto-outlook.com###header-banner
 html.it##.m3_container.html_art_griglia_646x670
@@ -169,8 +152,6 @@ iltempo.it##DIV[class^=" fbdynclass_"]
 infojobs.it##.slotbanner-top.slotbanner-top--space
 it.cleanpng.com##[class="ad-wrap"]
 it.cleanpng.com##DIV[class="pc-ad"]
-justwatch.com##.ad-unit
-justwatch.com##.ad-unit
 justwatch.com##.ad-unit
 laleggepertutti.it##.teads-inread
 ||lansweeper.com/forum/images/Banner-Forum.png
@@ -211,16 +192,12 @@ open.online##.i-amphtml-element.i-amphtml-layout-fixed.i-amphtml-layout-size-def
 pagomeno.it##.adbox
 pagomeno.it###ad_panorama_top
 pasty.link##.adsense
-pasty.link##.adsense
-pasty.link##.adsense
 pcmag.com###pcmedia
 petri.com##.ad
 petri.com##.single__ad
 pexels.com###carbonads
 phica.net##.ad_
 phica.net##.ad_first-post_inner
-phica.net##.deskContent
-phica.net##.deskContent
 phica.net##.deskContent
 phica.net###popupTool
 phica.net###widget_188
@@ -245,10 +222,6 @@ ravennaedintorni.it##DIV[class^="wppaszone proadszone-"]
 rep.repubblica.it##.adv
 repubblica.it##DIV[id="wrapper-adv"]
 reviewmeta.com##.ad_unit_1
-reviewmeta.com##.ad_unit_1
-reviewmeta.com##.ad_unit_1
-reviewmeta.com##.reviewmeta-alert.alert.alert-warning.reviewmeta-extensions-alert.hidden-xs
-reviewmeta.com##.reviewmeta-alert.alert.alert-warning.reviewmeta-extensions-alert.hidden-xs
 reviewmeta.com##.reviewmeta-alert.alert.alert-warning.reviewmeta-extensions-alert.hidden-xs
 ||rivcash.com/webmaster/banners/ioriv/banner_468x60_it_2.gif
 rivistastudio.com##DIV[class*="studioAdv"]
@@ -275,10 +248,6 @@ techcrunch.com##.advertise-here
 techcrunch.com##DIV[class="ad-unit ad-unit__billboard ad-unit--fixed"]
 techcrunch.com###tc-ad-native
 techprincess.it##.adasta_ad.adasta_loaded
-techprincess.it##.adasta_ad.adasta_loaded
-techprincess.it##.adasta_ad.adasta_loaded
-techprincess.it###Techprincess_it_300x250_HB
-techprincess.it###Techprincess_it_300x250_HB
 techprincess.it###Techprincess_it_300x250_HB
 teleborsa.it###ctl00_if4WTV300x250
 teleborsa.it###leaderboardPh_ifr
@@ -292,8 +261,6 @@ teleclubitalia.it##DIV[id="ead_native_placement"]
 tg24.sky.it##.sponsor-container
 thehackernews.com##.dcmads
 thehackernews.com##.google.cf
-thenextweb.com##.ad-unit--center
-thenextweb.com##.ad-unit--center
 thenextweb.com##.ad-unit--center
 thenounproject.com##DIV[class*="ad-space-container"]
 thenounproject.com##SECTION[class="row-container advertisement"]
@@ -325,13 +292,7 @@ vice.com##.vice-ad
 wall.alphacoders.com##iframe[src="about:blank"]
 wall.alphacoders.com###tfasyncframe_0
 wikifeet.com##.dashad
-wikifeet.com##.dashad
-wikifeet.com##.dashad
 wikifeet.com###dual300
-wikifeet.com###dual300
-wikifeet.com###dual300
-wikifeet.com###vi-sticky-ad
-wikifeet.com###vi-sticky-ad
 wikifeet.com###vi-sticky-ad
 windowscentral.com##.ad.t1
 winhelponline.com##span[class*="ezoic-ad"]
@@ -3348,7 +3309,6 @@ makeuseof.com##[id^="div-gpt-ad"]
 makeuseof.com##.sidebar-banner
 mangaforever.net##DIV[id="advertiseleft"]
 mangaforever.net##DIV[id="advertiseright"]
-mangaforever.net##DIV[id="advertiseright"]
 mangaforever.net##DIV[id="advertisetop"]
 mangafox.com##.ad300x250.left
 mangafox.com##.ad300x250.right
@@ -4383,20 +4343,16 @@ marcheingol.it##IFRAME[src^="https://www.youtube.com/embed/"]
 youtube.com###ad_creative_2
 youtube.com##.ad-div
 youtube.com##a[href^="http://www.youtube.com/cthru?"]
-youtube.com##a[href^="http://www.youtube.com/cthru?"]
 youtube.com##.carousel-offer-url-container
 youtube.com##DIV[id="homepage-sidebar-ads"]
 youtube.com###feedmodule-PRO
 youtube.com###feed-pyv-container
-youtube.com###feed-pyv-container
-youtube.com###footer-ads
 youtube.com###footer-ads
 youtube.com###homepage-chrome-side-promo
 youtube.com##.masthead-ad-control
 youtube.com##.promoted-videos
 youtube.com###search-pva
 youtube.com###video-masthead
-youtube.com###watch-branded-actions
 youtube.com###watch-branded-actions
 youtube.com###watch-buy-urls
 youtube.com##.watch-extra-info-column
@@ -4454,7 +4410,6 @@ bannerflow.com###banner
 ||bet365.com^$popup
 ||bet365.it^$popup
 bgr.com##[id^="google_ads_iframe"]
-bgr.com##[id^="google_ads_iframe"]
 billboard.com##[id^="internal_trc_"]
 billboard.com##[id^="trc_header_"]
 ||binaryinstructor.com^$popup
@@ -4474,7 +4429,6 @@ channel4.com###c4ad-Top
 ||cloudtracked.com/ts/*$popup
 computers.tutsplus.com##.ad.view
 computerworld.com##.ad
-computerworld.com##.ad
 ||cpmoz.com^$popup
 ||cpmterra.com^$popup,domain=firedrive.com
 cuckolditaliani.com##.block-300x250-ads
@@ -4489,7 +4443,6 @@ documoo.tv###leader-wrapper
 ||downloatransfer.com^$popup
 droidviews.com##A[href*="http://*.advertising.com/click/"]
 droidviews.com##.span8.td-header-style-1
-ebay.it###rtm_html_644
 ebay.it###rtm_html_644
 ebay.*###scandal100938
 ebay.*###scandal100939
@@ -4533,8 +4486,6 @@ gpone.com##.ebzNative
 greasyfork.org###script-show-info-ad
 ||guardaserie.net/4k/?*$popup,domain=fastvideo.me
 guidafisco.it##[class^="ad"]
-guidafisco.it##[class^="ad"]
-guidatv.sky.it##.banner_publicitario
 guidatv.sky.it##.banner_publicitario
 hattrick.org###ctl00_ctl00_pnlAdBottom
 hattrick.org###ctl00_ctl00_pnlAdTop
@@ -4594,7 +4545,6 @@ latinospost.com##[id^="google_ads_iframe"]
 ##.leaderAdvert
 leganerd.com###banner_mpu1
 leganerd.com##[id^="banner_mpu"]
-leganerd.com##[id^="banner_mpu"]
 libero.it##.advContFixed
 libero.it##[src*="weborama.fr/advertiser/"]
 lifehacker.com##[data-zone-type="TOP_BANNER"]
@@ -4637,7 +4587,6 @@ motogp.com##.ads
 motogp.com##.bcklink
 multiplayer.it###personalization_ads
 mytaste.it##.panorama
-mytaste.it##.panorama
 ||n99adshostnet.com^$popup,domain=simply-hentai.com
 neogaf.com##.goodie728
 neowin.net##.header-banner-ads
@@ -4648,7 +4597,6 @@ nintendolife.com##[id^="NL_MPU_"][data-dfp-sizes="300x250"]
 nintendon.it##[id^="div-gpt-ad"]
 ||onclickpredictiv.com^$popup
 osxdaily.com##[id^="tfasyncframe_"]
-osxdaily.com##[id^="tfasyncframe_"][width="300"]
 osxdaily.com##[id^="tfasyncframe_"][width="300"]
 ow.ly##.adbox
 ||paddypower.it^$popup
@@ -4676,7 +4624,6 @@ q.gs##iframe[id="rf"]
 ||quattroruote.it^$popup,domain=openload.co
 ||rackcdn.com^$popup
 rai.tv##.banner300x250
-rai.tv##.banner300x250
 ||rdsa2012.com^$popup
 ||readmanga.eu/$popup
 realtimetv.it###mpu
@@ -4684,7 +4631,6 @@ repubblica.it###adv-scrollable
 robertoiacono.it##.post-ad-top
 runtastic.com###add_ad_space
 runtastic.com##[id^="google_ads_iframe"]
-runtastic.com##.l_ad_top
 runtastic.com##.l_ad_top
 salepepe.it##.adsense
 salepepe.it##[class*="adv"]
@@ -4699,10 +4645,7 @@ sh.st##[id^="epom-"]
 sh.st###intermediate-ad
 sicurauto.it##[id^="jadv_"]
 sky.it###admasthead
-sky.it###admasthead
 sky.it###adv_wpclickdiv
-sky.it###adv_wpclickdiv
-sky.it###adwallpaper
 sky.it###adwallpaper
 smallpdf.com##.result-ad
 smereghetti.com##.adsxpls
@@ -4743,7 +4686,6 @@ tumblr.com##.sidebar-ad
 tuttoannunci.org###TB_overlay
 tuttomercatoweb.com##.clear
 ucicinemas.it###adv-strip-container
-ucicinemas.it###adv-strip-container
 uk.businessinsider.com##[id^="google_ads_iframe"]
 uk.businessinsider.com##.right-ad
 uk.businessinsider.com##.subnav-container
@@ -4775,12 +4717,10 @@ wccftech.com##.wpInsert.wpInsertInPostAd
 webnews.it###bottomAd
 webnews.it##[id^="jadv_leoadv"]
 who.is##.advertisements
-who.is##.advertisements
 windows8blog.it##.cmampos2-content-widget
 wowcast.tv###video_ads_overdiv
 ||wwwpromoter.com^$popup
 xboxdvr.com##.ad-container
-xboxdvr.com##[class^="ad-container"]
 xboxdvr.com##[class^="ad-container"]
 xboxdvr.com##[id^="ox_"][width="300"][height="250"]
 ||xlovecam.com^$popup
