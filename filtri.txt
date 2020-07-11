@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202007111507
+! Version: 202007111508
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
 ! Last modified: 11-07-2020
@@ -18,7 +18,6 @@
 @@||esselungaacasa.it^$document
 @@||google.com/jsapi$script,third-party
 @@||manager.targetcircle.com^$document
-
 ! [ABP X Files - NO ADS]
 @@||fuorigio.co^$document
 @@||gioxx.org^$document
@@ -26,10 +25,8 @@
 @@||mozillaitalia.net^$document
 @@||mozillaitalia.org^$document
 @@||noads.it^$document
-
 ! [ABP X Files - ADS non invasivi]
 @@||facciabuco.com^$document
-
 ! [ABP X Files - Filtri WebExt]
 01net.it##div[id*="sas_"]
 01net.it##.td-header-header-full
@@ -354,7 +351,6 @@ www.laleggepertutti.it##DIV[class="div_topbanner"]
 www.linkiesta.it##DIV[id="wa_div_LINKIESTA.IT_WEB_OTHER_TOP"]
 xe.com##.bannerAdContainer
 zdnet.com##.ad-nav-ad.skybox-closeBtn
-
 ! [ABP X Files - Elementi bloccati]/blocking
 ||10fbb07a4b0.se^$popup
 ||178.32.140.64/pv.php?*
@@ -2145,7 +2141,6 @@ s4egy.com##HTML *
 ||yepp-yepp.it^$popup,image,~image
 ||zedo.com^$popup
 ||z.moatads.com^
-
 ! [ABP X Files - Elementi nascosti]/elemhide
 01net.it###ADVleaderboard
 01net.it###ADVleaderpiede
@@ -4375,7 +4370,6 @@ zippyshare.com##DIV[class="center_reklamy"]
 zoomtv.me##DIV[id="memberad"]
 zpag.es##.top_bar.top_bar_ad
 ###zzsliderlayer_tc_box
-
 ! [ABP X Files - YouTube]
 =adunit&
 ||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
@@ -4411,7 +4405,6 @@ youtube.com##.watch-extra-info-right
 ||ytimg.com^*/new_watch_background$domain=youtube.com
 @@||ytimg.com/yts/jsbin/$script
 ##.ytp-ad-progress-list
-
 ! [ABP X Files - Filtri sperimentali]
 ##.adsbox
 ##.advn_zone
@@ -4422,7 +4415,6 @@ boredpanda.com##img[src^="data:image/png;base64,"]
 /fuckadblock.js
 ||rtax.criteo.com^$third-party
 ||viglink.com/images/pixel.gif
-
 ! [ABP X Files - Contributi dagli utenti]
 ||32red.it^$popup
 3bmeteo.com##[id^="adv_"]
@@ -4793,4 +4785,3 @@ xboxdvr.com##[class^="ad-container"]
 xboxdvr.com##[id^="ox_"][width="300"][height="250"]
 ||xlovecam.com^$popup
 ||zeroredirect10.com^$popup
-
