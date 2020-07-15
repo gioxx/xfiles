@@ -3,7 +3,7 @@ ABP X Files (xfiles.noads.it)
 ===================
 **Adblock Plus** filtra immagini, pubblicità, banner ed altri elementi "*bloccabili*" presenti sulle pagine web e permette quindi di navigare in un web più "*pulito e leggero*" perché privo di pubblicità invasiva. Include inoltre funzioni di sincronizzazione e di whitelisting. È un componente aggiuntivo nato per Mozilla Firefox, poi reso disponibile per altri browser.
 
-![ABP X Files - xfiles.noads.it](https://gioxx.org/wp-content/uploads/abpxfiles-NewHeaderText-bigBanner.jpg)
+![ABP X Files - xfiles.noads.it](https://gioxx.org/wp-content/uploads/2020/07/abp-x-files-nuovo-processo-di-creazione-della-lista-stabile-e-di-hws.jpg)
 
 **X Files** è il nome del progetto nato per gioco, diventato punto di riferimento nazionale per il filtraggio della pubblicità invasiva su una moltitudine di siti web nostrani e internazionali. Il sito web del progetto si trova all'indirizzo https://xfiles.noads.it
 
