@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202010251619
+! Version: 202010301617
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 25-10-2020
+! Last modified: 30-10-2020
 ! Expires: 7 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -14,6 +14,7 @@
 @@||assistenza.sky.it^$document
 @@||betrad.com/geo/h1.js$domain=corriere.it|gazzetta.it
 @@||betrad.com/pub/c/*.js$domain=corriere.it|gazzetta.it
+@@||cloudfront.net/$domain=login.libero.it
 @@||console.cloud.google.com^$document
 @@||esselungaacasa.it^$document
 @@||google.com/jsapi$script,third-party
