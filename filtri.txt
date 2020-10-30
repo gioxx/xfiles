@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202010301617
+! Version: 202010301746
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
 ! Last modified: 30-10-2020
@@ -14,7 +14,6 @@
 @@||assistenza.sky.it^$document
 @@||betrad.com/geo/h1.js$domain=corriere.it|gazzetta.it
 @@||betrad.com/pub/c/*.js$domain=corriere.it|gazzetta.it
-@@||cloudfront.net/$domain=login.libero.it
 @@||console.cloud.google.com^$document
 @@||esselungaacasa.it^$document
 @@||google.com/jsapi$script,third-party
@@ -429,7 +428,6 @@ classifichemusica.com/wp-content/plugins/wp-popup-scheduler/*
 ||clickpoint.it^$third-party
 ||clkfeed.com/adServe/*$popup
 ||cl.netseer.com/dsatserving2/servlet/BannerServer?*
-||cloudfront.net/$domain=login.libero.it
 ||codeonclick.com^
 ||cokeandpopcorn.ch/ads/*
 content.codelnet.com/*ad*
