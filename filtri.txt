@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202011291935
+! Version: 202011291937
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
 ! Last modified: 29-11-2020
@@ -167,6 +167,7 @@ ilfattoquotidiano.it##[id^="ifq-intext-container-"]
 ilgiorno.it##.teads-inread
 ilmessaggero.it##amp-sticky-ad.i-amphtml-element
 ilmessaggero.it##div.adv_container:nth-child(2)
+ilmessaggero.it##.head_skin_add
 ilpost.it###btop
 ilpost.it##DIV[class="teads-inread"]
 ilpost.it##DIV[class="teads-inread xs-screen"]
