@@ -1,10 +1,1 @@
 ! [ABP X Files - Filtri sperimentali]
-/fuckadblock.js
-##.adsbox
-##.advn_zone
-##.afs_ads
-||chameleon.ad/banner/$third-party
-||rtax.criteo.com^$third-party
-||viglink.com/images/pixel.gif
-boredpanda.com##img[src^="data:image/jpeg;base64,"]
-boredpanda.com##img[src^="data:image/png;base64,"]

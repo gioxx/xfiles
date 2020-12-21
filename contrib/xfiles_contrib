@@ -1,10 +1,19 @@
 ! [ABP X Files - Contributi dagli utenti]
-.php?zoneid=
 @@||5nowvideo.com/banner.php?
+*.cineblog01.tv/ads_rot/
+*.exoclick.com/xhamster-945x100.php
+*.solocpm.com/*/728.aspx
+*.solocpm.com/FooterIN-1.aspx
+*.trafficfactory.biz//banners/
+*.usayhealthsolutions.com/news/stay-healthy/
 /ads1.
 /banner.php
+/fuckadblock.js
 /popunder2.
 ##.adsbox
+##.adsbox
+##.advn_zone
+##.afs_ads
 ##.c_ligatus_nxn
 ##.center_ads
 ##.horizontalAd
@@ -38,6 +47,7 @@
 ||bit.ly^$popup,domain=openload.co|fastvideo.eu
 ||bitterstrawberry.org^$popup,domain=simply-hentai.com
 ||cam4.it^$popup
+||chameleon.ad/banner/$third-party
 ||cineblog01.li^$popup,domain=guardaserie.net
 ||cintnetworks.com^$third-party
 ||cloudtracked.com/ts/*$popup
@@ -77,6 +87,7 @@
 ||rackcdn.com^$popup
 ||rdsa2012.com^$popup
 ||readmanga.eu/$popup
+||rtax.criteo.com^$third-party
 ||saluteperme.com^$popup
 ||sex-flow.com^$popup
 ||statsmobi.com^$popup
@@ -87,33 +98,21 @@
 ||tubeviral.com^$popup
 ||video.notizie.it^$popup
 ||videowood.tv^$popup
+||viglink.com/images/pixel.gif
 ||warthunder.com^$popup
 ||washingtonpost.com/wp-stat/pwapi/prod/*
 ||wccftech.com/pubgalaxy/*
 ||wwwpromoter.com^$popup
 ||xlovecam.com^$popup
 ||zeroredirect10.com^$popup
-|http://*.cineblog01.tv/ads_rot/
-|http://*.exoclick.com/xhamster-945x100.php
-|http://*.solocpm.com/*/728.aspx
-|http://*.solocpm.com/FooterIN-1.aspx
-|http://*.trafficfactory.biz//banners/
-|http://*.usayhealthsolutions.com/news/stay-healthy/
-|http://ads*.qadabra.com/
-|http://adultsense.org/fappening/
-|http://aff.camplace.com/uploads/banners/
-|http://backin.net/banner/
-|http://banners.sexypartners.net/
-|http://comesiscrive.it/workspace/javascripts/sociallocker/
-|http://enoratraffic.com/*/900_xhamster.php
-|http://mediafireads.com/www/delivery/afr.php
-|http://urbanpost.it/*/skin*
-|http://urbanpost.it/wp-content/themes/uptheme/images/1px.png
 3bmeteo.com##[id^="adv_"]
 5nowvideo.com###aad
 5nowvideo.com###aad2
 accuweather.com###header-davek
 adf.ly###rf
+ads*.qadabra.com/
+adultsense.org/fappening/
+aff.camplace.com/uploads/banners/
 alfemminile.com##[id^="af_player"]
 alternativeto.net##DIV[class="divLeaderboardLove"]
 alternativeto.net##DIV[id="loveBox"]
@@ -123,16 +122,21 @@ androidworld.it###ligatus_content_ad
 ansa.it###advCustomMainDivBg
 ansa.it##OBJECT[data^="http://timeseeker.thebelab.it/banner"]
 answers.yahoo.com###ya-darla-LREC
+backin.net/banner/
 bannerflow.com###banner
+banners.sexypartners.net/
 bgr.com##[id^="google_ads_iframe"]
 billboard.com##[id^="internal_trc_"]
 billboard.com##[id^="trc_header_"]
 bing.com##.b_ad
 blog.bepuppy.com##.ad-inserter
 blog.bepuppy.com##.top-sidebar-wrapper
+boredpanda.com##img[src^="data:image/jpeg;base64,"]
+boredpanda.com##img[src^="data:image/png;base64,"]
 breathecast.com##[id^="google_ads_iframe_"]
 camelcamelcamel.com##[id^="ad_center"]
 channel4.com###c4ad-Top
+comesiscrive.it/workspace/javascripts/sociallocker/
 computers.tutsplus.com##.ad.view
 computerworld.com##.ad
 cuckolditaliani.com##.block-300x250-ads
@@ -158,6 +162,7 @@ engadget.com##.uac_728x90
 engadget.com###atwAdFrame0
 engadget.com###atwAdFrame0EAN
 engadget.com###right-ads-rail
+enoratraffic.com/*/900_xhamster.php
 eurogamer.it###leaderboard
 eurogamer.it###skyscraper
 eurosport.yahoo.com##.yom-ad
@@ -235,6 +240,7 @@ macitynet.it###leader-wrapper
 mail.yahoo.com###slot_MB
 mail.yahoo.com###slot-mb-msg-read
 makeuseof.com##.sidebar-banner
+mediafireads.com/www/delivery/afr.php
 metacritic.com##[id^="google_ads_iframe"]
 meteo.it##.sticky_adv
 meteo.it##[class^=" gemini-ad"]
@@ -327,6 +333,8 @@ uk.businessinsider.com##[id^="google_ads_iframe"]
 universomamma.it##[class^="__adnt"]
 universomamma.it##[class^="ad m_bot"]
 uploaded.net##IFRAME[style="border:0px solid #000000"][src="about:blank"]
+urbanpost.it/*/skin*
+urbanpost.it/wp-content/themes/uptheme/images/1px.png
 urbanpost.it##.wes_div
 urbanpost.it##[id^="ligatus_speweb_"]
 urbanpost.it###skinlink
