@@ -1,0 +1,50 @@
+! [ABP X Files - Filtri per blocco abuso risorse CPU]
+://api.*/lib/native.wasm$3p
+./M5q5.js$script
+*?proxy=$script
+*$csp=worker-src 'none',domain=123moviesgo.nl|bmovies123.me|fmoviesgo.me|skytorrents.me
+*$csp=worker-src 'none',domain=alltube.tv|lewd.ninja|milujivareni.cz|subswiki.com
+*$csp=worker-src 'none',domain=flashx.pw|vidoza.net
+*$csp=worker-src 'none',domain=megapastes.com
+*$csp=worker-src 'none',domain=powvideo.net
+*$csp=worker-src 'none',domain=unblocktheship.org
+/adsensebase.js$script
+/angular8.js
+/edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
+||arc.io/widget.js$script,3p
+||backend.dna-delivery.com^$domain=france.tv|rt.com
+||cloudfront.net/mmfb2.html
+||cryweb.github.io^
+||crywebber.github.io^
+||csgo.xyz^$doc
+||dragonballzpolo.*^$csp=worker-src 'none'
+||fiddle.jshell.net^$csp=worker-src 'none';
+||fileone.tv^$csp=child-src 'none';frame-src 'self' *;worker-src 'none';
+||firstone.*^$csp=worker-src 'none';
+||firstonetv.*^$csp=connect-src 'none';
+||firstonetv.*^$csp=worker-src 'none';
+||hdvid.tv^$csp=worker-src 'none'
+||hostingcloud.*^
+||ianimes.co^$csp=worker-src 'none';
+||jshosting.*^
+||leitor.net^$csp=worker-src 'none';
+||mailboxdelivery.com^$doc
+||potomy.ru^$csp=worker-src 'none'
+||protect-link.biz^$csp=worker-src 'none';
+||rawgit.com/Pocketart/$script,3p
+||revdl.com^$csp=worker-src 'none';
+||safelinkconverter.com^$script,3p
+||sickrage.ca^$csp=worker-src 'none'
+||sorteosrd.com^$csp=worker-src 'none'
+||thevideo.*^$csp=worker-src 'none';
+||upgraderservices.cf^
+||void.cat^$csp=worker-src 'none'
+||wallpoper.com^$csp=worker-src 'none'
+djs.sk##+js(aopr, miner)
+nxload.com##+js(aopr, miner)
+shrink-service.it##+js(aopr, WebAssembly)
+sleeptimer.org##+js(aopr, WebAssembly)
+steamplay.*##+js(aopw, CoinNebula)
+tasma.ru##+js(aopw, decodeURIComponent)
+tomadivx.tv##+js(aopr, WebAssembly)
+tubettajat.net##+js(aopr, miner)
