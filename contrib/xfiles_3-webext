@@ -1,4 +1,8 @@
 ! [ABP X Files - Filtri WebExt]
+###adv_Intropage
+###link_ws_bleft
+###link_ws_bright
+###link_ws_btop
 ||*/static.fanpage.it/adv-assets/*
 ||acceptable.a-ads.com/
 ||ad6media.fr^$script,popup
@@ -224,6 +228,8 @@ milanotoday.it##body > [href^="https://vda.milanotoday.it/~vda/___/o.php"]
 mrwebmaster.it##.advrow.advmid
 msoutlook.info###header-banner
 my-personaltrainer.it###spazio2
+notizieora.it##.evo-intext.gptslot
+notizieora.it##.evo-masthead.mtm.mbm.adv-box.gptslot
 nxmac.com##IFRAME[src^="https://www.linkonclick.com/ad/"]
 nytimes.com###top-wrapper
 office365itpros.com##.wpcnt
@@ -342,9 +348,6 @@ trakt.tv##DIV[id="hu-ck-s-t-er-de-sk-top-sidenav"]
 trakt.tv##DIV[id="hu-ck-s-t-er-de-sk-top-wrapper"]
 treccani.it##.bannercontainer
 treccani.it##.sm-screen.teads-inread
-treccani.it###link_ws_bleft
-treccani.it###link_ws_bright
-treccani.it###link_ws_btop
 tumblr.com##DIV[class^="teads-inread"]
 tumblr.com##IFRAME[class="teads-resize"]
 tunebat.com##.center-block.ad-container-box.pb-alt
@@ -384,9 +387,6 @@ wired.it##.mainWrapper > .ADV
 wired.it##DIV[class="notranslate"]
 witandfolly.co##SPAN[class^="ezoic-ad"]
 witandfolly.co##SPAN[id^="ezoic-pub-ad-placeholder"]
-wittgenstein.it##A[id="link_ws_bleft"]
-wittgenstein.it##A[id="link_ws_bright"]
-wittgenstein.it##A[id="link_ws_btop"]
 www-repubblica-it.cdn.ampproject.org##DIV[class="adv-container"]
 www.3bmeteo.com##DIV[id="sidebar-video-fixed"]
 www.laleggepertutti.it##DIV[class="div_topbanner"]
