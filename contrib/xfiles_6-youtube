@@ -2,28 +2,49 @@
 @@||s.ytimg.com/yts/swfbin/player-*/watch_as3.swf$object,domain=youtube.com
 @@||yimg.com^*/combo?$stylesheet,domain=yahoo.com
 @@||ytimg.com/yts/jsbin/$script
+/pagead/lvz?
 /pubads.
+/securepubads.
 ##.video-ads
+##.ytd-companion-slot-renderer
+##.ytd-player-legacy-desktop-watch-ads-renderer
 ##.ytp-ad-progress-list
+##.ytp-ad-progress-list
+###merch-shelf
+###player-ads
 ###watch7-sidebar-ads
+##ytd-companion-slot-renderer
 =adunit&
 ||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
+||google.com/pagead/
+||googleads.g.doubleclick.net^$domain=youtube.com
 ||phobos.apple.com^$image,domain=youtube.com
+||static.doubleclick.net^$domain=youtube.com
+||static.doubleclick.net^$domain=youtube.com trovato in
+||tpc.googlesyndication.com^
+||www.google.com/pagead/$domain=youtube.com
+||www.youtube.com/get_midroll_$domain=youtube.com
+||youtube.com/pagead/
 ||ytimg.com^*_banner$domain=youtube.com
 ||ytimg.com^*/new_watch_background$domain=youtube.com
 marcheingol.it##IFRAME[src^="https://www.youtube.com/embed/"]
+youtube.com,youtube-nocookie.com#$#json-prune '2.playerResponse.adPlacements playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds'
 youtube.com##.ad-div
 youtube.com##.carousel-offer-url-container
 youtube.com##.masthead-ad-control
 youtube.com##.promoted-videos
 youtube.com##.watch-extra-info-column
 youtube.com##.watch-extra-info-right
+youtube.com##.ytd-companion-slot-renderer
+youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
+youtube.com##.ytp-ad-progress-list
 youtube.com###ad_creative_2
 youtube.com###feed-pyv-container
 youtube.com###feedmodule-PRO
 youtube.com###footer-ads
 youtube.com###homepage-chrome-side-promo
 youtube.com###masthead-ad
+youtube.com###merch-shelf
 youtube.com###search-pva
 youtube.com###video-masthead
 youtube.com###watch-branded-actions
@@ -31,3 +52,4 @@ youtube.com###watch-buy-urls
 youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##a[href^="http://www.youtube.com/cthru?"]
 youtube.com##DIV[id="homepage-sidebar-ads"]
+youtube.com##ytd-companion-slot-renderer
