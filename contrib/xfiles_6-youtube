@@ -9,7 +9,6 @@
 ##.ytd-companion-slot-renderer
 ##.ytd-player-legacy-desktop-watch-ads-renderer
 ##.ytp-ad-progress-list
-##.ytp-ad-progress-list
 ###merch-shelf
 ###player-ads
 ###watch7-sidebar-ads
@@ -45,6 +44,7 @@ youtube.com###footer-ads
 youtube.com###homepage-chrome-side-promo
 youtube.com###masthead-ad
 youtube.com###merch-shelf
+youtube.com###root > .ytd-display-ad-renderer.style-scope
 youtube.com###search-pva
 youtube.com###video-masthead
 youtube.com###watch-branded-actions
