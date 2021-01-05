@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202101031059
+! Version: 202101051305
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 03-01-2021
+! Last modified: 05-01-2021
 ! Expires: 2 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -4594,11 +4594,16 @@ tubettajat.net##+js(aopr, miner)
 ###CybotCookiebotDialog
 ##DIV[id^="sp_message_container_"]
 ###dl_cookieBanner
+###gdpr-consent-tool-wrapper
+##.ginger_banner-wrapper
 godaddy.com##.alert-dismissible.alert
 ilwebmaster21.com##.swal2-shown.swal2-fade.swal2-center.swal2-container
 ##.iubenda-cs-container
+##.iubenda-cs-visible
 ###onetrust-consent-sdk
+###optanon
 ##.qc-cmp2-main
+###qc-cmp2-main
 w3schools.com##.snigel-cmp-framework
 ! [ABP X Files - Contributi dagli utenti]
 ||32red.it^$popup
