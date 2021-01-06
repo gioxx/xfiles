@@ -1,0 +1,50 @@
+name: ABP eXperimental Files
+on:
+  push:
+    paths:
+    - 'contrib/xfiles_*'
+#  push:
+#    branches: [ master ]
+#  pull_request:
+#    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Start engine
+        run: sh ./sh/datetime.sh
+
+      - name: Prepare list header
+        run: |
+          echo "[Adblock Plus 2.8]" > experimental.txt
+          echo "! Version:" $update >> experimental.txt
+          echo "! Title: ABP eXperimental Files: the unstable list" >> experimental.txt
+          echo "! Fork sperimentale di X Files, si consiglia di usare la lista Stable!" >> experimental.txt
+          echo "! Last modified:" $lastmodified >> experimental.txt
+          echo "! Expires: 2 days" >> experimental.txt
+          echo "! Homepage: https://xfiles.noads.it" >> experimental.txt
+          echo "! Home: https://xfiles.noads.it" >> experimental.txt
+          echo "! Blog: https://gioxx.org/tag/abpxfiles" >> experimental.txt
+          echo "! Hosting: GitHub.com" >> experimental.txt
+          echo "!" >> experimental.txt
+
+      - name: The rocket is ready to be launched
+        run: sh ./sh/make_experimental.sh
+
+      - name: Commit
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add experimental.txt
+          git commit -m "Experimental $update del $lastmodified" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GHUB_TOKEN }}
+          branch: ${{ github.ref }}
