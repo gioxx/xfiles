@@ -27,7 +27,7 @@ jobs:
           echo "! Title: ABP eXperimental Files: the unstable list" >> experimental.txt
           echo "! Fork sperimentale di X Files, si consiglia di usare la lista Stable!" >> experimental.txt
           echo "! Last modified:" $lastmodified >> experimental.txt
-          echo "! Expires: 2 days" >> experimental.txt
+          echo "! Expires: 8 hours" >> experimental.txt
           echo "! Homepage: https://xfiles.noads.it" >> experimental.txt
           echo "! Home: https://xfiles.noads.it" >> experimental.txt
           echo "! Blog: https://gioxx.org/tag/abpxfiles" >> experimental.txt
