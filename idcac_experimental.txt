@@ -1,0 +1,35 @@
+[Adblock Plus 2.8]
+! Version: 202101080831
+! Title: ABP eXperimental Files: IDCAC
+! Lista sperimentale per il blocco dei messaggi / popup sull'accettazione Cookie
+! Last modified: 08-01-2021
+! Expires: 1 days
+! Homepage: https://xfiles.noads.it
+! Home: https://xfiles.noads.it
+! Blog: https://gioxx.org/tag/abpxfiles
+! Hosting: GitHub.com
+!
+###CybotCookiebotDialog
+###banner_consenso_cookie
+###bdConsentUI
+###cookie-bar
+###cookie-disclosure
+###dl_cookieBanner
+###gdpr-consent-tool-wrapper
+###onetrust-consent-sdk
+###optanon
+###qc-cmp2-main
+##.MuiDialog-root
+##.as-oil-content-overlay
+##.cookie-notice-container
+##.ginger_banner-wrapper
+##.iubenda-cs-container
+##.iubenda-cs-visible
+##.qc-cmp2-container
+##.qc-cmp2-main
+##.show.cookiebar
+##.snigel-cmp-framework
+##DIV[id^="sp_message_container_"]
+godaddy.com##.alert-dismissible.alert
+ilwebmaster21.com##.swal2-shown.swal2-fade.swal2-center.swal2-container
+w3schools.com##.snigel-cmp-framework
