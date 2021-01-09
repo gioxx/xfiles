@@ -1,9 +1,9 @@
 [Adblock Plus 2.8]
-! Version: 202101081007
+! Version: 202101091545
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 08-01-2021
-! Expires: 2 days
+! Last modified: 09-01-2021
+! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
 ! Blog: https://gioxx.org/tag/abpxfiles
@@ -97,6 +97,7 @@ dday.it##DIV[id="barra_click_top"]
 dellwindowsreinstallationguide.com###adtester-container
 dellwindowsreinstallationguide.com##.ezoic-ad
 dellwindowsreinstallationguide.com##.wpcnt.wpcnt-header
+diffchecker.com##.ad-container
 digitalcitizen.life##ASIDE[class="block-amp-ad-in-text-two block block--amp-ad"]
 digitaltrends.com##.dtads-slot.dtads-slot-leaderboard.dtads-desktop.callout.solid
 dilei.it###adv_left_div
@@ -245,6 +246,7 @@ milano.fanpage.it###skin-click-tag
 milanoevents.it##DIV[class*="td-a-rec-id-custom_ad"]
 milanotoday.it##.slot.slot-masthead
 milanotoday.it##body > [href^="https://vda.milanotoday.it/~vda/___/o.php"]
+money.it##.max-w-screen-xl.mx-auto.billboard
 mrwebmaster.it##.advrow.advmid
 msoutlook.info###header-banner
 my-personaltrainer.it###spazio2
@@ -306,6 +308,8 @@ shutterencoder.com##DIV[id="videoRight"]
 smallbusiness.chron.com##.trc_rbox_container
 smallbusiness.chron.com##DIV[class="leaderboard"]
 smallbusiness.chron.com##body > .ad-leaderboard
+smallseotools.com###pageComparison > div._hmmm_
+smallseotools.com##.adp_interactive_ad
 snazzyspace.com###spout-unit-0-iframe
 snazzyspace.com###spout-unit-1-iframe
 snazzyspace.com##.placement-pushup.spout-mode-short.spout-show
@@ -4602,6 +4606,7 @@ tubettajat.net##+js(aopr, miner)
 *###qc-cmp2-main
 *##.MuiDialog-root
 *##.as-oil-content-overlay
+*##.cl-consent
 *##.cookie-notice-container
 *##.ginger_banner-wrapper
 *##.iubenda-cs-container
@@ -4613,6 +4618,8 @@ tubettajat.net##+js(aopr, miner)
 *##DIV[id^="sp_message_container_"]
 godaddy.com##.alert-dismissible.alert
 ilwebmaster21.com##.swal2-shown.swal2-fade.swal2-center.swal2-container
+smallseotools.com###bio_ep
+smallseotools.com###bio_ep_bg
 w3schools.com##.snigel-cmp-framework
 ! [ABP X Files - Contributi dagli utenti]
 ###adcontainer
