@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202101091545
+! Version: 202101091750
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
 ! Last modified: 09-01-2021
@@ -4594,30 +4594,32 @@ tubettajat.net##+js(aopr, miner)
 ||void.cat^$csp=worker-src 'none'
 ||wallpoper.com^$csp=worker-src 'none'
 ! [ABP X Files - Filtri per blocco popup accettazione Cookie (sperimentale)]
-*###CybotCookiebotDialog
-*###banner_consenso_cookie
-*###bdConsentUI
-*###cookie-bar
-*###cookie-disclosure
-*###dl_cookieBanner
-*###gdpr-consent-tool-wrapper
-*###onetrust-consent-sdk
-*###optanon
-*###qc-cmp2-main
-*##.MuiDialog-root
-*##.as-oil-content-overlay
-*##.cl-consent
-*##.cookie-notice-container
-*##.ginger_banner-wrapper
-*##.iubenda-cs-container
-*##.iubenda-cs-visible
-*##.qc-cmp2-container
-*##.qc-cmp2-main
-*##.show.cookiebar
-*##.snigel-cmp-framework
-*##DIV[id^="sp_message_container_"]
+###CybotCookiebotDialog
+###banner_consenso_cookie
+###bdConsentUI
+###cookie-bar
+###cookie-disclosure
+###dl_cookieBanner
+###gdpr-consent-tool-wrapper
+###onetrust-consent-sdk
+###optanon
+###qc-cmp2-main
+##.MuiDialog-root
+##.as-oil-content-overlay
+##.cl-consent
+##.cookie-notice-container
+##.ginger_banner-wrapper
+##.iubenda-cs-container
+##.iubenda-cs-visible
+##.qc-cmp2-container
+##.qc-cmp2-main
+##.show.cookiebar
+##.snigel-cmp-framework
+##DIV[id^="sp_message_container_"]
 godaddy.com##.alert-dismissible.alert
 ilwebmaster21.com##.swal2-shown.swal2-fade.swal2-center.swal2-container
+lloydsfarmacia.it##.truste_box_overlay
+lloydsfarmacia.it##DIV[id^="pop-div"]
 smallseotools.com###bio_ep
 smallseotools.com###bio_ep_bg
 w3schools.com##.snigel-cmp-framework
