@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202101130000
+! Version: 202101140000
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 13-01-2021
+! Last modified: 14-01-2021
 ! Expires: 7 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -154,6 +154,7 @@ gazzetta.it###barra_click_top
 gazzetta.it##.bck-adv
 gazzetta.it##.teads-inread
 getbootstrap.com###carbonads
+get-itsolutions.com##.ezoic-ad
 ghacks.net##.adsbygoogle
 gizmodo.com##.ad-mobile-inner
 greenme.it##DIV[id="adwallpaper"]
@@ -4601,12 +4602,14 @@ tubettajat.net##+js(aopr, miner)
 ##.cl-consent
 ###cookie-bar
 ###cookie-disclosure
+###cookielaw
 ##.cookie-notice-container
 ###CybotCookiebotDialog
 ##DIV[id^="sp_message_container_"]
 ###dl_cookieBanner
 faimed.it##.lgcookieslaw_banner
 ###gdpr-consent-tool-wrapper
+get-itsolutions.com##.cc_container--open.cc_container.cc_banner
 ##.ginger_banner-wrapper
 godaddy.com##.alert-dismissible.alert
 ilfattoquotidiano.it##.cl-consent-center.cl-consent
