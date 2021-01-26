@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202101231427
+! Version: 202101260902
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 23-01-2021
+! Last modified: 26-01-2021
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -32,6 +32,7 @@
 ###link_ws_bright
 ###link_ws_btop
 ##.adsbygoogle
+##.teads-inread
 01net.it##.td-header-header-full
 01net.it##div[id*="sas_"]
 1fichier.com###cookie_box
@@ -62,7 +63,6 @@ aranzulla.it###pm_top_div
 aranzulla.it##DIV[id^="ad"]
 arstechnica.com##.ad_crown.ad
 arstechnica.com##.ad_instream
-betanews.com##DIV[class="teads-inread xs-screen"]
 bitchyf.it###trc_wrapper_80827
 bitchyf.it##.trc_rbox.thumbnails-x.trc-content-sponsored
 bleepingcomputer.com##.cnx-size-responsive.cnx-player-wrapper
@@ -150,7 +150,6 @@ gazzetta.it###barra_click_dx
 gazzetta.it###barra_click_sx
 gazzetta.it###barra_click_top
 gazzetta.it##.bck-adv
-gazzetta.it##.teads-inread
 get-itsolutions.com##.ezoic-ad
 getbootstrap.com###carbonads
 ghacks.net##.adsbygoogle
@@ -174,8 +173,6 @@ ilfattoquotidiano.it###adv-intext-
 ilfattoquotidiano.it##.cc-adv-wrapper
 ilfattoquotidiano.it##[id^="ifq-intext-container-"]
 ilfattoquotidiano.it##div:nth-of-type(10)
-ilgiorno.it##.teads-inread
-illumeably.com##.sm-screen.teads-inread
 illumeably.com##div#desktop_728x90.adSlotSeen
 illumeably.com##div.ad-label
 ilmessaggero.it##.head_skin_add
@@ -184,8 +181,6 @@ ilmessaggero.it##div.adv_container:nth-child(2)
 ilpost.it###btop
 ilpost.it###scrolling-container
 ilpost.it###strip_adv
-ilpost.it##DIV[class="teads-inread xs-screen"]
-ilpost.it##DIV[class="teads-inread"]
 ilpost.it##DIV[id="HDF_RPU_SKIN_INJECTION"]
 ilpost.it##DIV[id="NEW_EB_DIV"]
 ilsoftware.it##DIV[class="gsc-adBlock"]
@@ -211,7 +206,6 @@ itwriting.com##[href^="https://www.sysax.com/ppc/sxitwads/"]
 jsonlint.com###carbon-block
 justwatch.com##.ad-unit
 key4biz.it##.banner.d-block
-laleggepertutti.it##.teads-inread
 lastampa.it##.adv-container
 leganerd.com##A[href^="https://adclick.g.doubleclick.net"]
 libero.it###adv_topper
@@ -266,6 +260,7 @@ pagomeno.it##.adbox
 pasty.link##.adsense
 pcmag.com###pcmedia
 pcprofessionale.it##DIV[id="GenecyDFPAdWallpaperCont"]
+pendrivelinux.com##.adtester-container
 petri.com##.ad
 petri.com##.single__ad
 pexels.com###carbonads
@@ -332,7 +327,6 @@ sqlpowershell.blog##.wpcnt
 startupitalia.eu##.varb
 startupitalia.eu##DIV[class^="__lxG__multi"]
 studiocataldi.it##DIV[class="sopraarticolo20"]
-studiocataldi.it##DIV[class="teads-inread xs-screen"]
 t.17track.net##.gad-container
 techcrunch.com###tc-ad-native
 techcrunch.com##.ad-unit__ad.ad-unit__native
@@ -340,7 +334,6 @@ techcrunch.com##.advertise-here
 techcrunch.com##DIV[class="ad-unit ad-unit__billboard ad-unit--fixed"]
 techprincess.it###Techprincess_it_300x250_HB
 techprincess.it##.adasta_ad.adasta_loaded
-techprincess.it##DIV[class="teads-inread xs-screen"]
 techprincess.it##SECTION[class="widget quads-ad6_widget"]
 teleborsa.it###ctl00_if4WTV300x250
 teleborsa.it###ctl00_phContents_ctlNewsPanel_rptMainColumn_ctl00_pnlHomeTVAds
@@ -348,7 +341,6 @@ teleborsa.it###leaderboardPh_ifr
 teleborsa.it##body > div
 teleclubitalia.it##DIV[class=" init nat-widgetContainer loaded"]
 teleclubitalia.it##DIV[class="gruppo1"]
-teleclubitalia.it##DIV[class="teads-inread"]
 teleclubitalia.it##DIV[class="teads-player"]
 teleclubitalia.it##DIV[id="DotnAd_300x250_intext"]
 teleclubitalia.it##DIV[id="DotnAd_728x90_atf"]
@@ -377,8 +369,6 @@ trakt.tv##DIV[id="hu-ck--st-er-desk-top-wrapper"][class="middle light"]
 trakt.tv##DIV[id="hu-ck-s-t-er-de-sk-top-sidenav"]
 trakt.tv##DIV[id="hu-ck-s-t-er-de-sk-top-wrapper"]
 treccani.it##.bannercontainer
-treccani.it##.sm-screen.teads-inread
-tumblr.com##DIV[class^="teads-inread"]
 tumblr.com##IFRAME[class="teads-resize"]
 tunebat.com###mailchimp-popup-container
 tunebat.com##.center-block.ad-container-box.pb-alt
@@ -2495,7 +2485,6 @@ brighthub.com###adblock_300x250_btf
 brighthub.com##DIV[class="adBox"]
 browse.deviantart.com##.blt-ad-container
 bs.serving-sys.com##[id^="ebStdBannerFlash"]
-bufale.net##[class^="teads-"]
 bufale.net##[id^="advn_"]
 buonenotizie.it##DIV[class="ad"]
 buonicoupon.it##.in-text-banner
@@ -3543,7 +3532,6 @@ milanodabere.it##A[href^="http://ib.adnxs.com/"]
 milanolife.it###mirago
 milanolife.it##.4wNET
 milanolife.it##.item.advertising
-milanolife.it##[class^="teads-"]
 milanotoday.it##.content-blocker
 milanotoday.it##.slot-980x30
 milanotoday.it##.slots-headlines.v-centered
@@ -3766,7 +3754,6 @@ patentequiz.net##[id^="google_ads_iframe_"]
 pclicious.com##DIV[class="googleimg"]
 pclicious.com##DIV[id="google468"]
 pcmag.com##[id^="google_ads_iframe"]
-pcprofessionale.it##.teads-inread
 pcprofessionale.it##DIV[style^="display: inline-block; width: 300px; height: 250px; float: left;"]
 pcprofessionale.it##[id^="ads300"]
 pcworld.com###content-recommender
@@ -3905,7 +3892,6 @@ rietilife.com##[class^="ayads-"]
 rizonesoft.com##[id^="adswidget"]
 robertochibbaro.it##.above_content.box.pad15
 rollingstone.it##A[href^="http://cnfm.ad.dotandad.com/"]
-rollingstone.it##[class^="teads"]
 rollingstone.it##[id^="mmAd"]
 roma.corriere.it##.ob_strip_container
 romalife.it##[id^="DotnAd_"]
@@ -3937,7 +3923,6 @@ sardiniapost.it##.wallpaper-link
 sardiniapost.it##[id*="machette-sx"]
 screenweek.it###sticky-adv
 screenweek.it##[class^="adv-"]
-screenweek.it##[class^="teads-"]
 screenweek.it##[id^="cto_iframe"]
 scriptcopy.com##DIV[class="leader"]
 scriptcopy.com##DIV[class="linkroll"]
@@ -3996,7 +3981,6 @@ smallpdf.com##.ads
 smartworld.it###box-video-native
 smartworld.it###primarTabExpanding
 smartworld.it##.adv
-smartworld.it##[class^="teads-"]
 smartworld.it##[id^="google_ads_iframe"]
 smashingmagazine.com##.ed
 snapfiles.com###bannerbar
@@ -4098,7 +4082,6 @@ targatocn.it###topSx
 targatocn.it##.phpads_container
 targatocn.it##A[href^="http://www.ginospa.com/"]
 targatocn.it##[class^="skinAdv"]
-tariffando.it##.teads-inread.sm-screen
 tariffando.it##[id^="aswift_"]
 tech-recipes.com###first-300-ad
 tech-recipes.com###leaderboard
@@ -4224,7 +4207,6 @@ tpi.it##.c-fragment.c-fragment--type--article-content.hide-on-mobile
 tpi.it##.c-fragment.c-fragment--type--article-sidebar
 tpi.it##.ima-ad-container
 tpi.it##.noddus-content-card
-tpi.it##.teads-inread
 tpi.it##[poster*="smiling.video"]
 tradingsat.com###a403c5e9
 tradingsat.com###ac25abb2
@@ -4408,7 +4390,6 @@ wired.com##.advertisement
 wired.com##[data-js="leaderboard"]
 wired.it###adv_bkg
 wired.it###overlayBackground
-wired.it##[class^="teads-"]
 wired.it##[id^="google_ads_iframe"]
 wired.it##[id^="playerAdv_"]
 wordreference.com###ad1
@@ -4618,8 +4599,6 @@ tubettajat.net##+js(aopr, miner)
 ##.cookie-notice-container
 ##.cookie-policy-banner
 ##.ginger_banner-wrapper
-##.iubenda-cs-container
-##.iubenda-cs-visible
 ##.js-cookies-banner.cookies
 ##.optanon-alert-box-wrapper
 ##.qc-cmp2-container
@@ -4629,6 +4608,7 @@ tubettajat.net##+js(aopr, miner)
 ##DIV[id^="sp_message_container_"]
 01net.it###uniccmp
 01net.it##.max-h-full
+centrolibri.it##.cc-cookies
 comune.milano.it##.cc-window
 elmec.com##.eupopup-container
 faimed.it##.lgcookieslaw_banner
@@ -4636,12 +4616,15 @@ get-itsolutions.com##.cc_container--open.cc_container.cc_banner
 godaddy.com##.alert-dismissible.alert
 ilfattoquotidiano.it##.cl-consent-center.cl-consent
 ilwebmaster21.com##.swal2-shown.swal2-fade.swal2-center.swal2-container
+itninja.com##.ccpa-notification
 lloydsfarmacia.it##.truste_box_overlay
 lloydsfarmacia.it##DIV[id^="pop-div"]
 paypal.com###gdpr-container
+pendrivelinux.com###ez-cookie-dialog-wrapper
 pizzium.com###ck_banner
 smallseotools.com###bio_ep
 smallseotools.com###bio_ep_bg
+theinsidersnet.com##.divascookies
 w3schools.com##.snigel-cmp-framework
 ! [ABP X Files - Contributi dagli utenti]
 ###adcontainer
