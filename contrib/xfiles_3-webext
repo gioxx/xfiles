@@ -1,5 +1,6 @@
 ! [ABP X Files - Filtri WebExt]
 ##.adsbygoogle
+##.teads-inread
 ###adv_Intropage
 ###link_ws_bleft
 ###link_ws_bright
@@ -47,7 +48,8 @@ andreagaleazzi.com##DIV[class="am-adv am-adv-default am-adv-skin"]
 androidworld.it##.ad-container
 aranzulla.it###pm_top_div
 aranzulla.it##DIV[id^="ad"]
-betanews.com##DIV[class="teads-inread xs-screen"]
+arstechnica.com##.ad_crown.ad
+arstechnica.com##.ad_instream
 bitchyf.it##.trc_rbox.thumbnails-x.trc-content-sponsored
 bitchyf.it###trc_wrapper_80827
 bleepingcomputer.com##.cnx-size-responsive.cnx-player-wrapper
@@ -132,7 +134,6 @@ francescocosta.net###bright
 francescocosta.net###btop
 freeonline.org##A[id="skinlink"]
 gazzetta.it##.bck-adv
-gazzetta.it##.teads-inread
 gazzetta.it###barra_click_dx
 gazzetta.it###barra_click_sx
 gazzetta.it###barra_click_top
@@ -159,8 +160,6 @@ ilfattoquotidiano.it##.cc-adv-wrapper
 ilfattoquotidiano.it##[id^="ifq-intext-container-"]
 ilfattoquotidiano.it###adv-intext-
 ilfattoquotidiano.it##div:nth-of-type(10)
-ilgiorno.it##.teads-inread
-illumeably.com##.sm-screen.teads-inread
 illumeably.com##div.ad-label
 illumeably.com##div#desktop_728x90.adSlotSeen
 ilmessaggero.it##.head_skin_add
@@ -169,8 +168,6 @@ ilmessaggero.it##div.adv_container:nth-child(2)
 ilpost.it###btop
 ilpost.it###scrolling-container
 ilpost.it###strip_adv
-ilpost.it##DIV[class="teads-inread xs-screen"]
-ilpost.it##DIV[class="teads-inread"]
 ilpost.it##DIV[id="HDF_RPU_SKIN_INJECTION"]
 ilpost.it##DIV[id="NEW_EB_DIV"]
 ilsoftware.it##DIV[class="gsc-adBlock"]
@@ -196,7 +193,6 @@ itwriting.com##[href^="https://www.sysax.com/ppc/sxitwads/"]
 jsonlint.com###carbon-block
 justwatch.com##.ad-unit
 key4biz.it##.banner.d-block
-laleggepertutti.it##.teads-inread
 lastampa.it##.adv-container
 leganerd.com##A[href^="https://adclick.g.doubleclick.net"]
 libero.it##.hp_300x1.hp_300x1-p1
@@ -317,7 +313,6 @@ sqlpowershell.blog##.wpcnt
 startupitalia.eu##.varb
 startupitalia.eu##DIV[class^="__lxG__multi"]
 studiocataldi.it##DIV[class="sopraarticolo20"]
-studiocataldi.it##DIV[class="teads-inread xs-screen"]
 t.17track.net##.gad-container
 techcrunch.com##.ad-unit__ad.ad-unit__native
 techcrunch.com##.advertise-here
@@ -325,7 +320,6 @@ techcrunch.com###tc-ad-native
 techcrunch.com##DIV[class="ad-unit ad-unit__billboard ad-unit--fixed"]
 techprincess.it##.adasta_ad.adasta_loaded
 techprincess.it###Techprincess_it_300x250_HB
-techprincess.it##DIV[class="teads-inread xs-screen"]
 techprincess.it##SECTION[class="widget quads-ad6_widget"]
 teleborsa.it###ctl00_if4WTV300x250
 teleborsa.it###ctl00_phContents_ctlNewsPanel_rptMainColumn_ctl00_pnlHomeTVAds
@@ -333,7 +327,6 @@ teleborsa.it###leaderboardPh_ifr
 teleborsa.it##body > div
 teleclubitalia.it##DIV[class=" init nat-widgetContainer loaded"]
 teleclubitalia.it##DIV[class="gruppo1"]
-teleclubitalia.it##DIV[class="teads-inread"]
 teleclubitalia.it##DIV[class="teads-player"]
 teleclubitalia.it##DIV[id="DotnAd_300x250_intext"]
 teleclubitalia.it##DIV[id="DotnAd_728x90_atf"]
@@ -362,8 +355,6 @@ trakt.tv##DIV[id="hu-ck--st-er-desk-top-wrapper"][class="middle light"]
 trakt.tv##DIV[id="hu-ck-s-t-er-de-sk-top-sidenav"]
 trakt.tv##DIV[id="hu-ck-s-t-er-de-sk-top-wrapper"]
 treccani.it##.bannercontainer
-treccani.it##.sm-screen.teads-inread
-tumblr.com##DIV[class^="teads-inread"]
 tumblr.com##IFRAME[class="teads-resize"]
 tunebat.com##.center-block.ad-container-box.pb-alt
 tunebat.com##.slide-in
@@ -409,5 +400,4 @@ www.linkiesta.it##DIV[id="wa_div_LINKIESTA.IT_WEB_OTHER_TOP"]
 xe.com##.bannerAdContainer
 ytmp3.cc##DIV[id="ad"]
 zdnet.com##.ad-nav-ad.skybox-closeBtn
-arstechnica.com##.ad_crown.ad
-arstechnica.com##.ad_instream
+pendrivelinux.com##.adtester-container
