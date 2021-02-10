@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202101261017
+! Version: 202102101429
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 26-01-2021
+! Last modified: 10-02-2021
 ! Expires: 7 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -71,6 +71,8 @@ borsaitaliana.it##DIV[class="adv--lgm l-adv--fixed js--adv-fix"]
 borsaitaliana.it##DIV[id="skinPh"]
 bufale.net##.adv_600.hidden-xs.hidden-sm
 businessinsider.com##DIV[class="l-ad subnav"]
+businessonline.it##.celtra-ad-inline-host
+businessonline.it##DIV[id^="skin"]
 buzzfeednews.com##.ad-wireframe-wrapper.ad-wireframe-wrapper--labeled
 cambro.tv##.box.rltdsldr
 cambro.tv##.vdvwad
@@ -81,6 +83,7 @@ chimerarevo.com###rbox-t2m
 chimerarevo.com##.sponsor
 chimerarevo.com##.trc_rbox_div.trc_rbox_border_elm
 ||clickpoint.com/adsrv/
+||cloudfront.net/sponsor/$image
 color-hex.com##.fixedad
 commentimemorabili.it##.brid-outstream
 community.spiceworks.com##.card-columns.card-columns--old
@@ -368,6 +371,7 @@ thenounproject.com##SECTION[class="row-container advertisement"]
 theverge.com##.adblock-whitelist-messaging__article-wrapper
 thewindowsclub.com##.ezoic-ad
 threadreaderapp.com##.top-ad.container
+today.it##IFRAME[title="AD"]
 ||track.effiliation.com/servlet/
 trakt.tv##DIV[class="grid-item hu-ck-s-t-er-grid-item col-xlg-3 col-md-4 col-sm-6"]
 trakt.tv##DIV[id="hu-ck--st-er-desk-top-bot-tom"]
@@ -400,6 +404,7 @@ wikifeet.com###dual300
 wikifeet.com###vi-sticky-ad
 windowsblogitalia.com##AMP-AD
 windowscentral.com##.ad.t1
+windowscentral.com##.adunit
 windowscentral.com##IFRAME[id^="ad_ii_"]
 windowsreport.com##.wr-layout-section__ad
 winhelponline.com##span[class*="ezoic-ad"]
@@ -4581,6 +4586,7 @@ tubettajat.net##+js(aopr, miner)
 ! [ABP X Files - Filtri per blocco popup accettazione Cookie (sperimentale)]
 01net.it##.max-h-full
 01net.it###uniccmp
+9to5google.com##.order-control
 ##.as-oil-content-overlay
 ###banner_consenso_cookie
 ###bdConsentUI
@@ -4599,6 +4605,7 @@ comune.milano.it##.cc-window
 ###dl_cookieBanner
 elmec.com##.eupopup-container
 faimed.it##.lgcookieslaw_banner
+gazzetta.it###_cpmt-iframe
 ###gdpr-consent-tool-wrapper
 get-itsolutions.com##.cc_container--open.cc_container.cc_banner
 ##.ginger_banner-wrapper
@@ -4606,9 +4613,11 @@ godaddy.com##.alert-dismissible.alert
 ilfattoquotidiano.it##.cl-consent-center.cl-consent
 ilwebmaster21.com##.swal2-shown.swal2-fade.swal2-center.swal2-container
 itninja.com##.ccpa-notification
+##.iubenda-cs-content
 ##.js-cookies-banner.cookies
 lloydsfarmacia.it##DIV[id^="pop-div"]
 lloydsfarmacia.it##.truste_box_overlay
+##.MuiDialog-root
 ###onetrust-consent-sdk
 ###optanon
 ##.optanon-alert-box-wrapper
@@ -4624,7 +4633,10 @@ smallseotools.com###bio_ep
 smallseotools.com###bio_ep_bg
 ##.snigel-cmp-framework
 theinsidersnet.com##.divascookies
+ticketone.it##.optanon-alert-box-wrapper
+ticketone.it##.optanon-show-settings-popup-wrapper
 w3schools.com##.snigel-cmp-framework
+xda-developers.com###uniccmp
 ! [ABP X Files - Contributi dagli utenti]
 ||32red.it^$popup
 3bmeteo.com##[id^="adv_"]
