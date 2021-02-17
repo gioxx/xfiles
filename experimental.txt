@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202102131639
+! Version: 202102170738
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 13-02-2021
+! Last modified: 17-02-2021
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -4443,6 +4443,7 @@ zoomtv.me##DIV[id="memberad"]
 zpag.es##.top_bar.top_bar_ad
 ~eagleboys.com.au##.marketing-ad
 ! [ABP X Files - YouTube]
+! Disattivato in via di verifica /securepubads.
 ###merch-shelf
 ###player-ads
 ###watch7-sidebar-ads
@@ -4453,7 +4454,6 @@ zpag.es##.top_bar.top_bar_ad
 ##ytd-companion-slot-renderer
 /pagead/lvz?
 /pubads.
-/securepubads.
 =adunit&
 @@||s.ytimg.com/yts/swfbin/player-*/watch_as3.swf$object,domain=youtube.com
 @@||yimg.com^*/combo?$stylesheet,domain=yahoo.com
