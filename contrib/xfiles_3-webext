@@ -9,8 +9,10 @@
 ||acceptable.a-ads.com/
 ||ad6media.fr^$script,popup
 ||ads2.uptobox.com/
+||cdn.da.oipzyrzffum.ovh/banner/$subdocument
 ||cdn3.2conv.com/scripts/adframe.php
 ||clickpoint.com/adsrv/
+||cloudfront.net/sponsor/$image
 ||creative.strpjmp.com/widgets/v3.html$subdocument
 ||da-ads.com/da_safeframe.html
 ||lansweeper.com/forum/images/Banner-Forum.png
@@ -59,6 +61,8 @@ borsaitaliana.it##DIV[class="adv--lgm l-adv--fixed js--adv-fix"]
 borsaitaliana.it##DIV[id="skinPh"]
 bufale.net##.adv_600.hidden-xs.hidden-sm
 businessinsider.com##DIV[class="l-ad subnav"]
+businessonline.it##.celtra-ad-inline-host
+businessonline.it##DIV[id^="skin"]
 buzzfeednews.com##.ad-wireframe-wrapper.ad-wireframe-wrapper--labeled
 cambro.tv##.box.rltdsldr
 cambro.tv##.vdvwad
@@ -228,6 +232,7 @@ melablog.it###leoskin-a
 michlstechblog.info###google_adsense
 milano.fanpage.it###skin-click-tag
 milanoevents.it##DIV[class*="td-a-rec-id-custom_ad"]
+milanotoday.it##.a-native-desktop-news
 milanotoday.it##.slot.slot-masthead
 milanotoday.it##body > [href^="https://vda.milanotoday.it/~vda/___/o.php"]
 money.it##.max-w-screen-xl.mx-auto.billboard
@@ -247,6 +252,7 @@ pagomeno.it###ad_panorama_top
 pasty.link##.adsense
 pcmag.com###pcmedia
 pcprofessionale.it##DIV[id="GenecyDFPAdWallpaperCont"]
+pendrivelinux.com##.adtester-container
 petri.com##.ad
 petri.com##.single__ad
 pexels.com###carbonads
@@ -264,6 +270,7 @@ phica.net###widget_200
 phica.net##DIV[class="adblock-killme-overlay"]
 pimylifeup.com##DIV[id^="ad_is_"]
 player.fm##.records-list.sponsored-content
+postimg.cc##.adsbyvli
 programmiedovetrovarli.it##DIV[id="ai-adb-message"]
 programmiedovetrovarli.it##DIV[id="ai-adb-overlay"]
 punto-informatico.it##.adskin__div
@@ -342,6 +349,7 @@ thenounproject.com##SECTION[class="row-container advertisement"]
 theverge.com##.adblock-whitelist-messaging__article-wrapper
 thewindowsclub.com##.ezoic-ad
 threadreaderapp.com##.top-ad.container
+today.it##IFRAME[title="AD"]
 trakt.tv##.top.dark
 trakt.tv###hu-ck-st-er-desk-top-wrapper
 trakt.tv###hu-ck-ster-desk-top-sidenav
@@ -373,6 +381,7 @@ wikifeet.com###dual300
 wikifeet.com###vi-sticky-ad
 windowsblogitalia.com##AMP-AD
 windowscentral.com##.ad.t1
+windowscentral.com##.adunit
 windowscentral.com##IFRAME[id^="ad_ii_"]
 windowsreport.com##.wr-layout-section__ad
 winhelponline.com##span[class*="ezoic-ad"]
@@ -400,9 +409,3 @@ www.linkiesta.it##DIV[id="wa_div_LINKIESTA.IT_WEB_OTHER_TOP"]
 xe.com##.bannerAdContainer
 ytmp3.cc##DIV[id="ad"]
 zdnet.com##.ad-nav-ad.skybox-closeBtn
-pendrivelinux.com##.adtester-container
-today.it##IFRAME[title="AD"]
-||cloudfront.net/sponsor/$image
-businessonline.it##DIV[id^="skin"]
-businessonline.it##.celtra-ad-inline-host
-windowscentral.com##.adunit
