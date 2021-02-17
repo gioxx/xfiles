@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202102170808
+! Version: 202102170816
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
 ! Last modified: 17-02-2021
@@ -378,6 +378,9 @@ tumblr.com##IFRAME[class="teads-resize"]
 tunebat.com###mailchimp-popup-container
 tunebat.com##.center-block.ad-container-box.pb-alt
 tunebat.com##.slide-in
+tuttosport.com##DIV[class^="AdUnit_adBox"]
+tuttosport.com##DIV[id*="_SmartSkin"]
+tuttosport.com##IFRAME[id*="_SmartSkin"]
 uptobox.com##.ad6foo
 uptobox.com##.ad6foo-banner-container
 vice.com##.text-center.ad-unit
