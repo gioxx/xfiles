@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202102170738
+! Version: 202102170808
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
 ! Last modified: 17-02-2021
@@ -243,6 +243,7 @@ melablog.it##.leoSkinClick
 michlstechblog.info###google_adsense
 milano.fanpage.it###skin-click-tag
 milanoevents.it##DIV[class*="td-a-rec-id-custom_ad"]
+milanotoday.it##.a-native-desktop-news
 milanotoday.it##.slot.slot-masthead
 milanotoday.it##body > [href^="https://vda.milanotoday.it/~vda/___/o.php"]
 money.it##.max-w-screen-xl.mx-auto.billboard
@@ -280,6 +281,7 @@ phica.net##DIV[class="adblock-killme-overlay"]
 phica.net##[href="https://itaincontri.com"]
 pimylifeup.com##DIV[id^="ad_is_"]
 player.fm##.records-list.sponsored-content
+postimg.cc##.adsbyvli
 programmiedovetrovarli.it##DIV[id="ai-adb-message"]
 programmiedovetrovarli.it##DIV[id="ai-adb-overlay"]
 punto-informatico.it###adSkinDivImg
@@ -422,6 +424,7 @@ zdnet.com##.ad-nav-ad.skybox-closeBtn
 ||acceptable.a-ads.com/
 ||ad6media.fr^$script,popup
 ||ads2.uptobox.com/
+||cdn.da.oipzyrzffum.ovh/banner/$subdocument
 ||cdn3.2conv.com/scripts/adframe.php
 ||clickpoint.com/adsrv/
 ||cloudfront.net/sponsor/$image
