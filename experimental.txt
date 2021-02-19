@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202102191022
+! Version: 202102191517
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
 ! Last modified: 19-02-2021
@@ -97,6 +97,7 @@ dailymail.co.uk##DIV[class="billboard_wrapper relative billboard-watermark"]
 dailymail.co.uk##body:style(overflow: visible !important)
 dday.it###barra_click_dx
 dday.it###barra_click_sx
+dday.it##.topcover-adv
 dday.it##DIV[id="barra_click_top"]
 dellwindowsreinstallationguide.com###adtester-container
 dellwindowsreinstallationguide.com##.ezoic-ad
@@ -4635,6 +4636,7 @@ pendrivelinux.com###ez-cookie-dialog-wrapper
 pizzium.com###ck_banner
 smallseotools.com###bio_ep
 smallseotools.com###bio_ep_bg
+subito.it##.didomi-regular-notice
 theinsidersnet.com##.divascookies
 ticketone.it##.optanon-alert-box-wrapper
 ticketone.it##.optanon-show-settings-popup-wrapper
