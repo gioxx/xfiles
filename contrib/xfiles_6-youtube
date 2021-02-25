@@ -28,7 +28,6 @@
 ||ytimg.com^*/new_watch_background$domain=youtube.com
 marcheingol.it##IFRAME[src^="https://www.youtube.com/embed/"]
 youtube.com,youtube-nocookie.com##+js(json-prune.js, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com,youtube-nocookie.com#$#json-prune '2.playerResponse.adPlacements playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds'
 youtube.com##.ad-div
 youtube.com##.carousel-offer-url-container
 youtube.com##.masthead-ad-control
