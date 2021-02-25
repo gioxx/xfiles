@@ -1,10 +1,10 @@
 ! [ABP X Files - YouTube]
+! Disattivato in via di verifica /securepubads.
 @@||s.ytimg.com/yts/swfbin/player-*/watch_as3.swf$object,domain=youtube.com
 @@||yimg.com^*/combo?$stylesheet,domain=yahoo.com
 @@||ytimg.com/yts/jsbin/$script
 /pagead/lvz?
 /pubads.
-! Disattivato in via di verifica /securepubads.
 ##.video-ads
 ##.ytd-companion-slot-renderer
 ##.ytd-player-legacy-desktop-watch-ads-renderer
@@ -27,6 +27,7 @@
 ||ytimg.com^*_banner$domain=youtube.com
 ||ytimg.com^*/new_watch_background$domain=youtube.com
 marcheingol.it##IFRAME[src^="https://www.youtube.com/embed/"]
+youtube.com,youtube-nocookie.com##+js(json-prune.js, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtube-nocookie.com#$#json-prune '2.playerResponse.adPlacements playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds'
 youtube.com##.ad-div
 youtube.com##.carousel-offer-url-container
