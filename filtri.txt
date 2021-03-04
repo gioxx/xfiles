@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202102170919
+! Version: 202103041801
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 17-02-2021
+! Last modified: 04-03-2021
 ! Expires: 7 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -103,6 +103,7 @@ dailymail.co.uk##DIV[class*="wrapper-3AzfF"]
 dday.it###barra_click_dx
 dday.it###barra_click_sx
 dday.it##DIV[id="barra_click_top"]
+dday.it##.topcover-adv
 dellwindowsreinstallationguide.com###adtester-container
 dellwindowsreinstallationguide.com##.ezoic-ad
 dellwindowsreinstallationguide.com##.wpcnt.wpcnt-header
@@ -4491,7 +4492,7 @@ youtube.com###watch-branded-actions
 youtube.com###watch-buy-urls
 youtube.com##.watch-extra-info-column
 youtube.com##.watch-extra-info-right
-youtube.com,youtube-nocookie.com#$#json-prune '2.playerResponse.adPlacements playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds'
+youtube.com,youtube-nocookie.com##+js(json-prune.js, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##.ytd-companion-slot-renderer
 youtube.com##ytd-companion-slot-renderer
 youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
@@ -4618,7 +4619,6 @@ godaddy.com##.alert-dismissible.alert
 ilfattoquotidiano.it##.cl-consent-center.cl-consent
 ilwebmaster21.com##.swal2-shown.swal2-fade.swal2-center.swal2-container
 itninja.com##.ccpa-notification
-##.iubenda-cs-content
 ##.js-cookies-banner.cookies
 lloydsfarmacia.it##DIV[id^="pop-div"]
 lloydsfarmacia.it##.truste_box_overlay
@@ -4636,6 +4636,7 @@ pizzium.com###ck_banner
 smallseotools.com###bio_ep
 smallseotools.com###bio_ep_bg
 ##.snigel-cmp-framework
+subito.it##.didomi-regular-notice
 theinsidersnet.com##.divascookies
 ticketone.it##.optanon-alert-box-wrapper
 ticketone.it##.optanon-show-settings-popup-wrapper
