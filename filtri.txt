@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202103041801
+! Version: 202104011430
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 04-03-2021
+! Last modified: 01-04-2021
 ! Expires: 7 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -181,6 +181,7 @@ ilfattoquotidiano.it###adv-intext-
 ilfattoquotidiano.it##.cc-adv-wrapper
 ilfattoquotidiano.it##div:nth-of-type(10)
 ilfattoquotidiano.it##[id^="ifq-intext-container-"]
+ilfattoquotidiano.it###mvup-floorad-closer
 illumeably.com##div.ad-label
 illumeably.com##div#desktop_728x90.adSlotSeen
 ilmessaggero.it##amp-sticky-ad.i-amphtml-element
@@ -298,7 +299,11 @@ programmiedovetrovarli.it##DIV[id="ai-adb-overlay"]
 punto-informatico.it##.adskin__div
 punto-informatico.it###adSkinDivImg
 punto-informatico.it###adSkinDivLeft
+punto-informatico.it##.advblockshown
+punto-informatico.it##.blz-url
+punto-informatico.it##.brid-advert-container
 punto-informatico.it##div.col-4.pi-left-article
+punto-informatico.it##.strip-top.bm-code-container.bm-code
 quattroruote.it###adagioSkin
 quattroruote.it###adagioSkin_header
 quattroruote.it##.adv.top.full-space.hidden-xs.adv-center
@@ -312,6 +317,7 @@ repubblica.it##DIV[id^="adv-Box"]
 repubblica.it##DIV[id^="adv-Middle"]
 repubblica.it##DIV[id^="adv-Top"]
 repubblica.it##DIV[id="wrapper-adv"]
+repubblica.it###eyeDiv
 reviewmeta.com##.ad_unit_1
 reviewmeta.com##.reviewmeta-alert.alert.alert-warning.reviewmeta-extensions-alert.hidden-xs
 ||rivcash.com/webmaster/banners/ioriv/banner_468x60_it_2.gif
