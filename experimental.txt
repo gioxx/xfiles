@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202104071321
+! Version: 202104071355
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
 ! Last modified: 07-04-2021
@@ -63,6 +63,8 @@ aranzulla.it###pm_top_div
 aranzulla.it##DIV[id^="ad"]
 arstechnica.com##.ad_crown.ad
 arstechnica.com##.ad_instream
+bergamonews.it###PCT-sliding-bottom
+bergamonews.it##.simple_overlay
 bitchyf.it###trc_wrapper_80827
 bitchyf.it##.trc_rbox.thumbnails-x.trc-content-sponsored
 bleepingcomputer.com##.cnx-size-responsive.cnx-player-wrapper
@@ -436,8 +438,10 @@ zdnet.com##.ad-nav-ad.skybox-closeBtn
 ||acceptable.a-ads.com/
 ||ad6media.fr^$script,popup
 ||ads2.uptobox.com/
+||ariarigamonti.it^$popup,domain=bergamonews.it
 ||cdn.da.oipzyrzffum.ovh/banner/$subdocument
 ||cdn3.2conv.com/scripts/adframe.php
+||cesvi.org^$popup,domain=bergamonews.it
 ||clickpoint.com/adsrv/
 ||cloudfront.net/sponsor/$image
 ||creative.strpjmp.com/widgets/v3.html$subdocument
@@ -4548,6 +4552,9 @@ teamskeet.com##+js(set, $.tstracker, noopFunc)
 ||tradeadsexchange.com^
 ||vidtech.cbsinteractive.com^*/tracking/$script,redirect=noop.js,important
 ||widgets.outbrain.com/outbrain.js$script,redirect=widgets.outbrain.com/outbrain.js
+! [ABP X Files - Filtri script inline per uBlock]
+bergamonews.it##^script:has-text(checkForAdBlocker)
+bergamonews.it##^script:has-text(request_ads)
 ! [ABP X Files - Filtri per blocco abuso risorse CPU]
 *$csp=worker-src 'none',domain=123moviesgo.nl|bmovies123.me|fmoviesgo.me|skytorrents.me
 *$csp=worker-src 'none',domain=alltube.tv|lewd.ninja|milujivareni.cz|subswiki.com
