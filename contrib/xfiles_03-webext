@@ -9,8 +9,10 @@
 ||acceptable.a-ads.com/
 ||ad6media.fr^$script,popup
 ||ads2.uptobox.com/
+||ariarigamonti.it^$popup,domain=bergamonews.it
 ||cdn.da.oipzyrzffum.ovh/banner/$subdocument
 ||cdn3.2conv.com/scripts/adframe.php
+||cesvi.org^$popup,domain=bergamonews.it
 ||clickpoint.com/adsrv/
 ||cloudfront.net/sponsor/$image
 ||creative.strpjmp.com/widgets/v3.html$subdocument
@@ -52,6 +54,8 @@ aranzulla.it###pm_top_div
 aranzulla.it##DIV[id^="ad"]
 arstechnica.com##.ad_crown.ad
 arstechnica.com##.ad_instream
+bergamonews.it##.simple_overlay
+bergamonews.it###PCT-sliding-bottom
 bitchyf.it##.trc_rbox.thumbnails-x.trc-content-sponsored
 bitchyf.it###trc_wrapper_80827
 bleepingcomputer.com##.cnx-size-responsive.cnx-player-wrapper

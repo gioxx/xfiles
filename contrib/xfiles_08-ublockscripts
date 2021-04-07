@@ -1,0 +1,3 @@
+! [ABP X Files - Filtri script inline per uBlock]
+bergamonews.it##^script:has-text(checkForAdBlocker)
+bergamonews.it##^script:has-text(request_ads)
