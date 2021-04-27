@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202104011430
+! Version: 202104271249
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 01-04-2021
+! Last modified: 27-04-2021
 ! Expires: 7 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -60,8 +60,11 @@ andreagaleazzi.com##DIV[class="am-adv am-adv-default am-adv-skin"]
 androidworld.it##.ad-container
 aranzulla.it##DIV[id^="ad"]
 aranzulla.it###pm_top_div
+||ariarigamonti.it^$popup,domain=bergamonews.it
 arstechnica.com##.ad_crown.ad
 arstechnica.com##.ad_instream
+bergamonews.it###PCT-sliding-bottom
+bergamonews.it##.simple_overlay
 bitchyf.it##.trc_rbox.thumbnails-x.trc-content-sponsored
 bitchyf.it###trc_wrapper_80827
 bleepingcomputer.com##.cnx-size-responsive.cnx-player-wrapper
@@ -78,6 +81,7 @@ cambro.tv##.box.rltdsldr
 cambro.tv##.vdvwad
 ||cdn3.2conv.com/scripts/adframe.php
 ||cdn.da.oipzyrzffum.ovh/banner/$subdocument
+||cesvi.org^$popup,domain=bergamonews.it
 check-host.net##.chadcont
 check-host.net###chadddos-guard2
 chimerarevo.com###rbox-t2m
@@ -86,9 +90,13 @@ chimerarevo.com##.trc_rbox_div.trc_rbox_border_elm
 ||clickpoint.com/adsrv/
 ||cloudfront.net/sponsor/$image
 color-hex.com##.fixedad
+comingsoon.it##.adv-container
 commentimemorabili.it##.brid-outstream
 community.spiceworks.com##.card-columns.card-columns--old
+community.spiceworks.com##.community-content--ad_card
 community.spiceworks.com##.read-next-footer.js-read-next-footer.constrained-content.curated-items
+community.spiceworks.com##.slot-1-wrapper
+corrieredellosport.it##div[class^="AdUnit"]
 corriere.it##.sponsor-strip-pos.bck-media-list-sponsor
 ||creative.strpjmp.com/widgets/v3.html$subdocument
 ctrl.blog##.adco.adco-fv
@@ -158,15 +166,24 @@ gazzetta.it###barra_click_dx
 gazzetta.it###barra_click_sx
 gazzetta.it###barra_click_top
 gazzetta.it##.bck-adv
+gazzetta.it##.card-prospect__cac
+gcemetery.co##.header-da-wrap
+gcemetery.co###wide-banner
 getbootstrap.com###carbonads
 get-itsolutions.com##.ezoic-ad
 ghacks.net##.adsbygoogle
 gizmodo.com##.ad-mobile-inner
 greenme.it##DIV[id="adwallpaper"]
 hardreset.info##._ap_apex_ad
+haydenjames.io##div[id^="advads_ad_widget"]
+haydenjames.io##.hayden-inpost_bottom
+haydenjames.io##.hayden-inpost_top
 helpdeskgeek.com##.adsense-block
+howtogeek.com##.adslot
 howtogeek.com###purch_Y_R_1_1
 howto-outlook.com###header-banner
+html.it##.adv_container
+html.it##.banner-content
 html.it##.m3_container.html_art_griglia_646x670
 html.it###mirago
 huffingtonpost.it##.amp_article_bottom_recirc.advertisement
@@ -249,9 +266,14 @@ mashable.com###sticky-spacer
 mbnews.it##.banner-300x250
 mbnews.it##.banner-970x90.desktop-banner
 m.corrieredellosport.it##.adv.adv-300x250.mediumrectangle
+melablog.it##.adv_300
+melablog.it##._fb_dbx
+melablog.it##.gptslot
 melablog.it###leoskin-a
 melablog.it##.leoSkinClick
 michlstechblog.info###google_adsense
+mikesnotebook.wordpress.com##div[id^="atatags-"]
+mikesnotebook.wordpress.com##.inline-ad-slot
 milanoevents.it##DIV[class*="td-a-rec-id-custom_ad"]
 milano.fanpage.it###skin-click-tag
 milanotoday.it##.a-native-desktop-news
@@ -267,6 +289,8 @@ nxmac.com##IFRAME[src^="https://www.linkonclick.com/ad/"]
 nytimes.com###top-wrapper
 office365itpros.com##.wpcnt
 office365itpros.com##.wpcnt.wpcnt-header
+oldapps.com##.ads_border
+oldversion.com##.google-ad
 open.online##.adv-middle.adv
 open.online##.i-amphtml-element.i-amphtml-layout-fixed.i-amphtml-layout-size-defined.i-amphtml-layout
 pagomeno.it##.adbox
@@ -324,6 +348,7 @@ reviewmeta.com##.reviewmeta-alert.alert.alert-warning.reviewmeta-extensions-aler
 rivistastudio.com##DIV[class*="studioAdv"]
 rollingstone.it##.adbox.adsblocked
 rollingstone.it###result
+saggiamente.com###skin
 shutterencoder.com##DIV[id="videoLeft"]
 shutterencoder.com##DIV[id="videoRight"]
 smallbusiness.chron.com##body > .ad-leaderboard
@@ -400,6 +425,7 @@ tumblr.com##IFRAME[class="teads-resize"]
 tunebat.com##.center-block.ad-container-box.pb-alt
 tunebat.com###mailchimp-popup-container
 tunebat.com##.slide-in
+tuttosport.com##div[class^="AdUnit"]
 tuttosport.com##DIV[class^="AdUnit_adBox"]
 tuttosport.com##DIV[id*="_SmartSkin"]
 tuttosport.com##IFRAME[id*="_SmartSkin"]
@@ -4546,6 +4572,9 @@ teamskeet.com##+js(set, $.tstracker, noopFunc)
 ||tradeadsexchange.com^
 ||vidtech.cbsinteractive.com^*/tracking/$script,redirect=noop.js,important
 ||widgets.outbrain.com/outbrain.js$script,redirect=widgets.outbrain.com/outbrain.js
+! [ABP X Files - Filtri script inline per uBlock]
+bergamonews.it##^script:has-text(checkForAdBlocker)
+bergamonews.it##^script:has-text(request_ads)
 ! [ABP X Files - Filtri per blocco abuso risorse CPU]
 /adsensebase.js$script
 /angular8.js
@@ -4613,6 +4642,7 @@ comune.milano.it##.cc-window
 ###cookielaw
 ##.cookie-notice-container
 ##.cookie-policy-banner
+corrieredellosport.it##div[class^="didomi"]
 ###CybotCookiebotDialog
 ###dl_cookieBanner
 elmec.com##.eupopup-container
@@ -4631,6 +4661,7 @@ lloydsfarmacia.it##.truste_box_overlay
 ###onetrust-consent-sdk
 ###optanon
 ##.optanon-alert-box-wrapper
+our.umbraco.com###CybotCookiebotDialogBodyUnderlay
 paypal.com###gdpr-container
 pendrivelinux.com###ez-cookie-dialog-wrapper
 pizzium.com###ck_banner
@@ -4643,9 +4674,11 @@ smallseotools.com###bio_ep
 smallseotools.com###bio_ep_bg
 ##.snigel-cmp-framework
 subito.it##.didomi-regular-notice
+tariffando.it##.cc-window
 theinsidersnet.com##.divascookies
 ticketone.it##.optanon-alert-box-wrapper
 ticketone.it##.optanon-show-settings-popup-wrapper
+tuttosport.com##div[class^="didomi"]
 w3schools.com##.snigel-cmp-framework
 xda-developers.com###uniccmp
 ! [ABP X Files - Contributi dagli utenti]
