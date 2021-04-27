@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202104241556
+! Version: 202104271041
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 24-04-2021
+! Last modified: 27-04-2021
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -85,10 +85,14 @@ chimerarevo.com###rbox-t2m
 chimerarevo.com##.sponsor
 chimerarevo.com##.trc_rbox_div.trc_rbox_border_elm
 color-hex.com##.fixedad
+comingsoon.it##.adv-container
 commentimemorabili.it##.brid-outstream
 community.spiceworks.com##.card-columns.card-columns--old
+community.spiceworks.com##.community-content--ad_card
 community.spiceworks.com##.read-next-footer.js-read-next-footer.constrained-content.curated-items
+community.spiceworks.com##.slot-1-wrapper
 corriere.it##.sponsor-strip-pos.bck-media-list-sponsor
+corrieredellosport.it##div[class^="AdUnit"]
 ctrl.blog##.adco.adco-fv
 ctrl.blog##.adco.adu-in
 custom.simplemachines.org##DIV[class="anzeige_banner"]
@@ -155,6 +159,7 @@ gazzetta.it###barra_click_dx
 gazzetta.it###barra_click_sx
 gazzetta.it###barra_click_top
 gazzetta.it##.bck-adv
+gazzetta.it##.card-prospect__cac
 gcemetery.co###wide-banner
 gcemetery.co##.header-da-wrap
 get-itsolutions.com##.ezoic-ad
@@ -256,6 +261,8 @@ melablog.it##.adv_300
 melablog.it##.gptslot
 melablog.it##.leoSkinClick
 michlstechblog.info###google_adsense
+mikesnotebook.wordpress.com##.inline-ad-slot
+mikesnotebook.wordpress.com##div[id^="atatags-"]
 milano.fanpage.it###skin-click-tag
 milanoevents.it##DIV[class*="td-a-rec-id-custom_ad"]
 milanotoday.it##.a-native-desktop-news
@@ -271,6 +278,8 @@ nxmac.com##IFRAME[src^="https://www.linkonclick.com/ad/"]
 nytimes.com###top-wrapper
 office365itpros.com##.wpcnt
 office365itpros.com##.wpcnt.wpcnt-header
+oldapps.com##.ads_border
+oldversion.com##.google-ad
 open.online##.adv-middle.adv
 open.online##.i-amphtml-element.i-amphtml-layout-fixed.i-amphtml-layout-size-defined.i-amphtml-layout
 pagomeno.it###ad_panorama_top
@@ -402,6 +411,7 @@ tunebat.com##.slide-in
 tuttosport.com##DIV[class^="AdUnit_adBox"]
 tuttosport.com##DIV[id*="_SmartSkin"]
 tuttosport.com##IFRAME[id*="_SmartSkin"]
+tuttosport.com##div[class^="AdUnit"]
 uptobox.com##.ad6foo
 uptobox.com##.ad6foo-banner-container
 vice.com##.text-center.ad-unit
@@ -4646,6 +4656,7 @@ tubettajat.net##+js(aopr, miner)
 9to5google.com##.order-control
 centrolibri.it##.cc-cookies
 comune.milano.it##.cc-window
+corrieredellosport.it##div[class^="didomi"]
 elmec.com##.eupopup-container
 faimed.it##.lgcookieslaw_banner
 gazzetta.it###_cpmt-iframe
@@ -4667,6 +4678,7 @@ tariffando.it##.cc-window
 theinsidersnet.com##.divascookies
 ticketone.it##.optanon-alert-box-wrapper
 ticketone.it##.optanon-show-settings-popup-wrapper
+tuttosport.com##div[class^="didomi"]
 w3schools.com##.snigel-cmp-framework
 xda-developers.com###uniccmp
 ! [ABP X Files - Contributi dagli utenti]
