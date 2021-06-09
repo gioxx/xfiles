@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202105241213
+! Version: 202106090704
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 24-05-2021
+! Last modified: 09-06-2021
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -57,6 +57,7 @@ agar.io###adsBottomInner
 agar.io###mainui-ads
 agnitogeek.com##.td-adspot-title
 alt-codes.net###primis_container_div
+amp.ilgiornale.it##.banner
 andreagaleazzi.com##DIV[class="am-adv am-adv-default am-adv-skin"]
 androidworld.it##.ad-container
 aranzulla.it###pm_top_div
@@ -114,6 +115,7 @@ digitaltrends.com##.dtads-slot.dtads-slot-leaderboard.dtads-desktop.callout.soli
 dilei.it###adv_left_div
 dilei.it###adv_right_div
 dilei.it##.siviaggia-ad-mpu-top.widget.widget_siviaggia_ad_widget.advContFixed
+downdetector.it##.leaderboard.ad
 downforeveryoneorjustme.com##DIV[class="is-hidden-mobile"]
 downforeveryoneorjustme.com##DIV[class="native-carbon"]
 downloadtimecalculator.com##.desktophead.center
@@ -220,6 +222,10 @@ it.bteye.org##UL
 it.cleanpng.com##DIV[class="pc-ad"]
 it.cleanpng.com##[class="ad-wrap"]
 it.ibancalculator.com###theano_sky
+italian.tech###adv-TopLeft
+italian.tech###adv_Skin
+italian.tech###wrapper-adv
+italian.tech##div[id^="adv-Middle"]
 itstillworks.com##.adsbygoogle
 itwriting.com##[href^="https://www.sysax.com/ppc/sxitwads/"]
 jsonlint.com###carbon-block
@@ -319,6 +325,8 @@ punto-informatico.it##div.col-4.pi-left-article
 quattroruote.it###adagioSkin
 quattroruote.it###adagioSkin_header
 quattroruote.it##.adv.top.full-space.hidden-xs.adv-center
+quifinanza.it###adv_left_div
+quifinanza.it###adv_right_div
 ravennaedintorni.it##DIV[class*="bannerInterSezione"]
 ravennaedintorni.it##DIV[class="flexRow nativeadv"]
 ravennaedintorni.it##DIV[class^="wppasrotate   proadszoneholder-"]
@@ -4628,6 +4636,7 @@ tubettajat.net##+js(aopr, miner)
 ||void.cat^$csp=worker-src 'none'
 ||wallpoper.com^$csp=worker-src 'none'
 ! [ABP X Files - Filtri per blocco popup accettazione Cookie (sperimentale)]
+####CybotCookiebotDialogBodyUnderlay
 ###CybotCookiebotDialog
 ###banner_consenso_cookie
 ###bdConsentUI
