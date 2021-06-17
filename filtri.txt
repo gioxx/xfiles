@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202104271249
+! Version: 202106171522
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 27-04-2021
+! Last modified: 17-06-2021
 ! Expires: 7 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -49,6 +49,8 @@ about:blank$popup,domain=phica.net|syndication.exosrv.com|eurostreaming.cloud|il
 ||acceptable.a-ads.com/
 accountsettings.ebay.it##.scandal-ad
 ||ad6media.fr^$script,popup
+adamtheautomator.com##.adthrive
+adamtheautomator.com##.adthrive-ad
 ||ads2.uptobox.com/
 ##.adsbygoogle
 ###adv_Intropage
@@ -56,6 +58,7 @@ agar.io###adsBottomInner
 agar.io###mainui-ads
 agnitogeek.com##.td-adspot-title
 alt-codes.net###primis_container_div
+amp.ilgiornale.it##.banner
 andreagaleazzi.com##DIV[class="am-adv am-adv-default am-adv-skin"]
 androidworld.it##.ad-container
 aranzulla.it##DIV[id^="ad"]
@@ -77,6 +80,7 @@ businessinsider.com##DIV[class="l-ad subnav"]
 businessonline.it##.celtra-ad-inline-host
 businessonline.it##DIV[id^="skin"]
 buzzfeednews.com##.ad-wireframe-wrapper.ad-wireframe-wrapper--labeled
+calcionews24.com##.noddus-content-card
 cambro.tv##.box.rltdsldr
 cambro.tv##.vdvwad
 ||cdn3.2conv.com/scripts/adframe.php
@@ -121,6 +125,7 @@ digitaltrends.com##.dtads-slot.dtads-slot-leaderboard.dtads-desktop.callout.soli
 dilei.it###adv_left_div
 dilei.it###adv_right_div
 dilei.it##.siviaggia-ad-mpu-top.widget.widget_siviaggia_ad_widget.advContFixed
+downdetector.it##.leaderboard.ad
 downforeveryoneorjustme.com##DIV[class="is-hidden-mobile"]
 downforeveryoneorjustme.com##DIV[class="native-carbon"]
 downloadtimecalculator.com##.desktophead.center
@@ -202,6 +207,8 @@ ilfattoquotidiano.it###mvup-floorad-closer
 illumeably.com##div.ad-label
 illumeably.com##div#desktop_728x90.adSlotSeen
 ilmessaggero.it##amp-sticky-ad.i-amphtml-element
+ilmessaggero.it##.column_left
+ilmessaggero.it##.column_right
 ilmessaggero.it##div.adv_container:nth-child(2)
 ilmessaggero.it##.head_skin_add
 ilpost.it###btop
@@ -222,6 +229,10 @@ infojobs.it##.slotbanner-top.slotbanner-top--space
 inthetechpit.com##A[id="587655"]
 inthetechpit.com##DIV[id^="atatags-"]
 ipsoa.it##.adv-leaderboard.band
+italian.tech###adv_Skin
+italian.tech###adv-TopLeft
+italian.tech##div[id^="adv-Middle"]
+italian.tech###wrapper-adv
 it.bteye.org##IFRAME[src="/warn.php"]
 it.bteye.org##UL
 it.cleanpng.com##[class="ad-wrap"]
@@ -253,6 +264,8 @@ linkiesta.it##.topw_root
 ###link_ws_bleft
 ###link_ws_bright
 ###link_ws_btop
+linuxuprising.com##.ads-posting
+linuxuprising.com##.ezoic-ad
 lonelyplanetitalia.it##.row.row--leaderboard.row--sponsored
 luca-mercatanti.com##.snp-overlay-show
 luca-mercatanti.com##.snppopup
@@ -282,6 +295,7 @@ milanotoday.it##.slot.slot-masthead
 money.it##.max-w-screen-xl.mx-auto.billboard
 mrwebmaster.it##.advrow.advmid
 msoutlook.info###header-banner
+my-personaltrainer.it##.sal-adv-adsense
 my-personaltrainer.it###spazio2
 notizieora.it##.evo-intext.gptslot
 notizieora.it##.evo-masthead.mtm.mbm.adv-box.gptslot
@@ -331,6 +345,8 @@ punto-informatico.it##.strip-top.bm-code-container.bm-code
 quattroruote.it###adagioSkin
 quattroruote.it###adagioSkin_header
 quattroruote.it##.adv.top.full-space.hidden-xs.adv-center
+quifinanza.it###adv_left_div
+quifinanza.it###adv_right_div
 ||ragazzeinvendita.com/animatedBanner.php
 ravennaedintorni.it##DIV[class*="bannerInterSezione"]
 ravennaedintorni.it##DIV[class="flexRow nativeadv"]
@@ -378,6 +394,7 @@ startupitalia.eu##.varb
 studiocataldi.it##DIV[class="sopraarticolo20"]
 t.17track.net##.gad-container
 ##.teads-inread
+teamworld.it##.ads.gptslot
 techcrunch.com##.ad-unit__ad.ad-unit__native
 techcrunch.com##.advertise-here
 techcrunch.com##DIV[class="ad-unit ad-unit__billboard ad-unit--fixed"]
@@ -431,6 +448,7 @@ tuttosport.com##DIV[id*="_SmartSkin"]
 tuttosport.com##IFRAME[id*="_SmartSkin"]
 uptobox.com##.ad6foo
 uptobox.com##.ad6foo-banner-container
+urtech.ca##.IL_BASE
 vice.com##.text-center.ad-unit
 vice.com##.vice-ad
 wall.alphacoders.com##.ads-below-view-content.center
@@ -4644,6 +4662,7 @@ comune.milano.it##.cc-window
 ##.cookie-policy-banner
 corrieredellosport.it##div[class^="didomi"]
 ###CybotCookiebotDialog
+####CybotCookiebotDialogBodyUnderlay
 ###dl_cookieBanner
 elmec.com##.eupopup-container
 faimed.it##.lgcookieslaw_banner
@@ -4679,6 +4698,7 @@ theinsidersnet.com##.divascookies
 ticketone.it##.optanon-alert-box-wrapper
 ticketone.it##.optanon-show-settings-popup-wrapper
 tuttosport.com##div[class^="didomi"]
+upstory.it###CybotCookiebotDialogBodyUnderlay
 w3schools.com##.snigel-cmp-framework
 xda-developers.com###uniccmp
 ! [ABP X Files - Contributi dagli utenti]
