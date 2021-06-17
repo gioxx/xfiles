@@ -39,6 +39,7 @@ jobs:
 
       - name: Prepare vcheck
         run: |
+          working-directory ./vcheck
           check_noads="$update${NL}"
           check_noads+="$lastmodified${NL}"
           check_noads+="$checkwebsite${NL}"
