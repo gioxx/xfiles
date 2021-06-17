@@ -52,7 +52,7 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add experimental.txt
-          git add check_experimental.txt
+          git add vcheck/check_experimental.txt
           git commit -m "Experimental $update del $lastmodified" experimental.txt
           git commit -m "vCheck Experimental $update del $lastmodified" ./vcheck/check_experimental.txt
       - name: Push changes
