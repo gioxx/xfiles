@@ -39,11 +39,12 @@ jobs:
 
       - name: Prepare vcheck
         run: |
+          num_of_lines=$(< "experimental.txt" wc -l)
+          num_of_lines="$((num_of_lines - 25))"
+          working-directory: ./vcheck
           echo $update > check_experimental.txt
           echo $lastmodified >> check_experimental.txt
           echo $checkwebsite >> check_experimental.txt
-          num_of_lines=$(< "experimental.txt" wc -l)
-          num_of_lines="$((num_of_lines - 25))"
           echo $num_of_lines >> check_experimental.txt
 
       - name: Commit
