@@ -37,11 +37,22 @@ jobs:
       - name: The rocket is ready to be launched
         run: sh ./sh/make_experimental.sh
 
+      - name: Prepare vcheck
+        run: |
+          check_noads="$update${NL}"
+          check_noads+="$lastmodified${NL}"
+          check_noads+="$checkwebsite${NL}"
+          num_of_lines=$(< "experimental.txt" wc -l)
+          num_of_lines="$((num_of_lines - 21))"
+          check_noads+="$num_of_lines${NL}"
+          echo "$check_noads" > "vcheck\check_xperimental.txt"
+
       - name: Commit
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add experimental.txt
+          git add vcheck/check_xperimental.txt
           git commit -m "Experimental $update del $lastmodified" -a
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
