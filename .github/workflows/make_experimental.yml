@@ -38,8 +38,8 @@ jobs:
         run: sh ./sh/make_experimental.sh
 
       - name: Prepare vcheck
+        working-directory: ./vcheck
         run: |
-          working-directory ./vcheck
           check_noads="$update${NL}"
           check_noads+="$lastmodified${NL}"
           check_noads+="$checkwebsite${NL}"
