@@ -34,19 +34,17 @@ jobs:
           echo "! Hosting: GitHub.com" >> experimental.txt
           echo "!" >> experimental.txt
 
-      - name: The rocket is ready to be launched
+      - name: Let's make eXperimental
         run: sh ./sh/make_experimental.sh
 
       - name: Prepare vcheck
-        working-directory: ./vcheck
         run: |
-          check_noads="$update${NL}"
-          check_noads+="$lastmodified${NL}"
-          check_noads+="$checkwebsite${NL}"
-          num_of_lines=$(< "..\experimental.txt" wc -l)
-          num_of_lines="$((num_of_lines - 21))"
-          check_noads+="$num_of_lines${NL}"
-          echo "$check_noads" > "check_experimental.txt"
+          echo $update > check_experimental.txt
+          echo $lastmodified >> check_experimental.txt
+          echo $checkwebsite >> check_experimental.txt
+          num_of_lines=$(< "experimental.txt" wc -l)
+          num_of_lines="$((num_of_lines - 25))"
+          echo $num_of_lines >> check_experimental.txt
 
       - name: Commit
         run: |
