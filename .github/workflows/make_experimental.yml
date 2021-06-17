@@ -45,7 +45,7 @@ jobs:
           num_of_lines=$(< "experimental.txt" wc -l)
           num_of_lines="$((num_of_lines - 21))"
           check_noads+="$num_of_lines${NL}"
-          echo "$check_noads" > "vcheck\check_xperimental.txt"
+          echo "$check_noads" > "vcheck\check_experimental.txt"
 
       - name: Commit
         run: |
