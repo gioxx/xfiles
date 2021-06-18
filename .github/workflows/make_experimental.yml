@@ -48,10 +48,6 @@ jobs:
           echo $checkwebsite >> vcheck/check_experimental.txt
           echo $num_of_lines >> vcheck/check_experimental.txt
           
-      - name: GHC
-        run: |
-          git rev-list --count HEAD > vcheck/check_gh.txt
-
       - name: Commit
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
