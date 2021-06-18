@@ -58,8 +58,8 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add experimental.txt
           git add vcheck/check_experimental.txt
-          git commit -m "Experimental $update del $lastmodified" experimental.txt
-          git commit -m "vCheck Experimental $update del $lastmodified" ./vcheck/check_experimental.txt
+          git add vcheck/check_gh.txt
+          git commit -m "Experimental $update del $lastmodified" -a
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
