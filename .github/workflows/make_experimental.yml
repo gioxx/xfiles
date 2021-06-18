@@ -41,7 +41,7 @@ jobs:
       - name: Prepare vcheck
         run: |
           num_of_lines=$(< "experimental.txt" wc -l)
-          num_of_lines="$((num_of_lines - 25))"
+          num_of_lines="$((num_of_lines - 24))"
           echo $update > vcheck/check_experimental.txt
           echo $lastmodified >> vcheck/check_experimental.txt
           echo $checkwebsite >> vcheck/check_experimental.txt
