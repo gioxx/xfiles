@@ -4,7 +4,6 @@ on:
     paths:
     - 'contrib/xfiles_*'
     - 'vcheck/check_experimental.txt'
-    - 'vcheck/check_gh.txt'
 #  push:
 #    branches: [ master ]
 #  pull_request:
