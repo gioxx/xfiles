@@ -50,7 +50,7 @@ jobs:
           
       - name: GHC
         run: |
-          git shortlog | grep -E '^[ ]+\w+' | wc -l > vcheck/check_gh.txt
+          git rev-list --all --count > vcheck/check_gh.txt
 
       - name: Commit
         run: |
