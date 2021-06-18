@@ -4,6 +4,7 @@ on:
     paths:
     - 'contrib/xfiles_*'
     - 'vcheck/check_experimental.txt'
+    - 'vcheck/check_gh.txt'
 #  push:
 #    branches: [ master ]
 #  pull_request:
@@ -46,6 +47,10 @@ jobs:
           echo $lastmodified >> vcheck/check_experimental.txt
           echo $checkwebsite >> vcheck/check_experimental.txt
           echo $num_of_lines >> vcheck/check_experimental.txt
+          
+      - name: GHC
+        run: |
+          git shortlog | grep -E '^[ ]+\w+' | wc -l > vcheck/check_gh.txt
 
       - name: Commit
         run: |
