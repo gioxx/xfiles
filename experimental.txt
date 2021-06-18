@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202106180846
+! Version: 202106180917
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
 ! Last modified: 18-06-2021
@@ -145,6 +145,8 @@ flaticon.com##SECTION[id="sponsor-partner"]
 flickr.com###gpt-feed-billboard
 flickr.com##.g-moola-container.feed-ba
 fontawesome.com###carbonads
+fontawesome.com##.card.wrap-carbon-ad.wrap-ad
+fontawesome.com##.wrap-ad
 forbes.com##.top-ad-container
 fortune.com###div-gpt-leaderboard-fixed-1
 fortune.com###div-gpt-leaderboard-fixed-2
@@ -236,6 +238,7 @@ itwriting.com##[href^="https://www.sysax.com/ppc/sxitwads/"]
 jsonlint.com###carbon-block
 justwatch.com##.ad-unit
 key4biz.it##.banner.d-block
+kifarunix.com##.adtester-container
 lastampa.it##.adv-container
 leganerd.com##A[href^="https://adclick.g.doubleclick.net"]
 libero.it###adv_topper
