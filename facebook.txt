@@ -1,14 +1,14 @@
-[Adblock Plus 2.0]
-! Version: 201812140827
+[Adblock Plus 2.8]
+! Version: 202106181125
 ! Title: X Files: NoFacebookAds
 ! NFA: rimuovi la spazzatura da Facebook!
-! Last modified: 14-12-2018
+! Last modified: 18-06-2021
 ! Expires: 30 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
-! Blog: https://gioxx.org/tag/abpxfiles/
-! Hosting lista: GitHub.com
-! 
+! Blog: https://gioxx.org/tag/abpxfiles
+! Hosting: GitHub.com
+!
 @@||www.facebook.com/ads/$elemhide
 @@||www.facebook.com/ajax/ads/$xmlhttprequest,domain=www.facebook.com
 ###pagelet_side_ads
