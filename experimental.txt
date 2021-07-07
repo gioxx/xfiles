@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202106241054
+! Version: 202107070652
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 24-06-2021
+! Last modified: 07-07-2021
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -241,6 +241,7 @@ itstillworks.com##.adsbygoogle
 itwriting.com##[href^="https://www.sysax.com/ppc/sxitwads/"]
 jsonlint.com###carbon-block
 justwatch.com##.ad-unit
+katfile.com##div[id^="adtrue_tag"]
 key4biz.it##.banner.d-block
 kifarunix.com##.adtester-container
 lastampa.it##.adv-container
@@ -416,6 +417,8 @@ theverge.com##.adblock-whitelist-messaging__article-wrapper
 thewindowsclub.com##.ezoic-ad
 threadreaderapp.com##.top-ad.container
 today.it##IFRAME[title="AD"]
+tools.pdf24.org##.adSpace
+tools.pdf24.org##.adText
 trakt.tv###hu-ck-st-er-desk-top-wrapper
 trakt.tv###hu-ck-ster-desk-top-sidenav
 trakt.tv###hu-ck-ster-desk-top-wrapper
@@ -2133,7 +2136,6 @@ s4egy.com##HTML *
 ||afftrack.com^$popup
 ||aflrm.com^$popup
 ||allmyvideos.net/goto.html?*$popup
-||amazon-adsystem.com^
 ||ampxchange.com^$popup
 ||annuncicdn.it/creativities/kijiji_skin
 ||ansa.it/web/banner_js/
