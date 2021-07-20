@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202107070652
+! Version: 202107201053
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 07-07-2021
+! Last modified: 20-07-2021
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -66,6 +66,8 @@ aranzulla.it###pm_top_div
 aranzulla.it##DIV[id^="ad"]
 arstechnica.com##.ad_crown.ad
 arstechnica.com##.ad_instream
+baeldung.com##div[id^="baeldung_incontent"]
+baeldung.com##div[id^="baeldung_leaderboard"]
 bergamonews.it###PCT-sliding-bottom
 bergamonews.it##.simple_overlay
 bitchyf.it###trc_wrapper_80827
@@ -95,6 +97,7 @@ community.spiceworks.com##.card-columns.card-columns--old
 community.spiceworks.com##.community-content--ad_card
 community.spiceworks.com##.read-next-footer.js-read-next-footer.constrained-content.curated-items
 community.spiceworks.com##.slot-1-wrapper
+contacaratteri.it##.AdvTop
 corriere.it##.sponsor-strip-pos.bck-media-list-sponsor
 corrieredellosport.it##div[class^="AdUnit"]
 ctrl.blog##.adco.adco-fv
@@ -417,6 +420,7 @@ theverge.com##.adblock-whitelist-messaging__article-wrapper
 thewindowsclub.com##.ezoic-ad
 threadreaderapp.com##.top-ad.container
 today.it##IFRAME[title="AD"]
+tomshw.it##.edinet_adv_container
 tools.pdf24.org##.adSpace
 tools.pdf24.org##.adText
 trakt.tv###hu-ck-st-er-desk-top-wrapper
