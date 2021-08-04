@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202107301301
+! Version: 202108041305
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 30-07-2021
+! Last modified: 04-08-2021
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -61,6 +61,7 @@ agnitogeek.com##.td-adspot-title
 alt-codes.net###primis_container_div
 amp.ilgiornale.it##.banner
 andreagaleazzi.com##DIV[class="am-adv am-adv-default am-adv-skin"]
+androidauthority.com##div[class*="tagged-pw-leaderboard_atf"]
 androidworld.it##.ad-container
 aranzulla.it###pm_top_div
 aranzulla.it##DIV[id^="ad"]
@@ -73,6 +74,7 @@ bergamonews.it##.simple_overlay
 bitchyf.it###trc_wrapper_80827
 bitchyf.it##.trc_rbox.thumbnails-x.trc-content-sponsored
 bleepingcomputer.com##.cnx-size-responsive.cnx-player-wrapper
+bleepingcomputer.com##div[id^="bleepingcomputer_728x90"]
 blog.napolux.com##.wpcnt
 bloomberg.com##.leaderboard-ad-dummy
 borsaitaliana.it##DIV[class="adv--lgm l-adv--fixed js--adv-fix"]
