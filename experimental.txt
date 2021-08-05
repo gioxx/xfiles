@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202108041305
+! Version: 202108051339
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 04-08-2021
+! Last modified: 05-08-2021
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -63,6 +63,7 @@ amp.ilgiornale.it##.banner
 andreagaleazzi.com##DIV[class="am-adv am-adv-default am-adv-skin"]
 androidauthority.com##div[class*="tagged-pw-leaderboard_atf"]
 androidworld.it##.ad-container
+apkamp.com##.adv-block
 aranzulla.it###pm_top_div
 aranzulla.it##DIV[id^="ad"]
 arstechnica.com##.ad_crown.ad
@@ -165,6 +166,8 @@ fortune.com##.ad.ad-container.ad-wrapper.type-300-flex.desktop-only.karma-ad
 fortune.com##.ad.ad-container.ad-wrapper.type-728x90.instream-ad.tablet-ad.desktop-ad.karma-ad
 fortune.com##.padded-mobile
 forum.iphoneitalia.com##.google-adsense
+forum.xda-developers.com###xdadevelopers_forum_spot_thread_above_messages_dynamic1
+forum.xda-developers.com###xdadevelopers_leaderboard_atf
 forumfree.it###ffAdStart
 forumfree.it##.mgbox
 fossbytes.com##._ap_apex_ad
@@ -309,6 +312,7 @@ msoutlook.info###header-banner
 mspy.it##.cookie-l
 my-personaltrainer.it###spazio2
 my-personaltrainer.it##.sal-adv-adsense
+nextpit.com##.gptSlot
 nextquotidiano.it###adk_masthead
 nextquotidiano.it###adk_spalla-top
 nextquotidiano.it##.adk-slot
@@ -4690,7 +4694,6 @@ tubettajat.net##+js(aopr, miner)
 ###qc-cmp2-main
 ##.CookieConsent
 ##.as-oil-content-overlay
-##.cl-consent
 ##.cookie-banner
 ##.cookie-notice-container
 ##.cookie-policy-banner
