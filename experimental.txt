@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202108051345
+! Version: 202108171249
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 05-08-2021
+! Last modified: 17-08-2021
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -4591,19 +4591,31 @@ youtube.com,youtube-nocookie.com##+js(json-prune.js, [].playerResponse.adPlaceme
 ||ytimg.com^*/new_watch_background$domain=youtube.com
 ||ytimg.com^*_banner$domain=youtube.com
 ! [ABP X Files - Filtri sperimentali]
+##.native-ad-item
 /stats.php?*event=$image,domain=fapster.xxx|pornomovies.com
 brillen.de##+js(acis, document.createElement, 'script')
 liberation.fr,officedepot.fr,oui.sncf##+js(acis, document.createElement, '.js')
+noopmp3-0.1s
 rediff.com##+js(ra, onclick, [onclick^="track"])
 rediff.com##+js(ra, onmousedown, [onmousedown^="return enc(this,'https://track.rediff.com"])
 sfr.fr##+js(aopr, _oEa)
 teamskeet.com##+js(set, $.tstracker, noopFunc)
+yahoo.com###sda-LDRB
+yahoo.com###sda-LDRB2
+yahoo.com###sda-MAST
+yahoo.com##.darla
+||adaptv.advertising.com^
 ||adblockanalytics.com^$3p
 ||adnotbad.com^
+||atwola.com^
+||bats.video.yahoo.com^
+||beap.gemini.yahoo.com^
 ||cnt.hd21.com^
 ||collector.xhamster*.*^
 ||copyhomework.com^
 ||coursecopy.com^
+||edgecast-vod.yimg.com/$media,redirect-rule=noopmp3-0.1s,domain=yahoo.com
+||geo.yahoo.com^
 ||hd21.com/ajax/track?
 ||icontent.us^$document
 ||jsfuel.com^
@@ -4617,6 +4629,8 @@ teamskeet.com##+js(set, $.tstracker, noopFunc)
 ||quiztoolbox.com^
 ||ratexchange.net^
 ||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js
+||scorecardresearch.com^
+||scorecardresearch.com^
 ||serverads.net^
 ||studyeffect.com^
 ||taboola.com^$3p
@@ -4624,8 +4638,11 @@ teamskeet.com##+js(set, $.tstracker, noopFunc)
 ||testbooksolutions.com^
 ||the-japan-news.com/modules/js/lib/fgp/fingerprint2.js$script,redirect=fingerprint2.js,important
 ||tradeadsexchange.com^
+||vidible.tv^
 ||vidtech.cbsinteractive.com^*/tracking/$script,redirect=noop.js,important
+||wc.yahoodns.net^$image
 ||widgets.outbrain.com/outbrain.js$script,redirect=widgets.outbrain.com/outbrain.js
+||yimg.com/aaq/wf/wf-darla-
 ! [ABP X Files - Filtri script inline per uBlock]
 bergamonews.it##^script:has-text(checkForAdBlocker)
 bergamonews.it##^script:has-text(request_ads)
