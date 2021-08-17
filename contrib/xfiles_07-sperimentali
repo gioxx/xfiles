@@ -34,20 +34,30 @@ rediff.com##+js(ra, onclick, [onclick^="track"])
 rediff.com##+js(ra, onmousedown, [onmousedown^="return enc(this,'https://track.rediff.com"])
 sfr.fr##+js(aopr, _oEa)
 teamskeet.com##+js(set, $.tstracker, noopFunc)
-||vidible.tv^
 ||scorecardresearch.com^
+||vidible.tv^
 ||bats.video.yahoo.com^
 ||geo.yahoo.com^
-||scorecardresearch.com^
-||adaptv.advertising.com^
-||wc.yahoodns.net^$image
 ||beap.gemini.yahoo.com^
+||adaptv.advertising.com^
 noopmp3-0.1s
 ||edgecast-vod.yimg.com/$media,redirect-rule=noopmp3-0.1s,domain=yahoo.com
+||edgecast-vod.yimg.com/$media,domain=yahoo.com
+/pixel.gif?
+/pixel2.gif?
+||yahoo.net/pixel.gif
+||wc.yahoodns.net^$image
+/beacon/perf
+/px.gif?
 ##.native-ad-item
-yahoo.com##.darla
-yahoo.com###sda-MAST
-yahoo.com###sda-LDRB2
-yahoo.com###sda-LDRB
+##.darla
+###sda-MAST
+###sda-LDRB2
+###sda-LDRB
+||yimg.com/rq/darla/$domain=yahoo.com
 ||atwola.com^
+/beacon/error?
+||jac.yahoosandbox.com^
+/perf-vitals_
+/wf-beacon-
 ||yimg.com/aaq/wf/wf-darla-
