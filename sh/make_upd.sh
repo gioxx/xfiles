@@ -16,14 +16,14 @@ emptycheck "phishingdomains.txt"
 emptycheck "2021-07-18_nso.txt"
 emptycheck "NSA-CIA-Blocklist.txt"
 
-cat upd_exclude
+cat contrib/upd_exclude
 
 while read line; do
   echo "Cerco ed elimino $line"
   sed -e "/$line/d" -i "phishingdomains.txt"
 	sed -e "/$line/d" -i "2021-07-18_nso.txt"
 	sed -e "/$line/d" -i "NSA-CIA-Blocklist.txt"
-done < upd_exclude
+done < contrib/upd_exclude
 
 #	Remove header and blank lines from 3rd-party lists
 #	Credits:	https://unix.stackexchange.com/questions/37790/how-do-i-delete-the-first-n-lines-of-an-ascii-file-using-shell-commands
