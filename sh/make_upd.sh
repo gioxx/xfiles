@@ -16,6 +16,8 @@ emptycheck "phishingdomains.txt"
 emptycheck "2021-07-18_nso.txt"
 emptycheck "NSA-CIA-Blocklist.txt"
 
+cat upd_exclude
+
 while read line; do
   echo "Cerco ed elimino $line"
   sed -e "/$line/d" -i "phishingdomains.txt"
