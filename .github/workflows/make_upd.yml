@@ -56,7 +56,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add upd.txt
           git add vcheck/check_upd.txt
-          git commit -m "Aggiornamento UPD_TEST $update del $lastmodified" -a
+          git commit -m "Aggiornamento UPD (GHA) $update del $lastmodified" -a
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
