@@ -16,8 +16,6 @@ emptycheck "phishingdomains.txt"
 emptycheck "2021-07-18_nso.txt"
 emptycheck "NSA-CIA-Blocklist.txt"
 
-cat contrib/upd_exclude
-
 while read line; do
   echo "Cerco ed elimino $line"
   sed -e "/$line/d" -i "phishingdomains.txt"
@@ -51,5 +49,5 @@ sed -e 's/^/||/' -i "NSA-CIA-Blocklist.txt"
 cat "phishingdomains.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" >> "upd_nosort.txt"
 sort -o "upd_sort.txt" "upd_nosort.txt"
 uniq "upd_sort.txt" "upd_sort_tmp.txt" && mv "upd_sort_tmp.txt" "upd_sort.txt"
-cat "upd_sort.txt" >> "upd_test.txt"
+cat "upd_sort.txt" >> "upd.txt"
 rm "phishingdomains.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" "upd_nosort.txt" "upd_sort.txt"
