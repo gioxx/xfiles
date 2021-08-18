@@ -3,7 +3,7 @@ on:
   push:
     paths:
     - 'contrib/upd_exclude'
-    - 'vcheck/check_upd_test.txt'
+    - 'vcheck/check_upd.txt'
 
   workflow_dispatch:
 
@@ -24,38 +24,38 @@ jobs:
 
       - name: Prepare list header
         run: |
-          echo "! Title: X Files: UPD uBlock Phishing Domains" > upd_test.txt
-          echo "! Version:" $update >> upd_test.txt
-          echo "! Last modified:" $lastmodified >> upd_test.txt
-          echo "! Expires: 1 day (update frequency)" >> upd_test.txt
-          echo "!" >> upd_test.txt
-          echo "! uBlock Phishing Domains blocca siti web dannosi per la tua navigazione" >> upd_test.txt
-          echo "! Una lista specificatamente pensata per uBlock Origin, ANCORA IN FASE DI SPERIMENTAZIONE" >> upd_test.txt
-          echo "!" >> upd_test.txt
-          echo "! Homepage: https://xfiles.noads.it" >> upd_test.txt
-          echo "! Blog: https://gioxx.org/tag/abpxfiles" >> upd_test.txt
-          echo "! Database: https://github.com/mitchellkrogza/Phishing.Database" >> upd_test.txt
-          echo "! Hosting: GitHub.com" >> upd_test.txt
-          echo "!" >> upd_test.txt
+          echo "! Title: X Files: UPD uBlock Phishing Domains" > upd.txt
+          echo "! Version:" $update >> upd.txt
+          echo "! Last modified:" $lastmodified >> upd.txt
+          echo "! Expires: 1 day (update frequency)" >> upd.txt
+          echo "!" >> upd.txt
+          echo "! uBlock Phishing Domains blocca siti web dannosi per la tua navigazione" >> upd.txt
+          echo "! Una lista specificatamente pensata per uBlock Origin, ANCORA IN FASE DI SPERIMENTAZIONE" >> upd.txt
+          echo "!" >> upd.txt
+          echo "! Homepage: https://xfiles.noads.it" >> upd.txt
+          echo "! Blog: https://gioxx.org/tag/abpxfiles" >> upd.txt
+          echo "! Database: https://github.com/mitchellkrogza/Phishing.Database" >> upd.txt
+          echo "! Hosting: GitHub.com" >> upd.txt
+          echo "!" >> upd.txt
 
       - name: Let's make UPD
         run: sh ./sh/make_upd.sh
 
       - name: Prepare vcheck
         run: |
-          num_of_lines=$(< "upd_test.txt" wc -l)
+          num_of_lines=$(< "upd.txt" wc -l)
           num_of_lines="$((num_of_lines - 13))"
-          echo $update > vcheck/check_upd_test.txt
-          echo $lastmodified >> vcheck/check_upd_test.txt
-          echo $checkwebsite >> vcheck/check_upd_test.txt
-          echo $num_of_lines >> vcheck/check_upd_test.txt
+          echo $update > vcheck/check_upd.txt
+          echo $lastmodified >> vcheck/check_upd.txt
+          echo $checkwebsite >> vcheck/check_upd.txt
+          echo $num_of_lines >> vcheck/check_upd.txt
           
       - name: Commit
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add upd_test.txt
-          git add vcheck/check_upd_test.txt
+          git add upd.txt
+          git add vcheck/check_upd.txt
           git commit -m "Aggiornamento UPD_TEST $update del $lastmodified" -a
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
