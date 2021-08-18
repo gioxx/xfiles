@@ -13,6 +13,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      
+      - name: Set Timezone
+        uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: "Europe/Rome"
 
       - name: Start engine
         run: sh ./sh/datetime.sh
