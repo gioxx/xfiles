@@ -3,7 +3,6 @@ on:
   push:
     paths:
     - 'contrib/upd_exclude'
-    - 'vcheck/check_upd.txt'
 
   workflow_dispatch:
 
