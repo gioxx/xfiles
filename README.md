@@ -1,4 +1,4 @@
- - NoAds X Files (xfiles.noads.it)
+ NoAds X Files (xfiles.noads.it)
    ===================
 
    **[X Files](https://xfiles.noads.it)** è il nome del progetto nato per gioco, diventato punto di riferimento nazionale per il filtraggio della pubblicità invasiva su una moltitudine di siti web nostrani e internazionali. Il sito web del progetto è disponibile pubblicamente all'indirizzo https://xfiles.noads.it.
