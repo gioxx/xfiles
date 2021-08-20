@@ -3,7 +3,6 @@ on:
   push:
     paths:
     - 'contrib/xfiles_*'
-    - 'vcheck/check_experimental.txt'
 #  push:
 #    branches: [ master ]
 #  pull_request:
