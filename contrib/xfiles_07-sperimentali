@@ -1,63 +1,19 @@
-! [ABP X Files - Filtri sperimentali]
-/stats.php?*event=$image,domain=fapster.xxx|pornomovies.com
-||adblockanalytics.com^$3p
-||adnotbad.com^
-||cnt.hd21.com^
+! [NoAds X Files - Filtri sperimentali]
 ||collector.xhamster*.*^
-||copyhomework.com^
-||coursecopy.com^
+||edgecast-vod.yimg.com/$media,domain=yahoo.com
+||edgecast-vod.yimg.com/$media,redirect-rule=noopmp3-0.1s,domain=yahoo.com
 ||hd21.com/ajax/track?
-||icontent.us^$document
-||jsfuel.com^
-||lnkr.us^$document
-||marketing.net.*^$1p
-||mtsa.com.my/mtcs.php/pageview/track^$image
-||pubexchange.com^$3p
-||qip.ng^$document
-||qip.ru^$document
-||quizlookup.com^
-||quiztoolbox.com^
-||ratexchange.net^
 ||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js
-||serverads.net^
-||studyeffect.com^
-||taboola.com^$3p
-||takethatad.com^
 ||testbooksolutions.com^
 ||the-japan-news.com/modules/js/lib/fgp/fingerprint2.js$script,redirect=fingerprint2.js,important
-||tradeadsexchange.com^
 ||vidtech.cbsinteractive.com^*/tracking/$script,redirect=noop.js,important
 ||widgets.outbrain.com/outbrain.js$script,redirect=widgets.outbrain.com/outbrain.js
+||yahoo.net/pixel.gif
+||yimg.com/aaq/wf/wf-darla-
+||yimg.com/rq/darla/$domain=yahoo.com
 brillen.de##+js(acis, document.createElement, 'script')
 liberation.fr,officedepot.fr,oui.sncf##+js(acis, document.createElement, '.js')
 rediff.com##+js(ra, onclick, [onclick^="track"])
 rediff.com##+js(ra, onmousedown, [onmousedown^="return enc(this,'https://track.rediff.com"])
 sfr.fr##+js(aopr, _oEa)
 teamskeet.com##+js(set, $.tstracker, noopFunc)
-||scorecardresearch.com^
-||vidible.tv^
-||bats.video.yahoo.com^
-||geo.yahoo.com^
-||beap.gemini.yahoo.com^
-||adaptv.advertising.com^
-noopmp3-0.1s
-||edgecast-vod.yimg.com/$media,redirect-rule=noopmp3-0.1s,domain=yahoo.com
-||edgecast-vod.yimg.com/$media,domain=yahoo.com
-/pixel.gif?
-/pixel2.gif?
-||yahoo.net/pixel.gif
-||wc.yahoodns.net^$image
-/beacon/perf
-/px.gif?
-##.native-ad-item
-##.darla
-###sda-MAST
-###sda-LDRB2
-###sda-LDRB
-||yimg.com/rq/darla/$domain=yahoo.com
-||atwola.com^
-/beacon/error?
-||jac.yahoosandbox.com^
-/perf-vitals_
-/wf-beacon-
-||yimg.com/aaq/wf/wf-darla-

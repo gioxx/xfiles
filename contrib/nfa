@@ -1,31 +1,26 @@
 @@||www.facebook.com/ads/$elemhide
 @@||www.facebook.com/ajax/ads/$xmlhttprequest,domain=www.facebook.com
-###pagelet_side_ads
+/hads-
 ##.adsCategoryIcon
 ##.adsCategoryTitleLink
-/hads-
+###pagelet_side_ads
+||atdmt.com^$third-party
+||facebook.com^$popup,domain=streamcloud.eu
+||fbcdn.net^*/flyers/$domain=facebook.com
 apps.facebook.com##div[style="margin: 0px; width: 760px; height: 90px; text-align: center; vertical-align: middle;"]
-facebook.com###MessagingNetegoWrapper
-facebook.com###headerArea
-facebook.com###home_sponsor_nile
-facebook.com###home_stream > .uiUnifiedStory[data-ft*="\"ei\":\""]
-facebook.com###leaderboard
-facebook.com###pagelet_ads_when_no_friend_list_suggestion
-facebook.com###pagelet_games_rhc
-facebook.com###pagelet_growth_expanding_cta
+facebook.com##._24n
+facebook.com##._24o
+facebook.com##._3qj-
+facebook.com##._4u8
 facebook.com##.-cx-PRIVATE-fbAdUnit__root
 facebook.com##.-cx-PRIVATE-fbEmu__root
 facebook.com##.-cx-PRIVATE-fbFacebarTypeaheadToken__sponsored
 facebook.com##.-cx-PRIVATE-snowliftAds__root
 facebook.com##.-cx-PRIVATE-spyml__story
 facebook.com##.-cx-PUBLIC-fbAdUnit__root
-facebook.com##._24n
-facebook.com##._24o
-facebook.com##._3qj-
-facebook.com##._4u8
 facebook.com##.adv
-facebook.com##.egoOrganicColumn
 facebook.com##.ego_spo
+facebook.com##.egoOrganicColumn
 facebook.com##.fbAdUnit
 facebook.com##.fbEmu
 facebook.com##.fbEmuBlock
@@ -41,6 +36,14 @@ facebook.com##.muffin.group
 facebook.com##.ownsection[role="option"]
 facebook.com##[data-referrer="pagelet_side_ads"]
 facebook.com##[href^="/ads/adboard/"]
+facebook.com###headerArea
+facebook.com###home_sponsor_nile
+facebook.com###home_stream > .uiUnifiedStory[data-ft*="\"ei\":\""]
+facebook.com###leaderboard
+facebook.com###MessagingNetegoWrapper
+facebook.com###pagelet_ads_when_no_friend_list_suggestion
+facebook.com###pagelet_games_rhc
+facebook.com###pagelet_growth_expanding_cta
 facebook.com##a[ajaxify^="/ajax/emu/end.php?"]
 facebook.com##a[href^="/ajax/emu/end.php?"]
 facebook.com##div[class="ego_column _5qrt"]
@@ -60,5 +63,3 @@ m.facebook.com,touch.facebook.com##.storyStream > ._6t2[data-sigil="marea"]
 m.facebook.com,touch.facebook.com##.storyStream > .fullwidth._539p
 m.facebook.com,touch.facebook.com##.storyStream > article[id^="u_"]._676
 m.facebook.com,touch.facebook.com##.storyStream > article[id^="u_"].storyAggregation
-||atdmt.com^$third-party
-||fbcdn.net^*/flyers/$domain=facebook.com
