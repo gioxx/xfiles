@@ -1,10 +1,17 @@
 ! [NoAds X Files - Elementi nascosti]/elemhide
+/ad3.
+/adtech/*
+/api/ads/*
 /beacon/error?
 /beacon/perf
+/googleads.
+/js/adv.
+/pagead2.
 /perf-vitals_
 /pixel.gif?
 /pixel2.gif?
 /px.gif?
+/show_ads_
 /wf-beacon-
 ##.adsbygoogle
 ##.adv_630
@@ -36,6 +43,6 @@
 ###taboola-below-main-column
 ###topad
 ###zzsliderlayer_tc_box
+##a[href*="flashplayer-updates.com"]
 ##DIV[id="iSaySlider"]
 ##IFRAME[src*="player.deatv.it/?autoplay=true"]
-##a[href*="flashplayer-updates.com"]
