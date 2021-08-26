@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202108232337
+! Version: 202108261301
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 23-08-2021
+! Last modified: 26-08-2021
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -2058,6 +2058,7 @@ lalaziosiamonoi.it##DIV[style="text-align: center; width: 336px; height: 280px; 
 lalaziosiamonoi.it##IMG[src*="net-storage.tccstatic.com/storage/lalaziosiamonoi.it/banner/"][alt^="Banner"]
 lalaziosiamonoi.it##[id^="ad"]
 laleggepertutti.it##.notizie-blue-bnr-one
+laleggepertutti.it##DIV[class="div_topbanner"]
 laleggepertutti.it##IFRAME[src*="plug.it/banners/"]
 lapecheronza.org/ad/
 laprovinciadicomo.it##.ea_native_element
@@ -2152,6 +2153,7 @@ linkiesta.it##.kskdDiv
 linkiesta.it##.noddus-content-card
 linkiesta.it##.topw_root
 linkiesta.it##DIV[id="adl_300x250"]
+linkiesta.it##DIV[id="wa_div_LINKIESTA.IT_WEB_OTHER_TOP"]
 linkworth.com/*/banners/
 linuxhint.com##.adthrive
 linuxhint.com##.adthrive-ad
@@ -2779,6 +2781,7 @@ promoisland.net/*iframe*
 promos.fling.com/geo/custom/
 prontofido.net/adv
 prontoimprese.it##.bnn
+protocol.com###banner-top
 pspiso.com###header_adcode
 pub.oxado.com/ad?*
 pub.oxado.com/insert_ad
@@ -3682,9 +3685,6 @@ wpjedi.com##.big-ad
 wplift.com##DIV[class="main_ad_container ad_container_1"]
 wpmayor.com##A[href*="http://www.wpmayor.com/links/"]
 www-repubblica-it.cdn.ampproject.org##DIV[class="adv-container"]
-www.3bmeteo.com##DIV[id="sidebar-video-fixed"]
-www.laleggepertutti.it##DIV[class="div_topbanner"]
-www.linkiesta.it##DIV[id="wa_div_LINKIESTA.IT_WEB_OTHER_TOP"]
 www50.zippyshare.com##.center_reklamy
 www64.zippyshare.com##.center_reklamy
 x-portal.biz/banner
@@ -4452,6 +4452,7 @@ tubettajat.net##+js(aopr, miner)
 ##.cookie-banner
 ##.cookie-notice-container
 ##.cookie-policy-banner
+##.cookie-revoke-hidden
 ##.ginger_banner-wrapper
 ##.js-cookies-banner.cookies
 ##.optanon-alert-box-wrapper
@@ -4638,7 +4639,6 @@ zedge.no/bilder/mobstorage_ad.gif
 ###ligatus
 ###ligatusdiv
 ##.Ligatus
-##.adsbox
 ##.adsbox
 ##.advn_zone
 ##.afs_ads
