@@ -3,6 +3,7 @@
 ##.cookie-banner
 ##.cookie-notice-container
 ##.cookie-policy-banner
+##.cookie-revoke-hidden
 ##.CookieConsent
 ##.ginger_banner-wrapper
 ##.js-cookies-banner.cookies
@@ -25,7 +26,9 @@
 ###qc-cmp2-main
 01net.it##.max-h-full
 01net.it###uniccmp
+1fichier.com###cookie_box
 9to5google.com##.order-control
+assodigitale.it###cookie-notice
 centrolibri.it##.cc-cookies
 comune.milano.it##.cc-window
 corrieredellosport.it##div[class^="didomi"]
@@ -38,12 +41,14 @@ ilwebmaster21.com##.swal2-shown.swal2-fade.swal2-center.swal2-container
 itninja.com##.ccpa-notification
 lloydsfarmacia.it##.truste_box_overlay
 lloydsfarmacia.it##DIV[id^="pop-div"]
+mspy.it##.cookie-l
 our.umbraco.com###CybotCookiebotDialogBodyUnderlay
 paypal.com###gdpr-container
 pendrivelinux.com###ez-cookie-dialog-wrapper
 pizzium.com###ck_banner
 smallseotools.com###bio_ep
 smallseotools.com###bio_ep_bg
+stokke.com###CybotCookiebotDialogBodyUnderlay
 subito.it##.didomi-regular-notice
 tariffando.it##.cc-window
 theinsidersnet.com##.divascookies
@@ -53,7 +58,3 @@ tuttosport.com##div[class^="didomi"]
 upstory.it###CybotCookiebotDialogBodyUnderlay
 w3schools.com##.snigel-cmp-framework
 xda-developers.com###uniccmp
-1fichier.com###cookie_box
-assodigitale.it###cookie-notice
-mspy.it##.cookie-l
-stokke.com###CybotCookiebotDialogBodyUnderlay
