@@ -38,6 +38,7 @@
 ||clickpoint.com/adsrv/
 ||cn24tv.it/public/pubblicita/
 ||cokeandpopcorn.ch/ads/*
+||collector.xhamster*.*^
 ||concorezzo.org/*/banners/
 ||concorezzo.org/*/bgmax/
 ||coolsport.tv/ad*
@@ -54,6 +55,7 @@
 ||goodmove.tv/adv/
 ||googlesyndication.com/pagead/*
 ||googlesyndication.com/simgad/
+||hd21.com/ajax/track?
 ||hdblog.it/adserver/
 ||highspeedtesting.com/adserver/
 ||hqstream.tv/adl.
@@ -98,7 +100,10 @@
 ||valledaostaglocal.it/*/bgr_body_
 ||venturead.com/script/*
 ||xtr.carambo.la/GetAds
+||yahoo.net/pixel.gif
 ||yieldtraffic.com/ad/
+||yimg.com/aaq/wf/wf-darla-
+||yimg.com/rq/darla/$domain=yahoo.com
 ~eagleboys.com.au##.marketing-ad
 01net.it##.td-header-header-full
 01net.it###ADVleaderboard
@@ -524,6 +529,7 @@ broadcastyourass.com/banners
 browse.deviantart.com##.blt-ad-container
 bs.serving-sys.com/BurstingPipe/Banner
 bs.serving-sys.com##[id^="ebStdBannerFlash"]
+bufale.net##.adk-slot
 bufale.net##.adv_600.hidden-xs.hidden-sm
 bufale.net##[id^="advn_"]
 buonenotizie.it##DIV[class="ad"]
@@ -655,7 +661,6 @@ comesiscrive.it##.b300
 comesiscrive.it##.pure-u-1-4
 comingsoon.it##.adv-container
 comingsoon.it##.cs-adv-wrapper
-commandwindows.com##.ezoic-ad
 commentimemorabili.it##.brid-outstream
 commentimemorabili.it##[id^="advn_"]
 commindo-media.de/www/images
@@ -787,7 +792,6 @@ delicious.com##.big-ads
 delicious.com##.googleAd728
 delicious.com##.sideBarAd300-250
 delicious.com##[class$="ad-container"]
-dellwindowsreinstallationguide.com##.ezoic-ad
 dellwindowsreinstallationguide.com##.wpcnt.wpcnt-header
 dellwindowsreinstallationguide.com###adtester-container
 demr.opt.fimserve.com/adopt
@@ -973,7 +977,6 @@ emuparadise.me###tfasyncframe_3
 engadget.com##[class^="ad header"]
 engadget.com##[id^="ad_"]
 engage.it##[id^="EdimakerAd_"]
-enjoysharepoint.com##span[class*="ezoic-ad"]
 enterpriseios.com##.adsense
 entilocali.umforumgratis.com##.y2c940b4e
 entrytestlab.com/banners
@@ -1037,7 +1040,6 @@ fastvideo.me##A[target="_blank"][href^="http://www.guardaserie.net/4k"]
 fastweb.it/*/hrs/POPUP/
 fastweb.it##DIV[class="MyFP_SoleBanner"]
 fastweb.it##DIV[id="stdTopBannerHeightHack"]
-favicon-generator.org##span[class*="ezoic-ad"]
 fcinternews.it##.banner_sx_160x600
 fcinternews.it##.sub.novis
 fcinternews.it##.tccbanner
@@ -1263,7 +1265,6 @@ geekissimo.com##DIV[id="home_1"]
 general-files.org##.download-button
 general-files.org##.sponsored_download
 gensherminia.com/VisuBox_Donkey/*
-get-itsolutions.com##.ezoic-ad
 getbootstrap.com###carbonads
 getemoji.com##[id*="ad_banner"]
 getemoji.com##[id^="aswift_"]
@@ -1678,7 +1679,6 @@ italiaserie.co##A[href*="italiaserie.co/4k"]
 italiatopgames.it###box_centrale
 itascan.info##[src*="juiceadv.com/banner"]
 itascan.info##IFRAME[src*="clickpoint.com/adsrv/"]
-itechtics.com##.ezoic-ad
 itechtics.com##[class*="ad box"]
 itespresso.it###megabanner
 itespresso.it###overbox
@@ -1866,7 +1866,6 @@ linuxhint.com##.adthrive
 linuxhint.com##.adthrive-ad
 linuxiso.org/ads
 linuxuprising.com##.ads-posting
-linuxuprising.com##.ezoic-ad
 linuxuser.co.uk##DIV[id="top_ads"]
 liutilities.com/partners/affiliate/affiliateCentre/
 live.com##.Ad300x250
@@ -2591,6 +2590,8 @@ reallybig.spinbox.net/DA/
 realraptalk.com/banner
 recomendedsite.com/widget/render/
 reddit.com##[class^="sponsor-"]
+rediff.com##+js(ra, onclick, [onclick^="track"])
+rediff.com##+js(ra, onmousedown, [onmousedown^="return enc(this,'https://track.rediff.com"])
 reggiosera.it##.adunit
 reggiosera.it##.sb-banner
 reggiosera.it##[id^="google-ad"]
@@ -2711,6 +2712,7 @@ serviziopubblico.it##DIV[id^="div-gpt-ad"]
 serviziopubblico.it##DIV[id="skin-leaderboard"]
 sesso24ore.com/spotlight/banner*
 sexmission.us/img/bn/
+sfr.fr##+js(aopr, _oEa)
 shinycash.net/immaginiup/*
 shockwave.com/2006/affiliates/
 shop.ebay.it##.textAd3
@@ -2821,7 +2823,6 @@ spaziogames.it##DIV[style="width:956px;height:250px;float:left;padding-bottom:10
 speckyboy.com##.topad
 speed.pointroll.com/PointRoll/Media/banners/
 speedcheck.org##.cell.isg-container.container
-speedcheck.org##.ezoic-ad
 speedcheck.org##.stories
 speedtest.net##[class^="ad-vertical"]
 speedtest.net##[id^="div-gpt-ad"]
@@ -3021,7 +3022,6 @@ theverge.com##.adblock-whitelist-messaging__article-wrapper
 theverge.com##.m-ad
 theverge.com##.vert.vert300.hashable
 theverge.com##ASIDE
-thewindowsclub.com##.ezoic-ad
 thewindowsclub.com##.widget.ad-widget
 thewindowsclub.com##[class^="ad ad-"]
 threadreaderapp.com##.top-ad.container
@@ -3083,6 +3083,7 @@ tomshw.it##A[class="background-link"]
 tomshw.it##A[href*="adclick"]
 tomshw.it##IFRAME[src^="http://www.tomshw.it/shoppy.php"]
 tonight.eu/static/ads_
+toocool2betrue.com##.adwrapper
 tools.pdf24.org##.adSpace
 tools.pdf24.org##.adText
 tophost.it/banners
@@ -3359,7 +3360,6 @@ windowsnetworking.com###ads-block
 windowsnetworking.com###main-banner
 windowsreport.com##.wr-layout-section__ad
 winguides.com/adserver/
-winhelponline.com##span[class*="ezoic-ad"]
 winmodify.net/*Ad*
 winscp.net##.ad_label
 wintricks.it/freenet/banner/
@@ -3384,7 +3384,6 @@ wired.it##[id^="playerAdv_"]
 wired.it###adv_bkg
 wired.it###overlayBackground
 wired.it##DIV[class="notranslate"]
-witandfolly.co##SPAN[class^="ezoic-ad"]
 witandfolly.co##SPAN[id^="ezoic-pub-ad-placeholder"]
 wonderhowto.com/*/bnrs
 wordreference.com###ad1

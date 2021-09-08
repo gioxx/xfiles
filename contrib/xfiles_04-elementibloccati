@@ -55,6 +55,7 @@
 ||ducati.it^$popup,domain=gpone.com
 ||ebz.io/*/swfIframe.html
 ||ebz.io/*/visionnagePub.htm
+||edgecast-vod.yimg.com/$media,domain=yahoo.com
 ||edreams.it/?*$popup
 ||ertosatie.com^$popup
 ||eurostreaming.biz^$popup,domain=putlocker.com
@@ -131,6 +132,7 @@
 ||techcloudtrk.com^$popup
 ||techtimes.com/iframe_video/ad.php
 ||terraclicks.com^$popup
+||the-japan-news.com/modules/js/lib/fgp/fingerprint2.js$script,redirect=fingerprint2.js,important
 ||thelostsheep.net^$popup
 ||themillionaireinpjs.net^$popup
 ||thoughtsondance.info^$third-party
@@ -147,12 +149,14 @@
 ||valdinievoleoggi.it/sponsorsmap.php
 ||verytech.pianetatech.it/adv/adv_slider.html
 ||vidtech.cbsinteractive.com/$domain=cnet.com
+||vidtech.cbsinteractive.com^*/tracking/$script,redirect=noop.js,important
 ||vipcpms.com^$popup
 ||wagital.com/Wagital-Ads.html
 ||wc.yahoodns.net^$image
 ||weblinkads.com^$popup
 ||webmail.libero.it/mail/advWallpaper.jsp
 ||widget.worldfilia.net/widget.php?*
+||widgets.outbrain.com/outbrain.js$script,redirect=widgets.outbrain.com/outbrain.js
 ||williamhill.it^$popup
 ||xviralex.com^$popup
 ||yceml.net/0*$image
@@ -209,6 +213,7 @@ blumi.to/p/index3a/code.php
 blumi.to/p/index3a/index.php
 blumi.to/p/redi.php
 brandreachsys.com/*/geo_banner.htm
+brillen.de##+js(acis, document.createElement, 'script')
 brothersoft.com/ppd_ads.php
 brothersoft.com/show.html?bs_id=
 bux2get.com/affiliate/scripts/banner_data.js
@@ -289,6 +294,7 @@ it.wopweb.com/services/campaigns/camp_banner.php
 jbaventures.cjt1.net/HTM/545/0/JavaSiteRequest.asp
 keygenguru.com/news_keygenguru.com.html$other
 last.fm/show_ads.php
+liberation.fr,officedepot.fr,oui.sncf##+js(acis, document.createElement, '.js')
 libero.it/wind/leftBox.jsp
 livejasmin.com/freechat.php
 livesport.eu/delivery.php?banner*

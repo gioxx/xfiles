@@ -1,17 +1,4 @@
 ! [NoAds X Files - Filtri sperimentali]
-||collector.xhamster*.*^
-||edgecast-vod.yimg.com/$media,domain=yahoo.com
-||hd21.com/ajax/track?
-||testbooksolutions.com^
-||the-japan-news.com/modules/js/lib/fgp/fingerprint2.js$script,redirect=fingerprint2.js,important
-||vidtech.cbsinteractive.com^*/tracking/$script,redirect=noop.js,important
-||widgets.outbrain.com/outbrain.js$script,redirect=widgets.outbrain.com/outbrain.js
-||yahoo.net/pixel.gif
-||yimg.com/aaq/wf/wf-darla-
-||yimg.com/rq/darla/$domain=yahoo.com
-brillen.de##+js(acis, document.createElement, 'script')
-liberation.fr,officedepot.fr,oui.sncf##+js(acis, document.createElement, '.js')
-rediff.com##+js(ra, onclick, [onclick^="track"])
-rediff.com##+js(ra, onmousedown, [onmousedown^="return enc(this,'https://track.rediff.com"])
-sfr.fr##+js(aopr, _oEa)
+##.ezoic-ad
 teamskeet.com##+js(set, $.tstracker, noopFunc)
+youtube.com##DIV[class*="ytd-promoted-sparkles"]
