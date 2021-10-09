@@ -1,6 +1,8 @@
 NoAds X Files (xfiles.noads.it)
 ===================
 
+[![Created Badge](https://badges.pufler.dev/created/gioxx/xfiles)](https://xfiles.noads.it) [![Updated Badge](https://badges.pufler.dev/updated/gioxx/xfiles)](https://xfiles.noads.it) [![Visits Badge](https://badges.pufler.dev/visits/gioxx/xfiles)](https://xfiles.noads.it)
+
 **[X Files](https://xfiles.noads.it)** è il nome del progetto nato per gioco, diventato punto di riferimento nazionale per il filtraggio della pubblicità invasiva su una moltitudine di siti web nostrani e internazionali. Il sito web del progetto è disponibile pubblicamente all'indirizzo https://xfiles.noads.it.
 
 ![NoAds X Files - xfiles.noads.it](https://gioxx.org/wp-content/uploads/2020/07/abp-x-files-nuovo-processo-di-creazione-della-lista-stabile-e-di-hws.jpg)
