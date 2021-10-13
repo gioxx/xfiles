@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202109131134
+! Version: 202110131049
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 13-09-2021
+! Last modified: 13-10-2021
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -491,6 +491,10 @@ admax.com.tr/adpicture/
 admeld.com/ad/iframe/
 admindmedia.com/*banners/
 admitad.com/advertising_campaign/
+adnkronos.com###adSkinDivLeft
+adnkronos.com###adSkinDivOffset
+adnkronos.com###adSkinDivRight
+adnkronos.com###adSkinDivTop
 adpinion.com/app/
 adprojectlocker.com/ads/*
 ads*.be3a.com/ads3-web-services/
@@ -1904,6 +1908,7 @@ ipsoa.it##.adv-leaderboard.band
 iptrace.in##.BottomBanner
 iptrace.in##.TopBanner
 isohunt.com/*/banners
+ispazio.net##.adlabel
 ispazio.net##.banner_right_sidebar_big
 ispazio.net##.banner_right_sidebar_small
 ispazio.net##.entr-footer
@@ -2490,6 +2495,7 @@ ncbfarm.com/*impr.en
 ncrypt.in/frame-
 neoboard.neoworx-blog-tools.net/*
 neobux.com/*/banner*
+neonato.alfemminile.com###pegasus_banner_atf_skin_mask
 neowin.net###billboard_placeholder
 neowin.net###special-steve
 neowin.net##.banner-leaderboard
@@ -2888,6 +2894,7 @@ reggiosera.it##.adunit
 reggiosera.it##.sb-banner
 reggiosera.it##[id^="google-ad"]
 regionelombardia.info/banners
+register.it###CybotCookiebotDialogBodyUnderlay
 rep.repubblica.it##.adv
 repubblica.it###ads2
 repubblica.it###adv-top
@@ -3596,6 +3603,7 @@ webcache.googleusercontent.com##.banner_728
 webdesignhelper.co.uk/advert_images/
 webhostingmagazine.it##DIV[id="header-bar-right"]
 weblist.de/track/
+webmail.register.it###CybotCookiebotDialogBodyUnderlay
 webmaster-toolkit.com/banners/
 webmasterpoint.org##.tablecondividi
 webmasterpoint.org##DIV[style="float:left;width:300px;margin-left:10px;margin-top:5px;margin-right:10px;"]
