@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202110010000
+! Version: 202110160000
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 01-10-2021
+! Last modified: 16-10-2021
 ! Expires: 7 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -486,6 +486,10 @@ admax.com.tr/adpicture/
 admeld.com/ad/iframe/
 admindmedia.com/*banners/
 admitad.com/advertising_campaign/
+adnkronos.com###adSkinDivLeft
+adnkronos.com###adSkinDivOffset
+adnkronos.com###adSkinDivRight
+adnkronos.com###adSkinDivTop
 adpinion.com/app/
 adprojectlocker.com/ads/*
 adsalsaitalybranch.com/imagenes/creatividades/
@@ -1964,6 +1968,7 @@ ipsoa.it##.adv-leaderboard.band
 iptrace.in##.BottomBanner
 iptrace.in##.TopBanner
 isohunt.com/*/banners
+ispazio.net##.adlabel
 ispazio.net##.banner_right_sidebar_big
 ispazio.net##.banner_right_sidebar_small
 ispazio.net##[class^="ads_"]
@@ -2555,6 +2560,7 @@ ncbfarm.com/*impr.en
 ncrypt.in/frame-
 neoboard.neoworx-blog-tools.net/*
 neobux.com/*/banner*
+neonato.alfemminile.com###pegasus_banner_atf_skin_mask
 neowin.net##.banner-leaderboard
 neowin.net###billboard_placeholder
 neowin.net###special-steve
@@ -2963,6 +2969,7 @@ reggiosera.it###header-middle
 reggiosera.it##[id^="google-ad"]
 reggiosera.it##.sb-banner
 regionelombardia.info/banners
+register.it###CybotCookiebotDialogBodyUnderlay
 rep.repubblica.it##.adv
 repubblica.it/ad/
 repubblica.it###ads2
@@ -3692,6 +3699,7 @@ webcache.googleusercontent.com##.banner_728
 webdesignhelper.co.uk/advert_images/
 webhostingmagazine.it##DIV[id="header-bar-right"]
 weblist.de/track/
+webmail.register.it###CybotCookiebotDialogBodyUnderlay
 webmasterpoint.org##[class^="adsense-"]
 webmasterpoint.org##DIV[style="float:left;width:300px;margin-left:10px;margin-top:5px;margin-right:10px;"]
 webmasterpoint.org##.tablecondividi
