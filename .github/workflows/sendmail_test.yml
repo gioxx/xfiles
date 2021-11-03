@@ -1,0 +1,43 @@
+name: ABP SendMail TEST
+on:
+  push:
+    paths:
+    - 'contrib/upd_exclude'
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set Timezone
+        uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: "Europe/Rome"
+
+      - name: Launches missiles on the moon
+        run: |
+          sendmail_emptyfile () {
+            mail -s "$1 is empty" -r "${{ secrets.MAIL_FROM }}" -S smtp="smtp://${{ secrets.MAIL_SMTP }}:587" \
+                              -S smtp-auth=login \
+                              -S smtp-auth-user="${{ secrets.MAIL_USER }}" \
+                              -S smtp-auth-password="${{ secrets.MAIL_PASS }}" \
+                              -S sendwait \
+                              "${{ secrets.MAIL_TO }}" <<< "UPD: $1 is empty, list creation process stopped."
+          }
+          emptycheck () {
+            if [ -s $1 ]
+            then
+              echo "$1 is not empty, go forward!"
+            else
+              echo "$1 is empty, stop UPD creation process."
+              echo "UPD: $1 is empty, list creation process stopped." | sendmail_emptyfile $1
+              exit
+            fi
+          }
+          wget -c "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains/output/domains/ACTIVE/list" -O "phishingdomains.txt"
+          emptycheck "phishingdomains.txt"
+          
