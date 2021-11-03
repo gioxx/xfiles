@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202110131049
+! Version: 202111030850
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 13-10-2021
+! Last modified: 03-11-2021
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -454,6 +454,7 @@
 87.230.55.113/adserver/
 9gag.com##.block-ad
 9gag.com##.naughty-box
+9to5mac.com##.ad-container
 a.abnad.net/iframe
 a.lakequincy.com/img/
 a.ligatus.com##[class^="lig_wrapper_ad"]
@@ -2526,6 +2527,7 @@ nintendolife.com##.block.outbrain
 nintendolife.com##.masthead
 nintendolife.com##[id^="google_ads_iframe"]
 nod32-free-keys.blogspot.com###nnadsfoot
+nodemailer.com###carbonads
 nolabnoparty.com##.ad-cell
 nonsolocap.it##.ba
 nonsolocap.it##.eo
@@ -3060,6 +3062,7 @@ smallseotools.com##.adp_interactive_ad
 smartworld.it###box-video-native
 smartworld.it###primarTabExpanding
 smartworld.it##.adv
+smartworld.it##.tw-adv-gpt
 smartworld.it##[id^="google_ads_iframe"]
 smashingmagazine.com##.ed
 smile.modchipstore.com/phpAdsNew/
