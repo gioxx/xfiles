@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202111031109
+! Version: 202112010000
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 03-11-2021
+! Last modified: 01-12-2021
 ! Expires: 7 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -587,6 +587,7 @@ amazon.it###sponsoredLinks
 ambiente.liquida.it##.box.adv300x250
 amelya.com/*banners*
 amministrazione.payclick.it/banner/*
+amp24.ilsole24ore.com##div.ad-wrapper
 amp.ilgiornale.it##.banner
 andreagaleazzi.com##DIV[class="am-adv am-adv-default am-adv-skin"]
 androidauthority.com##div[class*="tagged-pw-leaderboard_atf"]
@@ -971,6 +972,7 @@ codeproject.com/script/admentor
 codeproject.com##TABLE[id="ctl00_MC_AdBlock"]
 code.tutsplus.com##.ad.view
 code.tutsplus.com##.ad.view.ad--leaderboard
+code.tutsplus.com##.fuse-ad.avert
 code.tutsplus.com##.post__inarticle-ad-template
 coinmarketcap.com##[class$="Fbnc"]
 cokeandpopcorn.ch##.adgrid
@@ -1176,10 +1178,13 @@ distribuzionemoderna.info/img_banner
 ||dojerena.com/*/Redirect.engine
 domaggiore.it/html/banners/
 domaintools.com/*Advertising*
+doodle.com##ASIDE[class="d-bottomAdContainer"]
 doodle.com###banner
+doodle.com##DIV[id^="avantisContainer"]
 doodle.com##DIV[id="rect"]
 doodle.com###header
 doodle.com###skyrightcontainer
+doodle.com##.textAd
 ||doperoms.com/adsdoperoms/*
 dosgamesarchive.com/banners/
 dosgamesarchive.com##.rectangle_banner
@@ -2543,6 +2548,7 @@ my.deviantart.com###overhead-you-know-what
 my-dirty-hobby.com/banner
 my.ebay.it###rtm_div_210
 myfilestash.com/ads
+myip.ms##.adsfloatpanel
 my.monster.it##.ad160x600backgroundGray
 mymovies.it##DIV[style="text-align:center; top:0px; margin-left:auto; margin-right:auto; height:190px; left:0px; float:left; width:100%; overflow:visible;"]
 mymovies.it##DIV[style="width:728px; height:90px;"]
@@ -3138,6 +3144,7 @@ smallbusiness.chron.com##.trc_rbox_container
 smallpdf.com##.ads
 smallseotools.com##.adp_interactive_ad
 smallseotools.com###pageComparison > div._hmmm_
+smartbox.com###onetrust-consent-sdk
 smartworld.it##.adv
 smartworld.it###box-video-native
 smartworld.it##[id^="google_ads_iframe"]
