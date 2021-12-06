@@ -8,8 +8,8 @@
 ##.ginger_banner-wrapper
 ##.js-cookies-banner.cookies
 ##.optanon-alert-box-wrapper
-##.qc-cmp2-container$domain=~ilbianconero.com
-##.qc-cmp2-main$domain=~ilbianconero.com
+@@##.qc-cmp2-container$domain=~ilbianconero.com
+@@##.qc-cmp2-main$domain=~ilbianconero.com
 ##.show.cookiebar
 ##.snigel-cmp-framework
 ####CybotCookiebotDialogBodyUnderlay
@@ -23,7 +23,7 @@
 ###gdpr-consent-tool-wrapper
 ###optanon
 ###privacy-consent
-###qc-cmp2-main$domain=~ilbianconero.com
+@@###qc-cmp2-main$domain=~ilbianconero.com
 01net.it##.max-h-full
 01net.it###uniccmp
 1fichier.com###cookie_box
