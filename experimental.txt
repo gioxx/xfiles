@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202112060918
+! Version: 202112060921
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
 ! Last modified: 06-12-2021
@@ -4463,7 +4463,6 @@ tubettajat.net##+js(aopr, miner)
 ###gdpr-consent-tool-wrapper
 ###optanon
 ###privacy-consent
-###qc-cmp2-main$domain=~ilbianconero.com
 ##.CookieConsent
 ##.as-oil-content-overlay
 ##.cookie-banner
@@ -4473,14 +4472,15 @@ tubettajat.net##+js(aopr, miner)
 ##.ginger_banner-wrapper
 ##.js-cookies-banner.cookies
 ##.optanon-alert-box-wrapper
-##.qc-cmp2-container$domain=~ilbianconero.com
-##.qc-cmp2-main$domain=~ilbianconero.com
 ##.show.cookiebar
 ##.snigel-cmp-framework
 01net.it###uniccmp
 01net.it##.max-h-full
 1fichier.com###cookie_box
 9to5google.com##.order-control
+@@###qc-cmp2-main$domain=~ilbianconero.com
+@@##.qc-cmp2-container$domain=~ilbianconero.com
+@@##.qc-cmp2-main$domain=~ilbianconero.com
 assodigitale.it###cookie-notice
 centrolibri.it##.cc-cookies
 comune.milano.it##.cc-window
