@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202112061011
+! Version: 202112160000
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 06-12-2021
+! Last modified: 16-12-2021
 ! Expires: 7 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -3532,6 +3532,7 @@ trend-online.com##.box.ad.ad728x90
 trend-online.com##.box.ad.admarket
 trend-online.com##.box.ad.adstrip
 trend-online.com##.strip
+trevisotoday.it##[type="doubleclick"]
 tripadvisor.it##.ad
 tripadvisor.it###ad728X90
 trovabanche.it##DIV[id="ctl00_advHeader_divMOL"]
@@ -4489,6 +4490,7 @@ itninja.com##.ccpa-notification
 ##.js-cookies-banner.cookies
 lloydsfarmacia.it##DIV[id^="pop-div"]
 lloydsfarmacia.it##.truste_box_overlay
+metropolitanmagazine.it##.iubenda-cs-visible
 mspy.it##.cookie-l
 ###optanon
 ##.optanon-alert-box-wrapper
