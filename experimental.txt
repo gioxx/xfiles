@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202112060937
+! Version: 202112150855
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 06-12-2021
+! Last modified: 15-12-2021
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -3439,6 +3439,7 @@ trend-online.com##.box.ad.ad728x90
 trend-online.com##.box.ad.admarket
 trend-online.com##.box.ad.adstrip
 trend-online.com##.strip
+trevisotoday.it##[type="doubleclick"]
 tripadvisor.it###ad728X90
 tripadvisor.it##.ad
 trovabanche.it##DIV[id="ctl00_advHeader_divMOL"]
@@ -4396,7 +4397,10 @@ youtube.com,youtube-nocookie.com##+js(json-prune.js, [].playerResponse.adPlaceme
 ||ytimg.com^*/new_watch_background$domain=youtube.com
 ||ytimg.com^*_banner$domain=youtube.com
 ! [NoAds X Files - Filtri sperimentali]
+###qc-cmp2-main
 ##.ezoic-ad
+##.qc-cmp2-container
+##.qc-cmp2-main
 ilfattoquotidiano.it###_tagvideo_container
 teamskeet.com##+js(set, $.tstracker, noopFunc)
 youtube.com##DIV[class*="ytd-promoted-sparkles"]
@@ -4497,6 +4501,7 @@ ilwebmaster21.com##.swal2-shown.swal2-fade.swal2-center.swal2-container
 itninja.com##.ccpa-notification
 lloydsfarmacia.it##.truste_box_overlay
 lloydsfarmacia.it##DIV[id^="pop-div"]
+metropolitanmagazine.it##.iubenda-cs-visible
 mspy.it##.cookie-l
 our.umbraco.com###CybotCookiebotDialogBodyUnderlay
 paypal.com###gdpr-container
