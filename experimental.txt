@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202112150855
+! Version: 202112150906
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
 ! Last modified: 15-12-2021
@@ -4397,10 +4397,7 @@ youtube.com,youtube-nocookie.com##+js(json-prune.js, [].playerResponse.adPlaceme
 ||ytimg.com^*/new_watch_background$domain=youtube.com
 ||ytimg.com^*_banner$domain=youtube.com
 ! [NoAds X Files - Filtri sperimentali]
-###qc-cmp2-main
 ##.ezoic-ad
-##.qc-cmp2-container
-##.qc-cmp2-main
 ilfattoquotidiano.it###_tagvideo_container
 teamskeet.com##+js(set, $.tstracker, noopFunc)
 youtube.com##DIV[class*="ytd-promoted-sparkles"]
