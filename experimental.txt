@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202112221422
+! Version: 202112261141
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 22-12-2021
+! Last modified: 26-12-2021
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -2471,6 +2471,10 @@ msexchange.org##.body-after
 msfn.org/advert/
 msn.com##.ad
 msn.com##.ad.non-empty-ad
+msn.com##.drrTopAdWrapper
+msn.com##.floatleft.emsinline.section-layout.ec-module
+msn.com##.serversidenativead
+msn.com##DIV[data-provider="taboola"]
 msn.com##[data-aop="articletakeoverad_ad"]
 msn.com##[data-aop^="bannerad"]
 msn.com##[data-aop^="toptakeoverad.ad"]
@@ -3445,6 +3449,7 @@ trend-online.com##.strip
 trevisotoday.it##[type="doubleclick"]
 tripadvisor.it###ad728X90
 tripadvisor.it##.ad
+trivago.it##.item-list-ads-container
 trovabanche.it##DIV[id="ctl00_advHeader_divMOL"]
 trovacinema.repubblica.it###oas-Vetrine
 trovacinema.repubblica.it###sponsor
@@ -3534,6 +3539,7 @@ valledaostaglocal.it##.phpads_container
 valledaostaglocal.it##[class^="skinAdv"]
 valledaostaglocal.it##[id^="advertisingTop"]
 vanillaglam.com/ad_footer/
+vanityfair.it##.advContainer
 vanityfair.it##.sdbadv
 vanityfair.it##[id^="google_ads_iframe"]
 varese.net###banner_1
