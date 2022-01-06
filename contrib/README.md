@@ -2,7 +2,11 @@
 
 All'interno di questa cartella si trovano tutti i singoli file che permettono la costruzione delle liste filtri **X Files**, **NoFacebookAds** (NFA), **Harmful WebSites** (HWS) e **uBlock Phishing Domains** (UPD).
 
-[TOC]
+* [X Files (modulo principale)](#x-files--modulo-principale-)
+  + [Basi dati specifiche](#basi-dati-specifiche)
+* [NoFacebookAds (NFA)](#nofacebookads--nfa-)
+* [Harmful WebSites & uBlock Phishing Domains (HWS, UPD)](#harmful-websites---ublock-phishing-domains--hws--upd-)
+  + [Eccezioni](#eccezioni)
 
 ## X Files (modulo principale)
 
