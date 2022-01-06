@@ -1,6 +1,7 @@
 wget -c "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains/output/domains/ACTIVE/list" -O "phishingdomains.txt"
 wget -c "https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt" -O "2021-07-18_nso.txt"
 wget -c "https://raw.githubusercontent.com/tigthor/NSA-CIA-Blocklist/main/HOSTS/HOSTS" -O "NSA-CIA-Blocklist.txt"
+wget -c "https://github.com/mitchellkrogza/Phishing.Database/raw/master/whitelist.me/whitelist.me" -O "whitelist.txt"
 
 emptycheck () {
   if [ -s $1 ]
