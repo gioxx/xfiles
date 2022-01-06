@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202112291726
+! Version: 202201061509
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 29-12-2021
+! Last modified: 06-01-2022
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -1812,6 +1812,7 @@ ilsoftware.it##[id^="google_ads_iframe"]
 ilsoftware.it##[id^="lwl_"]
 ilsole24ore.com###bannerTop
 ilsole24ore.com###btop
+ilsole24ore.com##.abox--grow.abox.sticky-parent
 ilsole24ore.com##.abox.abox--fullwidth.d-lg-block
 ilsole24ore.com##.abox.d-lg-block.no-border.shrinkable
 ilsole24ore.com##.ad.group.top-banner
@@ -1819,6 +1820,8 @@ ilsole24ore.com##.banner-ad
 ilsole24ore.com##.footer
 ilsole24ore.com##.item.advertising.render33d
 ilsole24ore.com##.item.advertising.render50d
+ilsole24ore.com##.show.modal-backdrop
+ilsole24ore.com##.styleguide-modal > .modal
 ilsussidiario.net##DIV[id="kk-widget"]
 iltempo.it##.bannervcms
 iltempo.it##.i-amphtml-consent-ui-border-enabled
