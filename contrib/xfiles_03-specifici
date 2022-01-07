@@ -1,4 +1,9 @@
 ! [NoAds X Files - Filtri specifici]
+*.exoclick.com/xhamster-945x100.php
+*.solocpm.com/*/728.aspx
+*.solocpm.com/FooterIN-1.aspx
+*.trafficfactory.biz//banners/
+*.usayhealthsolutions.com/news/stay-healthy/
 */openx/*bannerid*
 *banner*.bet-at-home.com/
 *cash*.com/*girls*/banner/
@@ -55,6 +60,7 @@
 ||goodmove.tv/adv/
 ||googlesyndication.com/pagead/*
 ||googlesyndication.com/simgad/
+||gpone.com/adserver/www/delivery/*
 ||hd21.com/ajax/track?
 ||hdblog.it/adserver/
 ||highspeedtesting.com/adserver/
@@ -65,11 +71,15 @@
 ||hwupgrade.it/qnet
 ||hwupgrade.it/speciali
 ||ie-games.com/adserver/
+||imagerip.net/images/2014/12/02/episodiodascaricare.png
+||imagerip.net/images/2014/12/02/episodiodavedere.png
+||imagerip.net/images/2015/01/10/robin.png
 ||images.eurogamer.net/*/takeovers/*420x83*
 ||it.primary.affinitad.com/?f=
 ||maxonclick.com/script/*
 ||media.ultrafastcdn.com/ads/
 ||mi-lorenteggio.com/*/banner_
+||milanocam.it/*/banners/adv*
 ||mirrorstack.com/?q=r_ads3
 ||office-outlook.com/images/banners/
 ||pastebin.com/adserver/
@@ -99,6 +109,9 @@
 ||unilibro.it/*/skin/
 ||valledaostaglocal.it/*/bgr_body_
 ||venturead.com/script/*
+||viglink.com/images/pixel.gif
+||washingtonpost.com/wp-stat/pwapi/prod/*
+||wccftech.com/pubgalaxy/*
 ||xtr.carambo.la/GetAds
 ||yahoo.net/pixel.gif
 ||yieldtraffic.com/ad/
@@ -138,6 +151,7 @@
 2spaghi.it##.box.adv-sidebar
 3bmeteo.com##.4wNET
 3bmeteo.com##[href^="http://feed.4wnet.com/"]
+3bmeteo.com##[id^="adv_"]
 3bmeteo.com##[itemtype="http://www.schema.org/WPAdBlock"]
 3bmeteo.com###admasthead
 3bmeteo.com###adv_5
@@ -158,6 +172,8 @@
 4shared.com##CENTER[dir="ltr"]
 4shared.com##IFRAME[src^="http://www.adshost1.com/ads?"]
 4templates.com/images/banners
+5nowvideo.com###aad
+5nowvideo.com###aad2
 6sicuro.it##.background-link
 6sicuro.it##[id^="hotSpot"]
 85.17.80.123/thumbads/
@@ -177,6 +193,7 @@ abm.hothardware.com/banners
 accountsettings.ebay.it##.scandal-ad
 accuweather.com##.fc-root.fc-pinned-message-container
 accuweather.com##[id^="aad"]
+accuweather.com###header-davek
 accuweather.com###inContent-container
 accuweather.com###sovrn_beacon
 acquaportal.it/*/Banner*
@@ -194,6 +211,7 @@ addynamo.net/ad/
 addyon.com/*/DefaultBanner/
 ademails.com/cgi-bin/contador
 adf.ly###D453GI1
+adf.ly###rf
 adfarm.mediaplex.com/ad/*
 adivor.it/*banner*
 adlog.com.com/adlog
@@ -226,6 +244,7 @@ adspremium.com/*images*
 adsrv.turtled.com/banner
 adult-adv.com/banners
 adult-adv.com/show
+adultsense.org/fappening/
 adv*.edintorni.net
 adv2.bitflow.it/openx/www/
 advertisingspaces.net/banners/
@@ -237,6 +256,7 @@ adx.chip.de/www/
 adzerk.net/Advertisers/
 aeffemedia.it/banner/
 afcyhf.com/image-
+aff.camplace.com/uploads/banners/
 aff.indirdik.com/view?
 affaritaliani.it/*420x26*
 affaritaliani.it/*banner*
@@ -262,6 +282,7 @@ airmp3.net/*ad*
 alfemminile.com/clients/skin/
 alfemminile.com##.af_pubBack
 alfemminile.com##[class^="sas_FormatID_"]
+alfemminile.com##[id^="af_player"]
 alfemminile.com###af_flasht_embed
 alguer.it##.adv_120x240
 alguer.it##.adv_160x600
@@ -280,6 +301,8 @@ altadefinizione.tv##[id^="reklam"]
 altadefinizione.tv##[id$="_reklam"]
 altadefinizione.tv###reklam-468x60
 altalex.com##.lederboard
+alternativeto.net##DIV[class="divLeaderboardLove"]
+alternativeto.net##DIV[id="loveBox"]
 altfarm.mediaplex.com/ad
 altroconsumo.it###skinClick
 alvolante.it##[id^="google_ads_iframe"]
@@ -309,12 +332,15 @@ androidpit.com##[id^="ad_mpu"]
 androidpit.com###ad_leadfull
 androidpit.it##.bannerLabel
 androidpit.it##.boxAdMedRect
+androidpit.it##[id^="ad_"]
 androidpit.it###ad_leadfull
 androidpit.it###ad_mpu
 androidworld.it##.ad-container
 androidworld.it##.adv_esterno
 androidworld.it##.advstrip
+androidworld.it##[id^="google_ads_iframe"]
 androidworld.it##[id^="infinite-adslot"]
+androidworld.it###ligatus_content_ad
 ansa.it##.4wNET
 ansa.it##.adv
 ansa.it##.adv-4
@@ -329,6 +355,7 @@ ansa.it##.ppn468
 ansa.it##.span4.adv
 ansa.it##.TopWidget.TopWidget--ansa-motori
 ansa.it##[id^="dotnAd"]
+ansa.it###advCustomMainDivBg
 ansa.it###dotnAdDivSkDx
 ansa.it###dotnAdDivSkDxImg
 ansa.it###dotnAdDivSkLb
@@ -345,10 +372,12 @@ ansa.it##DIV[id^="banner"]
 ansa.it##DIV[id="banner970x30strip"]
 ansa.it##DIV[id="banner984x45strip"]
 ansa.it##IMG[src^="/brasile_2014/img/banner/"]
+ansa.it##OBJECT[data^="http://timeseeker.thebelab.it/banner"]
 answers.yahoo.com##.yan-question-advert
 answers.yahoo.com##[class$="AdBox"]
 answers.yahoo.com##[id*="AdWrapper"]
 answers.yahoo.com##[id^="Ad-"]
+answers.yahoo.com###ya-darla-LREC
 api.adstargeting.com/advtarget/
 apkamp.com##.adv-block
 apkmirror.com##.gooWidget.google-ad-leaderboard
@@ -424,6 +453,7 @@ avvenire.it##.ctl00_MasterContent_straordinaria640
 avvenire.it##[id^="300x250"]
 avvocati.it##.rightbanner
 awltovhc.com/image-
+backin.net/banner/
 backin.net##DIV[style=" width:100%;height:100%;"]
 badtaste.it##[id^="google_ads_iframe"]
 badtaste.it###badad
@@ -432,8 +462,10 @@ baeldung.com##div[id^="baeldung_leaderboard"]
 banner.orizzontescuola.it/banner/
 bannerconnect.biz/*/adsense
 bannerconnect.biz/*/js/
+bannerflow.com###banner
 bannergratis.it/sb/
 banners.bigextracash.com/banner*
+banners.sexypartners.net/
 banners*.spacash.com/
 bbc.co.uk##.advert
 bbc.co.uk##.bbccom-advert
@@ -458,9 +490,13 @@ bergamonews.it###PCT-sliding-bottom
 betfair.cc-eu.co.uk/link/banner
 bewebmedia.com/*bannerid
 bewebmedia.com/*filename
+bgr.com##[id^="google_ads_iframe"]
 bikeitalia.it###desktop_banner
 bikeitalia.it##A[onclick^="trackOutboundLink"]
 bikeitalia.it##IFRAME[src^="/banner/"]
+billboard.com##[id^="internal_trc_"]
+billboard.com##[id^="trc_header_"]
+bing.com##.b_ad
 bing.com##.sb_adsNv2
 bing.com##.sb_adsWv2
 binlayer.com/ad*
@@ -480,6 +516,8 @@ blackhatworld.com/banners/
 bleepingcomputer.com##.cnx-size-responsive.cnx-player-wrapper
 bleepingcomputer.com##div[id^="bleepingcomputer_728x90"]
 blip.tv/skin/blipnew/adgraphics
+blog.bepuppy.com##.ad-inserter
+blog.bepuppy.com##.top-sidebar-wrapper
 blog.chron.com##.adContainer
 blog.chron.com##.ob_dual_container
 blog.chron.com##.row1.clearfix
@@ -512,6 +550,8 @@ bonusmega.com.br/banner
 boooster.com/promo/*
 boredpanda.com##.tznAfWgNrs
 boredpanda.com##[class$="top-ad"]
+boredpanda.com##img[src^="data:image/jpeg;base64,"]
+boredpanda.com##img[src^="data:image/png;base64,"]
 borsaitaliana.it##DIV[class="adv--lgm l-adv--fixed js--adv-fix"]
 borsaitaliana.it##DIV[id="skinPh"]
 bosscasinos.com/Ads/
@@ -527,6 +567,7 @@ brandreachsys.com/www/delivery/
 branzilla.org##.ads_up
 branzilla.org##.sid_right_inside_banner_right
 breaknotizie.com##[id^="ads300"]
+breathecast.com##[id^="google_ads_iframe_"]
 bresciaoggi.it##.v3_horz-banner.v3_padding.skin-hide
 brighthub.com###adblock_300x250_atf
 brighthub.com###adblock_300x250_btf
@@ -576,6 +617,7 @@ cam4.com/images/468x60*
 cam4.com###Cam4IMslider
 cambro.tv##.box.rltdsldr
 cambro.tv##.vdvwad
+camelcamelcamel.com##[id^="ad_center"]
 cartoline.ch/images/*/120x600*
 cartonionline.com/banner/iframe/
 cas.eu.criteo.com###cto300x250_div2ad240d2ae
@@ -605,6 +647,7 @@ celebritywonder.com/*banner*
 cercaincasa.com/ads*/
 cfos.de##.banner_left
 chandoo.org##A[href="http://chandoo.org/wp/training-programs/"]
+channel4.com###c4ad-Top
 check-host.net##.chadcont
 check-host.net###chadddos-guard2
 chicchedicala.it/banner/
@@ -617,6 +660,7 @@ chip.de/unabh_bilder/
 chip.eu##.call_extadserver_dcu_it_iframe_pangora_320x340
 chomikuj.pl##.ctl00_AdvertTop
 cineblog.it###sidebar_ads
+cineblog01.tv/ads_rot/
 cinema.sky.it###adv_wpclickdiv
 cinemadelsilenzio.it/flash/common/top
 cittaceleste.it###beead_page
@@ -665,6 +709,7 @@ color-hex.com##.fixedad
 colorburned.com##DIV[class^="singleAd"]
 colorburned.com##DIV[class="topBarAd"]
 colorlabsproject.com/*/300x250*
+comesiscrive.it/workspace/javascripts/sociallocker/
 comesiscrive.it##.b300
 comesiscrive.it##.pure-u-1-4
 comingsoon.it##.adv-container
@@ -689,6 +734,8 @@ comprovendo.secondamano.it###TopBanner
 computerandvideogames.com##.promo__content
 computerandvideogames.com##.promo.promo--leaderboard
 computerandvideogames.com##.promo.promo--mpu
+computers.tutsplus.com##.ad.view
+computerworld.com##.ad
 computerworld.com##.dhtmlbanner
 computing.net###rightbanner
 computing.net###top_banner
@@ -750,7 +797,9 @@ ctrl.blog##.abox.adu-in
 ctrl.blog##.adco.adco-fv
 ctrl.blog##.adco.adu-in
 ctxtad.tribalfusion.com/ctxtad/
+cuckolditaliani.com##.block-300x250-ads
 cultofmac.com##.JN
+cultofmac.com##[id^="google_ads_iframe"]
 cultofmac.com###ad-block-125
 cupmagazine.com###head-banner468
 curse.com###content-ad-header
@@ -763,6 +812,7 @@ da.feedsportal.com###clicker
 dagospia.com###bleft
 dagospia.com###bright
 dagospia.com###btop
+dailybest.it##.banner-large.clearfix
 dailydeal.de/referafriend?
 dailydot.com##.sidebar-widget.ad-widget
 dailydot.com###ads-leader
@@ -808,6 +858,7 @@ depositfiles.com##.banner1
 depositfiles.com###adv_banner_download
 dev.thefeed.no/openads
 deviantart.com/global/adframe/
+deviantart.com##.ad-background
 deviantart.com##.da-custom-ad-box
 deviantart.com##.dp-ad-chrome
 deviantart.com##.sleekadbubble
@@ -817,6 +868,7 @@ deviantart.com##DIV[class^="partial-ad"]
 deviantart.com##DIV[class^="tower-ad-header"]
 deviantart.com##DIV[class="gr-box gr-genericbox  gr-adcast"]
 deviantart.com##TD[id^="sidebar-you-know-what"]
+dfiles.eu##[class^="banner"]
 diarioinenglish.com##[class^="publi"]
 diarioinenglish.com##[id*="AdWallpaper"]
 diarioinenglish.com##A[href^="https://adclick"]
@@ -841,16 +893,19 @@ dilei.it###adv_left_div
 dilei.it###adv_right_div
 dimmelo.com/private
 diretta.it/*/advert/
+diretta.it##.adsenvelope
 diretta.it###banner-top
 diretta.it##DIV[class="banner menu-banner"]
 diretta.it##DIV[class="banner"]
 direttastreaming.com##IFRAME[name="trovadeal"]
+diritto24.ilsole24ore.com##.advHeader
 dissapore.com##.adv
 dissapore.com##.article__adv
 dissapore.com##iframe[id^="viralize-player-iframe"]
 distractify.com##.ad-title
 distractify.com##.ad-vertical
 distribuzionemoderna.info/img_banner
+documoo.tv###leader-wrapper
 domaggiore.it/html/banners/
 domaintools.com/*Advertising*
 doodle.com##.textAd
@@ -890,6 +945,8 @@ drakulastream.eu##div[style^="height: 35px; z-index: 99999"]
 drakulastream.eu##div[style="margin:10px"]
 dreambox.roliaforum.com/adverts/
 dreamcar.it###sponsor
+droidviews.com##.span8.td-header-style-1
+droidviews.com##A[href*="http://*.advertising.com/click/"]
 dsble.de###kaufDA-widget-481
 ducatodelporno.org/adsimages
 dummies.com##.ad-placement
@@ -906,6 +963,8 @@ eas.apm.emediate.eu/media
 eastworldnetwork.com/banners_on_EWN
 easy-dating.org/*banner*
 easy-dating.org/PROMO/script_alertwindow/
+ebay.*###scandal100938
+ebay.*###scandal100939
 ebay.it##.hpa-ad1
 ebay.it##.o_rtm_d
 ebay.it##.rtm_html_433
@@ -945,6 +1004,7 @@ ebay.it###rtm_html_274
 ebay.it###rtm_html_439
 ebay.it###rtm_html_441
 ebay.it###rtm_html_564
+ebay.it###rtm_html_644
 ebay.it###rtm_html_825
 ebay.it##DIV[class="ads_leaderboard row"]
 ebay.it##DIV[class="adsense-wrapper"]
@@ -987,10 +1047,21 @@ emcelettronica.com###fblikepop
 emiliameteo.net##DIV[id="image5"]
 emojipedia.org##.ad-header
 emojipedia.org##.ad-sidebar
+emuparadise.me##.mctable1345
+emuparadise.me##[class^="ad_"]
+emuparadise.me##[class^="box ad"]
+emuparadise.me##[class^="mctable"]
+emuparadise.me###ad160
+emuparadise.me###ad728
 emuparadise.me###tfasyncframe_3
+engadget.com##.uac_728x90
 engadget.com##[class^="ad header"]
 engadget.com##[id^="ad_"]
+engadget.com###atwAdFrame0
+engadget.com###atwAdFrame0EAN
+engadget.com###right-ads-rail
 engage.it##[id^="EdimakerAd_"]
+enoratraffic.com/*/900_xhamster.php
 enterpriseios.com##.adsense
 entilocali.umforumgratis.com##.y2c940b4e
 entrytestlab.com/banners
@@ -1011,7 +1082,12 @@ eur.a1.yimg.com/eur.yimg.com/a
 eurogamer.it##.mpuAd
 eurogamer.it##.related
 eurogamer.it##[id^="google_ads_iframe"]
+eurogamer.it###leaderboard
+eurogamer.it###skyscraper
 eurogamer.net##.advert
+eurosport.yahoo.com##.yom-ad
+eurosport.yahoo.com###sponsor
+eurosport.yahoo.com##DIV[class^="yom-ad"]
 everyeye.it##.adv_top
 everyeye.it##.banner_300_new
 everyeye.it##.banner_600_new
@@ -1056,6 +1132,7 @@ fastvideo.me##A[target="_blank"][href^="http://www.guardaserie.net/4k"]
 fastweb.it/*/hrs/POPUP/
 fastweb.it##DIV[class="MyFP_SoleBanner"]
 fastweb.it##DIV[id="stdTopBannerHeightHack"]
+fattoincasadabenedetta.it##.bsm
 fcinternews.it##.banner_sx_160x600
 fcinternews.it##.sub.novis
 fcinternews.it##.tccbanner
@@ -1077,6 +1154,8 @@ filehippo.com##.vzaar-video-player
 filehippo.com##[class^="ad-unit-"]
 filehippo.com###header-above-content-leaderboard
 filehorse.com##[class^="ad_970"]
+fileinfo.com###linkunits
+fileinfo.com###tlbspace
 filepi.com##DIV[style="height:200px;"]
 files2.youporn.com/images/
 filesharingtalk.com###ad_thread_first_post_content
@@ -1132,6 +1211,7 @@ fontawesome.com##.card.wrap-carbon-ad.wrap-ad
 fontawesome.com##.wrap-ad
 fontawesome.com###carbonads
 fontvillage.com/bannerads
+food24.ilsole24ore.com###bannerTop
 forbes.com##.top-ad-container
 forbes.com##[id^="google_ads_iframe"]
 forensicfocus.com###top_ad-sense
@@ -1159,6 +1239,7 @@ forum.telefonino.net###dotnAdDivSkLbImg
 forum.telefonino.net###dotnAdDivSkSx
 forum.telefonino.net###dotnAdDivSkSxImg
 forum.videohelp.com##.spiffywhite5pxfgsponsor
+forum.wininizio.it###mainAds
 forum.xda-developers.com##.purchad
 forum.xda-developers.com##.unicorn
 forum.xda-developers.com###xdadevelopers_forum_spot_thread_above_messages_dynamic1
@@ -1182,10 +1263,12 @@ foxtv.it##.HiddenTablet.colLeft.MPU336
 francescocosta.net###bleft
 francescocosta.net###bright
 francescocosta.net###btop
+franchiseherald.com##[id^="google_ads_iframe"]
 free-webhosts.com/images/a/hgator*
 free.cosplayerotica.com/fhg/img/
 free.grisoft.com/banner
 freedoc.ru/banners/
+freemake.com##.adnl_zone
 freemodding.it/*banner*
 freemodding.it##.bnr
 freenokiasoft.com/banners
@@ -1222,6 +1305,7 @@ gamepal.it/banner/
 gamepal.it###background-ad
 gamepcrip.com/publi/
 games.hdblog.it##.ads_container_top
+games.hdblog.it##.ads.square
 games.hdblog.it##[id^="banner3_"]
 games.it##.advnext_correlati
 games.it###afcbox_itemtop
@@ -1313,7 +1397,11 @@ google.com###adBlock
 google.com###tads
 google.com###tadsb
 google.com##DIV[id="pmocntr2"]
+google.it##.ads-ad
+google.it###\5f Ktg
+google.it###\5f Ltg
 google.it###mbEnd
+google.it###tads
 google.it##DIV[id="bottomads"]
 google.it##DIV[id="pmocntr2"]
 google.it##DIV[id="tads"]
@@ -1321,6 +1409,7 @@ google.it##DIV[id="topads"]
 googleadservices.com/pagead/
 gottabemobile.com##.ad-inserter
 gottabemobile.com##[id^="google_ads_iframe"]
+gpone.com##.ebzNative
 gqitalia.it##[id^="google_ads_iframe"]
 gqitalia.it###adv_bkg_cont
 grandmediaset.com/*/banners/
@@ -1328,6 +1417,7 @@ graphberry.com##.ads
 graphics.adultfriendfinder.com/ffadult/
 grasswarez.com/rotateimg/
 gravidanzaonline.it##.inner-article.mp-banner-container.mp-banner
+greasyfork.org###script-show-info-ad
 greenme.it##DIV[id="adwallpaper"]
 griddix.com/*/banners/
 griddix.com/banner/
@@ -1341,7 +1431,9 @@ guardian.co.uk###ad-placeholder-Top
 guidaacquisti.net/_skin/
 guidaacquisti.net###adv
 guidaacquisti.net##A[href="http://bit.ly/1noSyqV"]
+guidafisco.it##[class^="ad"]
 guidamonaci.it##.rightBox
+guidatv.sky.it##.banner_publicitario
 gurustop.net##.lqm_ad
 gustoinrete.com/banner
 gxware.zzn.com/email/AdBlock/
@@ -1349,11 +1441,19 @@ h-online.com###bannerzone
 h33t.com##DIV[id="mediaget_box"]
 hackerspace.kinja.com##.ad-container
 hardreset.info##._ap_apex_ad
+hattrick.org###ctl00_ctl00_pnlAdBottom
+hattrick.org###ctl00_ctl00_pnlAdTop
+hattrick.org###ctl00_ctl00_pnlSkyScraper
+hattrick.org###ctl00_ctl00_ucBannerBottom_pnlBanner
+hattrick.org###ctl00_ctl00_ucBannerSkyscraper_pnlBanner
+hattrick.org###ctl00_ctl00_ucBannerTop_pnlBanner
+hattrick.org##DIV[class="adsByGoogle"]
 haydenjames.io##.hayden-inpost_bottom
 haydenjames.io##.hayden-inpost_top
 haydenjames.io##div[id^="advads_ad_widget"]
 hdblog.it##.ads_block
 hdblog.it##.ads.square
+hdblog.it##.banner_list_container
 hdblog.it##.gad_container
 hdblog.it##[id^="banner"]
 hdblog.it##IFRAME[src*="adventertainment.it/clickart/adv"]
@@ -1391,9 +1491,10 @@ html.it##.banner-content
 html.it##.download-banner-300x250-box
 html.it##.m3_container.html_art_griglia_646x670
 html.it###mirago
-http://ilgarantista.it/wp-content/uploads/adv-skin.jpg
 http.edge.vru4.com/smartserve/
 http300.edge.ru4.com/smartserve/ad
+huffingtonpost.com##[id^="adsDiv"]
+huffingtonpost.com###adDiv
 huffingtonpost.it##.amp_article_bottom_recirc.advertisement
 huffingtonpost.it##.amp_top.advertisement
 huffingtonpost.it##.dfp_amp_article_bottom
@@ -1459,6 +1560,7 @@ ilfattoquotidiano.it##DIV[class="widget banner"]
 ilfattoquotidiano.it##div[style="width:300px; height:75px; margin-top: 10px; overflow:hidden; float:left;line-height:15px;"]
 ilfattoquotidiano.it##div[style="width:300px; height:75px; overflow:hidden; float:left; margin-top: 10px;line-height:15px;"]
 ilfoglio.it##.ad
+ilgarantista.it/wp-content/uploads/adv-skin.jpg
 ilgarantista.it##[class^="wpx_bannerize"]
 ilgarantista.it##[id^="fancybox-"]
 ilgiornale.it##.banner
@@ -1574,6 +1676,7 @@ immobiliare.it##.box_search_left.colonna_pubblicita_dx
 immobiliare.it###sponsorBoxes
 imore.com###banneradspace
 inc.com##DIV[class="ad_partners"]
+incesti.com###advHomevideo
 incredibilia.it##.single-post-ad
 independent.co.uk##.ad-leaderboard
 independent.co.uk##.ad-mpu
@@ -1587,14 +1690,22 @@ infobel.com###SkyContainer
 infojobs.it##.promo.no-print.clearfix
 infojobs.it##.slotbanner-top.slotbanner-top--space
 infomotori.com/banners/
+infopart.org##[id^="iframe-aliexpress-ad"]
 informarexresistere.fr##OBJECT[id="cto728x90_div7ff6d9d3af"]
+informatblog.com##.onetag
 informazionefiscale.it##.billboard
 informazionefiscale.it##.brid-btf
 inforsop.com/banners
 infoworld.com##.ad
 infoworld.com###content-recommender
+instantshift.com##.bsa_banner_ad
+instantshift.com##.main_banner_single
+instantshift.com##.sidebar_bsa_mid01
+instantshift.com##[class^="banner-280x250"]
+instantshift.com###content-top-banner
 instructables.com###aplace
 interlex.it/banner/
+internazionale.it##.sponsor_oroscopo
 inthetechpit.com##A[id="587655"]
 inthetechpit.com##DIV[id^="atatags-"]
 intoscana.it##.skin-marg
@@ -1669,6 +1780,7 @@ it.motor1.com##.adSizer
 it.motor1.com##.pageAdSkinUrl
 it.motorsport.com##.ms-ap
 it.motorsport.com##.ms-apb.ms-apb-super.ms-skin-click
+it.opinionspost.com##[class^="main_ad_"]
 it.tinypic.com##.ad
 it.tinypic.com###ad_mrec
 it.tinypic.com##A[href^="//vacwrite.com/clicktag.eng"]
@@ -1677,6 +1789,9 @@ it.vipboxeu.co###closebtn
 it.vipboxeu.co###overlay_content
 it.vipboxeu.co###overlay_countdown
 it.vipboxeu.co###ya_layer
+it.xhamster.com##.adVideo
+it.xhamster.com###adBottom
+it.xhamster.com###adTop
 italia-film.com##.notes-light
 italia-film.com##P[style="background-color:#000"]
 italia-film.me##.mejs-container.svg.mejs-video
@@ -1748,8 +1863,12 @@ keepvid.com##.ada
 keepvid.com##.adb
 keepvid.com##DIV[class="add"]
 key4biz.it##.banner.d-block
+kickass.so##.advertising
+kickass.so##[id^="MarketGidScriptRoot"]
+kickass.so##IFRAME[name^="spot_id"][src^="//ads"]
 kickass.to##.advertDownload
 kifarunix.com##.adtester-container
+kijiji.it##.adsense-item
 kijiji.it##.skin-link
 kijiji.it##[class^="adsense-"]
 kijiji.it##[id^="dfp-banner-"]
@@ -1792,6 +1911,7 @@ lalaziosiamonoi.it##IMG[src*="net-storage.tccstatic.com/storage/lalaziosiamonoi.
 laleggepertutti.it##.notizie-blue-bnr-one
 laleggepertutti.it##DIV[class="div_topbanner"]
 laleggepertutti.it##IFRAME[src*="plug.it/banners/"]
+laltranotizia.net###Blog1
 lapecheronza.org/ad/
 laprovinciadicomo.it##.ea_native_element
 laprovinciadicomo.it##.footer
@@ -1816,7 +1936,10 @@ lastfm.it##.LastAd_TopRight
 lastminute.com/*/affiliati/
 lastminute.com/lmn
 lastpass.com###ad
+latinospost.com##[id^="google_ads_iframe"]
 lduhtrp.net/image-1702946-10373600
+leganerd.com##[id^="banner_mpu"]
+leganerd.com###banner_mpu1
 leganerd.com##A[href^="https://adclick.g.doubleclick.net"]
 leggo.it##DIV[id="top-banner"]
 leitv.it###bleft
@@ -1827,6 +1950,7 @@ lettera43.it###bleft
 lettera43.it###bright
 lg.hdblog.it##.ads_container_top
 lg.hdblog.it##.gad_container
+libero.it##.advContFixed
 libero.it##.header_adv
 libero.it##.hp_300x1.hp_300x1-p1
 libero.it##.hp_300x1.hp_300x1-p2
@@ -1841,6 +1965,7 @@ libero.it##[id^="adright"]
 libero.it##[id^="adtop"]
 libero.it##[id$="ad-banner"]
 libero.it##[id$="ad-skyscraper"]
+libero.it##[src*="weborama.fr/advertiser/"]
 libero.it###adleftcol
 libero.it###adv_300
 libero.it###adv_topper
@@ -1855,6 +1980,7 @@ lifehacker.com##.ad-container
 lifehacker.com##.ad-mobile-inner
 lifehacker.com##.collapsed-ad
 lifehacker.com##.collapsed-ad.cls-adapted-ad.ad-top-banner.dfp-slot-TOP_BANNER.dfp.ad-container
+lifehacker.com##[data-zone-type="TOP_BANNER"]
 lifehacker.com##DIV[class*="js_movable_ad_slot"]
 lifewire.com##.billboard-sticky
 lifewire.com##.not-sticky.leaderboard.gpt.mntl-gpt-adunit.mntl-flexible-ad.mntl-flexible-leaderboard.mntl-leaderboard-header.has-right-label.leaderboard--header.comp
@@ -1862,6 +1988,8 @@ lifewire.com##[id^="leaderboard"]
 lightningusenet.com/img/banner/
 liligo.it##.ad-provider-adsense
 liligo.it##.ad-provider-yahoo
+liliputing.com##.bsap_adhere
+liliputing.com##[id^="backfill_"]
 limbo.it/banner/*
 limitedivx.com/top_pillados/120x600
 linearadio.it/bnrs/
@@ -1910,6 +2038,10 @@ livesicilia.it###lig_livesicillia_smartbox_article
 livesicilia.it###plavidAdsFormat
 livesicilia.it###plavidAdsPlayer
 livesicilia.it###pp[style^="position:absolute; z-index:1000000000; width:800px; height:400px;"]
+livinginterior.it###ADVleaderboard
+livinginterior.it###ADVleaderpiede
+livinginterior.it###ADVrettangolo
+livinginterior.it###ADVrettangolopiede
 locandinebest.net/xtendmedia_com/
 lockerz.com##.box.adbox
 login.libero.it##A[href*="cloudfront.net/"][target="_blank"]
@@ -1943,15 +2075,23 @@ m.ilgiornale.it##.banner
 m.ilgiorno.it##.container.center_all
 m.ilrestodelcarlino.it##.container.center_all
 m.lanazione.it##.container.center_all
+m.leggo.it##[id^="google_ads_iframe"]
+m.leggo.it##[id^="wr-cFrame-"]
+m.leggo.it###adv_BannerTop
 m.motorionline.com###google_ad
 m.prontoimprese.it##.center_all
 m.quotidiano.net##.container.center_all
 m0001.gamecopyworld.com/games/i/
 m1.2mdn.net/1720257/
+m2.feiwei.tv##[class^="zanox_tripleban_"]
 mac-forums.com##.leaderboard
 macdailynews.com/adpeeps/
 macdesktops.com/phpAdsNew/
 macitynet.it/phpads/
+macitynet.it##.wrap.banner
+macitynet.it##[class^="banner-"]
+macitynet.it##[id^="div-gpt-ad"]
+macitynet.it###leader-wrapper
 maciverse.com/*/uploads/*banner*
 maciverse.com##DIV[id="sidebar-ads"]
 maciverse.com##DIV[id="topArea"]
@@ -1976,6 +2116,8 @@ mahiram.com/graphics/banners/adserver/
 mail.google.com##.oM
 mail.google.com##.Zs
 mail.libero.it##.communication-layer.green
+mail.yahoo.com###slot_MB
+mail.yahoo.com###slot-mb-msg-read
 mail.yahoo.com###theAd
 mail.yahoo.com###theMNWAd
 mail23a.webmail.libero.it##.advCnt
@@ -2085,7 +2227,12 @@ mercatinomusicale.com###hdr_leaderboard
 mercatinomusicale.com###hp_boxbanner_mainbox
 mesgmy.ebay.it###rtm_html_831
 metacritic.com##.tynt-bottom-bar
+metacritic.com##[id^="google_ads_iframe"]
 metacritic.com###tynt-amzn-iframe-1
+meteo.it##.sticky_adv
+meteo.it##[class^=" gemini-ad"]
+meteo.it##[id^="dam"][style^="position: fixed"]
+meteo.it##[id^="mmAd"]
 meteo.it##DIV[class="Banner300x250"]
 meteo.search.ch##.sl_banner.sl_screenonly
 meteo.search.ch###sl_topbanner
@@ -2139,6 +2286,7 @@ mmosite.com##DIV[id="ad_url_div"]
 mobile.hdblog.it##.gad_container
 mobile.sportmediaset.it##[id^="spaceBanner_rn_"]
 mobile.tgcom24.it##.spaceBanner
+mobile.tgcom24.it###spaceBanner_rn_*
 mobileworld.it##[id^="google_ads_iframe"]
 mockbox.net##.banneritem
 moco2.com/banner
@@ -2157,6 +2305,7 @@ mondofox.it###bleft
 mondofox.it###bright
 mondoxbox.com##[id^="lwl_"].init
 mondoxbox.com##DIV[class="sideAdv"]
+mondoxbox.com##DIV[id="storyAdv"]
 mondoxbox.com##DIV[id="topBannerAdv"]
 mondoxbox.com##DIV[style^="width: 480px; height: 270px; z-index: 2147483647; position: fixed; right: 25px;"]
 mondoxbox.com##IAS-AD
@@ -2176,6 +2325,8 @@ moto.it/advbanner/
 moto.it##[class^="google-adv"]
 moto.it###topboard
 motoclub-tingavert.it/*/Dv_Banner/
+motogp.com##.ads
+motogp.com##.bcklink
 motogp.com###block-motogp_adserver-728x90
 motogp.com##DIV[class="adds add_300x250"]
 motori.excite.it###ligatus_populis_excite_smartbox_all
@@ -2223,6 +2374,7 @@ mymovies.it##DIV[style="text-align:center; top:0px; margin-left:auto; margin-rig
 mymovies.it##DIV[style="width:728px; height:90px;"]
 mynight.pl##.banner-header
 myspecialcar.it/banner*
+mytaste.it##.panorama
 mytemplatestorage.com/banners
 napolitoday.it##.ad_poll
 napolitoday.it##.story.sponsored-story
@@ -2232,9 +2384,12 @@ ncbfarm.com/*impr.en
 ncrypt.in/frame-
 neoboard.neoworx-blog-tools.net/*
 neobux.com/*/banner*
+neogaf.com##.goodie728
 neonato.alfemminile.com###pegasus_banner_atf_skin_mask
 neonato.alfemminile.com##DIV[id^="pegasus_dyninfeed"]
 neowin.net##.banner-leaderboard
+neowin.net##.header-banner-ads
+neowin.net##.widget-ad
 neowin.net##.widget.banner-buysellads
 neowin.net##.widget.banner-square
 neowin.net###billboard_placeholder
@@ -2264,7 +2419,10 @@ nightnews.pl/banners/
 ninjamarketing.it##.adv
 nintendolife.com##.block.outbrain
 nintendolife.com##.masthead
+nintendolife.com##[data-dfp-sizes="728x90,960x250,1260x110"]
 nintendolife.com##[id^="google_ads_iframe"]
+nintendolife.com##[id^="NL_MPU_"][data-dfp-sizes="300x250"]
+nintendon.it##[id^="div-gpt-ad"]
 nod32-free-keys.blogspot.com###nnadsfoot
 nodemailer.com###carbonads
 nolabnoparty.com##.ad-cell
@@ -2378,6 +2536,8 @@ orizzontescuola.it###kore
 orizzontescuola.it###polifemo
 oroscopi.com/banner/
 ostg.com/*ads*
+osxdaily.com##[id^="tfasyncframe_"]
+osxdaily.com##[id^="tfasyncframe_"][width="300"]
 outcast.it##.adv
 outcast.it##.banner250250
 outcast.it##.banner300250
@@ -2389,6 +2549,7 @@ overpress.it##.wes_div
 overpress.it##.wes_img
 ovo.it/*300x250*
 ovo.it/*650x115*
+ow.ly##.adbox
 oz.valueclick.com/cycle?host
 ozzu.com/banners
 p2pforum.it/banner
@@ -2422,6 +2583,7 @@ patentequiz.net###statsbar
 patentequiz.net##EMBED[src^="http://www.adsalsaitalybranch.com/imagenes/creatividades/"]
 payclick.it/affiliate/*
 pc-on-internet.com/eas
+pcadvisor.co.uk##[id^="google_ads_iframe"]
 pclicious.com##DIV[class="googleimg"]
 pclicious.com##DIV[id="google468"]
 pcmag.com##[id^="google_ads_iframe"]
@@ -2461,6 +2623,7 @@ phica.net##.samAlignCenter.samBannerUnit
 phica.net##.widget-content.restore.axd.axd_176
 phica.net##[href="https://itaincontri.com"]
 phica.net###ad_thread_first_post_content
+phica.net###g62f
 phica.net###popupTool
 phica.net###widget_188
 phica.net###widget_198
@@ -2495,6 +2658,7 @@ pocketgamer.co.uk##.bannerRight
 pocketgamer.co.uk##.ox_0f6d60eb04ab3287737db2d27bbe7a1b
 pocketgamer.co.uk##.ox_3fd62efb8fb5a42ce53f4cb0c9cf0af0
 pokeritaliaweb.org##.overlay
+polygon.com##.m-ad
 polygon.com##.m-ad.m-ad__medrec
 pool.zattevrienden.be/pool/
 pop6.com/banners/
@@ -2502,7 +2666,10 @@ popadvert.com/fastadv*
 popcap.com/*adPage*
 popcap.com###top_ad
 pornconversions.com/banners/
+pornhub.com##.ad_box
+pornhub.com##.home-ad-container
 pornhub.com###pb_block
+pornhub.com###videoPageAds
 pornmd.com##.advertisement
 pornobanner.com/userbanners/
 portaportese.it##DIV[class="mod basic sponsor"]
@@ -2553,7 +2720,13 @@ punto-informatico.it##div.col-4.pi-left-article
 punto-informatico.it##DIV[id="AdvInterstitial"]
 punto-informatico.it##DIV[id="AdvOverlayer"]
 punto-informatico.it##DIV[id="BannerSkin"]
+puntocellulare.it##[id^="pb_300x250"]
+puntocellulare.it##[id^="pb_adsense"]
+puntocellulare.it###\34 68x60_TXT
+puntocellulare.it###pb_leader
 punypng.com###ad-leaderboard
+q.gs###bottom
+q.gs##iframe[id="rf"]
 qlnews.it##[class^="g g-"]
 qlnews.it###skinlink
 qlnews.it###skinlink_mobile
@@ -2588,6 +2761,7 @@ ragazzeinvendita.com/*live*
 rai.it##.banner300x250
 rai.it##[id^="rp_adagio_"]
 rai.it##[id^="scr_check"]
+rai.tv##.banner300x250
 rai.tv##.barraSipra
 rai.tv###adagioSkinDx
 rai.tv###adagioSkinSx
@@ -2627,6 +2801,7 @@ rcm-uk.amazon.co.uk/e/cm?t=delsnewwebsit
 rcm.amazon.com/e/cm?t
 reallybig.spinbox.net/DA/
 realraptalk.com/banner
+realtimetv.it###mpu
 recomendedsite.com/widget/render/
 reddit.com##[class^="sponsor-"]
 rediff.com##+js(ra, onclick, [onclick^="track"])
@@ -2644,6 +2819,7 @@ repubblica.it##.box-concorso-venerdi
 repubblica.it##[class^="adv adv-middle"]
 repubblica.it###ads2
 repubblica.it###adv_Skin
+repubblica.it###adv-scrollable
 repubblica.it###adv-top
 repubblica.it###eyeDiv
 repubblica.it###superMoneyWidget-rotator
@@ -2667,6 +2843,7 @@ rivcash.com/webmaster/*banners*
 rivistastudio.com##DIV[class*="studioAdv"]
 rizonesoft.com##[id^="adswidget"]
 robertochibbaro.it##.above_content.box.pad15
+robertoiacono.it##.post-ad-top
 rocknrollradio.it/images/stories/Banneramici*/
 rollingstone.it##.adbox.adsblocked
 rollingstone.it##[id^="mmAd"]
@@ -2691,6 +2868,9 @@ rumors.it##.banner_bottom
 rumors.it##.banner_top
 rumors.it##.block-block-26
 rumorscity.com###aswift_0_expand
+runtastic.com##.l_ad_top
+runtastic.com##[id^="google_ads_iframe"]
+runtastic.com###add_ad_space
 s.ytimg.com/yt/swfbin/ad*
 s0b.bluestreak.com/ix.e
 sabatoseraonline.it/public/parser_banner
@@ -2700,10 +2880,16 @@ saggiamente.com##DIV[class="consigliati"]
 saggiamente.com##DIV[id="sidebar-bottom"]
 saggiamente.com##DIV[id="small-amaz0n"]
 saggiamente.com##DIV[id="small-ggl"]
+salepepe.it##.adsense
+salepepe.it##[class*="adv"]
+salepepe.it##[id^="adv"]
+salepepe.it##[id^="box-adv"]
 salute.diariodelweb.it##.publi300_diariodelweb
 sapere.virgilio.it##.wdg--adv.adv--wallpaper
 sapere.virgilio.it##.wdg.wdg--adv
 sapere.virgilio.it###cont-wallpaper
+saraelesueamiche.it##IMG[src^="http://www.advplace.com/login/script/"]
+saraelesueamiche.it##IMG[src^="http://www.worldfilia.com/accounts/default1/banners/"]
 sardiniapost.it##.sam-block-line
 sardiniapost.it##.sam-container
 sardiniapost.it##.wallpaper-link
@@ -2718,6 +2904,7 @@ screenweek.it/banner/
 screenweek.it##[class^="adv-"]
 screenweek.it##[id^="cto_iframe"]
 screenweek.it###sticky-adv
+scribd.com##[id^="leaderboard_ad_"]
 scriptcopy.com/tpl/phplb/*300*
 scriptcopy.com/tpl/phplb/*ad*
 scriptcopy.com##DIV[class="leader"]
@@ -2753,6 +2940,8 @@ serviziopubblico.it##DIV[id="skin-leaderboard"]
 sesso24ore.com/spotlight/banner*
 sexmission.us/img/bn/
 sfr.fr##+js(aopr, _oEa)
+sh.st##[id^="epom-"]
+sh.st###intermediate-ad
 shinycash.net/immaginiup/*
 shockwave.com/2006/affiliates/
 shop.ebay.it##.textAd3
@@ -2765,6 +2954,7 @@ shouldiremoveit.com##.adnl_zone
 shoutmeloud.com##.ad468
 shutterencoder.com##DIV[id="videoLeft"]
 shutterencoder.com##DIV[id="videoRight"]
+sicurauto.it##[id^="jadv_"]
 sicurauto.it###advheader
 simpatizzo.eu/additional/images/*
 simply-hentai.com###divExoLayerWrapper
@@ -2775,6 +2965,9 @@ sitepoint.com##DIV[id="feature_ad"]
 sitescout.com/disp?
 sky.it/*bannerADV*
 sky.it/static/images/sezioni/banner/*
+sky.it###admasthead
+sky.it###adv_wpclickdiv
+sky.it###adwallpaper
 sky.it##DIV[class="adv"]
 sky.it##DIV[class="advHeader"]
 skypefun.net###banner
@@ -2797,6 +2990,7 @@ smallbusiness.chron.com###top-300.widget
 smallbusiness.chron.com##body > .ad-leaderboard
 smallbusiness.chron.com##DIV[class="leaderboard"]
 smallpdf.com##.ads
+smallpdf.com##.result-ad
 smallseotools.com##.adp_interactive_ad
 smallseotools.com###pageComparison > div._hmmm_
 smartbox.com###onetrust-consent-sdk
@@ -2806,6 +3000,8 @@ smartworld.it##[id^="google_ads_iframe"]
 smartworld.it###box-video-native
 smartworld.it###primarTabExpanding
 smashingmagazine.com##.ed
+smereghetti.com##.adsxpls
+smereghetti.com##.widget.sidebar-widget.adsense_plugin_explosion_Widget
 smile.modchipstore.com/phpAdsNew/
 snapfiles.com##.towerad
 snapfiles.com###bannerbar
@@ -2821,6 +3017,8 @@ softairmania.it##DIV[id="ad_global_header1"]
 softairmania.it##DIV[id="samsporteadv"]
 softblog.it###sidebar_ads
 softblog.it###thirdAdUnit
+softonic.com##.top-notification-bar.ad--loading
+softonic.com###top-notification-bar-wrapper
 softonic.it##.ad_div_bottom
 softonic.it##.ad_div_top
 softonic.it##.show_banner_bottom_leaderboard
@@ -2866,6 +3064,7 @@ speckyboy.com##.topad
 speed.pointroll.com/PointRoll/Media/banners/
 speedcheck.org##.cell.isg-container.container
 speedcheck.org##.stories
+speedtest.net##.lower-cta
 speedtest.net##[class^="ad-vertical"]
 speedtest.net##[id^="div-gpt-ad"]
 speedtest.net##[id^="google_ads_iframe"]
@@ -2895,8 +3094,10 @@ sport.sky.it###leaderboard-container
 sportinal.com##DIV[class="ad_placeholder"]
 sportingbet.it/pss-web/banner/
 sportmediaset.it/*banner*
+sportmediaset.mediaset.it##.stickyadv
 sportmediaset.mediaset.it##[id^="gemini-"]
 sportmediaset.mediaset.it##[id^="scr_"][style*="left: -428px"]
+sportmediaset.mediaset.it###stripadv
 sqlpowershell.blog##.wpa.wpmrec
 sqlpowershell.blog##.wpcnt
 stackoverflow.com##[id^="adzerk"]
@@ -2931,6 +3132,7 @@ subito.it###banner_leaderboard
 subito.it###bs_textlinks
 subito.it###textad
 subito.it##DIV[class="google_list"]
+subscene.com##.banner
 suonerie.matura.it/img
 suonerieesuonerie.it/banner/468x60/
 superguadagni.net/*/bnr
@@ -2940,12 +3142,15 @@ support-at-lastpass-dot-com###ad
 suryadewa.com##IFRAME[src*="http://*.advertmediasdata.com/"]
 sv2.biz/*/3/160x300/
 sv2.biz/*/bannieres/
+swzone.it###banner728x90
+swzone.it###boxhome-adv
 syfy.com###global_header_ad
 syfy.com###global_header_ad_area
 t.17track.net##.gad-container
 t.17track.net##[class^="gad-right"]
 tabletmag.com##.sidebar-ad
 tabletmag.com##.vox_ad
+taggify.net##.tgf_textad
 tantangan50juta.com/*/banner*
 tantifilm.tv##.film-left
 tantifilm.tv##A[href*="afu.php"]
@@ -2962,6 +3167,7 @@ tech-recipes.com##.first-300-ad
 tech-recipes.com##.leaderboard
 tech-recipes.com###first-300-ad
 tech-recipes.com###leaderboard
+tech.attualissimo.it###leaderbord_new
 tech.everyeye.it##.wrap_amazon_banner
 techassistance.it##DIV[style="height:90px; width:980px;display:block; text-align:center"]
 techcrunch.com##.ad-unit__ad.ad-unit__native
@@ -2969,6 +3175,7 @@ techcrunch.com##.advertise-here
 techcrunch.com##.module-sponsored-ads
 techcrunch.com###tc-ad-native
 techcrunch.com##DIV[class="ad-unit ad-unit__billboard ad-unit--fixed"]
+techhive.com##[id^="google_ads_iframe"]
 technet.microsoft.com###ctl00_FooterAd
 techprincess.it##.adasta_ad.adasta_loaded
 techprincess.it###Techprincess_it_300x250_HB
@@ -3035,6 +3242,11 @@ tgcom.mediaset.it##.adagio300x250
 tgcom.mediaset.it##.box300x190
 tgcom.mediaset.it##.sp300x250
 tgcom.mediaset.it##.stripadv
+tgcom24.mediaset.it##.adv
+tgcom24.mediaset.it##.spaceBanner
+tgcom24.mediaset.it##[id^="dam"][style^="position: fixed"]
+tgcom24.mediaset.it##[id^="mmAdD"]
+tgcom24.mediaset.it###stripadv
 tgmonline.it##DIV[id="topbanner"]
 tgregione.it##[id^="metaslider_widget"]
 the-adult-company.com/banners/
@@ -3062,6 +3274,7 @@ thenounproject.com##DIV[class*="ad-space-container"]
 thenounproject.com##SECTION[class="row-container advertisement"]
 theverge.com##.adblock-whitelist-messaging__article-wrapper
 theverge.com##.m-ad
+theverge.com##.m-ad.m-ad__medrec.vert.vert300
 theverge.com##.vert.vert300.hashable
 theverge.com##ASIDE
 thewindowsclub.com##.widget.ad-widget
@@ -3072,6 +3285,7 @@ thumboo.com##DIV[class="links"]
 thumbs.redtube.com/_thumbs/banner/
 ticketone.it/vital-common/multimedia/1/banner
 ticketone.it/vital-common/multimedia/1/sky_
+ticketone.it##[id^="google_ads_iframe"]
 ticketone.it###banner
 tinypic.com##DIV[class="ad 300"]
 tinypic.com##DIV[id="ad_banner"]
@@ -3094,6 +3308,7 @@ tiscali.it##DIV[id="banner234x90head"]
 tiscali.it##DIV[id="banner728x90top"]
 tiscali.it##IFRAME[src^="//player.sky.it"]
 tmag.it##.top-ad
+tmz.com##.masthead-ad
 today.it##[href*="ad"]
 today.it##A[class="skin_left nomobile"]
 today.it##A[class="skin_right nomobile"]
@@ -3146,9 +3361,12 @@ tradingsat.com###a403c5e9
 tradingsat.com###ac25abb2
 trailersland.com##DIV[ID="parentPubb"]
 trakt.tv##.top.dark
+trakt.tv##[id^="huckster-"]
 trakt.tv###hu-ck-st-er-desk-top-wrapper
 trakt.tv###hu-ck-ster-desk-top-sidenav
 trakt.tv###hu-ck-ster-desk-top-wrapper
+trakt.tv###large-banner-ad
+trakt.tv###large-banner-bottom-ad
 trakt.tv##DIV[class="grid-item hu-ck-s-t-er-grid-item col-xlg-3 col-md-4 col-sm-6"]
 trakt.tv##DIV[id="hu-ck--st-er-desk-top-bot-tom"]
 trakt.tv##DIV[id="hu-ck--st-er-desk-top-to-p"]
@@ -3157,6 +3375,8 @@ trakt.tv##DIV[id="hu-ck--st-er-desk-top-wrapper"][class="bottom dark"]
 trakt.tv##DIV[id="hu-ck--st-er-desk-top-wrapper"][class="middle light"]
 trakt.tv##DIV[id="hu-ck-s-t-er-de-sk-top-sidenav"]
 trakt.tv##DIV[id="hu-ck-s-t-er-de-sk-top-wrapper"]
+trakt.tv##DIV[id="small-banner-ad"]
+trakt.tv##DIV[id="small-banner-bottom-ad"]
 trannytube.com/*banners*
 treccani.it##.bannercontainer
 treccani.it##.top-banner-wrapper.hidden-xs
@@ -3183,7 +3403,10 @@ troyhunt.com##.footer-ad
 tshirt4you.com/banner/
 tsoftcentral.com/phpAdsNew
 tuaw.com###adDiv
+tubeoffline.com##.divContent2.borderCurve.otherSites
+tubeoffline.com###ADbox
 tui.it/img/*
+tumblr.com##.sidebar-ad
 tumblr.com##IFRAME[class="teads-resize"]
 tumri.net/iCornerStore/iCornerStore
 tunebat.com##.center-block.ad-container-box.pb-alt
@@ -3193,6 +3416,8 @@ turbolab.it##.economics-handstop-warning
 tuttidentro.it/*banner*
 tuttoabruzzo.it/_banner
 tuttoandroid.net##[href*="adclick"]
+tuttoannunci.org###TB_overlay
+tuttomercatoweb.com##.clear
 tuttomercatoweb.com###LOCSTORAGE[src="http://secure-it.imrworldwide.com/storageframe.html"]
 tuttomotoriweb.com##.ad
 tuttosport.com##.box_Banner.bnr_300x250
@@ -3218,7 +3443,11 @@ twenga.it##.ads-box-right
 twenga.it##.ads-box-top
 tzetze.it###publyAdsOverlay
 uc.gamestotal.com/i/b/
+ucicinemas.it###adv-strip-container
 udmserve.net/udm/
+uk.businessinsider.com##.right-ad
+uk.businessinsider.com##.subnav-container
+uk.businessinsider.com##[id^="google_ads_iframe"]
 ultimissimominuto.com###adcontainer1
 unawave.de##.am
 unawave.de###googlebanner
@@ -3228,16 +3457,24 @@ unita.it##.banner-adv
 unita.it##.UNITIS_ads_300250
 unita.it###banner142x120b18
 unita.it###banner300x100bxhide
+universomamma.it##[class^="__adnt"]
+universomamma.it##[class^="ad m_bot"]
 unvideoalgiorno.it##[class^="ed_Related_Sponsor_"]
 unvideoalgiorno.it##[href^="http://edintorni.net/related/service/sponsor/"]
 uploaded.net##.pico-content
 uploaded.net##.pico-overlay
 uploaded.net###fakeContentBoxContainer
+uploaded.net##IFRAME[style="border:0px solid #000000"][src="about:blank"]
 uploading.com###iframe_timead
 uptimerobot.com##.longBannerWrap
 uptobox.com##.ad6foo
 uptobox.com##.ad6foo-banner-container
 upyou.it###obBannerLong
+urbanpost.it/*/skin*
+urbanpost.it/wp-content/themes/uptheme/images/1px.png
+urbanpost.it##.wes_div
+urbanpost.it##[id^="ligatus_speweb_"]
+urbanpost.it###skinlink
 urtech.ca##.IL_BASE
 us.a1.yimg.com/us.yimg.com/a
 us.a2.yimg.com/us.yimg.com/
@@ -3266,6 +3503,11 @@ vanityfair.it##.sdbadv
 vanityfair.it##[id^="google_ads_iframe"]
 varese.net/*/banners/
 varese.net###banner_1
+varesenews.it/banner/
+varesenews.it###adv_Skin
+varesenews.it###altodestrarotazione
+varesenews.it###dx0rotazione
+varesenews.it##DIV[id="banner_sfondo"]
 vbscript.it/*/banner*
 veevr.com###ad_top_header_center
 veevr.com###ad_top_header_left
@@ -3295,8 +3537,15 @@ video.mediaset.it###advtext
 videocasalinghi.com##DIV[class="ads"]
 videogame.it###adv_halfpage
 videogame.it###adv_leaderboard
+videogiochi.com###banner-header
 videogiochi.com##A[class="adv_link"]
 videohelp.com/openads/
+videopremium.me##.ads-left
+videopremium.me##.itrack
+videopremium.me##DIV[style="display: block; margin: 0px auto; padding: 0px; height: 100%; width: 800px; z-index: 99102; background-color: transparent;"]
+videopremium.me##DIV[style="height: 440px; width: 100%; position: fixed; top: 226px; left: 0px; background-color: transparent; z-index: 99101;"]
+videopremium.me##DIV[style="height: 440px; width: 100%; position: fixed; top: 237.5px; left: 0px; background-color: transparent; z-index: 99101;"]
+videopremium.me##DIV[style="z-index: 100; position: fixed; top: 0; left: 0; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80); opacity: 0.8; width: 100%; height: 100%; zoom: 1; background:#ffffff;"]
 videosz.com/*/18andabused600x260/
 videosz.com/*/facialsz600x260/
 videoweed.com##DIV[class="ad"]
@@ -3344,6 +3593,8 @@ wareseeker.com/banners/
 washingtonpost.com##.leaderboard.ad-hideable
 washingtonpost.com##.pb-ad-container
 washingtonpost.com###slug_inline_bb
+wccftech.com##.wpInsert.wpInsertInPostAd
+wccftech.com##DIV[style="margin:12px auto; width:728px; height:90px; "]
 web.adknowledge.com/flashbanners/
 webalice.it/blackberry_09/netbet/
 webcache.googleusercontent.com##.banner_728
@@ -3358,11 +3609,14 @@ webmasterpoint.org##DIV[style="float:left;width:300px;margin-left:10px;margin-to
 webmonkey.com##.advertisement
 webnews.it##.adv_300_top.sidebar_widget
 webnews.it##.banner.banner-container.medium-rectangle-up
+webnews.it##[id^="jadv_leoadv"]
+webnews.it###bottomAd
 webnews.it##DIV[class="adv_300"]
 weborama.fr/adperf
 website.ws/*/banners/
 wellcams.biz/banners/
 whatboyswant.com/Media/Banners/
+who.is##.advertisements
 whois.domaintools.com##.left-ad-set
 whois.domaintools.com###whoisRightAdContainerBottom
 wiki.answers.com##[id^="google_ads_iframe"]
@@ -3382,6 +3636,7 @@ windoweb.it##TABLE[width="1045"][style="position: fixed; border-collapse:collaps
 windows-noob.com##A[href*="adaptiva.com"][rel="nofollow"]
 windows-noob.com##A[href*="cireson.com"][rel="nofollow"]
 windows-noob.com##A[href*="go.altaro.com"][rel="nofollow"]
+windows8blog.it##.cmampos2-content-widget
 windowsblogitalia.com##AMP-AD
 windowscentral.com##.ad.t1
 windowscentral.com##.adunit
@@ -3406,6 +3661,7 @@ windowsnetworking.com###ads-block
 windowsnetworking.com###main-banner
 windowsreport.com##.wr-layout-section__ad
 winguides.com/adserver/
+wininizio.it/immagini/ads/
 winmodify.net/*Ad*
 winscp.net##.ad_label
 wintricks.it/freenet/banner/
@@ -3433,6 +3689,7 @@ wired.it##DIV[class="notranslate"]
 witandfolly.co##SPAN[id^="ezoic-pub-ad-placeholder"]
 wonderhowto.com/*/bnrs
 wordreference.com###ad1
+wowcast.tv###video_ads_overdiv
 wpjedi.com##.big-ad
 wplift.com##DIV[class="main_ad_container ad_container_1"]
 wpmayor.com##A[href*="http://www.wpmayor.com/links/"]
@@ -3441,6 +3698,9 @@ www50.zippyshare.com##.center_reklamy
 www64.zippyshare.com##.center_reklamy
 x-portal.biz/banner
 xbox-rip.com/publi/
+xboxdvr.com##.ad-container
+xboxdvr.com##[class^="ad-container"]
+xboxdvr.com##[id^="ox_"][width="300"][height="250"]
 xboxway.com##.adv_leaderboard_wrap
 xboxway.com##.adv_marqueelong_wrap
 xboxway.com##.adv_mediumrectangle_wrap
