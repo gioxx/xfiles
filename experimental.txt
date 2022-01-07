@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202201061509
+! Version: 202201071654
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 06-01-2022
+! Last modified: 07-01-2022
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -1138,6 +1138,8 @@ direttastreaming.com##IFRAME[name="trovadeal"]
 dissapore.com##.adv
 dissapore.com##.article__adv
 dissapore.com##iframe[id^="viralize-player-iframe"]
+distractify.com##.ad-title
+distractify.com##.ad-vertical
 distribuzionemoderna.info/img_banner
 domaggiore.it/html/banners/
 domaintools.com/*Advertising*
@@ -1615,6 +1617,7 @@ grandmediaset.com/*/banners/
 graphberry.com##.ads
 graphics.adultfriendfinder.com/ffadult/
 grasswarez.com/rotateimg/
+gravidanzaonline.it##.inner-article.mp-banner-container.mp-banner
 greenme.it##DIV[id="adwallpaper"]
 griddix.com/*/banners/
 griddix.com/banner/
@@ -2273,6 +2276,9 @@ maketecheasier.com##.single-top-slot
 maketecheasier.com##DIV[class="sidebar-widget in-content-ad"]
 maketecheasier.com##DIV[class="text-center clear in-content-ad"]
 maketecheasier.com##[id^="google_ads_iframe"]
+makeuseof.com###adContainerDiv
+makeuseof.com##.ad-current
+makeuseof.com##.adsninja-ad-zone
 makeuseof.com##.sidebar-banner
 makeuseof.com##[id^="div-gpt-ad"]
 mangaforever.net##DIV[id="advertiseleft"]
@@ -2517,6 +2523,7 @@ ncrypt.in/frame-
 neoboard.neoworx-blog-tools.net/*
 neobux.com/*/banner*
 neonato.alfemminile.com###pegasus_banner_atf_skin_mask
+neonato.alfemminile.com##DIV[id^="pegasus_dyninfeed"]
 neowin.net###billboard_placeholder
 neowin.net###special-steve
 neowin.net##.banner-leaderboard
