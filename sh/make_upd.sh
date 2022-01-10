@@ -1,7 +1,7 @@
 wget -c "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains/output/domains/ACTIVE/list" -O "phishingdomains.txt"
 wget -c "https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt" -O "2021-07-18_nso.txt"
 wget -c "https://raw.githubusercontent.com/tigthor/NSA-CIA-Blocklist/main/HOSTS/HOSTS" -O "NSA-CIA-Blocklist.txt"
-wget -c "https://github.com/mitchellkrogza/Phishing.Database/raw/master/whitelist.me/whitelist.me" -O "whitelist.txt"
+wget -c "https://github.com/mitchellkrogza/Phishing.Database/raw/master/whitelist.me/whitelist.me" -O "whitelist.me"
 
 emptycheck () {
   if [ -s $1 ]
@@ -16,15 +16,19 @@ emptycheck () {
 emptycheck "phishingdomains.txt"
 emptycheck "2021-07-18_nso.txt"
 emptycheck "NSA-CIA-Blocklist.txt"
-test -s "whitelist.txt" || exit 1
-grep -v -P '^(REG|ALL)' whitelist.txt | sort  >> contrib/upd_exclude
+test -s "whitelist.me" || exit 1
+grep -v -P '^(REG|ALL)' whitelist.me | sort >> whitelist.txt
+rm "whitelist.me"
 
+cat contrib/upd_exclude >> "whitelist.txt"
+sort -u -o "whitelist_sort.txt" "whitelist.txt"
+rm "whitelist.txt"
 while read line; do
   echo "Cerco ed elimino $line"
   sed -e "/$line/d" -i "phishingdomains.txt"
 	sed -e "/$line/d" -i "2021-07-18_nso.txt"
 	sed -e "/$line/d" -i "NSA-CIA-Blocklist.txt"
-done < contrib/upd_exclude
+done < whitelist_sort.txt
 
 #	Remove header and blank lines from 3rd-party lists
 #	Credits:	https://unix.stackexchange.com/questions/37790/how-do-i-delete-the-first-n-lines-of-an-ascii-file-using-shell-commands
@@ -53,4 +57,4 @@ cat "phishingdomains.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" >> "upd_n
 sort -o "upd_sort.txt" "upd_nosort.txt"
 uniq "upd_sort.txt" "upd_sort_tmp.txt" && mv "upd_sort_tmp.txt" "upd_sort.txt"
 cat "upd_sort.txt" >> "upd.txt"
-rm "phishingdomains.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" "upd_nosort.txt" "upd_sort.txt" whitelist.txt
+rm "phishingdomains.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" "upd_nosort.txt" "upd_sort.txt" "whitelist_sort.txt"
