@@ -1,6 +1,7 @@
 wget -c "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains/output/domains/ACTIVE/list" -O "phishingdomains.txt"
 wget -c "https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt" -O "2021-07-18_nso.txt"
 wget -c "https://raw.githubusercontent.com/tigthor/NSA-CIA-Blocklist/main/HOSTS/HOSTS" -O "NSA-CIA-Blocklist.txt"
+wget -c "https://github.com/mitchellkrogza/Phishing.Database/raw/master/whitelist.me/whitelist.me" -O "whitelist.txt"
 
 emptycheck () {
   if [ -s $1 ]
@@ -15,6 +16,8 @@ emptycheck () {
 emptycheck "phishingdomains.txt"
 emptycheck "2021-07-18_nso.txt"
 emptycheck "NSA-CIA-Blocklist.txt"
+test -s "whitelist.txt" || exit 1
+grep -v -P '^(REG|ALL)' whitelist.txt | sort  >> contrib/upd_exclude
 
 while read line; do
   echo "Cerco ed elimino $line"
@@ -50,4 +53,4 @@ cat "phishingdomains.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" >> "upd_n
 sort -o "upd_sort.txt" "upd_nosort.txt"
 uniq "upd_sort.txt" "upd_sort_tmp.txt" && mv "upd_sort_tmp.txt" "upd_sort.txt"
 cat "upd_sort.txt" >> "upd.txt"
-rm "phishingdomains.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" "upd_nosort.txt" "upd_sort.txt"
+rm "phishingdomains.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" "upd_nosort.txt" "upd_sort.txt" whitelist.txt
