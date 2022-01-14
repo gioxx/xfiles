@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202201071717
+! Version: 202201141445
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 07-01-2022
+! Last modified: 14-01-2022
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -2399,6 +2399,7 @@ macworld.co.uk##[id^="google_ads_iframe"]
 macworld.com##DIV[id^="gpt-showcase-"]
 macworld.com##[id^="google_ads_iframe"]
 madtrip.co##[class^="adsbygoogle adslot"]
+mag24.es##.SC_TBlock
 mahiram.com/graphics/banners/adserver/
 mail.google.com##.Zs
 mail.google.com##.oM
@@ -2663,6 +2664,8 @@ mynight.pl##.banner-header
 myspecialcar.it/banner*
 mytaste.it##.panorama
 mytemplatestorage.com/banners
+nanopress.it##.adv-cnt
+nanopress.it##.gptslot
 napolitoday.it##.ad_poll
 napolitoday.it##.story.sponsored-story
 napolitoday.it##A[class^="skin_"]
@@ -3861,6 +3864,7 @@ vittgam.net##[id^="ad_728x90_"]
 vnews24.it##DIV[id^="adinj-"]
 volopiuhotel.com/banner*
 vpn4all.com/*/banners/
+vulture.com##.m-ad
 w3schools.com##.toprect_img
 w3schools.com##.toprect_txt
 w3schools.com##DIV[id="mainLeaderboard"]
