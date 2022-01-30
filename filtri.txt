@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202201141651
+! Version: 202201310000
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 14-01-2022
+! Last modified: 31-01-2022
 ! Expires: 7 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -3187,9 +3187,7 @@ repubblica.it###adv_Skin
 repubblica.it###adv-top
 repubblica.it##.box-concorso-venerdi
 repubblica.it##[class^="adv adv-middle"]
-repubblica.it##DIV[id^="adv-Box"]
-repubblica.it##DIV[id^="adv-Middle"]
-repubblica.it##DIV[id^="adv-Top"]
+repubblica.it##DIV[id^="adv-"]
 repubblica.it##DIV[id="wrapper-adv"]
 repubblica.it###eyeDiv
 repubblica.it/*/GDpoker*
