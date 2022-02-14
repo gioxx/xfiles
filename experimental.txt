@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202202111057
+! Version: 202202141050
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 11-02-2022
+! Last modified: 14-02-2022
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -259,6 +259,7 @@
 ||cdn1.tribalfusion.com^
 ||cdnflvtrailers.spacash.com^
 ||cl.assoc-amazon.com^
+||clickiocdn.com/consent/log/
 ||cls.assoc-amazon.com^
 ||cm.it.overture.com^
 ||cmhtml.it.overture.com^
@@ -353,6 +354,7 @@
 ||red.as1.falkag.de^
 ||router.infolinks.com^
 ||rts.doublepimp.com^
+||s.clickiocdn.com^
 ||scambiobanner.aruba.it^
 ||scorecardresearch.com^
 ||secserv.adtech.de^
@@ -1908,6 +1910,7 @@ ilsitodellozoo.105.net/728x90
 ilsoftware.it###bottomADV
 ilsoftware.it###topHalfBanner
 ilsoftware.it###topLeaderBoard
+ilsoftware.it##.adsbygoogle
 ilsoftware.it##.w_banner
 ilsoftware.it##A[href="/hijackthis.asp"]
 ilsoftware.it##DIV[class="gsc-adBlock"]
@@ -2617,6 +2620,7 @@ moto.it##[class^="google-adv"]
 moto.it/advbanner/
 motoclub-tingavert.it/*/Dv_Banner/
 motogp.com###block-motogp_adserver-728x90
+motogp.com##.ad_container
 motogp.com##.ads
 motogp.com##.bcklink
 motogp.com##DIV[class="adds add_300x250"]
@@ -3453,6 +3457,11 @@ targatocn.it##.phpads_container
 targatocn.it##A[href^="http://www.ginospa.com/"]
 targatocn.it##[class^="skinAdv"]
 tariffando.it##[id^="aswift_"]
+tasse-fisco.com##.__lxG__size_fixed
+tasse-fisco.com##.td-adspot-title
+tasse-fisco.com##DIV[id="clickio_sticky_wrapper"]
+tasse-fisco.com##IFRAME[class^="ayads-"]
+tasse-fisco.com##IFRAME[id^="ayads-"]
 teamworld.it##.ads.gptslot
 tech-recipes.com###first-300-ad
 tech-recipes.com###leaderboard
@@ -4782,9 +4791,11 @@ youtube.com,youtube-nocookie.com##+js(json-prune.js, [].playerResponse.adPlaceme
 ||ytimg.com^*_banner$domain=youtube.com
 ! [NoAds X Files - Filtri sperimentali]
 ##.ezoic-ad
+-pubblicit%c3%a0-
 ilfattoquotidiano.it###_tagvideo_container
 teamskeet.com##+js(set, $.tstracker, noopFunc)
 youtube.com##DIV[class*="ytd-promoted-sparkles"]
+||cdn.onesignal.com^
 ! [NoAds X Files - Filtri script inline per uBlock]
 bergamonews.it##^script:has-text(checkForAdBlocker)
 bergamonews.it##^script:has-text(request_ads)
