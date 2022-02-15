@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202201310000
+! Version: 202202160000
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 31-01-2022
+! Last modified: 16-02-2022
 ! Expires: 7 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -259,6 +259,7 @@
 ||cdn.fastclick.net^
 ||cdnflvtrailers.spacash.com^
 ||cl.assoc-amazon.com^
+||clickiocdn.com/consent/log/
 ||cls.assoc-amazon.com^
 ||cmhtml.it.overture.com^
 ||cmhtml.overture.com^
@@ -354,6 +355,7 @@
 ||router.infolinks.com^
 ||rts.doublepimp.com^
 ||scambiobanner.aruba.it^
+||s.clickiocdn.com^
 ||scorecardresearch.com^
 ||secserv.adtech.de^
 ||secure.fxcash.com^
@@ -1811,6 +1813,7 @@ hotelclub.net/common/creatives/banners/*
 hotscripts.com##.advertisement
 hotscripts.com##.leader
 howsecureismypassword.net##.advert
+howtl.com##.mv-ad-box
 howtogeek.com##.adslot
 howtogeek.com##.adSystem_ads
 howtogeek.com##.bidtellect-native-ad
@@ -1960,6 +1963,7 @@ ilrestodelcarlino.it##IMG[src*="securepubads"]
 ilsecoloxix.it##.artbanner
 ilsecoloxix.it##.googleAdSense
 ilsitodellozoo.105.net/728x90
+ilsoftware.it##.adsbygoogle
 ilsoftware.it##A[href="/hijackthis.asp"]
 ilsoftware.it###bottomADV
 ilsoftware.it##DIV[class="gsc-adBlock"]
@@ -2105,6 +2109,7 @@ ispazio.net##DIV[style="float:left;height:300px;"]
 ispazio.net##.entr-footer
 ispazio.net##[id^="bsap_"]
 ispazio.net##[id^="wpadverts-"]
+ispazio.net##.ispaz-adlabel
 ispazio.net##.wes_div
 istockphoto.com/images/referral_badges/
 italia-film.com##.notes-light
@@ -2675,6 +2680,7 @@ motherboard.vice.com##.ad-unit
 motherboard.vice.com###editorial-videoplayer
 motigo.com##SPAN[id="w_banners"]
 motoclub-tingavert.it/*/Dv_Banner/
+motogp.com##.ad_container
 motogp.com##.ads
 motogp.com##.bcklink
 motogp.com###block-motogp_adserver-728x90
@@ -3543,8 +3549,14 @@ targatocn.it##.phpads_container
 targatocn.it###topDx
 targatocn.it###topSx
 tariffando.it##[id^="aswift_"]
+tasse-fisco.com##DIV[id="clickio_sticky_wrapper"]
+tasse-fisco.com##IFRAME[class^="ayads-"]
+tasse-fisco.com##IFRAME[id^="ayads-"]
+tasse-fisco.com##.__lxG__size_fixed
+tasse-fisco.com##.td-adspot-title
 ||tccstatic.com/template/tuttomercatoweb.com/*/banner/skin_*
 teamworld.it##.ads.gptslot
+tech21century.com##div[id^="AdThrive_"]
 techassistance.it##DIV[style="height:90px; width:980px;display:block; text-align:center"]
 tech.attualissimo.it###leaderbord_new
 techcrunch.com##.ad-unit__ad.ad-unit__native
@@ -3846,6 +3858,7 @@ unita.it##.banner-adv
 unita.it##.UNITIS_ads_300250
 universomamma.it##[class^="ad m_bot"]
 universomamma.it##[class^="__adnt"]
+unsplash.com##div[data-test="AffiliatesGrid-Content"]
 unvideoalgiorno.it##[class^="ed_Related_Sponsor_"]
 unvideoalgiorno.it##[href^="http://edintorni.net/related/service/sponsor/"]
 uploaded.net###fakeContentBoxContainer
@@ -4089,6 +4102,7 @@ wplift.com##DIV[class="main_ad_container ad_container_1"]
 wpmayor.com##A[href*="http://www.wpmayor.com/links/"]
 www50.zippyshare.com##.center_reklamy
 www64.zippyshare.com##.center_reklamy
+www-bleepingcomputer-com.cdn.ampproject.org##.amp-ad-container
 www-repubblica-it.cdn.ampproject.org##DIV[class="adv-container"]
 xboxdvr.com##.ad-container
 xboxdvr.com##[class^="ad-container"]
@@ -4776,8 +4790,10 @@ youtube.com##.ytp-ad-progress-list
 @@||ytimg.com/yts/jsbin/$script
 ##.ytp-ad-progress-list
 ! [NoAds X Files - Filtri sperimentali]
+||cdn.onesignal.com^
 ##.ezoic-ad
 ilfattoquotidiano.it###_tagvideo_container
+-pubblicit%c3%a0-
 teamskeet.com##+js(set, $.tstracker, noopFunc)
 youtube.com##DIV[class*="ytd-promoted-sparkles"]
 ! [NoAds X Files - Filtri script inline per uBlock]
