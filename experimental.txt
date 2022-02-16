@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202202141050
+! Version: 202202160956
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 14-02-2022
+! Last modified: 16-02-2022
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -2355,6 +2355,12 @@ lw2.gamecopyworld.com/!_fs
 lw2.gamecopyworld.com/!_top
 lycos.it/advertising/
 lycos.it/ats/*
+m.17track.net###jaRemoveASD
+m.17track.net##.activity-btn
+m.17track.net##.activity-gif
+m.17track.net##.gad-container
+m.17track.net##.yq-panel-gaad
+m.17track.net##.yq-panel-gad
 m.agi.it##.senseMob
 m.businessmagazine.it##.container.center_all
 m.corrieredellosport.it##.adv.adv-300x250.mediumrectangle
@@ -5180,8 +5186,6 @@ wwwcie.ups.com/u.a/l.class
 ||void.cat^$csp=worker-src 'none'
 ||wallpoper.com^$csp=worker-src 'none'
 ! [NoAds X Files - Filtri per blocco popup accettazione Cookie (sperimentale)]
-####CybotCookiebotDialogBodyUnderlay
-###CybotCookiebotDialog
 ###banner_consenso_cookie
 ###bdConsentUI
 ###cookie-bar
