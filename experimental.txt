@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202202160956
+! Version: 202202202041
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 16-02-2022
+! Last modified: 20-02-2022
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -900,6 +900,7 @@ calciomercato.com/*/banners/
 calcionapoli24.it##IFRAME[id="pirchiobannerslot2"]
 calcionews24.com##.noddus-content-card
 calendari2012.com###divpopup
+calendario-365.it###dish-top-desktop
 calendario-365.it###side-ads
 cam-content.com/ProducerImages/
 cam4.com###Cam4IMslider
@@ -1854,6 +1855,7 @@ ilfoglio.it##.ad
 ilgarantista.it##[class^="wpx_bannerize"]
 ilgarantista.it##[id^="fancybox-"]
 ilgarantista.it/wp-content/uploads/adv-skin.jpg
+ilgazzettino.it###paywall_wrapper
 ilgiornale.it###bottombar_banner
 ilgiornale.it###vetrina
 ilgiornale.it##.banner
@@ -3683,6 +3685,7 @@ trakt.tv##DIV[id="hu-ck-s-t-er-de-sk-top-sidenav"]
 trakt.tv##DIV[id="hu-ck-s-t-er-de-sk-top-wrapper"]
 trakt.tv##DIV[id="small-banner-ad"]
 trakt.tv##DIV[id="small-banner-bottom-ad"]
+trakt.tv##DIV[id^="adngin"]
 trakt.tv##[id^="huckster-"]
 trannytube.com/*banners*
 treccani.it##.bannercontainer
