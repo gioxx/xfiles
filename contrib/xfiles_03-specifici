@@ -399,7 +399,9 @@ armorgames.com/*/banners/
 armorgames.com##.ad_banner_example
 armorgames.com##.leaderboard
 arstechnica.com##.ad_crown.ad
+arstechnica.com##.ad_fullwidth.ad
 arstechnica.com##.ad_instream
+arstechnica.com##.ad_wrapper
 arstechnica.com###daehtsam-da
 artribune.com###head-sidebar
 artribune.com###skinlink
@@ -844,6 +846,9 @@ decisionanalyst.org/*banners*
 del.icio.us##[class^="ad300"]
 del.icio.us##[class^="googleAd"]
 delb.opt.fimserve.com/adopt
+delftstack.com##.ezoic-adpicker-ad
+delftstack.com###ezmobfooter
+delftstack.com##span[id^="ezoic-pub-ad-"]
 delicious.com##.ad-container
 delicious.com##.ad300-250
 delicious.com##.ad468-60
@@ -1831,6 +1836,8 @@ itpro.co.uk##.block.block-dfp
 itpro.co.uk##[id^="google_ads_iframe"]
 itproportal.com##.b4nn3r
 itproportal.com##.smallCol.right
+itsfoss.com##.eaa-ad
+itsfoss.com##[id$="_DynamicAds1"]
 itstillworks.com##.adsbygoogle
 itwriting.com##[href^="https://www.sysax.com/ppc/sxitwads/"]
 iusethis.com##.adbanner
@@ -2787,6 +2794,8 @@ ranaporno.com/*banner/
 rapidvideo.org##.video_sta
 rapidvideo.org###hidiv
 rapidvideo.tv##[style="height: 35px; z-index: 99999 ! important; position: fixed; width: 100% ! important; background: none repeat scroll 0% 0% rgb(251, 233, 154) ! important; overflow: hidden; border-bottom: 1px solid rgb(170, 170, 171) ! important; top: 0px ! important; left: 0px ! important; margin-top: 0px; margin-right: 0px ! important; margin-bottom: 0px; margin-left: 0px ! important; padding-top: 0px; padding-right: 0px ! important; padding-bottom: 0px; padding-left: 0px ! important; color: rgb(0, 0, 0) ! important;display:block !important;"]
+raspberrytips.com##.ezo_ad
+raspberrytips.com##.ezoic-adpicker-ad
 ravenna24ore.it##.ads
 ravenna24ore.it##.head_riga1
 ravenna24ore.it##.head_riga2
@@ -3479,6 +3488,8 @@ unita.it###banner142x120b18
 unita.it###banner300x100bxhide
 universomamma.it##[class^="__adnt"]
 universomamma.it##[class^="ad m_bot"]
+unogs.com##.purevpnAd
+unogs.com##[href^="/ad"]
 unsplash.com##div[data-test="AffiliatesGrid-Content"]
 unvideoalgiorno.it##[class^="ed_Related_Sponsor_"]
 unvideoalgiorno.it##[href^="http://edintorni.net/related/service/sponsor/"]
@@ -3638,6 +3649,8 @@ weborama.fr/adperf
 website.ws/*/banners/
 wellcams.biz/banners/
 whatboyswant.com/Media/Banners/
+whats-on-netflix.com##.GRVAd
+whats-on-netflix.com##.GRVMpuWrapper
 who.is##.advertisements
 whois.domaintools.com##.left-ad-set
 whois.domaintools.com###whoisRightAdContainerBottom
