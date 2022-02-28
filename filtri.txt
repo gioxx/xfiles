@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202202160000
+! Version: 202203010000
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 16-02-2022
+! Last modified: 01-03-2022
 ! Expires: 7 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -689,7 +689,9 @@ armorgames.com##.ad_banner_example
 armorgames.com/*/banners/
 armorgames.com##.leaderboard
 arstechnica.com##.ad_crown.ad
+arstechnica.com##.ad_fullwidth.ad
 arstechnica.com##.ad_instream
+arstechnica.com##.ad_wrapper
 arstechnica.com###daehtsam-da
 artribune.com###head-sidebar
 artribune.com###skinlink
@@ -913,6 +915,7 @@ calciomercato.com###topadv
 calcionapoli24.it##IFRAME[id="pirchiobannerslot2"]
 calcionews24.com##.noddus-content-card
 calendari2012.com###divpopup
+calendario-365.it###dish-top-desktop
 calendario-365.it###side-ads
 cam4.com###Cam4IMslider
 cam4.com/images/468x60*
@@ -1162,6 +1165,9 @@ ddunlimited.net##A[href^="http://www.liveadexchanger.com/"]
 ddunlimited.net##[src^="http://www.liveadexchanger.com/"]
 decisionanalyst.org/*banners*
 delb.opt.fimserve.com/adopt
+delftstack.com###ezmobfooter
+delftstack.com##.ezoic-adpicker-ad
+delftstack.com##span[id^="ezoic-pub-ad-"]
 del.icio.us##[class^="ad300"]
 del.icio.us##[class^="googleAd"]
 delicious.com##.ad300-250
@@ -1910,6 +1916,7 @@ ilfoglio.it##.ad
 ilgarantista.it##[class^="wpx_bannerize"]
 ilgarantista.it##[id^="fancybox-"]
 ilgarantista.it/wp-content/uploads/adv-skin.jpg
+ilgazzettino.it###paywall_wrapper
 ilgiornaledivicenza.it##DIV[id^="_fb_unit_"]
 ilgiornale.it##.banner
 ilgiornale.it##.block.block-ilg-adsense
@@ -2169,6 +2176,8 @@ itpro.co.uk##.block.block-dfp
 itpro.co.uk##[id^="google_ads_iframe"]
 itproportal.com##.b4nn3r
 itproportal.com##.smallCol.right
+itsfoss.com##.eaa-ad
+itsfoss.com##[id$="_DynamicAds1"]
 itstillworks.com##.adsbygoogle
 it.tinypic.com##.ad
 it.tinypic.com###ad_mrec
@@ -2418,6 +2427,12 @@ lycos.it/advertising/
 lycos.it/ats/*
 m0001.gamecopyworld.com/games/i/
 m1.2mdn.net/1720257/
+m.17track.net##.activity-btn
+m.17track.net##.activity-gif
+m.17track.net##.gad-container
+m.17track.net###jaRemoveASD
+m.17track.net##.yq-panel-gaad
+m.17track.net##.yq-panel-gad
 m2.feiwei.tv##[class^="zanox_tripleban_"]
 macdailynews.com/adpeeps/
 macdesktops.com/phpAdsNew/
@@ -3144,6 +3159,8 @@ ranaporno.com/*banner/
 rapidvideo.org###hidiv
 rapidvideo.org##.video_sta
 rapidvideo.tv##[style="height: 35px; z-index: 99999 ! important; position: fixed; width: 100% ! important; background: none repeat scroll 0% 0% rgb(251, 233, 154) ! important; overflow: hidden; border-bottom: 1px solid rgb(170, 170, 171) ! important; top: 0px ! important; left: 0px ! important; margin-top: 0px; margin-right: 0px ! important; margin-bottom: 0px; margin-left: 0px ! important; padding-top: 0px; padding-right: 0px ! important; padding-bottom: 0px; padding-left: 0px ! important; color: rgb(0, 0, 0) ! important;display:block !important;"]
+raspberrytips.com##.ezo_ad
+raspberrytips.com##.ezoic-adpicker-ad
 ravenna24ore.it##.ads
 ravenna24ore.it##.head_riga1
 ravenna24ore.it##.head_riga2
@@ -3759,6 +3776,7 @@ tradingsat.com###ac25abb2
 *.trafficfactory.biz//banners/
 trailersland.com##DIV[ID="parentPubb"]
 trakt.tv##DIV[class="grid-item hu-ck-s-t-er-grid-item col-xlg-3 col-md-4 col-sm-6"]
+trakt.tv##DIV[id^="adngin"]
 trakt.tv##DIV[id="hu-ck--st-er-desk-top-bot-tom"]
 trakt.tv##DIV[id="hu-ck-s-t-er-de-sk-top-sidenav"]
 trakt.tv##DIV[id="hu-ck--st-er-desk-top-to-p"]
@@ -3858,6 +3876,8 @@ unita.it##.banner-adv
 unita.it##.UNITIS_ads_300250
 universomamma.it##[class^="ad m_bot"]
 universomamma.it##[class^="__adnt"]
+unogs.com##[href^="/ad"]
+unogs.com##.purevpnAd
 unsplash.com##div[data-test="AffiliatesGrid-Content"]
 unvideoalgiorno.it##[class^="ed_Related_Sponsor_"]
 unvideoalgiorno.it##[href^="http://edintorni.net/related/service/sponsor/"]
@@ -4023,6 +4043,8 @@ weborama.fr/adperf
 website.ws/*/banners/
 wellcams.biz/banners/
 whatboyswant.com/Media/Banners/
+whats-on-netflix.com##.GRVAd
+whats-on-netflix.com##.GRVMpuWrapper
 who.is##.advertisements
 whois.domaintools.com##.left-ad-set
 whois.domaintools.com###whoisRightAdContainerBottom
@@ -5200,8 +5222,6 @@ controlpanel.register.it###CybotCookiebotDialogBodyUnderlay
 ##.cookie-policy-banner
 ##.cookie-revoke-hidden
 corrieredellosport.it##div[class^="didomi"]
-###CybotCookiebotDialog
-####CybotCookiebotDialogBodyUnderlay
 ###dl_cookieBanner
 elmec.com##.eupopup-container
 faimed.it##.lgcookieslaw_banner
