@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202202281638
+! Version: 202203091134
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 28-02-2022
+! Last modified: 09-03-2022
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -2034,6 +2034,7 @@ iphoneitalia.com###adskinleft
 iphoneitalia.com###adskinright
 iphoneitalia.com###adskintop
 iphoneitalia.com###sidespotbox
+iphoneitalia.com##.ad-space
 iphoneitalia.com##.ad-topnews
 iphoneitalia.com##.ad-topright
 iphoneitalia.com##.wes_main.wes_footer
@@ -2997,6 +2998,7 @@ primaonline.it###banner_top
 privatsex.net/admedia/
 probabilidades.net/images/casino*
 programasfull.com/banners
+programiz.com##.pgAdWrapper
 programmiedovetrovarli.it##DIV[id="ai-adb-message"]
 programmiedovetrovarli.it##DIV[id="ai-adb-overlay"]
 promo.rzonline.ru/*/frame
@@ -3412,6 +3414,7 @@ sportmediaset.mediaset.it##[id^="gemini-"]
 sportmediaset.mediaset.it##[id^="scr_"][style*="left: -428px"]
 sqlpowershell.blog##.wpa.wpmrec
 sqlpowershell.blog##.wpcnt
+stackabuse.com##DIV[id^="ad-content"]
 stackoverflow.com###adzerk1
 stackoverflow.com##[id^="adzerk"]
 start.io###fusionadunit
@@ -3580,6 +3583,8 @@ thehackernews.com##.dcmads
 thehackernews.com##.google.cf
 theinquirer.net/images/ads
 theitbros.com##.adhere
+theitbros.com##.adsbyvli
+theitbros.com##.vi-sticky-ad
 thelostsheep.net###adsense_link
 thelostsheep.net###adsensestory
 thelostsheep.net##DIV[style="clear:both"][width="300px;"][height="60px;"]
