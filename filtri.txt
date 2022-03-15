@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202203010000
+! Version: 202203160000
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 01-03-2022
+! Last modified: 16-03-2022
 ! Expires: 7 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -2093,6 +2093,7 @@ iphoneitalia.com###ad_728hc
 iphoneitalia.com###adskinleft
 iphoneitalia.com###adskinright
 iphoneitalia.com###adskintop
+iphoneitalia.com##.ad-space
 iphoneitalia.com##.ad-topnews
 iphoneitalia.com##.ad-topright
 iphoneitalia.com##DIV[class="wes_main wes_tabRight"]
@@ -3071,6 +3072,7 @@ primaonline.it###banner_top
 privatsex.net/admedia/
 probabilidades.net/images/casino*
 programasfull.com/banners
+programiz.com##.pgAdWrapper
 programmiedovetrovarli.it##DIV[id="ai-adb-message"]
 programmiedovetrovarli.it##DIV[id="ai-adb-overlay"]
 promoddl.com/img/
@@ -3496,6 +3498,7 @@ sport.sky.it##[id^="skinadv"]
 sport.sky.it###leaderboard-container
 sqlpowershell.blog##.wpa.wpmrec
 sqlpowershell.blog##.wpcnt
+stackabuse.com##DIV[id^="ad-content"]
 stackoverflow.com###adzerk1
 stackoverflow.com##[id^="adzerk"]
 start.io###fusionadunit
@@ -3673,6 +3676,8 @@ thehackernews.com##.google.cf
 thehackernews.com###insidearticlead
 theinquirer.net/images/ads
 theitbros.com##.adhere
+theitbros.com##.adsbyvli
+theitbros.com##.vi-sticky-ad
 thelostsheep.net###adsense_link
 thelostsheep.net###adsensestory
 thelostsheep.net##DIV[style="clear:both"][width="300px;"][height="60px;"]
