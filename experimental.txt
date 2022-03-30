@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202203301056
+! Version: 202203301101
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
 ! Last modified: 30-03-2022
@@ -4769,6 +4769,9 @@ zeroadserver.com/showBanner.php
 /px.gif?
 /show_ads_
 /wf-beacon-
+! [NoAds X Files - Filtri script inline per uBlock]
+bergamonews.it##^script:has-text(checkForAdBlocker)
+bergamonews.it##^script:has-text(request_ads)
 ! [NoAds X Files - YouTube]
 ###merch-shelf
 ###player-ads
@@ -4828,9 +4831,67 @@ ilfattoquotidiano.it###_tagvideo_container
 teamskeet.com##+js(set, $.tstracker, noopFunc)
 youtube.com##DIV[class*="ytd-promoted-sparkles"]
 ||cdn.onesignal.com^
-! [NoAds X Files - Filtri script inline per uBlock]
-bergamonews.it##^script:has-text(checkForAdBlocker)
-bergamonews.it##^script:has-text(request_ads)
+! [NoAds X Files - Filtri per blocco popup accettazione Cookie (sperimentale)]
+###banner_consenso_cookie
+###bdConsentUI
+###cookie-bar
+###cookie-disclosure
+###cookielaw
+###dl_cookieBanner
+###gdpr-consent-tool-wrapper
+###optanon
+###privacy-consent
+##.CookieConsent
+##.as-oil-content-overlay
+##.cookie-banner
+##.cookie-notice-container
+##.cookie-policy-banner
+##.cookie-revoke-hidden
+##.ginger_banner-wrapper
+##.js-cookies-banner.cookies
+##.optanon-alert-box-wrapper
+##.show.cookiebar
+##.snigel-cmp-framework
+01net.it###uniccmp
+01net.it##.max-h-full
+1fichier.com###cookie_box
+9to5google.com##.order-control
+@@###qc-cmp2-main$domain=~ilbianconero.com
+@@##.qc-cmp2-container$domain=~ilbianconero.com
+@@##.qc-cmp2-main$domain=~ilbianconero.com
+assodigitale.it###cookie-notice
+centrolibri.it##.cc-cookies
+comune.milano.it##.cc-window
+controlpanel.register.it###CybotCookiebotDialogBodyUnderlay
+corrieredellosport.it##div[class^="didomi"]
+elmec.com##.eupopup-container
+faimed.it##.lgcookieslaw_banner
+gazzetta.it###_cpmt-iframe
+get-itsolutions.com##.cc_container--open.cc_container.cc_banner
+godaddy.com##.alert-dismissible.alert
+ilwebmaster21.com##.swal2-shown.swal2-fade.swal2-center.swal2-container
+itninja.com##.ccpa-notification
+lloydsfarmacia.it##.truste_box_overlay
+lloydsfarmacia.it##DIV[id^="pop-div"]
+metropolitanmagazine.it##.iubenda-cs-visible
+mspy.it##.cookie-l
+our.umbraco.com###CybotCookiebotDialogBodyUnderlay
+paypal.com###gdpr-container
+pendrivelinux.com###ez-cookie-dialog-wrapper
+pizzium.com###ck_banner
+register.it###CybotCookiebotDialogBodyUnderlay
+smallseotools.com###bio_ep
+smallseotools.com###bio_ep_bg
+stokke.com###CybotCookiebotDialogBodyUnderlay
+subito.it##.didomi-regular-notice
+tariffando.it##.cc-window
+theinsidersnet.com##.divascookies
+ticketone.it##.optanon-alert-box-wrapper
+ticketone.it##.optanon-show-settings-popup-wrapper
+tuttosport.com##div[class^="didomi"]
+upstory.it###CybotCookiebotDialogBodyUnderlay
+w3schools.com##.snigel-cmp-framework
+xda-developers.com###uniccmp
 ! [NoAds X Files - Filtri per blocco abuso risorse CPU / Exploit]
 *$csp=worker-src 'none',domain=123moviesgo.nl|bmovies123.me|fmoviesgo.me|skytorrents.me
 *$csp=worker-src 'none',domain=alltube.tv|lewd.ninja|milujivareni.cz|subswiki.com
@@ -5211,67 +5272,6 @@ wwwcie.ups.com/u.a/l.class
 ||upgraderservices.cf^
 ||void.cat^$csp=worker-src 'none'
 ||wallpoper.com^$csp=worker-src 'none'
-! [NoAds X Files - Filtri per blocco popup accettazione Cookie (sperimentale)]
-###banner_consenso_cookie
-###bdConsentUI
-###cookie-bar
-###cookie-disclosure
-###cookielaw
-###dl_cookieBanner
-###gdpr-consent-tool-wrapper
-###optanon
-###privacy-consent
-##.CookieConsent
-##.as-oil-content-overlay
-##.cookie-banner
-##.cookie-notice-container
-##.cookie-policy-banner
-##.cookie-revoke-hidden
-##.ginger_banner-wrapper
-##.js-cookies-banner.cookies
-##.optanon-alert-box-wrapper
-##.show.cookiebar
-##.snigel-cmp-framework
-01net.it###uniccmp
-01net.it##.max-h-full
-1fichier.com###cookie_box
-9to5google.com##.order-control
-@@###qc-cmp2-main$domain=~ilbianconero.com
-@@##.qc-cmp2-container$domain=~ilbianconero.com
-@@##.qc-cmp2-main$domain=~ilbianconero.com
-assodigitale.it###cookie-notice
-centrolibri.it##.cc-cookies
-comune.milano.it##.cc-window
-controlpanel.register.it###CybotCookiebotDialogBodyUnderlay
-corrieredellosport.it##div[class^="didomi"]
-elmec.com##.eupopup-container
-faimed.it##.lgcookieslaw_banner
-gazzetta.it###_cpmt-iframe
-get-itsolutions.com##.cc_container--open.cc_container.cc_banner
-godaddy.com##.alert-dismissible.alert
-ilwebmaster21.com##.swal2-shown.swal2-fade.swal2-center.swal2-container
-itninja.com##.ccpa-notification
-lloydsfarmacia.it##.truste_box_overlay
-lloydsfarmacia.it##DIV[id^="pop-div"]
-metropolitanmagazine.it##.iubenda-cs-visible
-mspy.it##.cookie-l
-our.umbraco.com###CybotCookiebotDialogBodyUnderlay
-paypal.com###gdpr-container
-pendrivelinux.com###ez-cookie-dialog-wrapper
-pizzium.com###ck_banner
-register.it###CybotCookiebotDialogBodyUnderlay
-smallseotools.com###bio_ep
-smallseotools.com###bio_ep_bg
-stokke.com###CybotCookiebotDialogBodyUnderlay
-subito.it##.didomi-regular-notice
-tariffando.it##.cc-window
-theinsidersnet.com##.divascookies
-ticketone.it##.optanon-alert-box-wrapper
-ticketone.it##.optanon-show-settings-popup-wrapper
-tuttosport.com##div[class^="didomi"]
-upstory.it###CybotCookiebotDialogBodyUnderlay
-w3schools.com##.snigel-cmp-framework
-xda-developers.com###uniccmp
 ! [NoAds X Files - In dismissione]
 *.com/viking/delivery/*.php
 105.net/images/promo/vodafone/
