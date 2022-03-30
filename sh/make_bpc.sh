@@ -20,3 +20,5 @@ sed -i '/^$/d' "xfiles_22-bpc"
 # Add (first line) NoAds Section Header
 # Credits:  https://unix.stackexchange.com/a/335813
 (echo "! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]" && cat "xfiles_22-bpc") > "xfiles_22-bpc_tmp" && mv "xfiles_22-bpc_tmp" "xfiles_22-bpc" -f
+
+mv "xfiles_22-bpc" "/contrib/"

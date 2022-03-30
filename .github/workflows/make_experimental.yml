@@ -35,6 +35,9 @@ jobs:
           echo "! Hosting: GitHub.com" >> experimental.txt
           echo "!" >> experimental.txt
 
+      - name: Download Updated BPC
+        run: sh ./sh/make_bpc.sh
+
       - name: Make eXperimental
         run: sh ./sh/make_experimental.sh
 
@@ -53,6 +56,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add experimental.txt
           git add vcheck/check_experimental.txt
+          git add contrib/xfiles_22-bpc
           git commit -m "Experimental $update del $lastmodified" -a
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
