@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202203091134
+! Version: 202203300918
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 09-03-2022
+! Last modified: 30-03-2022
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -3039,6 +3039,7 @@ puntocellulare.it###pb_leader
 puntocellulare.it##[id^="pb_300x250"]
 puntocellulare.it##[id^="pb_adsense"]
 punypng.com###ad-leaderboard
+pynative.com##.adthrive-ad
 q.gs###bottom
 q.gs##iframe[id="rf"]
 qlnews.it###skinlink
@@ -3724,6 +3725,9 @@ trovanumeri.com##IFRAME[id="ak_prodbox_placeholder"]
 trovaprezzi.it###right-banner
 trovaprezzi.it###top-banner
 troyhunt.com##.footer-ad
+trueachievements.com##.ad-wrap
+trueachievements.com##.lb_holder
+trueachievements.com##.nn_player_w
 tshirt4you.com/banner/
 tsoftcentral.com/phpAdsNew
 tuaw.com###adDiv
@@ -3938,6 +3942,7 @@ webmonkey.com##.advertisement
 webnews.it###bottomAd
 webnews.it##.adv_300_top.sidebar_widget
 webnews.it##.banner.banner-container.medium-rectangle-up
+webnews.it##.sticky-adv
 webnews.it##DIV[class="adv_300"]
 webnews.it##[id^="jadv_leoadv"]
 weborama.fr/adperf
