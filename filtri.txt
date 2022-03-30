@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202203301232
+! Version: 202203301234
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
 ! Last modified: 30-03-2022
@@ -4893,11 +4893,6 @@ upstory.it###CybotCookiebotDialogBodyUnderlay
 w3schools.com##.snigel-cmp-framework
 xda-developers.com###uniccmp
 ! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]
-! General
-||loader-cdn.azureedge.net^$third-party
-||blueconic.net^$third-party
-||cdn.cxense.com^$script,third-party,important
-||evolok.net^$third-party
 ||ippen.space^$third-party
 ||lightboxcdn.com^$third-party
 ||js.matheranalytics.com^$script,third-party
@@ -5215,6 +5210,9 @@ diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicomedit
 diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es##+js(rc, article-body--truncated, div.article-body--truncated)
 ! Grupo Vocento
 diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elnortedecastilla.es,hoy.es,ideal.es,larioja.com,lasprovincias.es,laverdad.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
+lavozdigital.es##+js(ra, subscriptions-section, [subscriptions-section="content"])
+lavozdigital.es##+##[subscriptions-section="content-not-granted"]
+rovincias.es,laverdad.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 lavozdigital.es##+js(ra, subscriptions-section, [subscriptions-section="content"])
 lavozdigital.es##+##[subscriptions-section="content-not-granted"]
 ! [NoAds X Files - Filtri per blocco abuso risorse CPU / Exploit]
