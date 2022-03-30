@@ -12,13 +12,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      
+
       - name: Set Timezone
         uses: szenius/set-timezone@v1.0
         with:
           timezoneLinux: "Europe/Rome"
 
-      - name: Start engine
+      - name: Set date and time
         run: sh ./sh/datetime.sh
 
       - name: Prepare list header
@@ -35,10 +35,10 @@ jobs:
           echo "! Hosting: GitHub.com" >> experimental.txt
           echo "!" >> experimental.txt
 
-      - name: Let's make eXperimental
+      - name: Make eXperimental
         run: sh ./sh/make_experimental.sh
 
-      - name: Prepare vcheck
+      - name: Prepare vCheck
         run: |
           num_of_lines=$(< "experimental.txt" wc -l)
           num_of_lines="$((num_of_lines - 24))"
@@ -46,8 +46,8 @@ jobs:
           echo $lastmodified >> vcheck/check_experimental.txt
           echo $checkwebsite >> vcheck/check_experimental.txt
           echo $num_of_lines >> vcheck/check_experimental.txt
-          
-      - name: Commit
+
+      - name: Commit eXperimental
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
