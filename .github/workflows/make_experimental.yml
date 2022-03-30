@@ -35,9 +35,6 @@ jobs:
           echo "! Hosting: GitHub.com" >> experimental.txt
           echo "!" >> experimental.txt
 
-      - name: Download Updated BPC
-        run: sh ./sh/make_bpc.sh
-
       - name: Make eXperimental
         run: sh ./sh/make_experimental.sh
 
