@@ -21,17 +21,18 @@ Contengono i filtri in maniera più ordinata, raccolti per specifico scopo. Coll
 
 - [xfiles_00-whitelist](/xfiles_00-whitelist): aggiungere un elemento / dominio da ignorare completamente.
 - [xfiles_01-adsnoninvasivi]( /xfiles_01-adsnoninvasivi ): aggiungere un elemento / dominio alle esclusioni della lista, utile per quei siti web che non propongono elementi pubblicitari invasivi e utilizzano metodi di protezione da Adblocker per evitare che l'utente riesca a visitarli.
-- [xfiles_02-rootdomains]( /xfiles_02-rootdomains ): aggiungere un dominio specifico utilizzato per il caricamento di risorse pubblicitarie. Da qualche anno a questa parte è più difficile inserirne di nuovi ma è una buona base storica alla quale fare affidamento.
-- [xfiles_03-specifici]( /xfiles_03-specifici ): aggiungere specifici elementi di domini da bloccare. È la base dati certamente più modificata (da diverso tempo a questa parte).
-- [xfiles_04-elementibloccati]( /xfiles_04-elementibloccati): aggiungere specifici elementi di domini terze parti (e non solo) da bloccare. Utile nel caso in cui i domini visitati vadano a caricare risorse da un sito web esterno, popup, ecc.
-- [xfiles_05-elementinascosti]( /xfiles_05-elementinascosti): aggiungere modifiche estetiche. Utile nel caso in cui alcuni domini propongano importanti spazi vuoti dopo aver bloccato fonti pubblicitarie (ma non solo).
-- [xfiles_06-youtube]( /xfiles_06-youtube): aggiungere / modificare filtri pensati e utili specificatamente all'uso pulito di YouTube.
-- [xfiles_07-sperimentali]( /xfiles_07-sperimentali): aggiungere filtri da testare prima del rilascio della versione stabile del modulo X Files principale (ne fa quindi largo uso la lista "[eXperimental](https://github.com/gioxx/xfiles/blob/master/experimental.txt)").
-- [xfiles_08-ublockscripts]( /xfiles_08-ublockscripts): aggiungere filtri inline compatibili con uBlock, che permettono quindi di bloccare determinate richieste dei siti web (come i check per l'uso di Adblocker, per esempio).
-- [xfiles_09-abusorisorse]( /xfiles_09-abusorisorse): aggiungere filtri che impediscono a elementi contenuti nei domini di fare abuso di risorse del PC che li sta navigando, ne parlavo nell'articolo https://gioxx.org/2018/02/27/nocoin-il-cryptojacking-e-ormai-argomento-comune (sono filtri integrati direttamente in X Files da quando ho dismesso il modulo **NoCoin**).
-- [xfiles_10-idcac]( /xfiles10-idcac): aggiungere filtri in grado di bloccare gli avvisi di accettazione Cookie contenuti nei domini visitati. È una base dati ancora giovane e sperimentale, in continua evoluzione.
+- [xfiles_10-rootdomains]( /xfiles_10-rootdomains ): aggiungere un dominio specifico utilizzato per il caricamento di risorse pubblicitarie. Da qualche anno a questa parte è più difficile inserirne di nuovi ma è una buona base storica alla quale fare affidamento.
+- [xfiles_11-specifici]( /xfiles_11-specifici ): aggiungere specifici elementi di domini da bloccare. È la base dati certamente più modificata (da diverso tempo a questa parte).
+- [xfiles_12-elementibloccati]( /xfiles_12-elementibloccati): aggiungere specifici elementi di domini terze parti (e non solo) da bloccare. Utile nel caso in cui i domini visitati vadano a caricare risorse da un sito web esterno, popup, ecc.
+- [xfiles_13-elementinascosti]( /xfiles_13-elementinascosti): aggiungere modifiche estetiche. Utile nel caso in cui alcuni domini propongano importanti spazi vuoti dopo aver bloccato fonti pubblicitarie (ma non solo).
+- [xfiles_14-ublockscripts]( /xfiles_14-ublockscripts): aggiungere filtri inline compatibili con uBlock, che permettono quindi di bloccare determinate richieste dei siti web (come i check per l'uso di Adblocker, per esempio).
+- [xfiles_15-youtube]( /xfiles_15-youtube): aggiungere / modificare filtri pensati e utili specificatamente all'uso pulito di YouTube.
+- [xfiles_20-sperimentali]( /xfiles_20-sperimentali): aggiungere filtri da testare prima del rilascio della versione stabile del modulo X Files principale (ne fa quindi largo uso la lista "[eXperimental](https://github.com/gioxx/xfiles/blob/master/experimental.txt)").
+- [xfiles_21-idcac]( /xfiles21-idcac): aggiungere filtri in grado di bloccare gli avvisi di accettazione Cookie contenuti nei domini visitati. È una base dati ancora giovane e sperimentale, in continua evoluzione.
+- [xfiles_22-bpc]( /xfiles22-bpc): un nuovo esperimento portato a bordo di X Files. Si tratta dei filtri di blocco paywall resi pubblici da [Bypass Paywalls Clean](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters) e disponibili pubblicamente nel [repository GitLab](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/blob/main/bpc-paywall-filter.txt), dedicati a chi non vuole usare ulteriori estensioni sul proprio browser ma riscontra difficoltà nell'accedere alcuni contenuti online.
+- [xfiles_30-abusorisorse]( /xfiles_30-abusorisorse): aggiungere filtri che impediscono a elementi contenuti nei domini di fare abuso di risorse del PC che li sta navigando, ne parlavo nell'articolo https://gioxx.org/2018/02/27/nocoin-il-cryptojacking-e-ormai-argomento-comune (sono filtri integrati direttamente in X Files da quando ho dismesso il modulo **NoCoin**).
 
-La lista [xfiles_11-dismissione]( /xfiles10-idcac) è chiaramente una raccolta di filtri che verranno presto dismessi dalla lista principale durante una revisione futura della stessa, poiché non più utili (duplicati, fonti ormai non più attive, ecc.).
+La lista [xfiles_99-dismissione]( /xfiles99-dismissione) è chiaramente una raccolta di filtri che verranno presto dismessi dalla lista principale durante una revisione futura della stessa, poiché non più utili (duplicati, fonti ormai non più attive, ecc.).
 
 ## NoFacebookAds (NFA)
 
