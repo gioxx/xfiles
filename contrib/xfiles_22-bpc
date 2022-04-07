@@ -81,6 +81,7 @@ griffithreview.com##+js(rc, single, body.single)
 griffithreview.com##div.call-to-action
 groene.nl##+js(cookie-remover, rlist)
 harpers.org##+js(cookie-remover, hr_session)
+||hilltimes.com/*/js/loadingoverlay/loadingoverlay.min.js$script,~third-party
 hindustantimes.com##.freemium-card,.closeStory
 hindustantimes.com##+js(rc, freemiumText, .freemiumText)
 hindustantimes.com##+js(rc, open-popup, body.open-popup)
@@ -293,7 +294,8 @@ bienpublic.com,dna.fr,estrepublicain.fr,lalsace.fr,ledauphine.com,lejsl.com,lepr
 centrepresseaveyron.fr,ladepeche.fr,lindependant.fr,midi-olympique.fr,midilibre.fr,nrpyrenees.fr,petitbleu.fr##+js(ra, subscriptions-section, [subscriptions-section="content"])
 centrepresseaveyron.fr,ladepeche.fr,lindependant.fr,midi-olympique.fr,midilibre.fr,nrpyrenees.fr,petitbleu.fr##[subscriptions-section="content-not-granted"]
 ! Australia News Corp
-adelaidenow.com.au,cairnspost.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,geelongadvertiser.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,amp.theaustralian.com.au,themercury.com.au,townsvillebulletin.com.au,weeklytimesnow.com.au##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
+adelaidenow.com.au,cairnspost.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,geelongadvertiser.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,amp.theaustralian.com.au,themercury.com.au,townsvillebulletin.com.au,weeklytimesnow.com.au##+js(ra, subscriptions-section, [subscriptions-section="content"])
+adelaidenow.com.au,cairnspost.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,geelongadvertiser.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,amp.theaustralian.com.au,themercury.com.au,townsvillebulletin.com.au,weeklytimesnow.com.au##[subscriptions-section="content-not-granted"]
 ! German sites
 augsburger-allgemeine.de,berliner-zeitung.de,muensterschezeitung.de,mz.de,westfalen-blatt.de,wn.de,haz.de,kn-online.de,ln-online.de,lvz.de,maz-online.de,neuepresse.de,ostsee-zeitung.de,volksstimme.de##+js(ra, subscriptions-section, [subscriptions-section="content"])
 augsburger-allgemeine.de,berliner-zeitung.de,muensterschezeitung.de,mz.de,westfalen-blatt.de,wn.de,haz.de,kn-online.de,ln-online.de,lvz.de,maz-online.de,neuepresse.de,ostsee-zeitung.de,volksstimme.de##[subscriptions-section="content-not-granted"]
@@ -317,8 +319,8 @@ amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,fo
 amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,folha.uol.com.br##[subscriptions-section="content-not-granted"]
 abc.es,amp.elperiodico.com,cmjornal.pt,eldiario.es,elpais.com,estadao.com.br##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 ! Grupo Prensa Ibérica
-diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
-diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es##+js(rc, article-body--truncated, div.article-body--truncated)
+amp.epe.es,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
+diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es##+js(rc, article-body--truncated, div.article-body--truncated)
 ! Grupo Vocento
 diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elnortedecastilla.es,hoy.es,ideal.es,larioja.com,lasprovincias.es,laverdad.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 lavozdigital.es##+js(ra, subscriptions-section, [subscriptions-section="content"])
