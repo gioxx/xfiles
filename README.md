@@ -1,7 +1,9 @@
 NoAds X Files (xfiles.noads.it)
 ===================
 
-![GitHub last commit](https://img.shields.io/github/last-commit/gioxx/xfiles?color=informational) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gioxx/xfiles?color=informational) [![ABP eXperimental Files](https://github.com/gioxx/xfiles/actions/workflows/make_experimental.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_experimental.yml) [![ABP UPD](https://github.com/gioxx/xfiles/actions/workflows/make_upd.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_upd.yml)
+[![ABP eXperimental Files](https://github.com/gioxx/xfiles/actions/workflows/make_experimental.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_experimental.yml) [![ABP UPD](https://github.com/gioxx/xfiles/actions/workflows/make_upd.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_upd.yml) [![NoAds UPD Domains Only](https://github.com/gioxx/xfiles/actions/workflows/make_domains.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_domains.yml)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/gioxx/xfiles?color=informational) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gioxx/xfiles?color=informational)
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/gioxx?style=flat&logo=twitter) ![Twitter Follow](https://img.shields.io/twitter/follow/abpxfiles?style=flat&logo=twitter)
 
