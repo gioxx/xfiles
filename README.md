@@ -1,4 +1,4 @@
-NoAds X Files (xfiles.noads.it)
+NoAds X Files (https://xfiles.noads.it)
 ===================
 
 [![ABP eXperimental Files](https://github.com/gioxx/xfiles/actions/workflows/make_experimental.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_experimental.yml) [![ABP UPD](https://github.com/gioxx/xfiles/actions/workflows/make_upd.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_upd.yml) [![NoAds UPD Domains Only](https://github.com/gioxx/xfiles/actions/workflows/make_domains.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_domains.yml)
