@@ -136,6 +136,7 @@ nation.africa##+js(rc, datawall-content, .datawall-content)
 nation.africa##+js(ra, style, [data="datawall-content"])
 nautil.us##+js(cookie-remover, /^/)
 ||newstatesman.com/*/nsmg-evolok-paywall/*.js$script,~third-party
+nn.de##div[id^="clsdiv_"]
 nrc.nl##+js(cookie-remover, counter)
 nybooks.com##+js(rc, paywall-article, .paywall-article)
 nybooks.com##div.toast-cta
