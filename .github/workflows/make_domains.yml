@@ -1,0 +1,46 @@
+name: NoAds UPD Domains Only
+on:
+  push:
+    paths:
+    - 'contrib/upd_exclude'
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set Timezone
+        uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: "Europe/Rome"
+
+      - name: Set date and time
+        run: sh ./sh/datetime.sh
+
+      - name: Make UPD Domains
+        run: sh ./sh/make_domains.sh
+
+      - name: Prepare vCheck
+        run: |
+          num_of_lines=$(< "upd_domains.txt" wc -l)
+          echo $update > vcheck/check_domains.txt
+          echo $lastmodified >> vcheck/check_domains.txt
+          echo $checkwebsite >> vcheck/check_domains.txt
+          echo $num_of_lines >> vcheck/check_domains.txt
+
+      - name: Commit UPD Domains
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add domains/upd_domains.txt
+          git add vcheck/check_domains.txt
+          git commit -m "Aggiornamento UPD Domains (GHA) $update del $lastmodified" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GHUB_TOKEN }}
+          branch: ${{ github.ref }}
