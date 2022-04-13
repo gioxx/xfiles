@@ -22,10 +22,5 @@ sed -i '/^$/d' "xfiles_22-bpc"
 (echo "! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]" && cat "xfiles_22-bpc") > "xfiles_22-bpc_tmp" && mv "xfiles_22-bpc_tmp" "xfiles_22-bpc" -f
 
 mv "xfiles_22-bpc" contrib/
-
 cp contrib/xfiles_* ./
-
-##for s in xfiles_*; do (head -n 1 "${s}" && tail -n +2 "${s}" | sort) > "sorted_${s}"; done
-##for f in sorted_*; do (cat "${f}") >> experimental.txt; done
-
 for f in xfiles_*; do (cat "${f}") >> experimental.txt; done

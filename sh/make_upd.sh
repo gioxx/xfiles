@@ -10,7 +10,7 @@ emptycheck () {
     echo "$1 is not empty, go forward!"
   else
     echo "$1 is empty, stop UPD creation process."
-		exit
+    exit
   fi
 }
 
@@ -29,8 +29,8 @@ while read line; do
   echo "Cerco ed elimino $line"
   sed -e "/$line/d" -i "phishingdomains.txt"
   sed -e "/$line/d" -i "phishingdomains_newtoday.txt"
-	sed -e "/$line/d" -i "2021-07-18_nso.txt"
-	sed -e "/$line/d" -i "NSA-CIA-Blocklist.txt"
+  sed -e "/$line/d" -i "2021-07-18_nso.txt"
+  sed -e "/$line/d" -i "NSA-CIA-Blocklist.txt"
 done < whitelist_sort.txt
 
 #	Remove header and blank lines from 3rd-party lists
