@@ -26,7 +26,7 @@ jobs:
 
       - name: Prepare vCheck
         run: |
-          num_of_lines=$(< "upd_domains.txt" wc -l)
+          num_of_lines=$(< "domains/upd_domains.txt" wc -l)
           echo $update > vcheck/check_domains.txt
           echo $lastmodified >> vcheck/check_domains.txt
           echo $checkwebsite >> vcheck/check_domains.txt
