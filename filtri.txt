@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202204010000
+! Version: 202204160000
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 01-04-2022
+! Last modified: 16-04-2022
 ! Expires: 7 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -888,6 +888,9 @@ bergamonews.it##.simple_overlay
 bergamonews.it###banner_H1A
 bergamonews.it###block-openx-11
 bergamonews.it###PCT-sliding-bottom
+bestmovie.it##.gmp
+bestmovie.it##.gmp-container-ads
+bestmovie.it###floorAdWrapper
 betfair.cc-eu.co.uk/link/banner
 bewebmedia.com/*bannerid
 bewebmedia.com/*filename
@@ -1523,6 +1526,7 @@ factotum.ra.it/*banner*
 fakeupdate.net###itemz
 fanpage.it##.adv-box
 fanpage.it##.content-leaderboard
+fanpage.it###fanplayer-container
 fanpage.it###skin-click-tag
 fantagazzetta.com##.bg-ads
 fantagazzetta.com##.top-header
@@ -1714,6 +1718,7 @@ games.hdblog.it##.ads.square
 games.hdblog.it##[id^="banner3_"]
 games.it##.advnext_correlati
 games.it###afcbox_itemtop
+gamesnostalgia.com##.banner
 gamesource.it##DIV[id="ad-long-header"]
 gamesradar.com##DIV[class^="page_content_right_ad"]
 gamesradar.com##DIV[id="page_content_top_ad"]
@@ -1839,6 +1844,7 @@ guidaacquisti.net##A[href="http://bit.ly/1noSyqV"]
 guidafisco.it##[class^="ad"]
 guidamonaci.it##.rightBox
 guidatv.sky.it##.banner_publicitario
+gumtree.com##.ad-slot
 gurustop.net##.lqm_ad
 gustoinrete.com/banner
 gxware.zzn.com/email/AdBlock/
@@ -2781,6 +2787,7 @@ musicbrainz.org##DIV[class="nagpanel"]
 mutuok.com###banneroverdiv
 my-dirty-hobby.com/banner
 my-personaltrainer.it##.sal-adv-adsense
+my-personaltrainer.it##.sal-adv-gpt
 my-personaltrainer.it##[id^="adv_300"]
 my-personaltrainer.it##[id$="adv"]
 my-personaltrainer.it###spazio2
@@ -2825,6 +2832,7 @@ newalbumreleases.net##DIV[class="banner"]
 newalbumreleases.net##DIV[class="bannerhead"]
 newgrounds.com/ads
 neworder.box.sk/ads
+news.sky.com##.sdc-site-au__leaderboard
 newslinet.com##[id^="metaslider-id-"]
 newsrimini.it##[id^="google_ads_iframe"]
 newsticker.save.tv/*/Ticker/
@@ -3018,11 +3026,15 @@ pcworld.com##[id^="google_ads_iframe"]
 pcworld.com###content-recommender
 pcworld.com##DIV[id="topAd"]
 pendrivelinux.com##.adtester-container
+people.com##.ad-container
+people.com##.ad-title
 peoplesound.com//app/widget/
 perf.weborama.fr/fcgi-bin/adserv
 perfectgeeks.com##.ads_1
 pes-patch.com##.vee97141da4a97744c8b431c35215c2b56fbe3a6e
 petapixel.com##.banners
+petapixel.com##.instream_ad
+petapixel.com###ppvideoadvertisement
 petenetlive.com##DIV[id^="SquareAd"]
 petenetlive.com##DIV[id="AdSpaceTOP"]
 petri.co.il###adkit_content-block
@@ -3382,6 +3394,7 @@ sicurauto.it##[id^="jadv_"]
 sicurauto.it###advheader
 simpatizzo.eu/additional/images/*
 simply-hentai.com###divExoLayerWrapper
+sinonimi-contrari.it##.topAd
 siracusanews.it/*/*banner*
 site5.com/creative/*/468x60
 sitepoint.com##DIV[class^="dfp-ad"]
@@ -3751,6 +3764,11 @@ todaysfreevideo.com/ad/
 todomp3.net/images/videochat*
 todoriper.com/baners
 tomsguide.com##[id^="google_ads_iframe"]
+tomshardware.com##.bordeaux-slot
+tomshardware.com##.dfp-leaderboard-container
+tomshardware.com###desktop-in-article
+tomshardware.com##div[class^="mobile-leaderboard-"]
+tomshardware.com##DIV[id^="bordeaux-preemptive-ad-"]
 tomshw.it/*adsense*
 tomshw.it##.edinet_adv_container
 tomshw.it##.event-autopromo
@@ -3777,6 +3795,7 @@ toocool2betrue.com##.adwrapper
 tools.pdf24.org##.adSpace
 tools.pdf24.org##.adText
 tophost.it/banners
+torinotoday.it##body > [href^="https://vda.torinotoday.it/~vda/___/o.php"]
 torrentazos.com/*Ad*
 torrentportal.com##IFRAME[id="topad"]
 torrentportal.com##IFRAME[id="topad1"]
@@ -4869,6 +4888,8 @@ faimed.it##.lgcookieslaw_banner
 gazzetta.it###_cpmt-iframe
 get-itsolutions.com##.cc_container--open.cc_container.cc_banner
 godaddy.com##.alert-dismissible.alert
+iene.mediaset.it###myConsentFlow
+iene.mediaset.it###myUserConsent
 ilwebmaster21.com##.swal2-shown.swal2-fade.swal2-center.swal2-container
 itninja.com##.ccpa-notification
 lloydsfarmacia.it##.truste_box_overlay
@@ -4970,6 +4991,7 @@ griffithreview.com##+js(rc, single, body.single)
 griffithreview.com##div.call-to-action
 groene.nl##+js(cookie-remover, rlist)
 harpers.org##+js(cookie-remover, hr_session)
+||hilltimes.com/*/js/loadingoverlay/loadingoverlay.min.js$script,~third-party
 hindustantimes.com##.freemium-card,.closeStory
 hindustantimes.com##+js(rc, freemiumText, .freemiumText)
 hindustantimes.com##+js(rc, open-popup, body.open-popup)
@@ -5024,6 +5046,7 @@ nation.africa##+js(rc, datawall-content, .datawall-content)
 nation.africa##+js(ra, style, [data="datawall-content"])
 nautil.us##+js(cookie-remover, /^/)
 ||newstatesman.com/*/nsmg-evolok-paywall/*.js$script,~third-party
+nn.de##div[id^="clsdiv_"]
 nrc.nl##+js(cookie-remover, counter)
 nybooks.com##+js(rc, paywall-article, .paywall-article)
 nybooks.com##div.toast-cta
@@ -5182,7 +5205,8 @@ bienpublic.com,dna.fr,estrepublicain.fr,lalsace.fr,ledauphine.com,lejsl.com,lepr
 centrepresseaveyron.fr,ladepeche.fr,lindependant.fr,midi-olympique.fr,midilibre.fr,nrpyrenees.fr,petitbleu.fr##+js(ra, subscriptions-section, [subscriptions-section="content"])
 centrepresseaveyron.fr,ladepeche.fr,lindependant.fr,midi-olympique.fr,midilibre.fr,nrpyrenees.fr,petitbleu.fr##[subscriptions-section="content-not-granted"]
 ! Australia News Corp
-adelaidenow.com.au,cairnspost.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,geelongadvertiser.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,amp.theaustralian.com.au,themercury.com.au,townsvillebulletin.com.au,weeklytimesnow.com.au##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
+adelaidenow.com.au,cairnspost.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,geelongadvertiser.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,amp.theaustralian.com.au,themercury.com.au,townsvillebulletin.com.au,weeklytimesnow.com.au##+js(ra, subscriptions-section, [subscriptions-section="content"])
+adelaidenow.com.au,cairnspost.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,geelongadvertiser.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,amp.theaustralian.com.au,themercury.com.au,townsvillebulletin.com.au,weeklytimesnow.com.au##[subscriptions-section="content-not-granted"]
 ! German sites
 augsburger-allgemeine.de,berliner-zeitung.de,muensterschezeitung.de,mz.de,westfalen-blatt.de,wn.de,haz.de,kn-online.de,ln-online.de,lvz.de,maz-online.de,neuepresse.de,ostsee-zeitung.de,volksstimme.de##+js(ra, subscriptions-section, [subscriptions-section="content"])
 augsburger-allgemeine.de,berliner-zeitung.de,muensterschezeitung.de,mz.de,westfalen-blatt.de,wn.de,haz.de,kn-online.de,ln-online.de,lvz.de,maz-online.de,neuepresse.de,ostsee-zeitung.de,volksstimme.de##[subscriptions-section="content-not-granted"]
@@ -5206,14 +5230,13 @@ amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,fo
 amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,folha.uol.com.br##[subscriptions-section="content-not-granted"]
 abc.es,amp.elperiodico.com,cmjornal.pt,eldiario.es,elpais.com,estadao.com.br##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 ! Grupo Prensa Ibérica
-diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
-diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es##+js(rc, article-body--truncated, div.article-body--truncated)
+amp.epe.es,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
+diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es##+js(rc, article-body--truncated, div.article-body--truncated)
 ! Grupo Vocento
 diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elnortedecastilla.es,hoy.es,ideal.es,larioja.com,lasprovincias.es,laverdad.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 lavozdigital.es##+js(ra, subscriptions-section, [subscriptions-section="content"])
 lavozdigital.es##+##[subscriptions-section="content-not-granted"]
-pinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es##+js(rc, article-body--truncated, div.article-body--truncated)
-! Grupo Vocento
+Vocento
 diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elnortedecastilla.es,hoy.es,ideal.es,larioja.com,lasprovincias.es,laverdad.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 lavozdigital.es##+js(ra, subscriptions-section, [subscriptions-section="content"])
 lavozdigital.es##+##[subscriptions-section="content-not-granted"]
