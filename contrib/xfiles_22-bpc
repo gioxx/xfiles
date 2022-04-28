@@ -32,6 +32,7 @@ americanbanker.com##+js(rc, inline-gated, .inline-gated)
 atavist.com##+js(aopr, localStorage)
 ||artnet.com/paywall-ajax.php$xmlhttprequest,~third-party
 ||assets.bizjournals.com/static/js/app/cxense.js$script,~third-party
+||amazonaws.com/s3fs-public/js/js_*.js$script,domain=automobilwoche.de
 bloomberg.com##+js(cookie-remover, gatehouse_id, stay)
 bloomberg.com##+js(aopr, localStorage)
 bloomberg.com##+js(ra, data-paywall-overlay-status, body[data-paywall-overlay-status], stay)
@@ -57,16 +58,17 @@ connaissancedesarts.com##div.ad-container
 ||corriereobjects.it/*/js/_paywall.sjs$script,domain=corriere.it
 csmonitor.com##+js(aopr, localStorage)
 csmonitor.com##.paywall
+||dn.se/check-paywall-v2.js
 eastwest.eu##+js(ra, style, .paywall)
 eastwest.eu##+js(rc, paywall, .paywall)
-eastwest.eu###testo_articolo>p, #testo_articolo>h3
+eastwest.eu###testo_articolo > p, #testo_articolo > h3
 eastwest.eu##.offerta_abbonamenti
 ||editorialedomani.it/pelcro.js$script,~third-party
 ||eestatic.com/assets_js/web/v*/historia*.min.js$script,domain=elespanol.com
 elconfidencial.com##+js(rc, newsType__content--closed, div.newsType__content--closed)
 ||elpais.com/arc/subs/p.min.js$script,~third-party
-||epimg.net/js/*/noticia.min.js$script,domain=elpais.com
-||epimg.net/js/*/user.min.js$script,domain=elpais.com
+enotes.com##section.c-cta-section
+enotes.com##+js(ra, class, div[class^="_"])
 ||acesso.estadao.com.br/paywall/$script,~third-party
 ||exame.com/*/js/pywll-dyn.js$script,~third-party
 ||folha.uol.com.br/paywall/js/$script,~third-party
@@ -75,6 +77,7 @@ elconfidencial.com##+js(rc, newsType__content--closed, div.newsType__content--cl
 @@||foreignaffairs.com/sites/default/files/js/js_y*.js$script,~third-party,important
 foreignpolicy.com##div.content-ungated
 foreignpolicy.com##+js(rc, content-gated, div.content-gated)
+fortune.com##+js(ra, class, div.paywallActive)
 ||ftm.nl/js/routing$script,~third-party
 ||griffithreview.com/*/leaky-paywall/$script,~third-party
 griffithreview.com##+js(rc, single, body.single)
@@ -155,6 +158,9 @@ paloaltoonline.com##+js(cookie-remover, /^/)
 parismatch.com###poool-container,.forbidden
 parismatch.com##+js(ra, data-poool-mode, .cnt[data-poool-mode="hide"])
 philosophynow.org##+js(cookie-remover, /^/)
+qz.com##.KbD9m
+qz.com##+js(rc, _4BDxU, div._4BDxU, stay)
+qz.com##+js(ra, scrolling, iframe[scrolling], stay)
 ||reuters.com/pf/resources/dist/reuters/js/index.js$script,~third-party
 ||reuters.com/arc/subs/p.min.js$script,~third-party
 rugbypass.com##.plus-article-offer
@@ -248,10 +254,10 @@ denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pe.com,twincities
 curbed.com,grubstreet.com,nymag.com,thecut.com,vulture.com##+js(cookie-remover, /nymcid$/)
 fosse.nymag.com/fosse/*/scripts/$script,domain=curbed.com|grubstreet.com|nymag.com|thecut.com|vulture.com
 ! Outside magazines
-.com/*/scripts/contentGate*.js$script,domain=backpacker.com|betamtb.com|cleaneatingmag.com|climbing.com|outsideonline.com|oxygenmag.com|skimag.com|trailrunnermag.com|triathlete.com|vegetariantimes.com|velonews.com|womensrunning.com|yogajournal.com
-backpacker.com,betamtb.com,cleaneatingmag.com,climbing.com,outsideonline.com,oxygenmag.com,skimag.com,trailrunnermag.com,triathlete.com,vegetariantimes.com,velonews.com,womensrunning.com,yogajournal.com##.o-membership-overlay
-backpacker.com,betamtb.com,cleaneatingmag.com,climbing.com,outsideonline.com,oxygenmag.com,skimag.com,trailrunnermag.com,triathlete.com,vegetariantimes.com,velonews.com,womensrunning.com,yogajournal.com##+js(rc, is-gated, .is-gated)
-backpacker.com,betamtb.com,cleaneatingmag.com,climbing.com,outsideonline.com,oxygenmag.com,skimag.com,trailrunnermag.com,triathlete.com,vegetariantimes.com,velonews.com,womensrunning.com,yogajournal.com##+js(rc, is-gated--flexible-layout, .is-gated--flexible-layout)
+.com/*/scripts/contentGate*.js$script,domain=backpacker.com|betamtb.com|betternutrition.com|cleaneatingmag.com|climbing.com|gymclimber.com|outsideonline.com|oxygenmag.com|pelotonmagazine.com|podiumrunner.com|rockandice.com|skimag.com|trailrunnermag.com|triathlete.com|vegetariantimes.com|velonews.com|womensrunning.com|yogajournal.com
+backpacker.com,betamtb.com,betternutrition.com,cleaneatingmag.com,climbing.com,gymclimber.com,outsideonline.com,oxygenmag.com,pelotonmagazine.com,podiumrunner.com,rockandice.com,skimag.com,trailrunnermag.com,triathlete.com,vegetariantimes.com,velonews.com,womensrunning.com,yogajournal.com##.o-membership-overlay
+backpacker.com,betamtb.com,betternutrition.com,cleaneatingmag.com,climbing.com,gymclimber.com,outsideonline.com,oxygenmag.com,pelotonmagazine.com,podiumrunner.com,rockandice.com,skimag.com,trailrunnermag.com,triathlete.com,vegetariantimes.com,velonews.com,womensrunning.com,yogajournal.com##+js(rc, is-gated, .is-gated)
+backpacker.com,betamtb.com,betternutrition.com,cleaneatingmag.com,climbing.com,gymclimber.com,outsideonline.com,oxygenmag.com,pelotonmagazine.com,podiumrunner.com,rockandice.com,skimag.com,trailrunnermag.com,triathlete.com,vegetariantimes.com,velonews.com,womensrunning.com,yogajournal.com##+js(rc, is-gated--flexible-layout, .is-gated--flexible-layout)
 cyclingtips.com##+js(aopr, localStorage)
 cyclingtips.com##div[data-block-name="ads"]
 cyclingtips.com##div#takeover
@@ -284,8 +290,8 @@ thegardenisland.com###single-login-box,#single-excerpt
 ||cdn.ampproject.org/*/amp-access-$script
 ||cdn.ampproject.org/*/amp-subscriptions-$script
 @@||cdn.ampproject.org/*/amp-access-$script,domain=cambridge.org
-amp.ft.com,artnet.com,barrons.com,billboard.com,bloombergquint.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com,theathletic.co.uk,wsj.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
-amp.ft.com,artnet.com,barrons.com,billboard.com,bloombergquint.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com,theathletic.co.uk,wsj.com##[subscriptions-section="content-not-granted"]
+amp.ft.com,artnet.com,barrons.com,billboard.com,bloombergquint.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com,theathletic.co.uk,voguebusiness.com,wsj.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
+amp.ft.com,artnet.com,barrons.com,billboard.com,bloombergquint.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com,theathletic.co.uk,voguebusiness.com,wsj.com##[subscriptions-section="content-not-granted"]
 amp.usatoday.com,digiday.com,inc42.com,indianexpress.com,indiatoday.in,mid-day.com,newsday.com,seekingalpha.com,telegraph.co.uk##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 ! French sites
 amp.elle.fr,challenges.fr,lopinion.fr##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
@@ -320,8 +326,8 @@ amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,fo
 amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,folha.uol.com.br##[subscriptions-section="content-not-granted"]
 abc.es,amp.elperiodico.com,cmjornal.pt,eldiario.es,elpais.com,estadao.com.br##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 ! Grupo Prensa Ibérica
-amp.epe.es,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
-diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es##+js(rc, article-body--truncated, div.article-body--truncated)
+amp.epe.es,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
+diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es##+js(rc, article-body--truncated, div.article-body--truncated)
 ! Grupo Vocento
 diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elnortedecastilla.es,hoy.es,ideal.es,larioja.com,lasprovincias.es,laverdad.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 lavozdigital.es##+js(ra, subscriptions-section, [subscriptions-section="content"])
