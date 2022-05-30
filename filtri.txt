@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202205160000
+! Version: 202205310000
 ! Title: ABP X Files
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 16-05-2022
+! Last modified: 31-05-2022
 ! Expires: 7 days
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -1714,6 +1714,9 @@ gamemag.it###adv300top
 gamepal.it/banner/
 gamepal.it###background-ad
 gamepcrip.com/publi/
+gamerdvr.com##.small-collapse.columns.xlarge-3.large-4.small-12 > .centered > div
+gamerdvr.com##.small-collapse.columns.xlarge-3.large-4.small-12 > div.columns.small-12 > .centered > div
+gamerdvr.com##.top-90.centered > div
 games.hdblog.it##.ads_container_top
 games.hdblog.it##.ads.square
 games.hdblog.it##[id^="banner3_"]
@@ -2550,6 +2553,8 @@ mail23a.webmail.libero.it##.advCnt
 majorgeeks.com##.geekad
 majorgeeks.com##[width="336"][height="280"][type="application/x-shockwave-flash"]
 makemoneytakingasurvey.org/images
+maketecheasier.com##.ad-slot
+maketecheasier.com##.md\:block.hidden.header-widget
 maketecheasier.com##.single-top-slot
 maketecheasier.com##[id^="google_ads_iframe"]
 maketecheasier.com##DIV[class="sidebar-widget in-content-ad"]
@@ -3045,7 +3050,9 @@ petri.co.il###adkit_in-content-lower-block
 petri.co.il###adkit_rnav-bt
 petri.co.il##DIV[id="adkit_leader"]
 petri.com##.ad
+petri.com##.inContent.contentHighlight
 petri.com##.single__ad
+petri.com##div.adContainer
 pexels.com###carbonads
 phica.net/*300X250*
 phica.net##.ad_
@@ -3243,6 +3250,7 @@ realraptalk.com/banner
 realtimetv.it###mpu
 recomendedsite.com/widget/render/
 reddit.com##[class^="sponsor-"]
+redhotcyber.com##.quads-ad-label
 rediff.com##+js(ra, onclick, [onclick^="track"])
 rediff.com##+js(ra, onmousedown, [onmousedown^="return enc(this,'https://track.rediff.com"])
 reggiosera.it##.adunit
@@ -3719,6 +3727,7 @@ thenextweb.com##[id^="ad-unit"]
 thenextweb.com##[id$="_adDisplay"]
 thenounproject.com##DIV[class*="ad-space-container"]
 thenounproject.com##SECTION[class="row-container advertisement"]
+theonion.com##.ad-container
 theverge.com##.adblock-whitelist-messaging__article-wrapper
 theverge.com##.m-ad
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
@@ -3917,6 +3926,7 @@ unita.it###banner142x120b18
 unita.it###banner300x100bxhide
 universomamma.it##[class^="__adnt"]
 universomamma.it##[class^="ad m_bot"]
+unogs.com##.nordvpnAd
 unogs.com##.purevpnAd
 unogs.com##[href^="/ad"]
 unsplash.com##div[data-test="AffiliatesGrid-Content"]
@@ -4849,12 +4859,13 @@ youtube.com##a[href^="http://www.youtube.com/cthru?"]
 youtube.com##DIV[id="homepage-sidebar-ads"]
 youtube.com##ytd-companion-slot-renderer
 ! [NoAds X Files - Filtri sperimentali]
+-pubblicit%c3%a0-
 ##.ezoic-ad
+||cdn.onesignal.com^
+corriere.it##.sticky-video.rcs-video
 ilfattoquotidiano.it###_tagvideo_container
 teamskeet.com##+js(set, $.tstracker, noopFunc)
 youtube.com##DIV[class*="ytd-promoted-sparkles"]
--pubblicit%c3%a0-
-||cdn.onesignal.com^
 ! [NoAds X Files - Filtri per blocco popup accettazione Cookie (sperimentale)]
 @@##.qc-cmp2-container$domain=~ilbianconero.com
 @@##.qc-cmp2-main$domain=~ilbianconero.com
@@ -4919,6 +4930,7 @@ upstory.it###CybotCookiebotDialogBodyUnderlay
 w3schools.com##.snigel-cmp-framework
 xda-developers.com###uniccmp
 ! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]
+||googletagmanager.com^$third-party
 ||ippen.space^$third-party
 ||lightboxcdn.com^$third-party
 ||js.matheranalytics.com^$script,third-party
@@ -4927,6 +4939,7 @@ xda-developers.com###uniccmp
 ||js.pelcro.com^$script,third-party
 ||piano.io^$third-party
 @@||piano.io^$third-party,domain=asia.nikkei.com,important
+@@||piano.io^$third-party,domain=japantimes.co.jp,important
 ||poool.fr^$third-party
 ||qiota.com^$third-party
 ||cdn.tinypass.com^$script,third-party
@@ -4975,6 +4988,9 @@ connaissancedesarts.com##div.ad-container
 ||corriereobjects.it/*/js/_paywall.sjs$script,domain=corriere.it
 csmonitor.com##+js(aopr, localStorage)
 csmonitor.com##.paywall
+dailywire.com###post-body-text > div > div:style(height: auto !important;)
+dallasnews.com##div.sl-overlay
+dallasnews.com##+js(ra, style, div#courier-body-wrapper[style])
 ||dn.se/check-paywall-v2.js
 eastwest.eu##+js(ra, style, .paywall)
 eastwest.eu##+js(rc, paywall, .paywall)
@@ -5014,8 +5030,8 @@ journaldunet.com##.reg_wall
 journaldunet.com##+js(ra, style, .entry_reg_wall)
 ||jpost.com/js/js_article.min.js$script,~third-party
 ||internazionale.it/templates_js_ajax.inc.php$xmlhttprequest,~third-party
-||knack.be/js/responsive/rmgModal.js$script,~third-party
-||knack.be/js/responsive/rmgPaywall.js$script,~third-party
+knack.be###paywall-modal
+knack.be##html:style(overflow-y: visible !important;)
 krautreporter.de##.article-paywall,.js-paywall-divider,#steady-checkout
 krautreporter.de##+js(rc, blurred, .blurred)
 krautreporter.de##+js(rc, json-ld-paywall-marker, .json-ld-paywall-marker, stay)
@@ -5038,8 +5054,9 @@ lejdd.fr###poool-container
 lejdd.fr##+js(ra, data-poool-mode, .cnt[data-poool-mode="hide"])
 ||levif.be/js/responsive/rmgModal.js$script,~third-party
 ||levif.be/js/responsive/rmgPaywall.js$script,~third-party
-livelaw.in##div.restricted_message,div.subscribeNow
 livelaw.in##+js(rc, hide, div.paywall-content.hide)
+livelaw.in##+js(rc, restricted_message, div.restricted_message)
+livelaw.in##div#subscription_paid_message,div.subscribeNow
 ||livemint.com/__js/lm_subscription_$script,~third-party
 labusinessjournal.com##+js(cookie-remover, /^/)
 labusinessjournal.com###css-only-modals
@@ -5125,6 +5142,7 @@ thepointmag.com##div.overlay,div#tpopup-
 thesaturdaypaper.com.au##+js(cookie-remover, /^/)
 thesaturdaypaper.com.au##div.paywall-hard-always-show
 ||time.com/dist/meter-wall-client-js.*.js$script,~third-party
+time.com##body:style(position:relative !important)
 ||timeshighereducation.com/sites/default/files/*/js__*.js$script,~third-party
 ||washingtonpost.com/tetro/evaluate$xmlhttprequest,~third-party
 winnipegfreepress.com##+js(rc, paidaccess, div.paidaccess)
@@ -5134,10 +5152,11 @@ winnipegfreepress.com###paywall-teaser,.billboard-ad-space,.ad,.article-ad,.fixe
 ! Algemeen Dagblad Regional
 bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,pzc.nl,tubantia.nl##+js(cookie-remover, temptationTrackingId)
 ! Australian Community Media
-bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,portnews.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(rc, subscribe-truncate, .subscribe-truncate)
-bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,portnews.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(rc, subscriber-hider, .subscriber-hider)
-bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,portnews.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(ra, style, body[style], stay)
-bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,portnews.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##div.blocker,.story-generic__iframe
+bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(rc, subscribe-truncate, .subscribe-truncate)
+bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(rc, subscriber-hider, .subscriber-hider)
+bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(rc, hidden, div[class="hidden"])
+bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(ra, style, body[style], stay)
+bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##div.blocker,.story-generic__iframe
 ! Blox CMS - TownNews
 .com/shared-content/art/tncms/user/user.js$script,~third-party
 ! Lee Enterprises Group
@@ -5187,9 +5206,6 @@ cyclingtips.com##div#takeover
 /api/overlaydata$xmlhttprequest,domain=niagarafallsreview.ca|stcatharinesstandard.ca|thepeterboroughexaminer.com|therecord.com|thespec.com|thestar.com|wellandtribune.ca
 ! additional adblocker-fix for sites
 cmcmarkets.com##+js(rc, activePaywall, .activePaywall)
-dailywire.com##+js(rc, css-zy0w8, .css-zy0w8)
-dailywire.com##+js(rc, css-160lw9c, .css-160lw9c)
-||googletagmanager.com^$script,domain=heraldo.es
 inman.com##+js(rc, paywalled-block, .paywalled-block)
 inman.com##div.entry-content-inner:style(display: block !important)
 inman.com##.ism-article-block
@@ -5201,6 +5217,8 @@ nu.nl##.article-login-wall
 ||multimedia.corprensa.com/la-prensa/evolok/evolok.js$script,domain=prensa.com
 scotsman.com##+js(rc, iETVtP, div.premium)
 ||shrm.org/*/js/paywall*.js$script,~third-party
+||wallet.axate.io$script,domain=thecricketer.com
+thecricketer.com##+js(rc, premium, .premium)
 thegardenisland.com##+js(ra, style, #single-paywall)
 thegardenisland.com###single-login-box,#single-excerpt
 ! General (amp)
@@ -5243,14 +5261,13 @@ amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,fo
 amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,folha.uol.com.br##[subscriptions-section="content-not-granted"]
 abc.es,amp.elperiodico.com,cmjornal.pt,eldiario.es,elpais.com,estadao.com.br##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 ! Grupo Prensa Ibérica
-amp.epe.es,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,regio7.cat##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
-diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,regio7.cat##+js(rc, article-body--truncated, div.article-body--truncated)
+amp.epe.es,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,mallorcazeitung.es,regio7.cat##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
+diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,mallorcazeitung.es,regio7.cat##+js(rc, article-body--truncated, div.article-body--truncated)
 ! Grupo Vocento
 diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elnortedecastilla.es,hoy.es,ideal.es,larioja.com,lasprovincias.es,laverdad.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 lavozdigital.es##+js(ra, subscriptions-section, [subscriptions-section="content"])
 lavozdigital.es##+##[subscriptions-section="content-not-granted"]
-egirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,regio7.cat##+js(rc, article-body--truncated, div.article-body--truncated)
-! Grupo Vocento
+o Vocento
 diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elnortedecastilla.es,hoy.es,ideal.es,larioja.com,lasprovincias.es,laverdad.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 lavozdigital.es##+js(ra, subscriptions-section, [subscriptions-section="content"])
 lavozdigital.es##+##[subscriptions-section="content-not-granted"]
