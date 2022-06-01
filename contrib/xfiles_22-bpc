@@ -78,6 +78,9 @@ enotes.com##section.c-cta-section
 enotes.com##+js(ra, class, div[class^="_"])
 ||acesso.estadao.com.br/paywall/$script,~third-party
 ||exame.com/*/js/pywll-dyn.js$script,~third-party
+||financialexpress.com/*/min/premiumStoryContent.js$script,~third-party
+financialexpress.com##+js(rc, paywall, .paywall)
+financialexpress.com##div.pcl-wrap
 ||folha.uol.com.br/paywall/js/$script,~third-party
 ||paywall.folha.uol.com.br^$script,~third-party
 ||foreignaffairs.com/sites/default/files/js/js_*.js$script,~third-party
@@ -169,8 +172,8 @@ philosophynow.org##+js(cookie-remover, /^/)
 puck.news##.paywall
 puck.news##+js(rc, paywall-active, body)
 puck.news##+js(ra, style, article)
-qz.com##.KbD9m
-qz.com##+js(rc, _4BDxU, div._4BDxU, stay)
+qz.com##div.BBwe2.RXsUp
+qz.com##+js(ra, class, div#email-content[class], stay)
 qz.com##+js(ra, scrolling, iframe[scrolling], stay)
 ||reuters.com/pf/resources/dist/reuters/js/index.js$script,~third-party
 ||reuters.com/arc/subs/p.min.js$script,~third-party
@@ -184,10 +187,10 @@ scientificamerican.com##+js(cookie-remover, /^/)
 scmp.com##+js(ra, amp-access-hide, div.article-body[amp-access][amp-access-hide])
 scmp.com##div.default-meter,div#archive-article-meter
 scmp.com##amp-ad,div.ad-banner,div.advert-fly-carpet-container,div.inline-advert
-scribd.com##+js(rc, blurred_page, .blurred_page)
-scribd.com##.between_page_portal_root,.between_page_module,.auto__doc_page_webpack_doc_page_body_static_promo_study,.auto__explain_scribd_v2_advertisement
 ||seattletimes.com/wp-content/*/st-advertising-bundle.js$script,~third-party
 ||seattletimes.com/wp-content/*/st-blocking-bundle.js$script,~third-party
+slideshare.net##+js(rc, limit-overlay, .limit-overlay)
+slideshare.net##+js(aopr, localStorage)
 sofrep.com##+js(cookie-remover, sofrep_news_ids)
 spglobal.com##.article__overlay
 spglobal.com##+js(ra, class, html, stay)
@@ -257,8 +260,8 @@ diariocorreo.pe,elcomercio.pe,gestion.pe##+js(rc, story-content__nota-premium, .
 ||nexus.ensighten.com/hearst/mag/Bootstrap.js$script,domain=bicycling.com|cosmopolitan.com|countryliving.com|elle.com|esquire.com|goodhousekeeping.com|hollywoodreporter.com|housebeautiful.com|menshealth.com|popularmechanics.com|prevention.com|roadandtrack.com|runnersworld.com|townandcountrymag.com|womenshealthmag.com
 ! Il Messaggero (+ regional)
 ||utils.cedsdigital.it/js/PaywallMeter.js$script,domain=corriereadriatico.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|quotidianodipuglia.it
-corriereadriatico.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|quotidianodipuglia.it##+js(ra, subscriptions-section, [subscriptions-section="content"])
-corriereadriatico.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|quotidianodipuglia.it##[subscriptions-section="content-not-granted"]
+corriereadriatico.it,ilgazzettino.it,ilmattino.it,ilmessaggero.it,quotidianodipuglia.it##+js(ra, subscriptions-section, [subscriptions-section="content"])
+corriereadriatico.it,ilgazzettino.it,ilmattino.it,ilmessaggero.it,quotidianodipuglia.it##[subscriptions-section="content-not-granted"]
 ! MediaNews Group
 /loader.min.js$script,~third-party,domain=denverpost.com|eastbaytimes.com|mercurynews.com|ocregister.com|pe.com|twincities.com
 denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pe.com,twincities.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
@@ -280,6 +283,7 @@ cyclingtips.com##div#takeover
 /api/overlaydata$xmlhttprequest,domain=niagarafallsreview.ca|stcatharinesstandard.ca|thepeterboroughexaminer.com|therecord.com|thespec.com|thestar.com|wellandtribune.ca
 ! additional adblocker-fix for sites
 cmcmarkets.com##+js(rc, activePaywall, .activePaywall)
+||subs.theepochtimes.com/lib/api.bundle.js$script,~third-party
 inman.com##+js(rc, paywalled-block, .paywalled-block)
 inman.com##div.entry-content-inner:style(display: block !important)
 inman.com##.ism-article-block
