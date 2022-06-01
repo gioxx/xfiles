@@ -5,4 +5,5 @@
 corriere.it##.sticky-video.rcs-video
 ilfattoquotidiano.it###_tagvideo_container
 teamskeet.com##+js(set, $.tstracker, noopFunc)
+twitter.com##:xpath(//span[(text()='Sponsorizzato')]/../../../../..)
 youtube.com##DIV[class*="ytd-promoted-sparkles"]
