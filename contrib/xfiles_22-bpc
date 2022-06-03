@@ -74,6 +74,7 @@ eastwest.eu##.offerta_abbonamenti
 ||eestatic.com/assets_js/web/v*/historia*.min.js$script,domain=elespanol.com
 elconfidencial.com##+js(rc, newsType__content--closed, div.newsType__content--closed)
 ||elpais.com/arc/subs/p.min.js$script,~third-party
+em.com.br##+js(rc, compress-text, .div.compress-text)
 enotes.com##section.c-cta-section
 enotes.com##+js(ra, class, div[class^="_"])
 ||acesso.estadao.com.br/paywall/$script,~third-party
@@ -197,8 +198,6 @@ spglobal.com##+js(ra, class, html, stay)
 staradvertiser.com##div#hsa-paywall-overlay
 staradvertiser.com##+js(ra, style, div#hsa-paywall-content[style])
 ||startribune.com/vendor/js/$script,~third-party
-study.com##+js(ra, class, div.faded-content)
-study.com##+js(ra, class, div.hidden[ng-non-bindable])
 ||telegraph.co.uk/martech/js/$script,~third-party
 ||amazonaws.com/production-website-scripts/bouncer.js$script,domain=theartnewspaper.com
 theatlantic.com##+js(cookie-remover, articleViews)
@@ -335,8 +334,8 @@ amp.bnd.com,amp.charlotteobserver.com,amp.fresnobee.com,amp.kansas.com,amp.kansa
 amp.brisbanetimes.com.au,amp.smh.com.au,amp.theage.com.au,amp.watoday.com.au##+js(ra, subscriptions-section, [subscriptions-section="content"])
 amp.brisbanetimes.com.au,amp.smh.com.au,amp.theage.com.au,amp.watoday.com.au##[subscriptions-section="content-not-granted"]
 ! Spanish/Portugese/Brazilian/Colombian sites
-amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,folha.uol.com.br##+js(ra, subscriptions-section, [subscriptions-section="content"])
-amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,folha.uol.com.br##[subscriptions-section="content-not-granted"]
+amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,em.com.br,folha.uol.com.br##+js(ra, subscriptions-section, [subscriptions-section="content"])
+amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,em.com.br,folha.uol.com.br##[subscriptions-section="content-not-granted"]
 abc.es,amp.elperiodico.com,cmjornal.pt,eldiario.es,elpais.com,estadao.com.br##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 ! Grupo Prensa Ibérica
 amp.epe.es,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,mallorcazeitung.es,regio7.cat##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
