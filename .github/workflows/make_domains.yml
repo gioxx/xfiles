@@ -12,6 +12,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      
+      - name: Sleep Action
+        uses: juliangruber/sleep-action@v1.0.1
+        with:
+          time: 2m
 
       - name: Set Timezone
         uses: szenius/set-timezone@v1.0
