@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202206031458
+! Version: 202206071618
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 03-06-2022
+! Last modified: 07-06-2022
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -3035,6 +3035,7 @@ pctuner.net/banner/*
 pcworld.com##[id^="google_ads_iframe"]
 pcworld.com###content-recommender
 pcworld.com##DIV[id="topAd"]
+peakpx.com##.list_ads
 pendrivelinux.com##.adtester-container
 people.com##.ad-container
 people.com##.ad-title
@@ -4962,6 +4963,7 @@ xda-developers.com###uniccmp
 /c/assets/pigeon.js$script,~third-party
 /wp-content/evolok/ev-widgets/ev-widgets.min.js
 /wp-content/plugins/pico/includes/js/read-more.js$script,~third-party
+/zephr/features$xmlhttprequest,~third-party
 ||abril.com.br/*/abril-paywall/js/abril-paywall.js$script,~third-party
 ||api.afr.com/graphql?query=*PaywallRuleQuery$xmlhttprequest,~third-party
 alternatives-economiques.fr###temp-paywall
@@ -4980,7 +4982,7 @@ bloomberg.com##+js(ra, data-paywall-overlay-status, body[data-paywall-overlay-st
 ||assets.bwbx.io/s3/javelin/public/javelin/js/foundation/transporter/foundation_transporter-*.js$script,domain=bloomberg.com
 ||assets.bwbx.io/s3/fence/plug-client/v0/app.bundle.js$script,domain=bloomberg.com
 ||meter.bostonglobe.com/js/meter.js$script,~third-party
-||businessoffashion.com/zephr/feature-decisions$xmlhttprequest,~third-party
+||businessoffashion.com/zephr/features$xmlhttprequest,~third-party
 cen.acs.org##+js(cookie-remover, paywall-cookie)
 cen.acs.org##.meteredBar
 challenges.fr##+js(ra, hidden, .user-paying-content)
@@ -5041,6 +5043,7 @@ hbrtaiwan.com##+js(cookie-remover, guest)
 ||indianexpress.com/*/indianexpress/js/evolok/*.js$script,~third-party
 ||indianexpress.com/*/indianexpress/min/premiumContent.js$script,~third-party
 indianexpress.com##+js(ra, style, div#pcl-rest-content[style])
+||irishtimes.com/zephr/features$xmlhttprequest,~third-party
 journaldunet.com##.reg_wall
 journaldunet.com##+js(ra, style, .entry_reg_wall)
 ||jpost.com/js/js_article.min.js$script,~third-party

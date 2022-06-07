@@ -25,6 +25,7 @@
 /c/assets/pigeon.js$script,~third-party
 /wp-content/evolok/ev-widgets/ev-widgets.min.js
 /wp-content/plugins/pico/includes/js/read-more.js$script,~third-party
+/zephr/features$xmlhttprequest,~third-party
 ||abril.com.br/*/abril-paywall/js/abril-paywall.js$script,~third-party
 ||api.afr.com/graphql?query=*PaywallRuleQuery$xmlhttprequest,~third-party
 alternatives-economiques.fr###temp-paywall
@@ -43,7 +44,7 @@ bloomberg.com##+js(ra, data-paywall-overlay-status, body[data-paywall-overlay-st
 ||assets.bwbx.io/s3/javelin/public/javelin/js/foundation/transporter/foundation_transporter-*.js$script,domain=bloomberg.com
 ||assets.bwbx.io/s3/fence/plug-client/v0/app.bundle.js$script,domain=bloomberg.com
 ||meter.bostonglobe.com/js/meter.js$script,~third-party
-||businessoffashion.com/zephr/feature-decisions$xmlhttprequest,~third-party
+||businessoffashion.com/zephr/features$xmlhttprequest,~third-party
 cen.acs.org##+js(cookie-remover, paywall-cookie)
 cen.acs.org##.meteredBar
 challenges.fr##+js(ra, hidden, .user-paying-content)
@@ -104,6 +105,7 @@ hbrtaiwan.com##+js(cookie-remover, guest)
 ||indianexpress.com/*/indianexpress/js/evolok/*.js$script,~third-party
 ||indianexpress.com/*/indianexpress/min/premiumContent.js$script,~third-party
 indianexpress.com##+js(ra, style, div#pcl-rest-content[style])
+||irishtimes.com/zephr/features$xmlhttprequest,~third-party
 journaldunet.com##.reg_wall
 journaldunet.com##+js(ra, style, .entry_reg_wall)
 ||jpost.com/js/js_article.min.js$script,~third-party
