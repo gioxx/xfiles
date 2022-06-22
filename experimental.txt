@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202206151259
+! Version: 202206221114
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 15-06-2022
+! Last modified: 22-06-2022
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -2210,6 +2210,9 @@ it.motor1.com##.adSizer
 it.motor1.com##.pageAdSkinUrl
 it.motorsport.com##.ms-ap
 it.motorsport.com##.ms-apb.ms-apb-super.ms-skin-click
+it.notizie.yahoo.com##.caas-sticky-sda
+it.notizie.yahoo.com##.MON-status-ok
+it.notizie.yahoo.com###adsStream
 it.opinionspost.com##[class^="main_ad_"]
 it.tinypic.com##.ad
 it.tinypic.com###ad_mrec
@@ -3561,6 +3564,7 @@ sportmediaset.mediaset.it##[id^="scr_"][style*="left: -428px"]
 sportmediaset.mediaset.it###stripadv
 sqlpowershell.blog##.wpa.wpmrec
 sqlpowershell.blog##.wpcnt
+stackabuse.com##[id^="ad-snigel"]
 stackabuse.com##DIV[id^="ad-content"]
 stackoverflow.com##[id^="adzerk"]
 stackoverflow.com###adzerk1
@@ -4774,6 +4778,7 @@ zeroadserver.com/showBanner.php
 /wf-beacon-
 ##.adsbox
 ##.adsbygoogle
+##.adthrive-ad
 ##.adv_630
 ##.advn_zone
 ##.afs_ads
