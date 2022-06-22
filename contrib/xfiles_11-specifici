@@ -1810,6 +1810,9 @@ it.motor1.com##.adSizer
 it.motor1.com##.pageAdSkinUrl
 it.motorsport.com##.ms-ap
 it.motorsport.com##.ms-apb.ms-apb-super.ms-skin-click
+it.notizie.yahoo.com##.caas-sticky-sda
+it.notizie.yahoo.com##.MON-status-ok
+it.notizie.yahoo.com###adsStream
 it.opinionspost.com##[class^="main_ad_"]
 it.tinypic.com##.ad
 it.tinypic.com###ad_mrec
@@ -3161,6 +3164,7 @@ sportmediaset.mediaset.it##[id^="scr_"][style*="left: -428px"]
 sportmediaset.mediaset.it###stripadv
 sqlpowershell.blog##.wpa.wpmrec
 sqlpowershell.blog##.wpcnt
+stackabuse.com##[id^="ad-snigel"]
 stackabuse.com##DIV[id^="ad-content"]
 stackoverflow.com##[id^="adzerk"]
 stackoverflow.com###adzerk1
