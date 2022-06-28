@@ -1131,6 +1131,7 @@ factotum.ra.it/*banner*
 fakeupdate.net###itemz
 fanpage.it##.adv-box
 fanpage.it##.content-leaderboard
+fanpage.it##.fp_adv-box
 fanpage.it###fanplayer-container
 fanpage.it###skin-click-tag
 fantagazzetta.com##.bg-ads
@@ -1146,6 +1147,9 @@ fastvideo.me##A[target="_blank"][href^="http://www.guardaserie.net/4k"]
 fastweb.it/*/hrs/POPUP/
 fastweb.it##DIV[class="MyFP_SoleBanner"]
 fastweb.it##DIV[id="stdTopBannerHeightHack"]
+fattoincasadabenedetta.it##.adv
+fattoincasadabenedetta.it##.adv > .caption
+fattoincasadabenedetta.it##.adv-inner
 fattoincasadabenedetta.it##.bsm
 fcinternews.it##.banner_sx_160x600
 fcinternews.it##.sub.novis
@@ -2401,6 +2405,7 @@ msn.it/img/it/it-it/MSNSito/Pop_OR_FullPage/
 msoutlook.info###header-banner
 muccapazzapazza.altervista.org##.banner_altervista_300X250
 multiplayer.it/banner/
+multiplayer.it##.adv
 multiplayer.it##.sidebar_ads
 multiplayer.it##[id^="vsn-"][src^="http://video.netaddiction.it/"]
 multiplayer.it###personalization_ads
@@ -2677,9 +2682,12 @@ phica.net##.ad_
 phica.net##.ad_first-post_inner
 phica.net##.ad_global_header
 phica.net##.ad_thread_first_post_content
+phica.net##.block-row.block-body > center > [src^="https://www.skeeping.com/"]
+phica.net##.c4pip
 phica.net##.deskContent
 phica.net##.exo_wrapper
 phica.net##.samAlignCenter.samBannerUnit
+phica.net##.samItem
 phica.net##.widget-content.restore.axd.axd_176
 phica.net##[href="https://itaincontri.com"]
 phica.net###ad_thread_first_post_content
