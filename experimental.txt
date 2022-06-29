@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202206282207
+! Version: 202206291622
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 28-06-2022
+! Last modified: 29-06-2022
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -732,6 +732,7 @@ androidworld.it##.advstrip
 androidworld.it##[id^="google_ads_iframe"]
 androidworld.it##[id^="infinite-adslot"]
 androidworld.it###ligatus_content_ad
+anoopcnair.com##.dcmads
 ansa.it##.4wNET
 ansa.it##.adv
 ansa.it##.adv-4
@@ -1119,6 +1120,7 @@ community.spiceworks.com##.community-content--ad_card
 community.spiceworks.com##.read-next-footer.js-read-next-footer.constrained-content.curated-items
 community.spiceworks.com##.slot-1-wrapper
 community.spiceworks.com##.sui-opt-in.join-footer
+community.spiceworks.com##[class^="ad-slot"]
 community.spiceworks.com##[id^="google_ads_iframe"]
 community.spiceworks.com##[id^="gsidebar-"]
 community.spiceworks.com##div[class^="ad-slot"]
@@ -1979,6 +1981,8 @@ ilfoglio.it##.ad
 ilgarantista.it/wp-content/uploads/adv-skin.jpg
 ilgarantista.it##[class^="wpx_bannerize"]
 ilgarantista.it##[id^="fancybox-"]
+ilgazzettino.it##.adv_banner
+ilgazzettino.it###outbrain
 ilgazzettino.it###paywall_wrapper
 ilgiornale.it##.banner
 ilgiornale.it##.block.block-ilg-adsense
@@ -4256,7 +4260,8 @@ ziddu.com/banners
 zippyshare.com##DIV[class="center_reklamy"]
 zoezozo.it/banner_casino/
 zoomtv.me##DIV[id="memberad"]
-zpag.es##.top_bar.top_bar_ad! [NoAds X Files - Elementi bloccati]/blocking
+zpag.es##.top_bar.top_bar_ad
+! [NoAds X Files - Elementi bloccati]/blocking
 ://adv.$domain=~sky.it|~la7.it|~la7.tv|~tre.it|~tzetze.it
 ://oas.*@$domain=~youreporter.it
 *.mailbeta.libero.it/wind/linkadv.jsp
@@ -4956,8 +4961,6 @@ xda-developers.com###uniccmp
 ||blueconic.net^$third-party
 ||cdn.cxense.com^$script,third-party,important
 ||evolok.net^$third-party
-||googletagmanager.com^$third-party
-@@||googletagmanager.com^$third-party,domain=video.lastampa.it|video.repubblica.it,important
 ||ippen.space^$third-party
 ||lightboxcdn.com^$third-party
 ||js.matheranalytics.com^$script,third-party
