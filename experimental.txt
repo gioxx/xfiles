@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202206291622
+! Version: 202207071456
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 29-06-2022
+! Last modified: 07-07-2022
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -1702,6 +1702,8 @@ ft.com##DIV[id="advertising"]
 ftjcfx.com/image-*
 fullstuff.net###banner_ad
 fullstuff.net##A[onclick*="http://easyjobprogram.link/"]
+funko.fandom.com##.bottom-ads-container
+funko.fandom.com##.top-ads-container
 futebolinterior.com.br/imagens/publicidade/
 gabfirethemes.com/*promo*
 gadget.wired.it##[id^="google_ads_iframe"]
@@ -2094,7 +2096,10 @@ img*.mediaplex.com/
 img5.picsplace.to/phpadsnew
 imgpromo.easyrencontre.com/bannieres/
 imgur.com##.ad-slot
+imgur.com##.BottomAd-container
+imgur.com##.PrimisPlayerContainer
 imgur.com###awesome-ad
+imgur.com##a[href^="http://ad.doubleclick.net"]
 immobiliare.it##.box_search_left.colonna_pubblicita_dx
 immobiliare.it###sponsorBoxes
 imore.com###banneradspace
@@ -3212,6 +3217,7 @@ quattroruote.it##DIV[id="banner"]
 quifinanza.it###adv_left_div
 quifinanza.it###adv_right_div
 quotidiano.net##[id^="google_ads_iframe"]
+quotidiano.net###__next > .fresnel-greaterThanOrEqual-desktop.fresnel-container
 quotidiano.net##DIV[id="ads"]
 r101.it##DIV[id="playerBanner"]
 radiocompany.com/back_full/
@@ -3303,6 +3309,9 @@ rietilife.com##.wppasrotate
 rietilife.com##.wppaszone
 rietilife.com##[class^="ayads-"]
 rietilife.com###ead_native_placement
+riminitoday.it##.a-native
+riminitoday.it##.slot-masthead.slot
+riminitoday.it##body > [href^="https://vda.riminitoday.it/~vda/___/o.php"]
 risorse.com/ad/
 rivcash.com/webmaster/*banners*
 rivistastudio.com##DIV[class*="studioAdv"]
@@ -4093,6 +4102,8 @@ wccftech.com##.wpInsert.wpInsertInPostAd
 wccftech.com##DIV[style="margin:12px auto; width:728px; height:90px; "]
 web.adknowledge.com/flashbanners/
 webalice.it/blackberry_09/netbet/
+webboh.it##.nativery-widget-wrapper
+webboh.it##.yb-floorad
 webcache.googleusercontent.com##.banner_728
 webdesignhelper.co.uk/advert_images/
 webhostingmagazine.it##DIV[id="header-bar-right"]
@@ -5067,9 +5078,13 @@ journaldunet.com##.reg_wall
 journaldunet.com##+js(ra, style, .entry_reg_wall)
 ||jpost.com/js/js_article.min.js$script,~third-party
 ||internazionale.it/templates_js_ajax.inc.php$xmlhttprequest,~third-party
-knack.be###paywall-modal,#datawall-modal
+||knack.be/js/responsive/rmgModal.js$script,~third-party
+||knack.be/js/responsive/rmgPaywall.js$script,~third-party
+knack.be##div[id*="wall-modal"]
 knack.be##+js(ra, class, html, stay)
 knack.be##+js(ra, style, html, stay)
+knack.be##div.article-body > p
+knack.be##+js(ra, class, div.article-body > div)
 krautreporter.de##.article-paywall,.js-paywall-divider,#steady-checkout
 krautreporter.de##+js(rc, blurred, .blurred)
 krautreporter.de##+js(rc, json-ld-paywall-marker, .json-ld-paywall-marker, stay)
@@ -5092,9 +5107,13 @@ lavenir.net##div.is-preview,div.ap-AdContainer
 lavenir.net##+js(rc, is-hidden, div.is-hidden)
 lejdd.fr###poool-container
 lejdd.fr##+js(ra, data-poool-mode, .cnt[data-poool-mode="hide"])
-levif.be###paywall-modal,#datawall-modal
+||levif.be/js/responsive/rmgModal.js$script,~third-party
+||levif.be/js/responsive/rmgPaywall.js$script,~third-party
+levif.be##div[id*="wall-modal"]
 levif.be##+js(ra, class, html, stay)
 levif.be##+js(ra, style, html, stay)
+levif.be##div.article-body > p
+levif.be##+js(ra, class, div.article-body > div)
 livelaw.in##+js(rc, hide, div.paywall-content.hide)
 livelaw.in##+js(rc, restricted_message, div.restricted_message)
 livelaw.in##div#subscription_paid_message,div.subscribeNow
@@ -5201,10 +5220,11 @@ bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesternda
 ||api.bntech.io/js$script,domain=buffalonews.com
 buffalonews.com,journalnow.com,richmond.com,tucson.com,tulsaworld.com##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 ! Condé Nast
-://journey.$script,domain=bonappetit.com|gq.com|newyorker.com|vanityfair.com|vogue.com|wired.com
-bonappetit.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##+js(cookie-remover, pay_ent_smp)
-bonappetit.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
-bonappetit.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##[subscriptions-section="content-not-granted"]
+://journey.$script,domain=architecturaldigest.com,bonappetit.com|gq.com|newyorker.com|vanityfair.com|vogue.com|wired.com
+architecturaldigest.com,bonappetit.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##+js(cookie-remover, pay_ent_smp)
+architecturaldigest.com,bonappetit.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##+js(cookie-remover, pay_ent_usmp)
+architecturaldigest.com,bonappetit.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
+architecturaldigest.com,bonappetit.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##[subscriptions-section="content-not-granted"]
 ! Crain Communications
 .com/*/js_$script,domain=adage.com|autonews.com|chicagobusiness.com|crainscleveland.com|crainsdetroit.com|crainsnewyork.com|modernhealthcare.com
 adage.com,autonews.com,chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsnewyork.com,modernhealthcare.com##+js(ra, class, body[class])
@@ -5222,6 +5242,10 @@ monacomatin.mc,nicematin.com,varmatin.com##+js(ra, amp-access-hide, [amp-access]
 ||gestion.pe/pf/dist/engine/react.js$script,~third-party
 diariocorreo.pe,elcomercio.pe,gestion.pe##+js(ra, style, .story-content__nota-premium)
 diariocorreo.pe,elcomercio.pe,gestion.pe##+js(rc, story-content__nota-premium, .story-content__nota-premium)
+! Gruppo SAE
+iltirreno.it##+js(cookie-remover, /^/)
+lanuovasardegna.it##+js(cookie-remover, /^/)
+iltirreno.it,lanuovasardegna.it##div.MuiSnackbar-root
 ! Hearst Communications magazines
 ||nexus.ensighten.com/hearst/mag/Bootstrap.js$script,domain=bicycling.com|cosmopolitan.com|countryliving.com|elle.com|esquire.com|goodhousekeeping.com|hollywoodreporter.com|housebeautiful.com|menshealth.com|popularmechanics.com|prevention.com|roadandtrack.com|runnersworld.com|townandcountrymag.com|womenshealthmag.com
 ! Il Messaggero (+ regional)
@@ -5304,9 +5328,11 @@ amp.bnd.com,amp.charlotteobserver.com,amp.fresnobee.com,amp.kansas.com,amp.kansa
 amp.brisbanetimes.com.au,amp.smh.com.au,amp.theage.com.au,amp.watoday.com.au##+js(ra, subscriptions-section, [subscriptions-section="content"])
 amp.brisbanetimes.com.au,amp.smh.com.au,amp.theage.com.au,amp.watoday.com.au##[subscriptions-section="content-not-granted"]
 ! Spanish/Portugese/Brazilian/Colombian sites
-amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,em.com.br,folha.uol.com.br##+js(ra, subscriptions-section, [subscriptions-section="content"])
-amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,em.com.br,folha.uol.com.br##[subscriptions-section="content-not-granted"]
+amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,em.com.br,folha.uol.com.br,observador.pt##+js(ra, subscriptions-section, [subscriptions-section="content"])
+amp.elmundo.es,amp.expansion.com,amp.marca.com,elespanol.com,elespectador.com,em.com.br,folha.uol.com.br,observador.pt##[subscriptions-section="content-not-granted"]
 abc.es,amp.elperiodico.com,cmjornal.pt,eldiario.es,elpais.com,estadao.com.br##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
+abc##div.ev-em-modal,span.mega-superior
+abc.es##+js(ra, id, body#top)
 ! Grupo Prensa Ibérica
 amp.epe.es,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,mallorcazeitung.es,regio7.cat##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,mallorcazeitung.es,regio7.cat##+js(rc, article-body--truncated, div.article-body--truncated)
