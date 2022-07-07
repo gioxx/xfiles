@@ -1312,6 +1312,8 @@ ft.com##DIV[id="advertising"]
 ftjcfx.com/image-*
 fullstuff.net###banner_ad
 fullstuff.net##A[onclick*="http://easyjobprogram.link/"]
+funko.fandom.com##.bottom-ads-container
+funko.fandom.com##.top-ads-container
 futebolinterior.com.br/imagens/publicidade/
 gabfirethemes.com/*promo*
 gadget.wired.it##[id^="google_ads_iframe"]
@@ -1704,7 +1706,10 @@ img*.mediaplex.com/
 img5.picsplace.to/phpadsnew
 imgpromo.easyrencontre.com/bannieres/
 imgur.com##.ad-slot
+imgur.com##.BottomAd-container
+imgur.com##.PrimisPlayerContainer
 imgur.com###awesome-ad
+imgur.com##a[href^="http://ad.doubleclick.net"]
 immobiliare.it##.box_search_left.colonna_pubblicita_dx
 immobiliare.it###sponsorBoxes
 imore.com###banneradspace
@@ -2822,6 +2827,7 @@ quattroruote.it##DIV[id="banner"]
 quifinanza.it###adv_left_div
 quifinanza.it###adv_right_div
 quotidiano.net##[id^="google_ads_iframe"]
+quotidiano.net###__next > .fresnel-greaterThanOrEqual-desktop.fresnel-container
 quotidiano.net##DIV[id="ads"]
 r101.it##DIV[id="playerBanner"]
 radiocompany.com/back_full/
@@ -2913,6 +2919,9 @@ rietilife.com##.wppasrotate
 rietilife.com##.wppaszone
 rietilife.com##[class^="ayads-"]
 rietilife.com###ead_native_placement
+riminitoday.it##.a-native
+riminitoday.it##.slot-masthead.slot
+riminitoday.it##body > [href^="https://vda.riminitoday.it/~vda/___/o.php"]
 risorse.com/ad/
 rivcash.com/webmaster/*banners*
 rivistastudio.com##DIV[class*="studioAdv"]
@@ -3703,6 +3712,8 @@ wccftech.com##.wpInsert.wpInsertInPostAd
 wccftech.com##DIV[style="margin:12px auto; width:728px; height:90px; "]
 web.adknowledge.com/flashbanners/
 webalice.it/blackberry_09/netbet/
+webboh.it##.nativery-widget-wrapper
+webboh.it##.yb-floorad
 webcache.googleusercontent.com##.banner_728
 webdesignhelper.co.uk/advert_images/
 webhostingmagazine.it##DIV[id="header-bar-right"]
