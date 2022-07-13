@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202207071456
+! Version: 202207131012
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 07-07-2022
+! Last modified: 13-07-2022
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -38,6 +38,7 @@
 ||accipiter.speedera.net^
 ||ad-catgeo.paginegialle.it^
 ||ad-catgeo.virgilio.it^
+||ad-units.blazemedia.it^
 ||ad.100.tbn.ru^
 ||ad.103092804.com^
 ||ad.adition.net^
@@ -3176,6 +3177,7 @@ punto-informatico.it##.adskin__div
 punto-informatico.it##.adv300
 punto-informatico.it##.advblockshown
 punto-informatico.it##.blz-url
+punto-informatico.it##.bm-code
 punto-informatico.it##.boxadv
 punto-informatico.it##.brid-advert-container
 punto-informatico.it##.i-amphtml-sticky-ad-layout
@@ -3184,6 +3186,7 @@ punto-informatico.it###adSkinDivImg
 punto-informatico.it###adSkinDivLeft
 punto-informatico.it###adv728
 punto-informatico.it###IEPinningAlert
+punto-informatico.it##body > .skinlink
 punto-informatico.it##div.col-4.pi-left-article
 punto-informatico.it##DIV[id="AdvInterstitial"]
 punto-informatico.it##DIV[id="AdvOverlayer"]
@@ -4990,7 +4993,9 @@ xda-developers.com###uniccmp
 ||weborama.fr/js/$script,third-party
 ||zephr.com/zephr-browser/$third-party
 /c/assets/pigeon.js$script,~third-party
-/wp-content/evolok/ev-widgets/ev-widgets.min.js
+/evolok/*/ev-em.min.js$script,~third-party
+/wp-content/*/ev-em.min.js$script,~third-party
+/wp-content/*/ev-widgets.min.js$script,~third-party
 /wp-content/plugins/pico/includes/js/read-more.js$script,~third-party
 /zephr/features$xmlhttprequest,~third-party
 ||abril.com.br/*/abril-paywall/js/abril-paywall.js$script,~third-party
@@ -5078,16 +5083,11 @@ journaldunet.com##.reg_wall
 journaldunet.com##+js(ra, style, .entry_reg_wall)
 ||jpost.com/js/js_article.min.js$script,~third-party
 ||internazionale.it/templates_js_ajax.inc.php$xmlhttprequest,~third-party
-||knack.be/js/responsive/rmgModal.js$script,~third-party
-||knack.be/js/responsive/rmgPaywall.js$script,~third-party
-knack.be##div[id*="wall-modal"]
-knack.be##+js(ra, class, html, stay)
-knack.be##+js(ra, style, html, stay)
-knack.be##div.article-body > p
-knack.be##+js(ra, class, div.article-body > div)
 krautreporter.de##.article-paywall,.js-paywall-divider,#steady-checkout
 krautreporter.de##+js(rc, blurred, .blurred)
 krautreporter.de##+js(rc, json-ld-paywall-marker, .json-ld-paywall-marker, stay)
+ksta.de##div#c1-template-platzhalter
+ksta.de##+js(ra, class, span.hide-paid-content)
 kurier.at##.view-offer
 kurier.at##+js(rc, plusContent, .plusContent, stay)
 ||la-croix.com/build/lacroix/article.*.js$script,~third-party
@@ -5107,13 +5107,6 @@ lavenir.net##div.is-preview,div.ap-AdContainer
 lavenir.net##+js(rc, is-hidden, div.is-hidden)
 lejdd.fr###poool-container
 lejdd.fr##+js(ra, data-poool-mode, .cnt[data-poool-mode="hide"])
-||levif.be/js/responsive/rmgModal.js$script,~third-party
-||levif.be/js/responsive/rmgPaywall.js$script,~third-party
-levif.be##div[id*="wall-modal"]
-levif.be##+js(ra, class, html, stay)
-levif.be##+js(ra, style, html, stay)
-levif.be##div.article-body > p
-levif.be##+js(ra, class, div.article-body > div)
 livelaw.in##+js(rc, hide, div.paywall-content.hide)
 livelaw.in##+js(rc, restricted_message, div.restricted_message)
 livelaw.in##div#subscription_paid_message,div.subscribeNow
@@ -5162,6 +5155,8 @@ qz.com##+js(ra, scrolling, iframe[scrolling], stay)
 rugbypass.com##.plus-article-offer
 rugbypass.com##+js(rc, premium-fold-bottom, .premium-fold-bottom)
 rugbypass.com##+js(rc, fade, .fade)
+rundschau-online.de##div#c1-template-platzhalter
+rundschau-online.de##+js(ra, class, span.hide-paid-content)
 ||metering.platform.sandiegouniontribune.com/v*/meter$xmlhttprequest,~third-party
 science.org##div.alert-read-limit
 science.org##+js(rc, alert-read-limit__overlay, body.alert-read-limit__overlay, stay)
@@ -5206,8 +5201,6 @@ winnipegfreepress.com##+js(rc, paidaccess, div.paidaccess)
 winnipegfreepress.com###paywall-teaser,.billboard-ad-space,.ad,.article-ad,.fixed-sky
 ||amazonaws.com/s3fs-public/js/js_$script,domain=genomeweb.com|360dx.com|precisiononcologynews.com
 ||cdn.flip-pay.com/clients/inm/flip-pay.js$script,domain=belfasttelegraph.co.uk|independent.ie
-! Algemeen Dagblad Regional
-bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,pzc.nl,tubantia.nl##+js(cookie-remover, temptationTrackingId)
 ! Australian Community Media
 bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(rc, subscribe-truncate, .subscribe-truncate)
 bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(rc, subscriber-hider, .subscriber-hider)
@@ -5269,6 +5262,24 @@ cyclingtips.com##div[data-block-name="ads"]
 cyclingtips.com##div#takeover
 ! Persgroep
 /temptation/resolve$xmlhttprequest,domain=parool.nl|trouw.nl|volkskrant.nl|humo.be|demorgen.be
+! Roularta Media Groep
+||knack.be/js/responsive/rmgModal.js$script,~third-party
+||knack.be/js/responsive/rmgPaywall.js$script,~third-party
+knack.be##div[id*="wall-modal"]
+knack.be##+js(ra, class, html, stay)
+knack.be##+js(ra, style, html, stay)
+knack.be##div.article-body > p
+knack.be##+js(ra, class, div.article-body > div)
+kw.be##div[id*="wall-modal"]
+kw.be##+js(ra, class, html, stay)
+kw.be##+js(ra, style, html, stay)
+||levif.be/js/responsive/rmgModal.js$script,~third-party
+||levif.be/js/responsive/rmgPaywall.js$script,~third-party
+levif.be##div[id*="wall-modal"]
+levif.be##+js(ra, class, html, stay)
+levif.be##+js(ra, style, html, stay)
+levif.be##div.article-body > p
+levif.be##+js(ra, class, div.article-body > div)
 ! TorStar sites
 /api/overlaydata$xmlhttprequest,domain=niagarafallsreview.ca|stcatharinesstandard.ca|thepeterboroughexaminer.com|therecord.com|thespec.com|thestar.com|wellandtribune.ca
 ! additional adblocker-fix for sites
