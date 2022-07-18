@@ -156,12 +156,15 @@ nation.africa##+js(ra, style, [data="datawall-content"])
 ||newstatesman.com/*/nsmg-evolok-paywall/*.js$script,~third-party
 nn.de##div[id^="clsdiv_"]
 nrc.nl##+js(cookie-remover, counter)
+||nrc.nl/paywall-api/api/zephr$xmlhttprequest,~third-party
 nybooks.com##+js(rc, paywall-article, .paywall-article)
 nybooks.com##div.toast-cta
 ||nyteknik.se/*/static/js/site.min.js$script,~third-party
 nyteknik.se##+js(rc, locked-article, div.locked-article)
 ||meter-svc.nytimes.com/meter.js$xmlhttprequest,~third-party
 ||mwcm.nyt.com/$script,domain=nytimes.com
+nytimes.com##div[data-testid="inline-message"],div[id^="ad-"],div.expanded-dock
+cooking.nytimes.com##div[class*="modal_modal-window-container"]
 !#if env_chromium
 nytimes.com##+js(set, navigator.storage.estimate, undefined)
 !#endif
@@ -204,6 +207,7 @@ staradvertiser.com##div#hsa-paywall-overlay
 staradvertiser.com##+js(ra, style, div#hsa-paywall-content[style])
 ||startribune.com/vendor/js/$script,~third-party
 ||telegraph.co.uk/martech/js/$script,~third-party
+||the-ken.com/wp-content/themes/the-ken/assets/js/bootstrap.min.js$script,~third-party
 ||amazonaws.com/production-website-scripts/bouncer.js$script,domain=theartnewspaper.com
 theatlantic.com##+js(cookie-remover, articleViews)
 theatlantic.com###paywall
