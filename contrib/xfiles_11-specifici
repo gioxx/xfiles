@@ -339,6 +339,7 @@ androidpit.it###ad_mpu
 androidworld.it##.ad-container
 androidworld.it##.adv_esterno
 androidworld.it##.advstrip
+androidworld.it##.tw-adv-gpt
 androidworld.it##[id^="google_ads_iframe"]
 androidworld.it##[id^="infinite-adslot"]
 androidworld.it###ligatus_content_ad
@@ -1638,6 +1639,8 @@ ilmeteo.it##IFRAME[id="box-casait"]
 ilmeteo.it##IFRAME[id="box-seat"]
 ilmilaneseimbruttito.com##.ad-mobile-promo-box
 ilmilaneseimbruttito.com##.leaderboard-mobile-ad-box
+ilparagone.it##.yb-floorad
+ilparagone.it##.yobee-adv
 ilpost.it##.amp-adv-mobile
 ilpost.it##.boxAdv
 ilpost.it##.widget.adv
@@ -1872,7 +1875,11 @@ itascan.info##IFRAME[src*="clickpoint.com/adsrv/"]
 itechtics.com##[class*="ad box"]
 itespresso.it###megabanner
 itespresso.it###overbox
+itpro.co.uk##.-full-width.polaris__ad
+itpro.co.uk##.ad_inline
 itpro.co.uk##.block.block-dfp
+itpro.co.uk##[class^="polaris-ad-"]
+itpro.co.uk##[id^="ad_right_"]
 itpro.co.uk##[id^="google_ads_iframe"]
 itproportal.com##.b4nn3r
 itproportal.com##.smallCol.right
@@ -3724,6 +3731,7 @@ webalice.it/blackberry_09/netbet/
 webboh.it##.nativery-widget-wrapper
 webboh.it##.yb-floorad
 webcache.googleusercontent.com##.banner_728
+webdesign.tutsplus.com##.fuse-ad.avert
 webdesignhelper.co.uk/advert_images/
 webhostingmagazine.it##DIV[id="header-bar-right"]
 weblist.de/track/
