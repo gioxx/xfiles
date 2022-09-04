@@ -43,7 +43,7 @@ atavist.com##+js(aopr, localStorage)
 bloomberg.com##+js(cookie-remover, gatehouse_id, stay)
 bloomberg.com##+js(aopr, localStorage)
 bloomberg.com##+js(ra, data-paywall-overlay-status, body[data-paywall-overlay-status], stay)
-bloomberg.com##div.page-ad,div[data-ad-placeholder],div[class*="-ad-top"]
+bloomberg.com##div.page-ad,div[data-ad-placeholder],div[class*="-ad-top"],#fortress-preblocked-container-root
 ||assets.bwbx.io/s3/javelin/public/javelin/js/foundation/transporter/foundation_transporter-*.js$script,domain=bloomberg.com
 ||assets.bwbx.io/s3/fence/plug-client/v0/app.bundle.js$script,domain=bloomberg.com
 ||meter.bostonglobe.com/js/meter.js$script,~third-party
@@ -54,11 +54,11 @@ challenges.fr##+js(ra, hidden, .user-paying-content)
 challenges.fr##+js(rc, user-paying-content, .user-paying-content)
 charliehebdo.fr##+js(ra, style, div.ch-paywalled-content)
 charliehebdo.fr##div#poool-widget
+chronicle.com,philanthropy.com##div[data-content-summary]
+chronicle.com,philanthropy.com##+js(ra, data-content-body, div[data-content-body])
 ! cicero.de: url+?amp
 cicero.de##+js(rc, teasered-content, .teasered-content)
 cicero.de##.teasered-content-fader
-||chronicle.com/common/che-auth0-user.js$script,~third-party
-||chronicle.com/script.js$script,~third-party
 ||clarin.com/commons/js/auth0.js$script,~third-party
 ||commentary.org/*/js/dg-locker-public.js$script,~third-party
 ||connaissancedesarts.com/wp-content/cache/*.js$script,~third-party
@@ -134,7 +134,7 @@ lanacion.com.ar##+js(aopr, localStorage)
 digital.lasegunda.com##+js(rc, lessreadmore, article.lessreadmore, stay)
 digital.lasegunda.com##div[id*="bt_readmore_"]
 ||latercera.com/arc/subs/p.min.js$script,~third-party
-||metering.platform.latimes.com/v*/meter$xmlhttprequest,~third-party
+||metering.platform.latimes.com^$xmlhttprequest,~third-party
 ||lavanguardia.com/js/godo-$script,~third-party
 lavenir.net##div.is-preview,div.ap-AdContainer
 lavenir.net##+js(rc, is-hidden, div.is-hidden)
@@ -150,6 +150,7 @@ livelaw.in##+js(rc, hide, div.paywall-content.hide)
 livelaw.in##+js(rc, restricted_message, div.restricted_message)
 livelaw.in##div#subscription_paid_message,div.subscribeNow
 ||livemint.com/__js/lm_subscription_$script,~third-party
+livemint.com##+js(rc, paywall, div.paywall)
 labusinessjournal.com##+js(cookie-remover, /^/)
 labusinessjournal.com###css-only-modals
 loebclassics.com##+js(cookie-remover, /^/)
@@ -168,6 +169,7 @@ nation.africa##+js(ra, style, [data="datawall-content"])
 nn.de##div[id^="clsdiv_"]
 nrc.nl##+js(cookie-remover, counter)
 ||nrc.nl/paywall-api/api/zephr$xmlhttprequest,~third-party
+||nybooks.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
 nybooks.com##+js(rc, paywall-article, .paywall-article)
 nybooks.com##div.toast-cta
 ||nyteknik.se/*/static/js/site.min.js$script,~third-party
@@ -175,13 +177,7 @@ nyteknik.se##+js(rc, locked-article, div.locked-article)
 ||meter-svc.nytimes.com/meter.js$xmlhttprequest,~third-party
 ||mwcm.nyt.com/$script,domain=nytimes.com
 nytimes.com##div[data-testid="inline-message"],div[id^="ad-"],div.expanded-dock
-cooking.nytimes.com##div[class*="modal_modal-window-container"]
-!#if env_chromium
-nytimes.com##+js(set, navigator.storage.estimate, undefined)
-!#endif
-!#if env_firefox
-nytimes.com##+js(set, webkitRequestFileSystem, noopFunc)
-!#endif
+||cooking.nytimes.com/api/*/access$xmlhttprequest,~third-party
 nzherald.co.nz##+js(set, Fusion.globalContent.isPremium, false)
 paloaltoonline.com##+js(cookie-remover, /^/)
 parismatch.com###poool-container,.forbidden
@@ -200,7 +196,7 @@ rugbypass.com##+js(rc, premium-fold-bottom, .premium-fold-bottom)
 rugbypass.com##+js(rc, fade, .fade)
 rundschau-online.de##div#c1-template-platzhalter
 rundschau-online.de##+js(ra, class, span.hide-paid-content)
-||metering.platform.sandiegouniontribune.com/v*/meter$xmlhttprequest,~third-party
+||metering.platform.sandiegouniontribune.com^$xmlhttprequest,~third-party
 science.org##div.alert-read-limit
 science.org##+js(rc, alert-read-limit__overlay, body.alert-read-limit__overlay, stay)
 scientificamerican.com##+js(cookie-remover, /^/)
@@ -250,14 +246,16 @@ winnipegfreepress.com##.billboard-ad-space,.ad,.article-ad,.fixed-sky
 ! Australian Community Media
 bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(rc, subscribe-truncate, .subscribe-truncate)
 bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(rc, subscriber-hider, .subscriber-hider)
-bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(rc, hidden, div[class="hidden"])
+bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(rc, hidden, div[class="hidden"], stay)
+bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(ra, style, html[style], stay)
 bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(ra, style, body[style], stay)
-bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##div.blocker,.story-generic__iframe
+bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(ra, style, div[style*="mask-image"], stay)
+bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##div.blocker,.story-generic__iframe,div.transition-all,div[id^="headlessui-dialog"]
 ! Blox CMS - TownNews
 .com/shared-content/art/tncms/user/user.js$script,~third-party
 ! Lee Enterprises Group
 ||api.bntech.io/js$script,domain=buffalonews.com
-buffalonews.com,journalnow.com,richmond.com,tucson.com,tulsaworld.com##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
+buffalonews.com,journalnow.com,omaha.com,richmond.com,tucson.com,tulsaworld.com##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 ! Condé Nast
 ://journey.$script,domain=architecturaldigest.com|bonappetit.com|gq.com|newyorker.com|vanityfair.com|vogue.com|wired.com
 architecturaldigest.com,bonappetit.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##+js(cookie-remover, pay_ent_smp)
@@ -310,8 +308,8 @@ backpacker.com,betamtb.com,betternutrition.com,cleaneatingmag.com,climbing.com,g
 cyclingtips.com##div[data-block-name="ads"],div#takeover
 ||cloudflare.com/cdn-cgi/trace$xhr,domain=cyclingtips.com
 ! Persgroep
-/temptation/resolve$xmlhttprequest,domain=demorgen.be|humo.be|parool.nl|trouw.nl|volkskrant.nl
-||temptation.*/temptation.js$script,domain=demorgen.be|humo.be|parool.nl|trouw.nl|volkskrant.nl
+/temptation/resolve$xmlhttprequest,~third-party,domain=demorgen.be|humo.be|parool.nl|trouw.nl|volkskrant.nl
+||temptation.*/temptation.js$script,~third-party,domain=demorgen.be|humo.be|parool.nl|trouw.nl|volkskrant.nl
 ! Roularta Media Groep
 .be/js/responsive/rmgModal.js$script,~third-party,domain=knack.be|levif.be
 .be/js/responsive/rmgPaywall.js$script,~third-party,domain=knack.be|levif.be
@@ -320,8 +318,9 @@ knack.be,levif.be##div.article-body > p
 knack.be,kw.be,levif.be##+js(ra, class|style, html, stay)
 knack.be,levif.be##+js(ra, class, div.article-body > div)
 ! TorStar sites
-/api/overlaydata$xmlhttprequest,domain=niagarafallsreview.ca|stcatharinesstandard.ca|thepeterboroughexaminer.com|therecord.com|thespec.com|thestar.com|wellandtribune.ca
+/script.js$script,~third-party,domain=niagarafallsreview.ca|stcatharinesstandard.ca|thepeterboroughexaminer.com|therecord.com|thespec.com|thestar.com|wellandtribune.ca
 ! additional adblocker-fix for sites
+||flowerstreatment.com^$third-party
 cmcmarkets.com##+js(rc, activePaywall, .activePaywall)
 hcn.org##+js(ra, content, meta[name="UID"])
 inman.com##+js(rc, paywalled-block, .paywalled-block)
@@ -337,6 +336,9 @@ nu.nl##.article-login-wall
 ||multimedia.corprensa.com/la-prensa/evolok/evolok.js$script,domain=prensa.com
 scotsman.com##+js(rc, iETVtP, div.premium)
 ||shrm.org/*/js/paywall*.js$script,~third-party
+stylist.co.uk##div[data-cy="upgradeAccountPaywall"]
+stylist.co.uk##+js(ra, class|style, div.paywall)
+stylist.co.uk##+js(ra, class, div.css-tu9vsa, stay)
 ||accesstype.com/frontend/v2/accesstype.js$script,domain=swarajyamag.com
 ||wallet.axate.io$script,domain=thecricketer.com
 thecricketer.com##+js(rc, premium, .premium)
