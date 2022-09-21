@@ -1,9 +1,10 @@
 name: NoAds UPD Domains Only
 on:
+  schedule:
+  - cron: '55 3 * * *'
   push:
     paths:
-    - 'contrib/upd_exclude'
-
+      - 'contrib/upd_exclude'
   workflow_dispatch:
 
 jobs:
