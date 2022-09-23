@@ -1,0 +1,73 @@
+name: NoAds Stable
+on:
+  schedule:
+  - cron: '0 0 */18 * *'
+
+  workflow_dispatch:
+
+jobs:
+  noads_maker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Set Timezone
+        uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: "Europe/Rome"
+
+      - name: Set date and time
+        run: sh ./sh/datetime.sh
+
+      - name: Prepare list header
+        run: |
+          echo "[Adblock Plus 2.8]" > filtri.txt
+          echo "! Title: NoAds X Files" >> filtri.txt
+          echo "! Version:" $update >> filtri.txt
+          echo "! X Files migliora la tua navigazione quotidiana!" >> filtri.txt
+          echo "! Last modified:" $lastmodified >> filtri.txt
+          echo "! Expires: 15 days" >> filtri.txt
+          echo "! Homepage: https://xfiles.noads.it" >> filtri.txt
+          echo "! Blog: https://gioxx.org/tag/abpxfiles" >> filtri.txt
+          echo "! Hosting: GitHub.com" >> filtri.txt
+          echo "!" >> filtri.txt
+
+      - name: Make Stable
+        run: sh ./sh/make_stable.sh
+
+      - name: Prepare vCheck
+        run: |
+          num_of_lines=$(< "filtri.txt" wc -l)
+          num_of_lines="$((num_of_lines - 24))"
+          md5=($(md5sum filtri.txt| cut -d ' ' -f 1))
+          echo $update > vcheck/check_filtri.txt
+          echo $lastmodified >> vcheck/check_filtri.txt
+          echo $checkwebsite >> vcheck/check_filtri.txt
+          echo $num_of_lines >> vcheck/check_filtri.txt
+          echo $md5 >> vcheck/check_filtri.txt
+          
+      - name: Run CommitsWithinTime script
+        uses: AlexHolderDeveloper/CommitsWithinTime@v1.1.5
+        id: commitswithintime
+      
+      - name: Get the output from CommitsWithinTime
+        run: |
+          echo ${{ steps.commitswithintime.outputs.total-commits }} > vcheck/check_gh.txt
+
+      - name: Commit Stable
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add filtri.txt
+          git add vcheck/check_filtri.txt
+          git add vcheck/check_gh.txt
+          git commit -m "Aggiornamento Stable (GHA) $update del $lastmodified" -a
+      
+      - name: Push Stable
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GHUB_TOKEN }}
+          branch: ${{ github.ref }}
