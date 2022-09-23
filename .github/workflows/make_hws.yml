@@ -65,9 +65,22 @@ jobs:
           git add vcheck/check_siteblock.txt
           git add vcheck/check_gh.txt
           git commit -m "Aggiornamento HWS (GHA) $update del $lastmodified" -a
+          sh ./sh/revparse.sh
       
       - name: Push Stable
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GHUB_TOKEN }}
           branch: ${{ github.ref }}
+
+      - name: Tweet
+        id: tweet
+        uses: snow-actions/tweet@v1.1.1
+        env:
+          CONSUMER_API_KEY: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
+          CONSUMER_API_SECRET_KEY: ${{ secrets.TWITTER_CONSUMER_API_SECRET_KEY }}
+          ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+        with:
+          status: |
+            🆕 Nuovo rilascio di #ABPXFiles #HWS 🦠 (versione ${{ env.update }}), aggiorna la tua sottoscrizione! 😎 (novità disponibili su https://github.com/${{ github.repository }}/commit/${{ env.commitshort }})
