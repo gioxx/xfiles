@@ -15,6 +15,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       
       - name: Sleep Action
         uses: juliangruber/sleep-action@v1.0.1
@@ -35,10 +37,20 @@ jobs:
       - name: Prepare vCheck
         run: |
           num_of_lines=$(< "domains/upd_domains.txt" wc -l)
+          md5=($(md5sum domains/upd_domains.txt| cut -d ' ' -f 1))
           echo $update > vcheck/check_domains.txt
           echo $lastmodified >> vcheck/check_domains.txt
           echo $checkwebsite >> vcheck/check_domains.txt
           echo $num_of_lines >> vcheck/check_domains.txt
+          echo $md5 >> vcheck/check_domains.txt
+          
+      - name: Run CommitsWithinTime script
+        uses: AlexHolderDeveloper/CommitsWithinTime@v1.1.5
+        id: commitswithintime
+      
+      - name: Get the output from CommitsWithinTime
+        run: |
+          echo ${{ steps.commitswithintime.outputs.total-commits }} > vcheck/check_gh.txt
 
       - name: Commit UPD Domains
         run: |
@@ -46,7 +58,9 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add domains/upd_domains.txt
           git add vcheck/check_domains.txt
+          git add vcheck/check_gh.txt
           git commit -m "Aggiornamento UPD Domains (GHA) $update del $lastmodified" -a
+      
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
