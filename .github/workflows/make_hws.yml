@@ -1,0 +1,73 @@
+name: NoAds HWS
+on:
+  schedule:
+  - cron: '45 3 * * *'
+
+  workflow_dispatch:
+
+jobs:
+  noads_hws:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Set Timezone
+        uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: "Europe/Rome"
+
+      - name: Set date and time
+        run: sh ./sh/datetime.sh
+
+      - name: Prepare list header
+        run: |
+          echo "[Adblock Plus 2.8]" > siteblock.txt
+          echo "! Title: NoAds X Files: HWS Harmful WebSites" >> siteblock.txt
+          echo "! Version:" $update >> siteblock.txt
+          echo "! Harmful WebSites blocca siti web potenzialmente dannosi per la tua navigazione" >> siteblock.txt
+          echo "! Last modified:" $lastmodified >> siteblock.txt
+          echo "! Expires: 2 days" >> siteblock.txt
+          echo "! Homepage: https://xfiles.noads.it" >> siteblock.txt
+          echo "! Blog: https://gioxx.org/tag/abpxfiles" >> siteblock.txt
+          echo "! Hosting: GitHub.com" >> siteblock.txt
+          echo "!" >> siteblock.txt
+
+      - name: Make Stable
+        run: sh ./sh/make_hws.sh
+
+      - name: Prepare vCheck
+        run: |
+          num_of_lines=$(< "siteblock.txt" wc -l)
+          num_of_lines="$((num_of_lines - 10))"
+          md5=($(md5sum siteblock.txt| cut -d ' ' -f 1))
+          echo $update > vcheck/check_siteblock.txt
+          echo $lastmodified >> vcheck/check_siteblock.txt
+          echo $checkwebsite >> vcheck/check_siteblock.txt
+          echo $num_of_lines >> vcheck/check_siteblock.txt
+          echo $md5 >> vcheck/check_siteblock.txt
+          
+      - name: Run CommitsWithinTime script
+        uses: AlexHolderDeveloper/CommitsWithinTime@v1.1.5
+        id: commitswithintime
+      
+      - name: Get the output from CommitsWithinTime
+        run: |
+          echo ${{ steps.commitswithintime.outputs.total-commits }} > vcheck/check_gh.txt
+
+      - name: Commit Stable
+        run: |
+          git config --local user.email "114237374+GWall-bot@users.noreply.github.com"
+          git config --local user.name "GWall[bot]"
+          git add siteblock.txt
+          git add vcheck/check_siteblock.txt
+          git add vcheck/check_gh.txt
+          git commit -m "Aggiornamento HWS (GHA) $update del $lastmodified" -a
+      
+      - name: Push Stable
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GHUB_TOKEN }}
+          branch: ${{ github.ref }}
