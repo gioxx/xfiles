@@ -1,45 +1,44 @@
-wget -c "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-ACTIVE.txt" -O "phishingdomains.txt"
-wget -c "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-NEW-today.txt" -O "phishingdomains_newtoday.txt"
+wget -c "https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt" -O "blackbook.txt"
 wget -c "https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt" -O "2021-07-18_nso.txt"
 wget -c "https://raw.githubusercontent.com/gfscom/NSA-CIA-Blocklist/main/HOSTS/HOSTS" -O "NSA-CIA-Blocklist.txt"
 wget -c "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/whitelist.me/whitelist.me" -O "whitelist.me"
 
 emptycheck () {
-  if [ -s $1 ]
-  then
-    echo "$1 is not empty, go forward!"
-  else
-    echo "$1 is empty, stop UPD creation process."
-    exit
-  fi
+	if [ -s $1 ]
+	then
+		echo "$1 is not empty, go forward!"
+	else
+		echo "$1 is empty, stop HWS creation process."
+		exit
+	fi
 }
 
-emptycheck "phishingdomains.txt"
-emptycheck "phishingdomains_newtoday.txt"
+emptycheck "blackbook.txt"
 emptycheck "2021-07-18_nso.txt"
 emptycheck "NSA-CIA-Blocklist.txt"
 test -s "whitelist.me" || exit 1
-grep -v -P '^(REG|ALL)' whitelist.me | sort >> whitelist.txt
+grep -v -P '^(REG|ALL)' "whitelist.me" | sort >> "whitelist.txt"
 rm "whitelist.me"
 
-cat contrib/upd_exclude >> "whitelist.txt"
+cp "contrib/siteblock_contrib" "hws_contrib.txt"
+
+cat "contrib/upd_exclude" >> "whitelist.txt"
 sort -u -o "whitelist_sort.txt" "whitelist.txt"
 rm "whitelist.txt"
 while read line; do
-  echo "Cerco ed elimino $line"
-  sed -e "/$line/d" -i "phishingdomains.txt"
-  sed -e "/$line/d" -i "phishingdomains_newtoday.txt"
-  sed -e "/$line/d" -i "2021-07-18_nso.txt"
-  sed -e "/$line/d" -i "NSA-CIA-Blocklist.txt"
-done < whitelist_sort.txt
+	echo "Cerco ed elimino $line"
+	sed -e "/$line/d" -i "blackbook.txt"
+	sed -e "/$line/d" -i "2021-07-18_nso.txt"
+	sed -e "/$line/d" -i "NSA-CIA-Blocklist.txt"
+done < "whitelist_sort.txt"
 
 #	Remove header and blank lines from 3rd-party lists
 #	Credits:	https://unix.stackexchange.com/questions/37790/how-do-i-delete-the-first-n-lines-of-an-ascii-file-using-shell-commands
 #           https://www.cyberciti.biz/faq/using-sed-to-delete-empty-lines/
-sed -i -e 1,3d "phishingdomains.txt"
+sed -i -e 1,3d "hws_contrib.txt"
 sed -i -e 1,16d "NSA-CIA-Blocklist.txt"
-sed -i '/^$/d' "phishingdomains.txt"
-sed -i '/^$/d' "phishingdomains_newtoday.txt"
+sed -i '/^$/d' "blackbook.txt"
+sed -i '/^$/d' "hws_contrib.txt"
 
 #	Remove "0.0.0.0" (from each line) and latest two lines from NSA-CIA-Blocklist
 #	Credits:	https://stackoverflow.com/a/13380679/2220346
@@ -50,18 +49,18 @@ sed -e 's/^........//' -i "NSA-CIA-Blocklist.txt"
 
 #	Prepend "||" and append "^" for each line
 #	Credits:	https://stackoverflow.com/questions/2869669/in-bash-how-do-i-add-a-string-after-each-line-in-a-file
-sed -e 's/$/^/' -i "phishingdomains.txt"
-sed -e 's/$/^/' -i "phishingdomains_newtoday.txt"
+sed -e 's/$/^/' -i "blackbook.txt"
+sed -e 's/$/^/' -i "hws_contrib.txt"
 sed -e 's/$/^/' -i "2021-07-18_nso.txt"
 sed -e 's/$/^/' -i "NSA-CIA-Blocklist.txt"
-sed -e 's/^/||/' -i "phishingdomains.txt"
-sed -e 's/^/||/' -i "phishingdomains_newtoday.txt"
+sed -e 's/^/||/' -i "blackbook.txt"
+sed -e 's/^/||/' -i "hws_contrib.txt"
 sed -e 's/^/||/' -i "2021-07-18_nso.txt"
 sed -e 's/^/||/' -i "NSA-CIA-Blocklist.txt"
 
-# Make UPD
-cat "phishingdomains.txt" "phishingdomains_newtoday.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" >> "upd_nosort.txt"
-sort -o "upd_sort.txt" "upd_nosort.txt"
-uniq "upd_sort.txt" "upd_sort_tmp.txt" && mv "upd_sort_tmp.txt" "upd_sort.txt"
-cat "upd_sort.txt" >> "upd.txt"
-rm "phishingdomains.txt" "phishingdomains_newtoday.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" "upd_nosort.txt" "upd_sort.txt" "whitelist_sort.txt"
+# Make HWS
+cat "blackbook.txt" "hws_contrib.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" >> "siteblock_nosort.txt"
+sort -o "siteblock_sort.txt" "siteblock_nosort.txt"
+uniq "siteblock_sort.txt" "siteblock_sort_tmp.txt" && mv "siteblock_sort_tmp.txt" "siteblock_sort.txt"
+cat "siteblock_sort.txt" >> "siteblock.txt"
+rm "blackbook.txt" "hws_contrib.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" "siteblock_nosort.txt" "siteblock_sort.txt" "whitelist_sort.txt"

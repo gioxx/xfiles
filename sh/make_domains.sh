@@ -43,6 +43,7 @@ sed -i '/^$/d' "do_antispam-it.txt"
 head -n -2 "do_NSA-CIA-Blocklist.txt" > "do_NSA-CIA-Blocklist_tmp.txt" && mv "do_NSA-CIA-Blocklist_tmp.txt" "do_NSA-CIA-Blocklist.txt"
 sed -e 's/^........//' -i "do_NSA-CIA-Blocklist.txt"
 
+# Make Domains
 cat "do_phishingdomains.txt" "do_phishingdomains_newtoday.txt" "do_2021-07-18_nso.txt" "do_NSA-CIA-Blocklist.txt" "do_antispam-it.txt" >> "do_upd_nosort.txt"
 sort -o "do_upd_sort.txt" "do_upd_nosort.txt"
 uniq "do_upd_sort.txt" "do_upd_sort_tmp.txt" && mv "do_upd_sort_tmp.txt" "do_upd_sort.txt"
