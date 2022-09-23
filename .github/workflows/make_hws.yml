@@ -73,7 +73,7 @@ jobs:
           github_token: ${{ secrets.GHUB_TOKEN }}
           branch: ${{ github.ref }}
 
-      - name: Tweet
+      - name: Tweet @noadsxfiles
         id: tweet
         uses: snow-actions/tweet@v1.1.1
         env:
