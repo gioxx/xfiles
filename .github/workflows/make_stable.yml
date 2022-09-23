@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  noads_maker:
+  noads_stable:
     runs-on: ubuntu-latest
 
     steps:
