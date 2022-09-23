@@ -7,11 +7,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  noads_upd:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - name: Set Timezone
         uses: szenius/set-timezone@v1.0
@@ -44,10 +46,20 @@ jobs:
         run: |
           num_of_lines=$(< "upd.txt" wc -l)
           num_of_lines="$((num_of_lines - 13))"
+          md5=($(md5sum upd.txt| cut -d ' ' -f 1))          
           echo $update > vcheck/check_upd.txt
           echo $lastmodified >> vcheck/check_upd.txt
           echo $checkwebsite >> vcheck/check_upd.txt
           echo $num_of_lines >> vcheck/check_upd.txt
+          echo $md5 >> vcheck/check_upd.txt
+      
+      - name: Run CommitsWithinTime script
+        uses: AlexHolderDeveloper/CommitsWithinTime@v1.1.5
+        id: commitswithintime
+      
+      - name: Get the output from CommitsWithinTime
+        run: |
+          echo ${{ steps.commitswithintime.outputs.total-commits }} > vcheck/check_gh.txt
 
       - name: Commit UPD
         run: |
@@ -55,7 +67,9 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add upd.txt
           git add vcheck/check_upd.txt
+          git add vcheck/check_gh.txt
           git commit -m "Aggiornamento UPD (GHA) $update del $lastmodified" -a
+      
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
