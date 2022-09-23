@@ -1,7 +1,7 @@
 NoAds X Files ([xfiles.noads.it](https://xfiles.noads.it))
 ===================
 
-[![ABP eXperimental Files](https://github.com/gioxx/xfiles/actions/workflows/make_experimental.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_experimental.yml) [![ABP UPD](https://github.com/gioxx/xfiles/actions/workflows/make_upd.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_upd.yml) [![NoAds UPD Domains Only](https://github.com/gioxx/xfiles/actions/workflows/make_domains.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_domains.yml)
+[![NoAds Stable](https://github.com/gioxx/xfiles/actions/workflows/make_stable.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_stable.yml) [![ABP eXperimental Files](https://github.com/gioxx/xfiles/actions/workflows/make_experimental.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_experimental.yml) [![ABP UPD](https://github.com/gioxx/xfiles/actions/workflows/make_upd.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_upd.yml) [![NoAds UPD Domains Only](https://github.com/gioxx/xfiles/actions/workflows/make_domains.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_domains.yml)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/gioxx/xfiles?color=informational) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gioxx/xfiles?color=informational)
 
