@@ -1,5 +1,8 @@
 name: NoAds UPD
 on:
+  schedule:
+  - cron: '30 3 * * *'
+  
   push:
     paths:
     - 'contrib/upd_exclude'
