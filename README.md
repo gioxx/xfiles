@@ -5,7 +5,7 @@ NoAds X Files ([xfiles.noads.it](https://xfiles.noads.it))
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/gioxx/xfiles?color=informational) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gioxx/xfiles?color=informational)
 
-![Twitter Follow](https://img.shields.io/twitter/follow/gioxx?style=flat&logo=twitter) ![Twitter Follow](https://img.shields.io/twitter/follow/abpxfiles?style=flat&logo=twitter)
+![Twitter Follow](https://img.shields.io/twitter/follow/gioxx?style=flat&logo=twitter) ![Twitter Follow](https://img.shields.io/twitter/follow/noadsxfiles?style=flat&logo=twitter)
 
 **[X Files](https://xfiles.noads.it)** è il nome del progetto nato per gioco, diventato punto di riferimento nazionale per il filtraggio della pubblicità invasiva su una moltitudine di siti web nostrani e internazionali. Il sito web del progetto è disponibile pubblicamente all'indirizzo https://xfiles.noads.it.
 
