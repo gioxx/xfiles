@@ -1,11 +1,10 @@
 [Adblock Plus 2.8]
-! Version: 202209160000
-! Title: ABP X Files
+! Title: NoAds X Files
+! Version: 202210010426
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 16-09-2022
-! Expires: 7 days
+! Last modified: 01-10-2022
+! Expires: 15 days
 ! Homepage: https://xfiles.noads.it
-! Home: https://xfiles.noads.it
 ! Blog: https://gioxx.org/tag/abpxfiles
 ! Hosting: GitHub.com
 !
@@ -1577,6 +1576,7 @@ filesonic.it###advertisement
 filestore.to/banner/
 filestube.com##.resultadv2
 filestube.com##DIV[class="frame_adv"]
+filezilla-project.org##.TopAd
 film-stream.tv##.dvkollrlvxidnogupchj
 filmstream.me##[class$="_gizle"]
 filmstream.me##[id^="ad-video-"]
@@ -1604,8 +1604,11 @@ flashx.tv##[id^="download_div"]
 flashx.tv##A[href^="http://data.committeemenencyclopedicrepertory.info/"]
 flashx.tv##IFRAME[sandbox="allow-popups allow-same-origin allow-scripts allow-top-navigation"]
 flashx.tv##SCRIPT[src^="//serve.popads.net/"]
+flaticon.com##.bn-space
 flaticon.com##.carbon-wrap
 flaticon.com##.premium-banner
+flaticon.com###layer_coupon
+flaticon.com##section[class^="soul-p"]
 flaticon.com##SECTION[id="sponsor-partner"]
 fleshlight.com/*banners*
 flickr.com##.card.ad-card
@@ -2402,6 +2405,7 @@ lettera43.it###bleft
 lettera43.it###bright
 lg.hdblog.it##.ads_container_top
 lg.hdblog.it##.gad_container
+libero.it##.adv
 libero.it##.advContFixed
 libero.it##.header_adv
 libero.it##.hp_300x1.hp_300x1-p1
@@ -2410,17 +2414,21 @@ libero.it##.hp_blog-cta
 libero.it##.hp_eff1.hp_b-promo.hp_b-promo-t2.hp_b-promo-p4
 libero.it##.hp_p-cta
 libero.it##.libero_header_adv
+libero.it##.ligatus_wrapper
 libero.it##[class^="iol-ads-"]
 libero.it##[data-widget-type^="adbox"]
 libero.it##[id^="adbox"]
+libero.it##[id^="admpudyn"]
 libero.it##[id^="adright"]
 libero.it##[id^="adtop"]
 libero.it##[id$="ad-banner"]
 libero.it##[id$="ad-skyscraper"]
 libero.it##[src*="weborama.fr/advertiser/"]
 libero.it###adleftcol
+libero.it###admputop
 libero.it###adv_300
 libero.it###adv_topper
+libero.it###adwallpaper
 libero.it###leftBoxIFrame
 libero.it###libero_header_adv
 libero.it###ScontiBox
@@ -3069,6 +3077,7 @@ pctuner.net/banner/*
 pcworld.com##[id^="google_ads_iframe"]
 pcworld.com###content-recommender
 pcworld.com##DIV[id="topAd"]
+pdf-xchange-viewer-portable.it.softonic.com##.sam-slot--empty
 peakpx.com##.list_ads
 pendrivelinux.com##.adtester-container
 people.com##.ad-container
@@ -3729,6 +3738,7 @@ temi-wordpress.net/*/maxblogpress-unblockable-popup/
 templatehelp.com/banners/
 templatesbox.com/banners/
 tenforums.com##.ad-bottom-sticky-overall.adunit
+tenforums.com##.chill
 ternilife.com##.ads-header
 ternilife.com##.wppaszone
 ternilife.com##[class^="ads-header-"]
@@ -4181,6 +4191,9 @@ windowscentral.com##.ad-unit
 windowscentral.com##.ad.t1
 windowscentral.com##.adunit
 windowscentral.com##.article-leaderboard
+windowscentral.com##.bordeaux-anchored-container
+windowscentral.com##.bordeaux-filled-slot
+windowscentral.com##.bordeaux-generated-spacer
 windowscentral.com##[class^="adunit-"]
 windowscentral.com##[class^="mobile-leaderboard"]
 windowscentral.com##[class$="ad gpt"]
@@ -5000,6 +5013,11 @@ upstory.it###CybotCookiebotDialogBodyUnderlay
 w3schools.com##.snigel-cmp-framework
 xda-developers.com###uniccmp
 ! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]
+! General
+||loader-cdn.azureedge.net^$third-party
+||blueconic.net^$third-party
+||cdn.cxense.com^$script,third-party,important
+||evolok.net^$third-party
 ||ippen.space^$third-party
 ||lightboxcdn.com^$third-party
 ||js.matheranalytics.com^$script,third-party
@@ -5007,7 +5025,7 @@ xda-developers.com###uniccmp
 ||onecount.net^$third-party
 ||js.pelcro.com^$script,third-party
 ||piano.io^$third-party
-@@||piano.io^$third-party,important,domain=asia.nikkei.com|japantimes.co.jp
+@@||piano.io^$third-party,domain=asia.nikkei.com|businesspost.ie|japantimes.co.jp
 ||api.pico.tools/client/query/*$xhr,third-party
 ||api.pico.tools/popup/null/*$xhr,third-party
 gadget.pico.tools##+js(json-prune, locked)
@@ -5033,6 +5051,7 @@ americanbanker.com##+js(rc, inline-gate, .inline-gate)
 americanbanker.com##+js(rc, inline-gated, .inline-gated)
 artforum.com##+js(cookie-remover, /^/)
 ||artnet.com/paywall-ajax.php$xmlhttprequest,~third-party
+asia.nikkei.com##+js(cookie-remover, /xbc/)
 atavist.com##+js(aopr, localStorage)
 ||assets.bizjournals.com/static/js/app/cxense.js$script,~third-party
 ||automobilwoche.de/s3fs-public/js/js_*.js$script,~third-party
@@ -5044,6 +5063,7 @@ bloomberg.com##div.page-ad,div[data-ad-placeholder],div[class*="-ad-top"],#fortr
 ||assets.bwbx.io/s3/fence/plug-client/v0/app.bundle.js$script,domain=bloomberg.com
 ||meter.bostonglobe.com/js/meter.js$script,~third-party
 ||businessoffashion.com/zephr/features$xmlhttprequest,~third-party
+businesspost.ie##+js(cookie-remover, /xbc/)
 cen.acs.org##+js(cookie-remover, paywall-cookie)
 cen.acs.org##.meteredBar
 challenges.fr##+js(ra, hidden, .user-paying-content)
@@ -5088,11 +5108,11 @@ financialexpress.com##div.pcl-wrap
 ||folha.uol.com.br/paywall/js/$script,~third-party
 ||paywall.folha.uol.com.br^$script,~third-party
 ||foreignaffairs.com/modules/custom/fa_paywall_js/js/paywall.js$script,~third-party
-@@||foreignaffairs.com/sites/default/files/js/js_y*.js$script,~third-party,important
 foreignpolicy.com##div.content-ungated
 foreignpolicy.com##+js(rc, content-gated, div.content-gated)
 fortune.com##+js(ra, class, div.paywallActive)
 ||ftm.nl/js/routing$script,~third-party
+ftm.nl##div.banner-pp,a.readmore
 ||griffithreview.com/*/leaky-paywall/$script,~third-party
 griffithreview.com##+js(rc, single, body.single)
 griffithreview.com##div.call-to-action
@@ -5108,6 +5128,7 @@ hbrtaiwan.com##+js(cookie-remover, guest)
 ||indianexpress.com/*/indianexpress/min/premiumContent.js$script,~third-party
 indianexpress.com##+js(ra, style, div#pcl-rest-content[style])
 ||irishtimes.com/zephr/features$xmlhttprequest,~third-party
+japantimes.co.jp##+js(cookie-remover, /xbc/)
 journaldunet.com##.reg_wall
 journaldunet.com##+js(ra, style, .entry_reg_wall)
 ||jpost.com/js/js_article.min.js$script,~third-party
@@ -5213,10 +5234,9 @@ staradvertiser.com##+js(ra, style, div#hsa-paywall-content[style])
 suomensotilas.fi##+js(rc, epfl-pw-obscured, div.epfl-pw-obscured)
 ||telegraph.co.uk/martech/js/$script,~third-party
 ||amazonaws.com/production-website-scripts/bouncer.js$script,domain=theartnewspaper.com
-theathletic.com##div#slideup-paywall,div[id*="overlay"],div:empty:not([data-rjs])
+theathletic.com##div#slideup-paywall,div[id*="overlay"],div:empty:not([data-rjs]),#paywall,div.ad-container
 theathletic.com##body[class]:style(overflow:visible !important; position:relative !important)
 theatlantic.com##+js(cookie-remover, articleViews)
-theatlantic.com###paywall
 ||thediplomat.com/*/js/angular-cookies.min.js$script,~third-party
 thediplomat.com##+js(cookie-remover, dpl-pw)
 ||theglobeandmail.com/pf/dist/engine/react.js$script,~third-party
@@ -5227,6 +5247,8 @@ thehindu.com##+js(set, window.isNonSubcribed, false)
 ||theintercept.com/api/tinypass.min.js$script,~third-party
 ||thenewatlantis.com/*/thenewatlantis/js/gate.js$script,~third-party
 ||thenewatlantis.com/*/thenewatlantis/js/donate.js$script,~third-party
+theneweuropean.co.uk##div[data-show-fade-on-noaccess],div[data-show-subs-blocked]
+theneweuropean.co.uk##+js(ra, data-show-has-access, div[data-show-has-access])
 thepointmag.com##+js(cookie-remover, monthly_history)
 thepointmag.com##div.overlay,div#tpopup-
 ||thesaturdaypaper.com.au/sites/all/modules/custom/node_meter/pw.js$script,~third-party
@@ -5273,9 +5295,9 @@ monacomatin.mc,nicematin.com,varmatin.com##+js(ra, amp-access-hide, [amp-access]
 ||diariocorreo.pe/pf/dist/engine/react.js$script,~third-party
 ||elcomercio.pe/pf/dist/engine/react.js$script,~third-party
 ||gestion.pe/pf/dist/engine/react.js$script,~third-party
-diariocorreo.pe,elcomercio.pe,gestion.pe##+js(ra, style, .story-content__nota-premium)
-diariocorreo.pe,elcomercio.pe,gestion.pe##+js(rc, story-content__nota-premium, .story-content__nota-premium)
-diariocorreo.pe,elcomercio.pe,gestion.pe##div[class*="_ads"]
+diariocorreo.pe,elcomercio.pe,gestion.pe##+js(ra, class|style, .paywall)
+diariocorreo.pe,elcomercio.pe,gestion.pe##+js(rc, story-contents--fade, p.story-contents--fade)
+diariocorreo.pe,elcomercio.pe,gestion.pe##div[class^="content_gpt"]
 ! Gruppo SAE
 iltirreno.it##+js(cookie-remover, /^/)
 lanuovasardegna.it##+js(cookie-remover, /^/)
@@ -5286,6 +5308,8 @@ iltirreno.it,lanuovasardegna.it##div.MuiSnackbar-root
 ||utils.cedsdigital.it/js/PaywallMeter.js$script,domain=corriereadriatico.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|quotidianodipuglia.it
 corriereadriatico.it,ilgazzettino.it,ilmattino.it,ilmessaggero.it,quotidianodipuglia.it##+js(ra, subscriptions-section, [subscriptions-section="content"])
 corriereadriatico.it,ilgazzettino.it,ilmattino.it,ilmessaggero.it,quotidianodipuglia.it##[subscriptions-section="content-not-granted"]
+! Madavor Media sites
+birdwatchingdaily.com,digitalphotopro.com,dpmag.com,jazztimes.com,outdoorphotographer.com,planeandpilotmag.com,writermag.com,##+js(cookie-remover, /^article_/)
 ! Mediahuis Ireland
 belfasttelegraph.co.uk,independent.ie##+js(ra, style, div#flip-pay[style])
 ||cdn.flip-pay.com/clients/inm/flip-pay.js$script,domain=belfasttelegraph.co.uk|independent.ie
@@ -5317,6 +5341,8 @@ knack.be,levif.be##+js(ra, class, div.article-body > div)
 /script.js$script,~third-party,domain=niagarafallsreview.ca|stcatharinesstandard.ca|thepeterboroughexaminer.com|therecord.com|thespec.com|thestar.com|wellandtribune.ca
 ! additional adblocker-fix for sites
 ||flowerstreatment.com^$third-party
+aaii.com##+js(rc, fadeout, .fadeout)
+aaii.com##.greybox-signup
 cmcmarkets.com##+js(rc, activePaywall, .activePaywall)
 hcn.org##+js(ra, content, meta[name="UID"])
 inman.com##+js(rc, paywalled-block, .paywalled-block)
@@ -5362,8 +5388,8 @@ centrepresseaveyron.fr,ladepeche.fr,lindependant.fr,midi-olympique.fr,midilibre.
 adelaidenow.com.au,cairnspost.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,geelongadvertiser.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,amp.theaustralian.com.au,themercury.com.au,townsvillebulletin.com.au,weeklytimesnow.com.au##+js(ra, subscriptions-section, [subscriptions-section="content"])
 adelaidenow.com.au,cairnspost.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,geelongadvertiser.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,amp.theaustralian.com.au,themercury.com.au,townsvillebulletin.com.au,weeklytimesnow.com.au##[subscriptions-section="content-not-granted"]
 ! German sites
-augsburger-allgemeine.de,berliner-zeitung.de,muensterschezeitung.de,mz.de,westfalen-blatt.de,wn.de,haz.de,kn-online.de,ln-online.de,lvz.de,maz-online.de,neuepresse.de,ostsee-zeitung.de,volksstimme.de##+js(ra, subscriptions-section, [subscriptions-section="content"])
-augsburger-allgemeine.de,berliner-zeitung.de,muensterschezeitung.de,mz.de,westfalen-blatt.de,wn.de,haz.de,kn-online.de,ln-online.de,lvz.de,maz-online.de,neuepresse.de,ostsee-zeitung.de,volksstimme.de##[subscriptions-section="content-not-granted"]
+augsburger-allgemeine.de,muensterschezeitung.de,mz.de,westfalen-blatt.de,wn.de,haz.de,kn-online.de,ln-online.de,lvz.de,maz-online.de,neuepresse.de,ostsee-zeitung.de,volksstimme.de##+js(ra, subscriptions-section, [subscriptions-section="content"])
+augsburger-allgemeine.de,muensterschezeitung.de,mz.de,westfalen-blatt.de,wn.de,haz.de,kn-online.de,ln-online.de,lvz.de,maz-online.de,neuepresse.de,ostsee-zeitung.de,volksstimme.de##[subscriptions-section="content-not-granted"]
 nw.de##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 nw.de##div.paywallOverlay
 ! Funke Mediengruppe
@@ -5390,9 +5416,6 @@ abc.es##+js(ra, id, body#top)
 ! Grupo Prensa Ibérica
 amp.epe.es,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,mallorcazeitung.es,regio7.cat##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,mallorcazeitung.es,regio7.cat##+js(rc, article-body--truncated, div.article-body--truncated)
-! Grupo Vocento
-diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elnortedecastilla.es,hoy.es,ideal.es,larioja.com,lasprovincias.es,laverdad.es,lavozdigital.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
-coruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,mallorcazeitung.es,regio7.cat##+js(rc, article-body--truncated, div.article-body--truncated)
 ! Grupo Vocento
 diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elnortedecastilla.es,hoy.es,ideal.es,larioja.com,lasprovincias.es,laverdad.es,lavozdigital.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 ! [NoAds X Files - Filtri per blocco abuso risorse CPU / Exploit]
