@@ -46,6 +46,7 @@ jobs:
         run: sh ./sh/make_upd.sh
 
       - name: Prepare vCheck
+        if: ${{ env.stop == 'false' }}
         run: |
           num_of_lines=$(< "upd.txt" wc -l)
           num_of_lines="$((num_of_lines - 13))"
@@ -61,6 +62,7 @@ jobs:
         id: commitswithintime
       
       - name: Get the output from CommitsWithinTime
+        if: ${{ env.stop == 'false' }}
         run: |
           echo ${{ steps.commitswithintime.outputs.total-commits }} > vcheck/check_gh.txt
 
@@ -81,6 +83,7 @@ jobs:
           branch: ${{ github.ref }}
           
       - name: Tweet @noadsxfiles
+        if: ${{ env.stop == 'false' }}
         id: tweet
         uses: snow-actions/tweet@v1.1.1
         env:
