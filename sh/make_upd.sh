@@ -59,9 +59,23 @@ sed -e 's/^/||/' -i "phishingdomains_newtoday.txt"
 sed -e 's/^/||/' -i "2021-07-18_nso.txt"
 sed -e 's/^/||/' -i "NSA-CIA-Blocklist.txt"
 
-# Make UPD
+# Collect filters
 cat "phishingdomains.txt" "phishingdomains_newtoday.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" >> "upd_nosort.txt"
 sort -o "upd_sort.txt" "upd_nosort.txt"
 uniq "upd_sort.txt" "upd_sort_tmp.txt" && mv "upd_sort_tmp.txt" "upd_sort.txt"
-cat "upd_sort.txt" >> "upd.txt"
-rm "phishingdomains.txt" "phishingdomains_newtoday.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" "upd_nosort.txt" "upd_sort.txt" "whitelist_sort.txt"
+
+# MD5 check and populate UPD
+echo "stop=false" >> $GITHUB_ENV
+md5_new=$(md5sum do_upd_sort.txt| cut -d ' ' -f 1)
+md5_old=$(sed -n '5p' vcheck/check_upd.txt)
+echo "MD5 old: $md5_old"
+echo "MD5 new: $md5_new"
+if [ "$md5_new" = "$md5_old" ]; then
+		echo "stop=true" >> $GITHUB_ENV
+    echo "Same MD5, skip list creation."
+else
+    echo "Different MD5, proceed with list creation."
+		echo "md5=$md5_new" >> $GITHUB_ENV
+    cat "upd_sort.txt" >> "upd.txt"
+    rm "phishingdomains.txt" "phishingdomains_newtoday.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" "upd_nosort.txt" "upd_sort.txt" "whitelist_sort.txt"
+fi

@@ -43,9 +43,23 @@ sed -i '/^$/d' "do_antispam-it.txt"
 head -n -2 "do_NSA-CIA-Blocklist.txt" > "do_NSA-CIA-Blocklist_tmp.txt" && mv "do_NSA-CIA-Blocklist_tmp.txt" "do_NSA-CIA-Blocklist.txt"
 sed -e 's/^........//' -i "do_NSA-CIA-Blocklist.txt"
 
-# Make Domains
+# Collect filters
 cat "do_phishingdomains.txt" "do_phishingdomains_newtoday.txt" "do_2021-07-18_nso.txt" "do_NSA-CIA-Blocklist.txt" "do_antispam-it.txt" >> "do_upd_nosort.txt"
 sort -o "do_upd_sort.txt" "do_upd_nosort.txt"
 uniq "do_upd_sort.txt" "do_upd_sort_tmp.txt" && mv "do_upd_sort_tmp.txt" "do_upd_sort.txt"
-cat "do_upd_sort.txt" >> "domains/upd_domains.txt"
-rm "do_phishingdomains.txt" "do_phishingdomains_newtoday.txt" "do_2021-07-18_nso.txt" "do_NSA-CIA-Blocklist.txt" "do_upd_nosort.txt" "do_upd_sort.txt" "do_whitelist_sort.txt" "do_antispam-it.txt"
+
+# MD5 check and populate Domains
+echo "stop=false" >> $GITHUB_ENV
+md5_new=$(md5sum do_upd_sort.txt| cut -d ' ' -f 1)
+md5_old=$(sed -n '5p' vcheck/check_domains.txt)
+echo "MD5 old: $md5_old"
+echo "MD5 new: $md5_new"
+if [ "$md5_new" = "$md5_old" ]; then
+		echo "stop=true" >> $GITHUB_ENV
+    echo "Same MD5, skip list creation."
+else
+    echo "Different MD5, proceed with list creation."
+		echo "md5=$md5_new" >> $GITHUB_ENV
+    cat "do_upd_sort.txt" >> "domains/upd_domains.txt"
+    rm "do_phishingdomains.txt" "do_phishingdomains_newtoday.txt" "do_2021-07-18_nso.txt" "do_NSA-CIA-Blocklist.txt" "do_upd_nosort.txt" "do_upd_sort.txt" "do_whitelist_sort.txt" "do_antispam-it.txt"
+fi

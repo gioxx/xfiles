@@ -58,9 +58,23 @@ sed -e 's/^/||/' -i "hws_contrib.txt"
 sed -e 's/^/||/' -i "2021-07-18_nso.txt"
 sed -e 's/^/||/' -i "NSA-CIA-Blocklist.txt"
 
-# Make HWS
+# Collect filters
 cat "blackbook.txt" "hws_contrib.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" >> "siteblock_nosort.txt"
 sort -o "siteblock_sort.txt" "siteblock_nosort.txt"
 uniq "siteblock_sort.txt" "siteblock_sort_tmp.txt" && mv "siteblock_sort_tmp.txt" "siteblock_sort.txt"
-cat "siteblock_sort.txt" >> "siteblock.txt"
-rm "blackbook.txt" "hws_contrib.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" "siteblock_nosort.txt" "siteblock_sort.txt" "whitelist_sort.txt"
+
+# MD5 check and populate HWS
+echo "stop=false" >> $GITHUB_ENV
+md5_new=$(md5sum siteblock_sort.txt| cut -d ' ' -f 1)
+md5_old=$(sed -n '5p' vcheck/check_siteblock.txt)
+echo "MD5 old: $md5_old"
+echo "MD5 new: $md5_new"
+if [ "$md5_new" = "$md5_old" ]; then
+		echo "stop=true" >> $GITHUB_ENV
+    echo "Same MD5, skip list creation."
+else
+    echo "Different MD5, proceed with list creation."
+		echo "md5=$md5_new" >> $GITHUB_ENV
+		cat "siteblock_sort.txt" >> "siteblock.txt"
+		rm "blackbook.txt" "hws_contrib.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" "siteblock_nosort.txt" "siteblock_sort.txt" "whitelist_sort.txt"
+fi
