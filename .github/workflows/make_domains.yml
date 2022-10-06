@@ -35,6 +35,7 @@ jobs:
         run: sh ./sh/make_domains.sh
 
       - name: Prepare vCheck
+        if: ${{ env.stop == 'false' }}
         run: |
           num_of_lines=$(< "domains/upd_domains.txt" wc -l)
           md5=($(md5sum domains/upd_domains.txt| cut -d ' ' -f 1))
@@ -49,10 +50,12 @@ jobs:
         id: commitswithintime
       
       - name: Get the output from CommitsWithinTime
+        if: ${{ env.stop == 'false' }}
         run: |
           echo ${{ steps.commitswithintime.outputs.total-commits }} > vcheck/check_gh.txt
 
       - name: Commit UPD Domains
+        if: ${{ env.stop == 'false' }}
         run: |
           git config --local user.email "114237374+GWall-bot@users.noreply.github.com"
           git config --local user.name "GWall[bot]"
