@@ -31,7 +31,7 @@ jobs:
           echo "! Last modified:" $lastmodified >> siteblock.txt
           echo "! Expires: 2 days" >> siteblock.txt
           echo "! Homepage: https://xfiles.noads.it" >> siteblock.txt
-          echo "! Blog: https://gioxx.org/tag/abpxfiles" >> siteblock.txt
+          echo "! Blog: https://go.gioxx.org/noads" >> siteblock.txt
           echo "! Hosting: GitHub.com" >> siteblock.txt
           echo "!" >> siteblock.txt
 
