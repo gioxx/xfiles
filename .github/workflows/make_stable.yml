@@ -31,7 +31,7 @@ jobs:
           echo "! Last modified:" $lastmodified >> filtri.txt
           echo "! Expires: 15 days" >> filtri.txt
           echo "! Homepage: https://xfiles.noads.it" >> filtri.txt
-          echo "! Blog: https://gioxx.org/tag/abpxfiles" >> filtri.txt
+          echo "! Blog: https://go.gioxx.org/noads" >> filtri.txt
           echo "! Hosting: GitHub.com" >> filtri.txt
           echo "!" >> filtri.txt
 
