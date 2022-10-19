@@ -30,6 +30,7 @@ gadget.pico.tools##+js(json-prune, locked)
 /zephr/features$xmlhttprequest,~third-party
 @@/wp-content/plugins/leaky-paywall/js/$script,~third-party
 @@/wp-content/plugins/leaky-paywall-$script,~third-party
+||abqjournal.com/*/abq-pw-manager.js$script,~third-party
 ||abril.com.br/*/abril-paywall/js/abril-paywall.js$script,~third-party
 ||api.afr.com/graphql?query=*PaywallRuleQuery$xmlhttprequest,~third-party
 alternatives-economiques.fr###temp-paywall
@@ -136,8 +137,8 @@ ksta.de##+js(ra, class, span.hide-paid-content)
 kurier.at##.view-offer
 kurier.at##+js(rc, plusContent, .plusContent, stay)
 ||la-croix.com/build/lacroix/article.*.js$script,~third-party
-||glanacion.com/*.js$script,domain=lanacion.com.ar
-lanacion.com.ar##+js(cookie-remover, metering_arc_counter)
+||glanacion.com/*/metering/*.js$script,domain=lanacion.com.ar
+lanacion.com.ar##+js(cookie-remover, /^metering_arc/)
 lanacion.com.ar##+js(aopr, localStorage)
 ||lasegunda.com/assets/js/merPramV2.js$script,~third-party
 ||lasegunda.com/assets/js/vendor/modal.js$script,~third-party
@@ -238,8 +239,8 @@ theadvocate.com/script.js$script,~third-party
 theatlantic.com##+js(cookie-remover, articleViews)
 ||thediplomat.com/*/js/angular-cookies.min.js$script,~third-party
 thediplomat.com##+js(cookie-remover, dpl-pw)
-theglobeandmail.com/*/article-$inline-script
-||smartwall.theglobeandmail.com^$script,~third-party
+||theglobeandmail.com/pf/dist/engine/react.js$script,~third-party
+||smartwall.theglobeandmail.com^$xmlhttprequest,~third-party
 theglobeandmail.com##+js(ra, class, .c-article-body--subscribed)
 thehindu.com##+js(set, window.Adblock, false)
 thehindu.com##+js(set, window.isNonSubcribed, false)
