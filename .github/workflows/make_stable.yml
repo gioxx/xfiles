@@ -73,7 +73,7 @@ jobs:
       - name: Push Stable
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ secrets.GHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
           
       - name: Tweet @noadsxfiles
