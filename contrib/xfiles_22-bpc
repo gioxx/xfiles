@@ -70,6 +70,11 @@ chronicle.com,philanthropy.com##+js(ra, data-content-body|hidden, div.contentBod
 ! cicero.de: url+?amp
 cicero.de##+js(rc, teasered-content, .teasered-content)
 cicero.de##.teasered-content-fader
+citywire.com##+js(rc, article-locked, .article-locked)
+citywire.com##+js(rc, m-article--locked, .m-article--locked)
+citywire.com##+js(rc, m-media-container--locked, .m-media-container--locked)
+citywire.com##+js(rc, m-article__body--locked, .m-article__body--locked)
+citywire.com##registration-widget,div.alert--locked
 ||clarin.com/detail/auth0.js$script,~third-party
 ||commentary.org/*/js/dg-locker-public.js$script,~third-party
 ||connaissancedesarts.com/wp-content/cache/*.js$script,~third-party
@@ -173,14 +178,9 @@ loebclassics.com##+js(cookie-remover, /^/)
 loeildelaphotographie.com##+js(ra, class, .paywall)
 loeildelaphotographie.com##.premium-pic-box,.membership-promo-container,.login_form_litle
 loeildelaphotographie.com##+js(ra, style, img[style*="blur"])
-medianama.com##div.modal
-medianama.com##.zox-post-body:style(height:auto !important;)
 ||medscapestatic.com/*/medscape-library.js$script,domain=medscape.com
 medscape.com##.AdUnit,div[id^="ads-"]
 mv-voice.com##+js(cookie-remover, /^/)
-||nation.africa/resource/themes/nation-*/js/*.js$script,~third-party
-nation.africa##+js(rc, datawall-content, .datawall-content)
-nation.africa##+js(ra, style, [data="datawall-content"])
 ||blink.net/*/blink-sdk.js$script,domain=newrepublic.com
 ||newstatesman.com/*/nsmg-evolok-paywall/*.js$script,~third-party
 nknews.org##+js(cookie-remover, issuem_lp)
@@ -209,6 +209,7 @@ qz.com##+js(ra, class, div#email-content[class], stay)
 qz.com##+js(ra, scrolling, iframe[scrolling], stay)
 ||reuters.com/pf/resources/dist/reuters/js/index.js$script,~third-party
 ||reuters.com/arc/subs/p.min.js$script,~third-party
+rugbypass.com/plus/$inline-script
 rugbypass.com##.plus-article-offer
 rugbypass.com##+js(rc, premium-fold-bottom, .premium-fold-bottom)
 rugbypass.com##+js(rc, fade, .fade)
@@ -221,6 +222,7 @@ scientificamerican.com##+js(cookie-remover, /^/)
 scmp.com##+js(ra, amp-access-hide, div.article-body[amp-access][amp-access-hide])
 scmp.com##div.default-meter,div#archive-article-meter
 scmp.com##amp-ad,div.ad-banner,div.advert-fly-carpet-container,div.inline-advert
+scotsman.com##+js(rc, no-entitlement, div.premium.no-entitlement)
 ||seattletimes.com/wp-content/*/st-advertising-bundle.js$script,~third-party
 ||seattletimes.com/wp-content/*/st-blocking-bundle.js$script,~third-party
 slideshare.net##+js(rc, limit-overlay, .limit-overlay)
@@ -234,8 +236,13 @@ staradvertiser.com##+js(ra, style, div#hsa-paywall-content[style])
 ||suomensotilas.fi/wp-content/plugins/epflpw/js/pw.js$script,~third-party
 suomensotilas.fi##+js(rc, epfl-pw-obscured, div.epfl-pw-obscured)
 ||telegraph.co.uk/martech/js/$script,~third-party
+tes.com##+js(cookie-remover, /tg_paywall/)
+tes.com##+js(ra, class, div.tg-paywall-body-overlay)
+tes.com##div.js-paywall-info,div.tg-paywall-message
 theadvocate.com/script.js$script,~third-party
 ||amazonaws.com/production-website-scripts/bouncer.js$script,domain=theartnewspaper.com
+theathletic.com##div#slideup-paywall,div[id*="overlay"],div:empty:not([data-rjs]),#paywall,div.ad-container
+theathletic.com##body[class]:style(overflow:visible !important; position:relative !important)
 theatlantic.com##+js(cookie-remover, articleViews)
 ||thediplomat.com/*/js/angular-cookies.min.js$script,~third-party
 thediplomat.com##+js(cookie-remover, dpl-pw)
@@ -314,7 +321,7 @@ birdwatchingdaily.com,digitalphotopro.com,dpmag.com,jazztimes.com,outdoorphotogr
 belfasttelegraph.co.uk,independent.ie##+js(ra, style, div#flip-pay[style])
 ||cdn.flip-pay.com/clients/inm/flip-pay.js$script,domain=belfasttelegraph.co.uk|independent.ie
 ! MediaNews Group
-/loader.min.js$script,~third-party,domain=denverpost.com|eastbaytimes.com|mercurynews.com|ocregister.com|pe.com|twincities.com
+/loader-wp/*/loader.min.js$script,~third-party,domain=denverpost.com|eastbaytimes.com|mercurynews.com|ocregister.com|pe.com|twincities.com
 denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pe.com,twincities.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
 denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pe.com,twincities.com##[subscriptions-section="content-not-granted"]
 ! New York Magazine
@@ -343,7 +350,9 @@ knack.be,levif.be##+js(ra, class, div.article-body > div)
 ||flowerstreatment.com^$third-party
 aaii.com##+js(rc, fadeout, .fadeout)
 aaii.com##.greybox-signup
+@@||sdk.privacy-center.org$script,domain=abc.es
 cmcmarkets.com##+js(rc, activePaywall, .activePaywall)
+||paywall.correiodopovo.com.br$script,~third-party
 hcn.org##+js(ra, content, meta[name="UID"])
 inman.com##+js(rc, paywalled-block, .paywalled-block)
 inman.com##div.entry-content-inner:style(display: block !important)
@@ -374,6 +383,7 @@ thegardenisland.com###single-login-box,#single-excerpt
 theguardian.com##[name="SlotBodyEnd"]
 aap.thestreet.com##+js(rc, is-paywalled, body.is-paywalled)
 realmoney.thestreet.com##+js(cookie-remover, /^PWT/)
+trailsoffroad.com##.paywall
 ! General (amp)
 ||cdn.ampproject.org/*/amp-access-$script
 ||cdn.ampproject.org/*/amp-subscriptions-$script
