@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202210301650
+! Version: 202210301846
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
 ! Last modified: 30-10-2022
@@ -516,8 +516,6 @@
 01net.it###ADVrettangolo
 01net.it###ADVrettangolopiede
 01net.it##div[id*="sas_"]
-02blog.it###firstAdDiv
-02blog.it##DIV[class^="adv"]
 105.net##.adv728x90
 105.net##.mirago
 105.net##.mirago-feed
@@ -537,11 +535,7 @@
 1fichier.com##div[style="position: fixed; z-index: 2147483647; bottom: 80px; left: -8px; width: 362px; height: 307px; background: rgba(0, 0, 0, 0) url(\"https://c.ad6media.fr/i.png\") repeat scroll 0% 0%;"]
 247realmedia.com/*/*Skin*/
 247realmedia.com/*/ads/$domain=~serviziopubblico.it|~rcsadv.it|~reachadv.it
-2conv.com##.banner
 2mdn.net/viewad
-2spaghi.it##.adv
-2spaghi.it##.bannerAdv.right
-2spaghi.it##.box.adv-sidebar
 3bmeteo.com##.4wNET
 3bmeteo.com##[href^="http://feed.4wnet.com/"]
 3bmeteo.com##[id^="adv_"]
@@ -4350,10 +4344,8 @@ zpag.es##.top_bar.top_bar_ad
 /fuckadblock.js
 /stats.php?*event=$image,domain=fapster.xxx|pornomovies.com
 |*/*/sendspace-pop.html$popup
-||10fbb07a4b0.se^$popup
 ||178.32.140.64/pv.php?*
 ||254a.com^$popup
-||32red.it^$popup
 ||4xcellent.com^$popup,image,~image
 ||7eer.net^$popup
 ||888.com^$popup,image,~image
@@ -5623,18 +5615,15 @@ diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elno
 51.250.28.5/.l/log
 51.250.28.5/.l/pty3
 51.250.28.5/.l/pty4
-54.210.230.186:80/wp-content/themes/twentyfourteen/xmrig.exe
 62.210.130.250:80/web/admin/x86
 62.210.130.250/lh.sh
 62.210.130.250/web/admin
-68.183.165.105:80/wp-content/themes/twentyseventeen/xmrig64.exe
 68.183.165.105/.l/log
 68.183.165.105/.l/pty1
 68.183.165.105/.l/pty2
 68.183.165.105/.l/pty3
 68.183.165.105/.l/pty4
 68.183.165.105/.l/pty5
-68.183.165.105/wp-content/themes/twentyseventeen/xmrig64.exe
 6c8d7dd40593.bingsearchlib.com:39356/a
 78.31.71.248:1389
 78.31.71.248:8180/ExecTemplateJDK8.class
@@ -5662,66 +5651,6 @@ diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elno
 93.189.42.8/lh.sh
 agent.apacheorg.top:1234/xmss
 agent.apacheorg.xyz:1234/v
-alldomaininfo.com/00PYP9/fuck_niggers_51.hta
-alldomaininfo.com/015QZ4/fuck_niggers_54.hta
-alldomaininfo.com/0QMMJX/fuck_niggers_12.hta
-alldomaininfo.com/18CKF/fuck_niggers_36.hta
-alldomaininfo.com/1D7/fuck_niggers_9.hta
-alldomaininfo.com/1FKXQ/fuck_niggers_59.hta
-alldomaininfo.com/1WQV/fuck_niggers_10.hta
-alldomaininfo.com/24L/fuck_niggers_19.hta
-alldomaininfo.com/2XYFLL/fuck_niggers_92.hta
-alldomaininfo.com/373/fuck_niggers_98.hta
-alldomaininfo.com/39VSS/fuck_niggers_54.hta
-alldomaininfo.com/3MT4N8/fuck_niggers_0.hta
-alldomaininfo.com/3X7MV/fuck_niggers_31.hta
-alldomaininfo.com/438G/fuck_niggers_91.hta
-alldomaininfo.com/4XE/fuck_niggers_56.hta
-alldomaininfo.com/50KT/fuck_niggers_56.hta
-alldomaininfo.com/6A0/fuck_niggers_32.hta
-alldomaininfo.com/8AMYY/fuck_niggers_98.hta
-alldomaininfo.com/8C03C/fuck_niggers_92.hta
-alldomaininfo.com/98JB/fuck_niggers_88.hta
-alldomaininfo.com/B45/fuck_niggers_52.hta
-alldomaininfo.com/C9K23/fuck_niggers_92.hta
-alldomaininfo.com/CGIQ7/fuck_niggers_38.hta
-alldomaininfo.com/D4PV9I/fuck_niggers_93.hta
-alldomaininfo.com/D9W/fuck_niggers_15.hta
-alldomaininfo.com/DBMZ/fuck_niggers_53.hta
-alldomaininfo.com/DIY1F6/fuck_niggers_93.hta
-alldomaininfo.com/EOM/fuck_niggers_73.hta
-alldomaininfo.com/EXYX/fuck_niggers_70.hta
-alldomaininfo.com/FUQ/fuck_niggers_7.hta
-alldomaininfo.com/GZT/fuck_niggers_58.hta
-alldomaininfo.com/H0BX1/fuck_niggers_76.hta
-alldomaininfo.com/I233TS/fuck_niggers_68.hta
-alldomaininfo.com/J9IPA/fuck_niggers_71.hta
-alldomaininfo.com/JJFO4P/fuck_niggers_4.hta
-alldomaininfo.com/KLY/fuck_niggers_57.hta
-alldomaininfo.com/LC1/fuck_niggers_95.hta
-alldomaininfo.com/LODNH/fuck_niggers_90.hta
-alldomaininfo.com/LU5NRI/fuck_niggers_12.hta
-alldomaininfo.com/M9DFBE/fuck_niggers_31.hta
-alldomaininfo.com/MWM/fuck_niggers_77.hta
-alldomaininfo.com/QLPYJ/fuck_niggers_89.hta
-alldomaininfo.com/R3RW7/fuck_niggers_49.hta
-alldomaininfo.com/RKKP6P/fuck_niggers_60.hta
-alldomaininfo.com/RS3/fuck_niggers_42.hta
-alldomaininfo.com/S4L/fuck_niggers_84.hta
-alldomaininfo.com/SLY5Y/fuck_niggers_24.hta
-alldomaininfo.com/UCHF/fuck_niggers_86.hta
-alldomaininfo.com/UTO/fuck_niggers_99.hta
-alldomaininfo.com/VAF/fuck_niggers_43.hta
-alldomaininfo.com/W22OE8/fuck_niggers_51.hta
-alldomaininfo.com/WBD9ZA/fuck_niggers_40.hta
-alldomaininfo.com/WEYMZ7/fuck_niggers_72.hta
-alldomaininfo.com/WX9Y/fuck_niggers_86.hta
-alldomaininfo.com/XSNKK/fuck_niggers_54.hta
-alldomaininfo.com/Y1G1W/fuck_niggers_94.hta
-alldomaininfo.com/Y2G/fuck_niggers_14.hta
-alldomaininfo.com/YCEL62/fuck_niggers_29.hta
-alldomaininfo.com/ZBK/fuck_niggers_57.hta
-alldomaininfo.com/ZI97/fuck_niggers_49.hta
 app04.gpsts.co.za/report/asset/rwlogbook.class
 attacker.com/exploit.class
 b79fe53524f04aeb.y.psc4fuel.com/wmi6p.class
@@ -5729,12 +5658,6 @@ baldervain.com/19-1k3pp1-fc-ear-jkoc-d1j9.class
 bpnjabar.tams-app.com/Q6FP/EvVGQtOtkSGFPkkklgbtq.bin
 c54f05d3df5740bb.y.psc4fuel.com/9y8ah.class
 c6pj00ppfhiq0g1pq80gcg3i5hyyggscg.interactsh.com/exploit.class
-cdn.discordapp.com/attachments/630119108884824070/910547643569164368/fastuse.class
-cdn.discordapp.com/attachments/912162154248015943/913505880522256384/laura.class
-cdn.discordapp.com/attachments/912401139310411857/913540738757820446/use.class
-cdn.discordapp.com/attachments/912401139310411857/913540738904637440/use2.class
-cdn.discordapp.com/attachments/912401139310411857/914552762925195304/hud.class
-cdn.discordapp.com/attachments/912401139310411857/916049575435993138/lucidphase.class
 cdn.fbsbx.com/v/t59.2708-21/261523260_570309860735261_6837498676061670623_n.class/gradesusingarrayswithsorting.class
 csminas.ddns.net/W6G/FBAuWkkklgbtq.bin
 cucsur.udgvirtual.udg.mx/oa/2020/SisTur/71P2/LKgrPRYhxVYkkklgbtq.bin
