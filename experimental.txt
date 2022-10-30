@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202210281201
+! Version: 202210301650
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 28-10-2022
+! Last modified: 30-10-2022
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -494,6 +494,7 @@
 ||targatocn.it/fileadmin/archivio/targatocn/box/elezioni/
 ||targatocn.it/fileadmin/archivio/targatocn/box/ginospa/
 ||tccstatic.com/template/tuttomercatoweb.com/*/banner/skin_*
+||ticonsiglio.com/ads.txt$subdocument
 ||tomshw.it/data/images/4/0/6/0/skin-
 ||tomshw.it/kelkoo
 ||track.effiliation.com/servlet/
@@ -972,6 +973,7 @@ branzilla.org##.sid_right_inside_banner_right
 breaknotizie.com##[id^="ads300"]
 breathecast.com##[id^="google_ads_iframe_"]
 bresciaoggi.it##.v3_horz-banner.v3_padding.skin-hide
+brickeconomy.com##.adslot
 brighthub.com###adblock_300x250_atf
 brighthub.com###adblock_300x250_btf
 brighthub.com##DIV[class="adBox"]
@@ -2346,6 +2348,7 @@ kijiji.it##DIV[class="dart_banner_slot header"]
 kingdomgame.it##.adv_horizontal
 kliksoftware.com/promo/ad
 klubmidgard.pl/banery
+knowyourmeme.com##.shemedia-ad-wrapper
 komando.com###right-ads-9
 kona.kontera.com/javascript/lib/
 kotaku.co.uk##.commercial.commercial--leaderboard
@@ -5403,17 +5406,17 @@ inman.com##+js(rc, paywalled-block, .paywalled-block)
 inman.com##div.entry-content-inner:style(display: block !important)
 inman.com##.ism-article-block
 ipsoa.it##+js(ra, style, div.paywall)
+||irishexaminer.com/pu_examiner/scripts/engage/$script,~third-party
 lepetitjournal.net##.message-restricted-woocommerce
 lepetitjournal.net##+js(rc, excerpt, div.excerpt)
 meritnation.com##.view-full-answer 
 meritnation.com##+js(rc, maxHeight75px, div.exp_content.maxHeight75px)
 ||newbostonpost.com/*/paywall/js/main.js$script,~third-party
 nu.nl##+js(rc, authorized-content, div.authorized-content)
-nu.nl##.article-login-wall
+nu.nl##.login-wall
 ||my.odt.co.nz/bwtw/scripts/tw.js$script,~third-party
 ||multimedia.corprensa.com/la-prensa/evolok/evolok.js$script,domain=prensa.com
 pressreader.com##.subscriber-content
-scotsman.com##+js(rc, iETVtP, div.premium)
 scribd.com##+js(ra, class, .blurred_page)
 ||shrm.org/*/js/paywall*.js$script,~third-party
 stylist.co.uk##div[data-cy="upgradeAccountPaywall"]
