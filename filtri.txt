@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files
-! Version: 202210190408
+! Version: 202211010311
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 19-10-2022
+! Last modified: 01-11-2022
 ! Expires: 15 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -20,86 +20,51 @@
 @@||goodreads.com^
 @@||google.com/jsapi$script,third-party
 @@||manager.targetcircle.com^$document
-@@||mozillaitalia.it^$document
-@@||mozillaitalia.net^$document
-@@||mozillaitalia.org^$document
 @@||noads.it^$document
 ! [NoAds X Files - ADS non invasivi]
 @@||facciabuco.com^$document
-@@||5nowvideo.com/banner.php?
-! [NoAds X Files - Domini AD bloccati]
-||50.7.128.74^
+! [NoAds X Files - Domini radice bloccati]
 ||62b70ac32d4614b.com^
-||a.as-eu.falkag.net^
-||a.as-us.falkag.net^
-||a1.interclick.com^
 ||acceptable.a-ads.com^
-||accipiter.speedera.net^
-||ad-catgeo.paginegialle.it^
 ||ad-catgeo.virgilio.it^
 ||ad-units.blazemedia.it^
-||ad.100.tbn.ru^
 ||ad.103092804.com^
 ||ad.adition.net^
 ||ad.admitad.com^
 ||ad.adnetwork.net^
 ||ad.adorika.com^
 ||ad.adriver.ru^
-||ad.adserverplus.com^
 ||ad.adtegrity.net^
 ||ad.advertstream.com^
-||ad.afy11.net^
 ||ad.aim4media.com^
-||ad.altervista.org^
 ||ad.amgdgt.com^
-||ad.bannerconnect.net^
 ||ad.bnmla.com^
-||ad.cdt.ch^
-||ad.directaclick.com^
 ||ad.directanetworks.com^
 ||ad.firstadsolution.com^
 ||ad.globalinteractive.com^
-||ad.globaltakeoff.net^
 ||ad.globe7.com^
 ||ad.harrenmedianetwork.com^
 ||ad.hizlireklam.com^
 ||ad.iconadserver.com^
 ||ad.iloveinterracial.com^
 ||ad.intoscana.it^
-||ad.intrage.it^
-||ad.islaweb.com^
-||ad.jamba.net^
 ||ad.linksynergy.com^
 ||ad.media-servers.net^
-||ad.mwizard.net^
 ||ad.payclick.it^
-||ad.pro-advertising.com^
 ||ad.propellerads.com^
 ||ad.reduxmedia.com^
 ||ad.reklamstore.com^
-||ad.sensismediasmart.com.au^
-||ad.skylife.it^
 ||ad.spreamedia.it^
-||ad.strict.tbn.ru^
-||ad.tlvmedia.com^
 ||ad.trafficmp.com^
-||ad.uk.tangozebra.com^
 ||ad.v2k.it^
 ||ad.velmedia.net^
-||ad.xtendmedia.com^
-||ad.xzshare.com^
-||ad.yieldads.com^
 ||ad.yieldmanager.com^
 ||ad.youporn.videobox.com^
-||ad.z5x.net^
 ||ad.zanox.com^
-||ad1.clickhype.com^
 ||ad2.bannerbank.ru^
-||ad2.billboard.cz^
 ||adagiobanner.s3.amazonaws.com^
 ||adap.tv^
 ||adbard.net^
-||adblocks.xmlscope.net^
 ||adbrite.com^
 ||adbureau.net^
 ||adbutler-meson.com^
@@ -109,35 +74,24 @@
 ||adfoc.us^
 ||adform.net^
 ||adimages.watchmygf.net^
-||adimg.activeadv.net^
 ||adimg.alice.it^
 ||adimg.uimserv.net^
 ||adimg.virgilio.it^
 ||adk2x.com^
 ||admanager.adintend.com^
-||admanager.trackset.com^
-||admaster.heyos.com^
-||admonkey.cc^
 ||adn.fuckshow.org^
 ||adnotbad.com^
-||adopt.euroclick.com^
-||adopt.hbmediapro.com^
 ||adopt.specificclick.net^
 ||adprovider.adlure.net^
-||adrevolver.gay.it^
 ||ads-new.trend-online.com^
 ||ads.arcuspubblicita.it^
-||ads.bitage.it^
-||ads.capitan-trash.com^
 ||ads.dada.it^
 ||ads.exoclick.com^
 ||ads.ign.com^
-||ads.neowin.net^
 ||ads.niceadv.com^
 ||ads.osdn.com^
 ||ads.planetamd64.com^
 ||ads.redmoonstudios.de^
-||ads.trackset.com^
 ||ads.viralize.tv^
 ||ads.webhosting.info^
 ||ads.yahoo.com^
@@ -147,52 +101,30 @@
 ||adsbywords.com^
 ||adsence.sogou.com^
 ||adserv.free6.com^
-||adserver.20below.eu^
-||adserver.3digit.de^
 ||adserver.adreactor.com^
 ||adserver.adultfriendfinder.com^
 ||adserver.andreafiore.com^
-||adserver.backbeatmedia.com^
-||adserver.ediscom.it^
-||adserver.envient.com^
 ||adserver.finditquick.com^
-||adserver.freenet.deAds^
-||adserver.hipertextual.com^
-||adserver.hostingtalk.it^
 ||adserver.html.it^
 ||adserver.hwupgrade.it^
-||adserver.ikiweb.it^
 ||adserver.ilmessaggero.it^
-||adserver.imevolution.it^
-||adserver.itsfogo.com^
 ||adserver.juicyads.com^
-||adserver.p2pforum.it^
-||adserver.pubblicitaonline.itadimage.php^
-||adserver.securityfocus.com^
-||adserver.t21.eu^
 ||adserver.webads.it^
 ||adserver.zeads.com^
 ||adserver01.de^
-||adservices.picadmedia.com^
-||adserving.budsinc.com^
 ||adserving.cpxadroit.com^
-||adserving.cpxinteractive.com^
 ||adserving.performgroup.com^
 ||adseu.novem.pl^
 ||adsfast.com^
-||adsformula.sitescout.com^
 ||adsignals.com^
 ||adson.awempire.com^
 ||adspace.img.4tube.com^
 ||adspserving.com^
-||adsv.blogo.it^
 ||adsvr.deviantart.com^
 ||adsystem.simplemachines.org^
 ||adtech.de^
-||adtech.m7z.net^
 ||adtigertr.adspirit.net^
 ||adtology3.com^
-||adv4.email.it^
 ||advdl.ammadv.it^
 ||advert.diretta.it^
 ||advertising.com^
@@ -201,23 +133,15 @@
 ||advplace.com^
 ||advpoints.com^
 ||adward.ru^
-||adx.allstar.cz^
 ||adzones.torrentspy.com^
 ||allsiemens.com^
 ||alternativos.iw-advertising.com^
 ||as.casalemedia.com^
-||as1.falkag.de^
 ||atwola.com^
-||avpa.dzone.com^
 ||banner-a.oddcast.com^
-||banner.b2b24.it^
-||banner.ipmart.com^
-||banner.schoolbank.nl^
 ||banner.sextorrent.to^
-||banner.tattomedia.com^
 ||banner.techtutorials.info^
 ||banner.thumbplay.com^
-||banner.ziobudda.net^
 ||banners.adrevolver.com^
 ||banners.adultfriendfinder.com^
 ||banners.cams.com^
@@ -227,17 +151,13 @@
 ||banners.friendfinder.com^
 ||banners.getiton.com^
 ||banners.isoftmarketing.com^
-||banners.italianfriendfinder.com^
 ||banners.leadingedgecash.com^
 ||banners.mellowads.com^
-||banners.partypartners.com^
 ||banners.passion.com^
 ||banners.payserve.com^
 ||banners.playocio.com^
 ||banners.publipagos.com^
-||banners.snapshot.toolbar.conduit-services.com^
 ||banners.sponsoradulto.com^
-||banners.sugeridos.com^
 ||banners.todoconsolas.com^
 ||banners.videosz.com^
 ||banners.virtuagirlhd.com^
@@ -248,7 +168,6 @@
 ||bcp.crwdcntrl.net^
 ||bdv.bidvertiser.com^
 ||beap.gemini.yahoo.com^
-||blackberryadserver.com^
 ||bn.profiwin.de^
 ||buycentraladv.it^
 ||cacheonline.titanbet.com^
@@ -258,25 +177,18 @@
 ||cdn1.tribalfusion.com^
 ||cdnflvtrailers.spacash.com^
 ||cl.assoc-amazon.com^
-||clickiocdn.com/consent/log/
 ||cls.assoc-amazon.com^
-||cm.it.overture.com^
-||cmhtml.it.overture.com^
-||cmhtml.overture.com^
 ||cnt.hd21.com^
 ||codeonclick.com^
 ||content.ad20.net^
-||content.adserverplus.com^
 ||content.iconadserver.com^
 ||content.yieldmanager.edgesuite.net^
 ||copyhomework.com^
 ||coursecopy.com^
 ||crv.clickad.pl^
-||dbnvz.adserve.com^
 ||delivery.ads.gfsrv.net^
 ||dist.belnk.com^
 ||ds.serving-sys.com^
-||em.gad-network.com^
 ||engine.4dsply.com^
 ||engine.adsupply.com^
 ||externos.iw-advertising.com^
@@ -288,20 +200,14 @@
 ||geo.yahoo.com^
 ||geobanner.adultfriendfinder.com^
 ||globaladv.net^
-||gui.muc.domeus.com^
 ||hop.clickbank.net^
 ||hotlinkie.com^
-||i.xx.openx.com^
 ||if.bbanner.it^
 ||iframe.adultfriendfinder.com^
 ||ih1.gamecopyworld.com^
-||imagecash.servepics.com^
 ||img.directtrack.com^
-||img.recadosinsanos.com.br^
 ||imgserv.sponsorads.de^
 ||impresionesweb.com^
-||isohunt.adonspot.com^
-||italiancaldo.com^
 ||jac.yahoosandbox.com^
 ||james.adbutler.de^
 ||jbeet.cjt1.net^
@@ -310,29 +216,22 @@
 ||js.adlink.net^
 ||jsfuel.com^
 ||juiceadv.com^
-||just.advit.it^
 ||komoona.com^
 ||lads.myspace.com^
 ||layer-ads.de^
 ||leads.servicehotline.com^
 ||linktarget.com^
 ||liveadexchanger.com^
-||media.adshadow.net^
-||media.baventures.com^
 ||media.fastclick.net^
-||media.intelia.it^
 ||mgid.com^
 ||mi.adinterax.com^
 ||mochiads.com^
 ||newadserver.interfree.it^
 ||newt1.adultadworld.com^
 ||notonlywork.com^
-||offers.gratisnetwork.com^
 ||onclickads.net^
 ||openads.mynight.pl^
-||ov2.ag6.bdx.live-banner.com^
 ||p.adsymptotic.com^
-||partners.sprintrade.com^
 ||pcash.imlive.com^
 ||popads.net^
 ||popcash.net^
@@ -347,45 +246,32 @@
 ||ratexchange.net^
 ||readserver.cachefly.net^
 ||router.infolinks.com^
-||s.clickiocdn.com^
 ||scambiobanner.aruba.it^
 ||scorecardresearch.com^
 ||secure.fxcash.com^
 ||serv.ad-rotator.com^
-||serverad.hostingtalk.it^
 ||serverads.net^
 ||serving.plexop.net^
-||shots.snap.com^
 ||simpleadstr.adspirit.net^
-||sobeautypost.com^
-||spe.atdmt.com^
 ||srs.targetpoint.com^
-||srv.etology.com^
-||ssl1.speedera.net^
 ||static.itrack.it^
 ||stats.coreg-feed.com^
 ||statsadv.dadapro.com^
 ||studyeffect.com^
 ||takethatad.com^
 ||target.untd.com^
-||tekno4advertising.com^
 ||testbooksolutions.com^
 ||text-link-ads.com^
 ||textads.biz^
 ||tigershark.adultadworld.com^
-||tooltips.heyos.com^
-||topbarh.box.sk^
 ||tqlkg.com^
 ||tradeadsexchange.com^
 ||tsiban.com^
 ||vda.oipzyrzffum.ovh^
 ||vidible.tv^
 ||view.atdmt.com^
-||vote4warez.com^
-||webcamspromociones.com^
 ||widgets.cam-content.com^
 ||yabidos.com^
-||yournetaccess.com^
 ||z.moatads.com^
 ||z1.adserver.com^
 ! [NoAds X Files - Filtri specifici]
@@ -414,7 +300,6 @@
 ||artribune.com/wp-content/uploads/*/*LEADERBOARD*
 ||artribune.com/wp-content/uploads/*/*SKIN*
 ||aumentarevisite.it/*/banner
-||avvocati.it/*/banner/*
 ||b.am11.ru/47/*
 ||bannerconnect.biz/code/httphandler/
 ||bannerconnect.biz/script/banner/
@@ -493,6 +378,7 @@
 ||targatocn.it/fileadmin/archivio/targatocn/box/elezioni/
 ||targatocn.it/fileadmin/archivio/targatocn/box/ginospa/
 ||tccstatic.com/template/tuttomercatoweb.com/*/banner/skin_*
+||ticonsiglio.com/ads.txt$subdocument
 ||tomshw.it/data/images/4/0/6/0/skin-
 ||tomshw.it/kelkoo
 ||track.effiliation.com/servlet/
@@ -514,8 +400,6 @@
 01net.it###ADVrettangolo
 01net.it###ADVrettangolopiede
 01net.it##div[id*="sas_"]
-02blog.it###firstAdDiv
-02blog.it##DIV[class^="adv"]
 105.net##.adv728x90
 105.net##.mirago
 105.net##.mirago-feed
@@ -523,22 +407,18 @@
 123people.it##.cb_ad
 123people.it##.l_banner
 178.32.140.64/display/
-187.it/*bannerImpression.do*
 1fichier.com##.ad6foo
 1fichier.com##.ad6foo-application
 1fichier.com##.ad6foo-banner-container
 1fichier.com##.native-arrow-design-fixe
 1fichier.com##.native-slide-up
+1fichier.com##[id$="desktop-billboard-low-1-0-wrapper"]
 1fichier.com##DIV[class="bloc2"]
 1fichier.com##div[style="position: fixed; z-index: 2147483647; bottom: 80px; left: -8px; width: 362px; height: 307px; background: rgba(0, 0, 0, 0) url(\"https://c.ad6media.fr/i.png\") repeat scroll 0% 0%; display: block;"]
 1fichier.com##div[style="position: fixed; z-index: 2147483647; bottom: 80px; left: -8px; width: 362px; height: 307px; background: rgba(0, 0, 0, 0) url(\"https://c.ad6media.fr/i.png\") repeat scroll 0% 0%;"]
 247realmedia.com/*/*Skin*/
 247realmedia.com/*/ads/$domain=~serviziopubblico.it|~rcsadv.it|~reachadv.it
-2conv.com##.banner
 2mdn.net/viewad
-2spaghi.it##.adv
-2spaghi.it##.bannerAdv.right
-2spaghi.it##.box.adv-sidebar
 3bmeteo.com##.4wNET
 3bmeteo.com##[href^="http://feed.4wnet.com/"]
 3bmeteo.com##[id^="adv_"]
@@ -711,6 +591,7 @@ ambiente.liquida.it##.box.adv300x250
 amelya.com/*banners*
 amministrazione.payclick.it/banner/*
 amp.ilgiornale.it##.banner
+amp.tgcom24.mediaset.it##.ad
 amp24.ilsole24ore.com##div.ad-wrapper
 andreagaleazzi.com##DIV[class="am-adv am-adv-default am-adv-skin"]
 androidauthority.com##div[class*="tagged-pw-leaderboard_atf"]
@@ -846,7 +727,6 @@ avvenire.it##.ctl00_MasterContent__2c2a2ec0d462_ImageAdvertising
 avvenire.it##.ctl00_MasterContent_ctl10_box
 avvenire.it##.ctl00_MasterContent_straordinaria640
 avvenire.it##[id^="300x250"]
-avvocati.it##.rightbanner
 awltovhc.com/image-
 backin.net/banner/
 backin.net##DIV[style=" width:100%;height:100%;"]
@@ -869,6 +749,8 @@ bbc.co.uk##DIV[id="blq-pre-mast"]
 bbc.com##.bbccom_advert
 bbc.com##[id^="bbccom_leaderboard_"]
 bed-and-breakfast.it/banner
+beebom.com##.beebom-ad
+beebom.com##.header-ad
 beisiti.it/leadereasy*
 beisiti.it/tipopalead*
 bellaweb.it###skinlink
@@ -967,6 +849,7 @@ branzilla.org##.sid_right_inside_banner_right
 breaknotizie.com##[id^="ads300"]
 breathecast.com##[id^="google_ads_iframe_"]
 bresciaoggi.it##.v3_horz-banner.v3_padding.skin-hide
+brickeconomy.com##.adslot
 brighthub.com###adblock_300x250_atf
 brighthub.com###adblock_300x250_btf
 brighthub.com##DIV[class="adBox"]
@@ -1148,6 +1031,8 @@ consumatore.tgcom24.it###box300x190
 contacaratteri.it##.AdvTop
 content.codelnet.com/*ad*
 conversionlab.trackset.com/track*
+coolsoft.altervista.org##.csmny
+coolsoft.altervista.org##.region-highlighted.region
 copertinedvd.net/PeelADS
 coriglianocalabro.it/*banner*
 corriere.it##.sponsor-strip-pos.bck-media-list-sponsor
@@ -1808,7 +1693,6 @@ giorgiotave.it###post_ads
 giornaledellosport.net/openx/www/images/
 giornalettismo.com##.adv
 giornalettismo.com##DIV[class="liq-frame"]
-gioxx.org##DIV[class="boxliquida"]
 gizmodo.com##.ad-mobile-inner
 gizmodo.com##[id^="ad-"]
 go2jump.org/aff_ad?
@@ -2018,12 +1902,14 @@ ilmattino.it##[src^="http://media.adrcdn.com/ads/"]
 ilmattino.it###adv_LdbMastheadPush
 ilmattino.it##DIV[id="ads-testata"]
 ilmattino.it##TABLE[style="border:1px solid #ffffff; border-bottom:0px; margin-top:3px; margin-bottom:5px;"]
+ilmessaggero.it##.adv_banner
 ilmessaggero.it##.column_left
 ilmessaggero.it##.column_right
 ilmessaggero.it##.head_skin_add
 ilmessaggero.it##[id^="google_ads_iframe"]
 ilmessaggero.it##[name^="adAdform"]
 ilmessaggero.it###adv_BoxTop
+ilmessaggero.it###outbrain
 ilmessaggero.it##amp-sticky-ad.i-amphtml-element
 ilmessaggero.it##div.adv_container:nth-child(2)
 ilmessaggero.it##DIV[class^="blockUI"]
@@ -2337,6 +2223,7 @@ kijiji.it##DIV[class="dart_banner_slot header"]
 kingdomgame.it##.adv_horizontal
 kliksoftware.com/promo/ad
 klubmidgard.pl/banery
+knowyourmeme.com##.shemedia-ad-wrapper
 komando.com###right-ads-9
 kona.kontera.com/javascript/lib/
 kotaku.co.uk##.commercial.commercial--leaderboard
@@ -2581,6 +2468,7 @@ macworld.co.uk##.adContainer
 macworld.co.uk##.bidtellect-native-ad
 macworld.co.uk##.ds_cpp
 macworld.co.uk##[id^="google_ads_iframe"]
+macworld.com##.ad
 macworld.com##[id^="google_ads_iframe"]
 macworld.com##DIV[id^="gpt-showcase-"]
 madtrip.co##[class^="adsbygoogle adslot"]
@@ -4337,10 +4225,8 @@ zpag.es##.top_bar.top_bar_ad
 /fuckadblock.js
 /stats.php?*event=$image,domain=fapster.xxx|pornomovies.com
 |*/*/sendspace-pop.html$popup
-||10fbb07a4b0.se^$popup
 ||178.32.140.64/pv.php?*
 ||254a.com^$popup
-||32red.it^$popup
 ||4xcellent.com^$popup,image,~image
 ||7eer.net^$popup
 ||888.com^$popup,image,~image
@@ -4951,10 +4837,22 @@ youtube.com##DIV[id="homepage-sidebar-ads"]
 youtube.com##ytd-companion-slot-renderer
 ! [NoAds X Files - Filtri sperimentali]
 -pubblicit%c3%a0-
+/?rb=*&zoneid=$xmlhttprequest,3p
 ##.ezoic-ad
 ||cdn.onesignal.com^
+||gloaphoo.net^
+||gloaphoo.net^$xhr,domain=send.cm
+||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js:5
+||googletagmanager.com^
+||hostip.info^$3p
+||increaserev.com^$3p
+||profitablegatetocontent.com^
+||rtmark.net^
 corriere.it##.sticky-video.rcs-video
+googletagmanager_gtm.js
 ilfattoquotidiano.it###_tagvideo_container
+send.cm##+js(abort-current-script, JSON, break;case)
+send.cm##+js(addEventListener-defuser, , break;case $.)
 teamskeet.com##+js(set, $.tstracker, noopFunc)
 twitter.com##:xpath(//span[(text()='Sponsorizzato')]/../../../../..)
 youtube.com##DIV[class*="ytd-promoted-sparkles"]
@@ -5053,6 +4951,7 @@ gadget.pico.tools##+js(json-prune, locked)
 /zephr/features$xmlhttprequest,~third-party
 @@/wp-content/plugins/leaky-paywall/js/$script,~third-party
 @@/wp-content/plugins/leaky-paywall-$script,~third-party
+||abqjournal.com/*/abq-pw-manager.js$script,~third-party
 ||abril.com.br/*/abril-paywall/js/abril-paywall.js$script,~third-party
 ||api.afr.com/graphql?query=*PaywallRuleQuery$xmlhttprequest,~third-party
 alternatives-economiques.fr###temp-paywall
@@ -5092,6 +4991,11 @@ chronicle.com,philanthropy.com##+js(ra, data-content-body|hidden, div.contentBod
 ! cicero.de: url+?amp
 cicero.de##+js(rc, teasered-content, .teasered-content)
 cicero.de##.teasered-content-fader
+citywire.com##+js(rc, article-locked, .article-locked)
+citywire.com##+js(rc, m-article--locked, .m-article--locked)
+citywire.com##+js(rc, m-media-container--locked, .m-media-container--locked)
+citywire.com##+js(rc, m-article__body--locked, .m-article__body--locked)
+citywire.com##registration-widget,div.alert--locked
 ||clarin.com/detail/auth0.js$script,~third-party
 ||commentary.org/*/js/dg-locker-public.js$script,~third-party
 ||connaissancedesarts.com/wp-content/cache/*.js$script,~third-party
@@ -5159,8 +5063,8 @@ ksta.de##+js(ra, class, span.hide-paid-content)
 kurier.at##.view-offer
 kurier.at##+js(rc, plusContent, .plusContent, stay)
 ||la-croix.com/build/lacroix/article.*.js$script,~third-party
-||glanacion.com/*.js$script,domain=lanacion.com.ar
-lanacion.com.ar##+js(cookie-remover, metering_arc_counter)
+||glanacion.com/*/metering/*.js$script,domain=lanacion.com.ar
+lanacion.com.ar##+js(cookie-remover, /^metering_arc/)
 lanacion.com.ar##+js(aopr, localStorage)
 ||lasegunda.com/assets/js/merPramV2.js$script,~third-party
 ||lasegunda.com/assets/js/vendor/modal.js$script,~third-party
@@ -5195,14 +5099,9 @@ loebclassics.com##+js(cookie-remover, /^/)
 loeildelaphotographie.com##+js(ra, class, .paywall)
 loeildelaphotographie.com##.premium-pic-box,.membership-promo-container,.login_form_litle
 loeildelaphotographie.com##+js(ra, style, img[style*="blur"])
-medianama.com##div.modal
-medianama.com##.zox-post-body:style(height:auto !important;)
 ||medscapestatic.com/*/medscape-library.js$script,domain=medscape.com
 medscape.com##.AdUnit,div[id^="ads-"]
 mv-voice.com##+js(cookie-remover, /^/)
-||nation.africa/resource/themes/nation-*/js/*.js$script,~third-party
-nation.africa##+js(rc, datawall-content, .datawall-content)
-nation.africa##+js(ra, style, [data="datawall-content"])
 ||blink.net/*/blink-sdk.js$script,domain=newrepublic.com
 ||newstatesman.com/*/nsmg-evolok-paywall/*.js$script,~third-party
 nknews.org##+js(cookie-remover, issuem_lp)
@@ -5231,6 +5130,7 @@ qz.com##+js(ra, class, div#email-content[class], stay)
 qz.com##+js(ra, scrolling, iframe[scrolling], stay)
 ||reuters.com/pf/resources/dist/reuters/js/index.js$script,~third-party
 ||reuters.com/arc/subs/p.min.js$script,~third-party
+rugbypass.com/plus/$inline-script
 rugbypass.com##.plus-article-offer
 rugbypass.com##+js(rc, premium-fold-bottom, .premium-fold-bottom)
 rugbypass.com##+js(rc, fade, .fade)
@@ -5243,6 +5143,7 @@ scientificamerican.com##+js(cookie-remover, /^/)
 scmp.com##+js(ra, amp-access-hide, div.article-body[amp-access][amp-access-hide])
 scmp.com##div.default-meter,div#archive-article-meter
 scmp.com##amp-ad,div.ad-banner,div.advert-fly-carpet-container,div.inline-advert
+scotsman.com##+js(rc, no-entitlement, div.premium.no-entitlement)
 ||seattletimes.com/wp-content/*/st-advertising-bundle.js$script,~third-party
 ||seattletimes.com/wp-content/*/st-blocking-bundle.js$script,~third-party
 slideshare.net##+js(rc, limit-overlay, .limit-overlay)
@@ -5256,13 +5157,18 @@ staradvertiser.com##+js(ra, style, div#hsa-paywall-content[style])
 ||suomensotilas.fi/wp-content/plugins/epflpw/js/pw.js$script,~third-party
 suomensotilas.fi##+js(rc, epfl-pw-obscured, div.epfl-pw-obscured)
 ||telegraph.co.uk/martech/js/$script,~third-party
+tes.com##+js(cookie-remover, /tg_paywall/)
+tes.com##+js(ra, class, div.tg-paywall-body-overlay)
+tes.com##div.js-paywall-info,div.tg-paywall-message
 theadvocate.com/script.js$script,~third-party
 ||amazonaws.com/production-website-scripts/bouncer.js$script,domain=theartnewspaper.com
+theathletic.com##div#slideup-paywall,div[id*="overlay"],div:empty:not([data-rjs]),#paywall,div.ad-container
+theathletic.com##body[class]:style(overflow:visible !important; position:relative !important)
 theatlantic.com##+js(cookie-remover, articleViews)
 ||thediplomat.com/*/js/angular-cookies.min.js$script,~third-party
 thediplomat.com##+js(cookie-remover, dpl-pw)
-theglobeandmail.com/*/article-$inline-script
-||smartwall.theglobeandmail.com^$script,~third-party
+||theglobeandmail.com/pf/dist/engine/react.js$script,~third-party
+||smartwall.theglobeandmail.com^$xmlhttprequest,~third-party
 theglobeandmail.com##+js(ra, class, .c-article-body--subscribed)
 thehindu.com##+js(set, window.Adblock, false)
 thehindu.com##+js(set, window.isNonSubcribed, false)
@@ -5336,7 +5242,7 @@ birdwatchingdaily.com,digitalphotopro.com,dpmag.com,jazztimes.com,outdoorphotogr
 belfasttelegraph.co.uk,independent.ie##+js(ra, style, div#flip-pay[style])
 ||cdn.flip-pay.com/clients/inm/flip-pay.js$script,domain=belfasttelegraph.co.uk|independent.ie
 ! MediaNews Group
-/loader.min.js$script,~third-party,domain=denverpost.com|eastbaytimes.com|mercurynews.com|ocregister.com|pe.com|twincities.com
+/loader-wp/*/loader.min.js$script,~third-party,domain=denverpost.com|eastbaytimes.com|mercurynews.com|ocregister.com|pe.com|twincities.com
 denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pe.com,twincities.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
 denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pe.com,twincities.com##[subscriptions-section="content-not-granted"]
 ! New York Magazine
@@ -5365,23 +5271,25 @@ knack.be,levif.be##+js(ra, class, div.article-body > div)
 ||flowerstreatment.com^$third-party
 aaii.com##+js(rc, fadeout, .fadeout)
 aaii.com##.greybox-signup
+@@||sdk.privacy-center.org$script,domain=abc.es
 cmcmarkets.com##+js(rc, activePaywall, .activePaywall)
+||paywall.correiodopovo.com.br$script,~third-party
 hcn.org##+js(ra, content, meta[name="UID"])
 inman.com##+js(rc, paywalled-block, .paywalled-block)
 inman.com##div.entry-content-inner:style(display: block !important)
 inman.com##.ism-article-block
 ipsoa.it##+js(ra, style, div.paywall)
+||irishexaminer.com/pu_examiner/scripts/engage/$script,~third-party
 lepetitjournal.net##.message-restricted-woocommerce
 lepetitjournal.net##+js(rc, excerpt, div.excerpt)
 meritnation.com##.view-full-answer 
 meritnation.com##+js(rc, maxHeight75px, div.exp_content.maxHeight75px)
 ||newbostonpost.com/*/paywall/js/main.js$script,~third-party
 nu.nl##+js(rc, authorized-content, div.authorized-content)
-nu.nl##.article-login-wall
+nu.nl##.login-wall
 ||my.odt.co.nz/bwtw/scripts/tw.js$script,~third-party
 ||multimedia.corprensa.com/la-prensa/evolok/evolok.js$script,domain=prensa.com
 pressreader.com##.subscriber-content
-scotsman.com##+js(rc, iETVtP, div.premium)
 scribd.com##+js(ra, class, .blurred_page)
 ||shrm.org/*/js/paywall*.js$script,~third-party
 stylist.co.uk##div[data-cy="upgradeAccountPaywall"]
@@ -5396,6 +5304,7 @@ thegardenisland.com###single-login-box,#single-excerpt
 theguardian.com##[name="SlotBodyEnd"]
 aap.thestreet.com##+js(rc, is-paywalled, body.is-paywalled)
 realmoney.thestreet.com##+js(cookie-remover, /^PWT/)
+trailsoffroad.com##.paywall
 ! General (amp)
 ||cdn.ampproject.org/*/amp-access-$script
 ||cdn.ampproject.org/*/amp-subscriptions-$script
@@ -5587,18 +5496,15 @@ diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elno
 51.250.28.5/.l/log
 51.250.28.5/.l/pty3
 51.250.28.5/.l/pty4
-54.210.230.186:80/wp-content/themes/twentyfourteen/xmrig.exe
 62.210.130.250:80/web/admin/x86
 62.210.130.250/lh.sh
 62.210.130.250/web/admin
-68.183.165.105:80/wp-content/themes/twentyseventeen/xmrig64.exe
 68.183.165.105/.l/log
 68.183.165.105/.l/pty1
 68.183.165.105/.l/pty2
 68.183.165.105/.l/pty3
 68.183.165.105/.l/pty4
 68.183.165.105/.l/pty5
-68.183.165.105/wp-content/themes/twentyseventeen/xmrig64.exe
 6c8d7dd40593.bingsearchlib.com:39356/a
 78.31.71.248:1389
 78.31.71.248:8180/ExecTemplateJDK8.class
@@ -5626,66 +5532,6 @@ diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elno
 93.189.42.8/lh.sh
 agent.apacheorg.top:1234/xmss
 agent.apacheorg.xyz:1234/v
-alldomaininfo.com/00PYP9/fuck_niggers_51.hta
-alldomaininfo.com/015QZ4/fuck_niggers_54.hta
-alldomaininfo.com/0QMMJX/fuck_niggers_12.hta
-alldomaininfo.com/18CKF/fuck_niggers_36.hta
-alldomaininfo.com/1D7/fuck_niggers_9.hta
-alldomaininfo.com/1FKXQ/fuck_niggers_59.hta
-alldomaininfo.com/1WQV/fuck_niggers_10.hta
-alldomaininfo.com/24L/fuck_niggers_19.hta
-alldomaininfo.com/2XYFLL/fuck_niggers_92.hta
-alldomaininfo.com/373/fuck_niggers_98.hta
-alldomaininfo.com/39VSS/fuck_niggers_54.hta
-alldomaininfo.com/3MT4N8/fuck_niggers_0.hta
-alldomaininfo.com/3X7MV/fuck_niggers_31.hta
-alldomaininfo.com/438G/fuck_niggers_91.hta
-alldomaininfo.com/4XE/fuck_niggers_56.hta
-alldomaininfo.com/50KT/fuck_niggers_56.hta
-alldomaininfo.com/6A0/fuck_niggers_32.hta
-alldomaininfo.com/8AMYY/fuck_niggers_98.hta
-alldomaininfo.com/8C03C/fuck_niggers_92.hta
-alldomaininfo.com/98JB/fuck_niggers_88.hta
-alldomaininfo.com/B45/fuck_niggers_52.hta
-alldomaininfo.com/C9K23/fuck_niggers_92.hta
-alldomaininfo.com/CGIQ7/fuck_niggers_38.hta
-alldomaininfo.com/D4PV9I/fuck_niggers_93.hta
-alldomaininfo.com/D9W/fuck_niggers_15.hta
-alldomaininfo.com/DBMZ/fuck_niggers_53.hta
-alldomaininfo.com/DIY1F6/fuck_niggers_93.hta
-alldomaininfo.com/EOM/fuck_niggers_73.hta
-alldomaininfo.com/EXYX/fuck_niggers_70.hta
-alldomaininfo.com/FUQ/fuck_niggers_7.hta
-alldomaininfo.com/GZT/fuck_niggers_58.hta
-alldomaininfo.com/H0BX1/fuck_niggers_76.hta
-alldomaininfo.com/I233TS/fuck_niggers_68.hta
-alldomaininfo.com/J9IPA/fuck_niggers_71.hta
-alldomaininfo.com/JJFO4P/fuck_niggers_4.hta
-alldomaininfo.com/KLY/fuck_niggers_57.hta
-alldomaininfo.com/LC1/fuck_niggers_95.hta
-alldomaininfo.com/LODNH/fuck_niggers_90.hta
-alldomaininfo.com/LU5NRI/fuck_niggers_12.hta
-alldomaininfo.com/M9DFBE/fuck_niggers_31.hta
-alldomaininfo.com/MWM/fuck_niggers_77.hta
-alldomaininfo.com/QLPYJ/fuck_niggers_89.hta
-alldomaininfo.com/R3RW7/fuck_niggers_49.hta
-alldomaininfo.com/RKKP6P/fuck_niggers_60.hta
-alldomaininfo.com/RS3/fuck_niggers_42.hta
-alldomaininfo.com/S4L/fuck_niggers_84.hta
-alldomaininfo.com/SLY5Y/fuck_niggers_24.hta
-alldomaininfo.com/UCHF/fuck_niggers_86.hta
-alldomaininfo.com/UTO/fuck_niggers_99.hta
-alldomaininfo.com/VAF/fuck_niggers_43.hta
-alldomaininfo.com/W22OE8/fuck_niggers_51.hta
-alldomaininfo.com/WBD9ZA/fuck_niggers_40.hta
-alldomaininfo.com/WEYMZ7/fuck_niggers_72.hta
-alldomaininfo.com/WX9Y/fuck_niggers_86.hta
-alldomaininfo.com/XSNKK/fuck_niggers_54.hta
-alldomaininfo.com/Y1G1W/fuck_niggers_94.hta
-alldomaininfo.com/Y2G/fuck_niggers_14.hta
-alldomaininfo.com/YCEL62/fuck_niggers_29.hta
-alldomaininfo.com/ZBK/fuck_niggers_57.hta
-alldomaininfo.com/ZI97/fuck_niggers_49.hta
 app04.gpsts.co.za/report/asset/rwlogbook.class
 attacker.com/exploit.class
 b79fe53524f04aeb.y.psc4fuel.com/wmi6p.class
@@ -5693,12 +5539,6 @@ baldervain.com/19-1k3pp1-fc-ear-jkoc-d1j9.class
 bpnjabar.tams-app.com/Q6FP/EvVGQtOtkSGFPkkklgbtq.bin
 c54f05d3df5740bb.y.psc4fuel.com/9y8ah.class
 c6pj00ppfhiq0g1pq80gcg3i5hyyggscg.interactsh.com/exploit.class
-cdn.discordapp.com/attachments/630119108884824070/910547643569164368/fastuse.class
-cdn.discordapp.com/attachments/912162154248015943/913505880522256384/laura.class
-cdn.discordapp.com/attachments/912401139310411857/913540738757820446/use.class
-cdn.discordapp.com/attachments/912401139310411857/913540738904637440/use2.class
-cdn.discordapp.com/attachments/912401139310411857/914552762925195304/hud.class
-cdn.discordapp.com/attachments/912401139310411857/916049575435993138/lucidphase.class
 cdn.fbsbx.com/v/t59.2708-21/261523260_570309860735261_6837498676061670623_n.class/gradesusingarrayswithsorting.class
 csminas.ddns.net/W6G/FBAuWkkklgbtq.bin
 cucsur.udgvirtual.udg.mx/oa/2020/SisTur/71P2/LKgrPRYhxVYkkklgbtq.bin
