@@ -48,5 +48,6 @@ youtube.com###watch-branded-actions
 youtube.com###watch-buy-urls
 youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##a[href^="http://www.youtube.com/cthru?"]
+youtube.com##DIV[class*="ytd-promoted-sparkles"]
 youtube.com##DIV[id="homepage-sidebar-ads"]
 youtube.com##ytd-companion-slot-renderer
