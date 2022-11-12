@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202211021731
+! Version: 202211121554
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 02-11-2022
+! Last modified: 12-11-2022
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -408,6 +408,10 @@
 1fichier.com##div[style="position: fixed; z-index: 2147483647; bottom: 80px; left: -8px; width: 362px; height: 307px; background: rgba(0, 0, 0, 0) url(\"https://c.ad6media.fr/i.png\") repeat scroll 0% 0%;"]
 247realmedia.com/*/*Skin*/
 247realmedia.com/*/ads/$domain=~serviziopubblico.it|~rcsadv.it|~reachadv.it
+2conv.com##.fixed_banner
+2conv.com##.hidden-mobile
+2conv.com##.push-offer
+2conv.com##.square-area
 2mdn.net/viewad
 3bmeteo.com##.4wNET
 3bmeteo.com##[href^="http://feed.4wnet.com/"]
@@ -4742,7 +4746,7 @@ gadget.pico.tools##+js(json-prune, locked)
 /c/assets/pigeon.js$script,~third-party
 /evolok/*/ev-widgets.min.js$script,~third-party
 /wp-content/*/ev-em.min.js$script,~third-party
-/zephr/features$xmlhttprequest,~third-party
+/zephr/feature$xmlhttprequest,~third-party
 @@/wp-content/plugins/leaky-paywall/js/$script,~third-party
 @@/wp-content/plugins/leaky-paywall-$script,~third-party
 ||abqjournal.com/*/abq-pw-manager.js$script,~third-party
@@ -4770,7 +4774,6 @@ bloomberg.com##div.page-ad,div[data-ad-placeholder],div[class*="-ad-top"],div[id
 ||assets.bwbx.io/s3/javelin/public/javelin/js/foundation/transporter/foundation_transporter-*.js$script,domain=bloomberg.com
 ||assets.bwbx.io/s3/fence/plug-client/v0/app.bundle.js$script,domain=bloomberg.com
 ||meter.bostonglobe.com/js/meter.js$script,~third-party
-||businessoffashion.com/zephr/features$xmlhttprequest,~third-party
 businesspost.ie##+js(cookie-remover, /xbc/)
 cen.acs.org##+js(cookie-remover, paywall-cookie)
 cen.acs.org##.meteredBar
@@ -4818,6 +4821,8 @@ enotes.com##section.c-cta-section
 enotes.com##+js(ra, class, div[class^="_"])
 ||acesso.estadao.com.br/paywall/$script,~third-party
 ||exame.com/*/js/pywll-dyn.js$script,~third-party
+fieldandstream.com##div[class^="mailmunch-"]
+fieldandstream.com##+js(ra, class, html[class])
 ||financialexpress.com/*/min/premiumStoryContent.js$script,~third-party
 financialexpress.com##+js(rc, paywall, .paywall)
 financialexpress.com##div.pcl-wrap
@@ -4843,7 +4848,6 @@ hbrtaiwan.com##+js(cookie-remover, guest)
 ||indianexpress.com/*/indianexpress/js/evolok/*.js$script,~third-party
 ||indianexpress.com/*/indianexpress/min/premiumContent.js$script,~third-party
 indianexpress.com##+js(ra, style, div#pcl-rest-content[style])
-||irishtimes.com/zephr/features$xmlhttprequest,~third-party
 japantimes.co.jp##+js(cookie-remover, /xbc/)
 journaldunet.com##.reg_wall
 journaldunet.com##+js(ra, style, .entry_reg_wall)
@@ -4852,11 +4856,11 @@ journaldunet.com##+js(ra, style, .entry_reg_wall)
 krautreporter.de##.js-article-paywall,.js-paywall-divider,#steady-checkout
 krautreporter.de##+js(rc, blurred, .blurred)
 krautreporter.de##+js(rc, json-ld-paywall-marker, .json-ld-paywall-marker, stay)
-ksta.de##div#c1-template-platzhalter
-ksta.de##+js(ra, class, span.hide-paid-content)
+ksta.de##div[data-tm-placeholder]
+ksta.de##+js(ra, class, div.dm-paint)
 kurier.at##.view-offer
 kurier.at##+js(rc, plusContent, .plusContent, stay)
-||la-croix.com/build/lacroix/article.*.js$script,~third-party
+||la-croix.com/build/*/paywall*.js$script,~third-party
 ||glanacion.com/*/metering/*.js$script,domain=lanacion.com.ar
 lanacion.com.ar##+js(cookie-remover, /^metering_arc/)
 lanacion.com.ar##+js(aopr, localStorage)
@@ -4916,6 +4920,8 @@ paloaltoonline.com##+js(cookie-remover, /^/)
 parismatch.com###poool-container,.forbidden
 parismatch.com##+js(ra, data-poool-mode, .cnt[data-poool-mode="hide"])
 philosophynow.org##+js(cookie-remover, /^/)
+public.fr###poool-container,.forbidden,#poool-widget-content
+public.fr##+js(ra, data-poool-mode, .cnt[data-poool-mode="hide"])
 puck.news##.paywall
 puck.news##+js(rc, paywall-active, body)
 puck.news##+js(ra, style, article)
@@ -4943,6 +4949,8 @@ scotsman.com##+js(rc, no-entitlement, div.premium.no-entitlement)
 slideshare.net##+js(rc, limit-overlay, .limit-overlay)
 slideshare.net##+js(aopr, localStorage)
 sofrep.com##+js(cookie-remover, sofrep_news_ids)
+spectator.co.uk##+js(cookie-remover, /blaize_session/)
+spectator.co.uk###subscribe-ribbon
 spglobal.com##.article__overlay
 spglobal.com##+js(ra, class, html, stay)
 staradvertiser.com##div#hsa-paywall-overlay
@@ -5126,9 +5134,8 @@ nw.de##div.paywallOverlay
 abendblatt.de,braunschweiger-zeitung.de,morgenpost.de,nrz.de,otz.de,thueringer-allgemeine.de,tlz.de,waz.de,wp.de,wr.de##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 noz.de,nwzonline.de,shz.de,svz.de##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 ! Italian sites
-corriere.it,ilfattoquotidiano.it,ilfoglio.it,lastampa.it,repubblica.it##+js(ra, subscriptions-section, [subscriptions-section="content"])
-corriere.it,ilfattoquotidiano.it,ilfoglio.it,lastampa.it,repubblica.it##[subscriptions-section="content-not-granted"]
-gelocal.it,ilsecoloxix.it##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
+corriere.it,ilfattoquotidiano.it,ilfoglio.it,repubblica.it##+js(ra, subscriptions-section, [subscriptions-section="content"])
+corriere.it,ilfattoquotidiano.it,ilfoglio.it,repubblica.it##[subscriptions-section="content-not-granted"]
 ! Quotidiano.net (+ regional)
 ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 ! McClatchy Group
