@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202211121554
+! Version: 202211211240
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 12-11-2022
+! Last modified: 21-11-2022
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -293,6 +293,7 @@
 ||adk2.com/matomy/
 ||adv*.bgnews.it/images/
 ||advx.esprimo.com/www/images/
+||altervista.org/iframe.ad$subdocument
 ||annuncicdn.it/creativities/kijiji_skin
 ||ansa.it/web/banner_js/
 ||applezein.net/*/728x90
@@ -1279,6 +1280,7 @@ edge-online.com##.doubleclick_widget_sky.box.ad
 edge-online.com##[id^="doubleclick_widget_mpu-"]
 edge-online.com##[id^="google_ads_iframe"]
 edimotive.com/adv/www/
+editorialedomani.it##.ad-container
 editorialedomani.it##.gmp-container-ads
 edreams.it/*/affiliation
 edugeek.net##.ega
@@ -1327,6 +1329,7 @@ estense.com###adbg
 estrazionilotterie.it/images/728x90
 estrogeniservice.net/*/468x60/
 etology.com/bannerimg/
+eurogamer.it##.advert_container
 eurogamer.it##.mpuAd
 eurogamer.it##.related
 eurogamer.it##[id^="google_ads_iframe"]
@@ -1397,6 +1400,7 @@ fickmaus.net/banner/
 filearning.com##.reklama-750x100
 filedroid.net/*/MediaServer/
 fileforum.betanews.com##.ad300
+filehippo.com##.ad--empty
 filehippo.com##.adroot
 filehippo.com##.OUTBRAIN
 filehippo.com##.vzaar-video-player
@@ -1521,6 +1525,7 @@ freedoc.ru/banners/
 freemake.com##.adnl_zone
 freemodding.it/*banner*
 freemodding.it##.bnr
+freemyband.com##.aff-iframe
 freeonline.org##.side-widget.sw-banner
 freeonline.org###bannernomobile
 freeonline.org###taboola-barra-destra-thumbnails
@@ -2936,6 +2941,7 @@ pingtest.net##.towerad
 pinkblog.it##DIV[id="advpromo"]
 piratestreaming.co##[style="display:block !important;"]
 pixpux.com/banners
+pixwox.com##.h12container
 plavid.com/adv_admin/
 playboy.com##.ad-banner
 playboy.com##[id^="google_ads_iframe"]
@@ -4781,6 +4787,8 @@ challenges.fr##+js(ra, hidden, .user-paying-content)
 challenges.fr##+js(rc, user-paying-content, .user-paying-content)
 charliehebdo.fr##+js(ra, style, div.ch-paywalled-content)
 charliehebdo.fr##div#poool-widget
+cnbc.com##div.ArticleGate-proGate
+cnbc.com##+js(ra, class|hidden, span[hidden])
 chronicle.com/script.js$script,~third-party
 philanthropy.com/script.js$script,~third-party
 chronicle.com,philanthropy.com##div[data-content-summary]
@@ -4820,6 +4828,9 @@ em.com.br##+js(rc, compress-text, .div.compress-text)
 enotes.com##section.c-cta-section
 enotes.com##+js(ra, class, div[class^="_"])
 ||acesso.estadao.com.br/paywall/$script,~third-party
+etc.se##+js(ra, class, div.paywalled, stay)
+etc.se##+js(ra, class, div.bg-gradient-white, stay)
+etc.se##div[class$="-ad"]
 ||exame.com/*/js/pywll-dyn.js$script,~third-party
 fieldandstream.com##div[class^="mailmunch-"]
 fieldandstream.com##+js(ra, class, html[class])

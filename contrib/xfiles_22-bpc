@@ -62,6 +62,8 @@ challenges.fr##+js(ra, hidden, .user-paying-content)
 challenges.fr##+js(rc, user-paying-content, .user-paying-content)
 charliehebdo.fr##+js(ra, style, div.ch-paywalled-content)
 charliehebdo.fr##div#poool-widget
+cnbc.com##div.ArticleGate-proGate
+cnbc.com##+js(ra, class|hidden, span[hidden])
 chronicle.com/script.js$script,~third-party
 philanthropy.com/script.js$script,~third-party
 chronicle.com,philanthropy.com##div[data-content-summary]
@@ -101,6 +103,9 @@ em.com.br##+js(rc, compress-text, .div.compress-text)
 enotes.com##section.c-cta-section
 enotes.com##+js(ra, class, div[class^="_"])
 ||acesso.estadao.com.br/paywall/$script,~third-party
+etc.se##+js(ra, class, div.paywalled, stay)
+etc.se##+js(ra, class, div.bg-gradient-white, stay)
+etc.se##div[class$="-ad"]
 ||exame.com/*/js/pywll-dyn.js$script,~third-party
 fieldandstream.com##div[class^="mailmunch-"]
 fieldandstream.com##+js(ra, class, html[class])
