@@ -557,6 +557,7 @@ buonicoupon.it##.in-text-banner
 buonicoupon.it##[class$="banner"]
 burstnet.com/gifs/*banner*
 burstnet.com/gifs/ad*
+businessinsider.com##.subnav-ad-layout
 businessinsider.com##DIV[class="l-ad subnav"]
 businessonline.it##.celtra-ad-inline-host
 businessonline.it##DIV[id^="skin"]
@@ -1228,6 +1229,7 @@ forums.techguy.org##.adcaption
 forums.techguy.org###tsg-dfp-300x250
 forums.techguy.org###tsg-dfp-728x90
 fossbytes.com##._ap_apex_ad
+fossbytes.com##.ad-unit-desktop
 fotoexpo.net/banner/
 foursquareitalia.org/wp-content/*/imgadv/
 foursquareitalia.org##[class^="bsap_"]
@@ -2845,6 +2847,8 @@ repubblica.it###eyeDiv
 repubblica.it###superMoneyWidget-rotator
 repubblica.it##DIV[id^="adv-"]
 repubblica.it##DIV[id="wrapper-adv"]
+reuters.com##.dianomi_context
+reuters.com##[testid="ResponsiveAdSlot"]
 reviewmeta.com##.ad_unit_1
 reviewmeta.com##.reviewmeta-alert.alert.alert-warning.reviewmeta-extensions-alert.hidden-xs
 revsci.net/adserver/
