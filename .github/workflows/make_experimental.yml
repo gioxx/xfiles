@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
       - name: Set Timezone
-        uses: szenius/set-timezone@v1.0
+        uses: szenius/set-timezone@v1.1
         with:
           timezoneLinux: "Europe/Rome"
 
@@ -52,7 +52,7 @@ jobs:
           echo $md5 >> vcheck/check_experimental.txt
           
       - name: Run CommitsWithinTime script
-        uses: AlexHolderDeveloper/CommitsWithinTime@v1.1.5
+        uses: AlexHolderDeveloper/CommitsWithinTime@v1.1.10
         id: commitswithintime
       
       - name: Get the output from CommitsWithinTime
@@ -70,7 +70,7 @@ jobs:
           git commit -m "Experimental $update del $lastmodified" -a
       
       - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
