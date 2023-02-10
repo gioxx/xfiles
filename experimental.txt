@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202301250909
+! Version: 202302101546
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 25-01-2023
+! Last modified: 10-02-2023
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -2831,6 +2831,8 @@ origin.hubpages.com##.module.moduleAmazon
 orizzontescuola.it###hyblon
 orizzontescuola.it###kore
 orizzontescuola.it###polifemo
+orologi.forumfree.it##[id^="adv_iframe"]
+orologi.forumfree.it###ffAdStart
 oroscopi.com/banner/
 ostg.com/*ads*
 osxdaily.com##[id^="tfasyncframe_"]
@@ -3232,6 +3234,8 @@ searchenterprisedesktop.techtarget.com##.ad.ad-hp
 searchenterprisedesktop.techtarget.com##.login-register
 searchenterprisedesktop.techtarget.com##.sign-up-wrapper
 searchenterprisedesktop.techtarget.com##[id^="google_ads_iframe"]
+secoloditalia.it##.masthead_adv
+secoloditalia.it###rtbuzz_native
 secure.fastnext.com/affil/banners/
 send-to-toys.sooftware.com##.top-ad
 sendspace.com##A[class^="ads_remove"]
@@ -4751,16 +4755,18 @@ xda-developers.com###uniccmp
 ||onecount.net^$third-party
 ||js.pelcro.com^$script,third-party
 ||piano.io^$third-party
-@@||piano.io^$third-party,domain=asia.nikkei.com|businesspost.ie|japantimes.co.jp
+@@||piano.io^$third-party,domain=asia.nikkei.com|businesspost.ie|japantimes.co.jp|kurier.at
 @@||piano.io^$script,third-party,domain=brusselstimes.com
 ||api.pico.tools/client/query/*$xmlhttprequest,third-party
 ||api.pico.tools/popup/null/*$xmlhttprequest,third-party
 gadget.pico.tools##+js(json-prune, locked)
 ||poool.fr^$third-party
 ||qiota.com^$xmlhttprequest,third-party
+||steadyhq.com^$script,third-party
 ||cdn.tinypass.com^$script,third-party
-||wallkit.net/js/$script,third-party
+@@||cdn.tinypass.com^$script,domain=kurier.at
 ||tribdss.com^$third-party
+||wallkit.net/js/$script,third-party
 ||weborama.fr/js/$script,third-party
 ||zephr.com/zephr-browser/$third-party
 /c/assets/pigeon.js$script,~third-party
@@ -4884,8 +4890,8 @@ journaldunet.com##+js(ra, style, .entry_reg_wall)
 krautreporter.de##.js-article-paywall,.js-paywall-divider,#steady-checkout
 krautreporter.de##+js(rc, blurred, .blurred)
 krautreporter.de##+js(rc, json-ld-paywall-marker, .json-ld-paywall-marker, stay)
-ksta.de##div[data-tm-placeholder],div.dm-slot
-ksta.de##+js(ra, class, div.dm-paint)
+ksta.de##+js(ra, class, div.paywalled-content)
+ksta.de##div.dm-paywall-wrapper,div.dm-slot
 kurier.at##.view-offer
 kurier.at##+js(rc, plusContent, .plusContent, stay)
 ||la-croix.com/build/*/paywall*.js$script,~third-party
@@ -4899,7 +4905,7 @@ lanacion.com.ar##+js(aopr, localStorage)
 digital.lasegunda.com##+js(rc, lessreadmore, article.lessreadmore, stay)
 digital.lasegunda.com##div[id*="bt_readmore_"]
 ||latercera.com/arc/subs/p.min.js$script,~third-party
-||metering.platform.latimes.com^$xmlhttprequest,~third-party
+||californiatimes.com/meteringjs/$script,domain=latimes.com|sandiegouniontribune.com
 ||lavanguardia.com/js/godo-basex-$script,domain=lavanguardia.com|mundodeportivo.com
 lavanguardia.com##span.content-ad,span.hidden-ad
 lavenir.net##div.is-preview,div.ap-AdContainer
@@ -4961,9 +4967,8 @@ rugbypass.com/plus/$inline-script
 rugbypass.com##.plus-article-offer
 rugbypass.com##+js(rc, premium-fold-bottom, .premium-fold-bottom)
 rugbypass.com##+js(rc, fade, .fade)
-rundschau-online.de##div#c1-template-platzhalter,div.dm-slot
-rundschau-online.de##+js(ra, class, span.hide-paid-content)
-||metering.platform.sandiegouniontribune.com^$xmlhttprequest,~third-party
+rundschau-online.de##+js(ra, class, div.dm-paint)
+rundschau-online.de##div[data-tm-placeholder],div.dm-slot
 science.org##div.alert-read-limit
 science.org##+js(rc, alert-read-limit__overlay, body.alert-read-limit__overlay, stay)
 scientificamerican.com##+js(cookie-remover, /^/)
@@ -4976,6 +4981,9 @@ scotsman.com##+js(rc, no-entitlement, div.premium.no-entitlement)
 slideshare.net##+js(rc, limit-overlay, .limit-overlay)
 slideshare.net##+js(aopr, localStorage)
 sofrep.com##+js(cookie-remover, sofrep_news_ids)
+sofrep.com##+js(ra, class, div.paywall)
+sofrep.com##+js(rc, fader, div.fader)
+sofrep.com##div.non-paywall,div#paywall_wrap
 spectator.co.uk##+js(cookie-remover, /blaize_session/)
 spectator.co.uk###subscribe-ribbon
 spglobal.com##.article__overlay
@@ -4983,6 +4991,9 @@ spglobal.com##+js(ra, class, html, stay)
 staradvertiser.com##div#hsa-paywall-overlay
 staradvertiser.com##+js(ra, style, div#hsa-paywall-content[style])
 ||startribune.com/vendor/js/$script,~third-party
+studocu.com##.page-content:style(filter: none !important; user-select: unset !important)
+studocu.com##button[data-test-selector^="preview-banner-"]:upward(#document-wrapper>div)
+studocu.com##.pf>:not(.page-content)
 ||suomensotilas.fi/wp-content/plugins/epflpw/js/pw.js$script,~third-party
 suomensotilas.fi##+js(rc, epfl-pw-obscured, div.epfl-pw-obscured)
 ||telegraph.co.uk/martech/js/$script,~third-party
@@ -4997,7 +5008,8 @@ theathletic.com##body[class]:style(overflow:visible !important; position:relativ
 theatlantic.com##+js(cookie-remover, articleViews)
 ||thediplomat.com/*/js/angular-cookies.min.js$script,~third-party
 thediplomat.com##+js(cookie-remover, dpl-pw)
-||theglobeandmail.com/pf/dist/engine/react.js$script,~third-party
+theglobeandmail.com##+js(set, Fusion.globalContent._id, '')
+!ios: ||theglobeandmail.com/pf/dist/engine/react.js$script,~third-party
 ||smartwall.theglobeandmail.com^$xmlhttprequest,~third-party
 theglobeandmail.com##+js(ra, class, .c-article-body--subscribed)
 thehindu.com##+js(set, window.Adblock, false)
@@ -5038,9 +5050,8 @@ bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesternda
 ||api.bntech.io/js$script,domain=buffalonews.com
 buffalonews.com,journalnow.com,omaha.com,richmond.com,tucson.com,tulsaworld.com##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 ! Condé Nast
-://journey.$script,domain=architecturaldigest.com|bonappetit.com|gq.com|newyorker.com|vanityfair.com|vogue.com|wired.com
-architecturaldigest.com,bonappetit.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##+js(cookie-remover, pay_ent_smp)
-architecturaldigest.com,bonappetit.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##+js(cookie-remover, pay_ent_usmp)
+.com/journey/compiler/build-*.js$script,domain=architecturaldigest.com|bonappetit.com|gq.com|newyorker.com|vanityfair.com|vogue.com|wired.com
+architecturaldigest.com,bonappetit.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##+js(cookie-remover, /pay_ent_/)
 architecturaldigest.com,bonappetit.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
 architecturaldigest.com,bonappetit.com,gq.com,newyorker.com,vanityfair.com,vogue.com,wired.com##[subscriptions-section="content-not-granted"]
 ! Crain Communications
@@ -5073,9 +5084,11 @@ corriereadriatico.it,ilgazzettino.it,ilmattino.it,ilmessaggero.it,quotidianodipu
 corriereadriatico.it,ilgazzettino.it,ilmattino.it,ilmessaggero.it,quotidianodipuglia.it##[subscriptions-section="content-not-granted"]
 ! Madavor Media sites
 birdwatchingdaily.com,digitalphotopro.com,dpmag.com,jazztimes.com,outdoorphotographer.com,planeandpilotmag.com,writermag.com,##+js(cookie-remover, /^article_/)
+! Madsack sites
+dnn.de,gnz.de,goettinger-tageblatt.de,haz.de,kn-online.de,ln-online.de,lvz.de,maz-online.de,neuepresse.de,op-marburg.de,ostsee-zeitung.de,paz-online.de,rnd.de,siegener-zeitung.de,sn-online.de,waz-online.de##+js(set, Fusion.globalContent.isPaid, false)
 ! Mediahuis Ireland
-belfasttelegraph.co.uk,independent.ie##+js(ra, style, div#flip-pay[style])
-||cdn.flip-pay.com/clients/inm/flip-pay.js$script,domain=belfasttelegraph.co.uk|independent.ie
+independent.ie##+js(ra, style, div#flip-pay[style])
+||cdn.flip-pay.com/clients/*/flip-pay.js$script,domain=belfasttelegraph.co.uk|independent.ie
 ! MediaNews Group
 /loader-wp/*/loader.min.js$script,~third-party,domain=denverpost.com|eastbaytimes.com|mercurynews.com|ocregister.com|pe.com|twincities.com
 denverpost.com,eastbaytimes.com,mercurynews.com,ocregister.com,pe.com,twincities.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
@@ -5103,15 +5116,20 @@ knack.be,levif.be##+js(ra, class, div.article-body > div)
 /script.js$script,~third-party,domain=niagarafallsreview.ca|stcatharinesstandard.ca|thepeterboroughexaminer.com|therecord.com|thespec.com|thestar.com|wellandtribune.ca
 ! additional adblocker-fix/custom sites
 ||flowerstreatment.com^$third-party
+||meter.in.bonhill.pbc.io/api/views$xmlhttprequest,third-party
+.com/webfiles/*/js/metering.js$script,domain=hbook.com|libraryjournal.com|slj.com
 aaii.com##+js(rc, fadeout, .fadeout)
 aaii.com##.greybox-signup
 @@||sdk.privacy-center.org$script,domain=abc.es
 bizwest.com##div.fp-paywall
 bizwest.com##+js(ra, class, div.fp-content)
+||account.brandonsun.com/api/v*/auth/identify$xmlhttprequest,~third-party
 cmcmarkets.com##+js(rc, activePaywall, .activePaywall)
 ||paywall.correiodopovo.com.br$script,~third-party
 doorbraak.be###aanbod-nieuwe-abonnee, #excerpt-inhoud-abo
 doorbraak.be##+js(ra, style, #plus-inhoud)
+elfinancierocr.com##+js(ra, style, div.article-body-wrapper__styled[style])
+elfinancierocr.com##div.post
 hcn.org##+js(ra, content, meta[name="UID"])
 heraldo.es/noticias/$inline-script
 inman.com##+js(rc, paywalled-block, .paywalled-block)
@@ -5130,7 +5148,7 @@ nu.nl##+js(rc, authorized-content, div.authorized-content)
 nu.nl##.login-wall
 ||my.odt.co.nz/bwtw/scripts/tw.js$script,~third-party
 popbitch.com##+js(ra, class, div[class*="-premium"])
-||multimedia.corprensa.com/la-prensa/evolok/evolok.js$script,domain=prensa.com
+||corprensa.com/la-prensa/evolok/$script,domain=prensa.com
 pressreader.com##.subscriber-content
 scribd.com##+js(ra, class, .blurred_page)
 ||shrm.org/*/js/paywall*.js$script,~third-party
