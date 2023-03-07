@@ -15,7 +15,7 @@
 ||onecount.net^$third-party
 ||js.pelcro.com^$script,third-party
 ||piano.io/xbuilder/experience/execute$xmlhttprequest,third-party
-@@||piano.io^$domain=asia.nikkei.com|businesspost.ie|japantimes.co.jp|kurier.at
+@@||piano.io^$domain=asia.nikkei.com|businesspost.ie|japantimes.co.jp|kurier.at|onet.pl
 ||api.pico.tools/client/query/*$xmlhttprequest,third-party
 ||api.pico.tools/popup/null/*$xmlhttprequest,third-party
 gadget.pico.tools##+js(json-prune, locked)
@@ -38,6 +38,7 @@ gadget.pico.tools##+js(json-prune, locked)
 aerzteblatt.de##div#restrictedAccessLogin
 aerzteblatt.de##+js(rc, restricted, div.restricted)
 aerzteblatt.de##+js(rc, unsharp, div.unsharp)
+||ajc.com/prod/ajc/loader.min.js$script,~third-party
 alternatives-economiques.fr###temp-paywall
 alternatives-economiques.fr##+js(ra, style, div[data-ae-poool], stay)
 ambito.com##+js(cookie-remover, TDNotesRead)
@@ -58,6 +59,8 @@ bloomberg.com##+js(ra, data-paywall-overlay-status, body[data-paywall-overlay-st
 bloomberg.com##div.page-ad,div[data-ad-placeholder],div[class*="-ad-top"],div[id^="fortress-"]
 ||assets.bwbx.io/s3/javelin/public/javelin/js/foundation/transporter/foundation_transporter-*.js$script,domain=bloomberg.com
 ||assets.bwbx.io/s3/fence/plug-client/v0/app.bundle.js$script,domain=bloomberg.com
+||bloombergadria.com/*/news/$inline-script
+bloombergadria.com##+js(ra, style, article[style])
 ||meter.bostonglobe.com/js/meter.js$script,~third-party
 cen.acs.org##+js(cookie-remover, paywall-cookie)
 cen.acs.org##.meteredBar
@@ -131,6 +134,7 @@ griffithreview.com##+js(rc, single, body.single)
 griffithreview.com##div.call-to-action
 groene.nl##+js(cookie-remover, rlist)
 harpers.org##+js(cookie-remover, hr_session)
+||harpers.org/wp-content/themes/timber/static/js/modal*.js
 ||hilltimes.com/*/js/loadingoverlay/loadingoverlay.min.js$script,~third-party
 hindustantimes.com##.freemium-card,.closeStory
 hindustantimes.com##+js(rc, freemiumText, .freemiumText)
@@ -140,6 +144,8 @@ hbrtaiwan.com##+js(cookie-remover, guest)
 ||indianexpress.com/*/indianexpress/js/evolok/*.js$script,~third-party
 ||indianexpress.com/*/indianexpress/min/premiumContent.js$script,~third-party
 indianexpress.com##+js(ra, style, div#pcl-rest-content[style])
+inkl.com##+js(ra, class, div.paywall)
+inkl.com##div.gradient-container
 japantimes.co.jp##+js(cookie-remover, /xbc/)
 journaldunet.com##.reg_wall
 journaldunet.com##+js(ra, style, .entry_reg_wall)
@@ -183,6 +189,7 @@ labusinessjournal.com##+js(cookie-remover, /^/)
 labusinessjournal.com###css-only-modals
 lavoz.com.ar$inline-script
 lavoz.com.ar##.wrapperblock
+||lavoz.com.ar/sites/*/paywall/losandes/pw.js$script,domain=losandes.com.ar
 loebclassics.com##+js(cookie-remover, /^/)
 ||cdn.loeildelaphotographie.com/wp-content/*/hague-child/js/script-$script,~third-party
 loeildelaphotographie.com##+js(ra, class, .paywall)
@@ -191,12 +198,14 @@ loeildelaphotographie.com##+js(ra, style, img[style*="blur"])
 ||medscapestatic.com/*/medscape-library.js$script,domain=medscape.com
 medscape.com##.AdUnit,div[id^="ads-"]
 mv-voice.com##+js(cookie-remover, /^/)
+newsday.com##+js(ra, class, html[class])
 ||blink.net/*/blink-sdk.js$script,domain=newrepublic.com
 ||newstatesman.com/*/nsmg-evolok-paywall/*.js$script,~third-party
-nknews.org##+js(cookie-remover, issuem_lp)
+nknews.org##+js(cookie-remover, /^issuem_lp/)
 ||nola.com/script.js$script,~third-party
 nrc.nl##+js(cookie-remover, counter)
 ||nrc.nl/paywall-api/api/zephr$xmlhttprequest,~third-party
+nrc.nl##[id$="modal__overlay"],.header__subscribe-bar,.banner
 ||nybooks.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
 nybooks.com##+js(rc, paywall-article, .paywall-article)
 nybooks.com##div.toast-cta
@@ -216,9 +225,7 @@ public.fr##+js(ra, data-poool-mode, .cnt[data-poool-mode="hide"])
 puck.news##.paywall
 puck.news##+js(rc, paywall-active, body)
 puck.news##+js(ra, style, article)
-qz.com##div.BBwe2.RXsUp
-qz.com##+js(ra, class, div#email-content[class], stay)
-qz.com##+js(ra, scrolling, iframe[scrolling], stay)
+||kinja-static.com/assets/*/regwalled-content.*.js$script,domain=qz.com
 ||reuters.com/pf/resources/dist/reuters/js/index.js$script,~third-party
 ||reuters.com/arc/subs/p.min.js$script,~third-party
 rugbypass.com/plus/$inline-script
@@ -341,10 +348,14 @@ iltirreno.it,lanuovasardegna.it##div.MuiSnackbar-root
 ||utils.cedsdigital.it/js/PaywallMeter.js$script,domain=corriereadriatico.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|quotidianodipuglia.it
 corriereadriatico.it,ilgazzettino.it,ilmattino.it,ilmessaggero.it,quotidianodipuglia.it##+js(ra, subscriptions-section, [subscriptions-section="content"])
 corriereadriatico.it,ilgazzettino.it,ilmattino.it,ilmessaggero.it,quotidianodipuglia.it##[subscriptions-section="content-not-granted"]
+! Landwirtschaftsverlag
+profi.de,topagrar.at,topagrar.com,wochenblatt.com##+js(ra, class|style, div.paywall-full-content[style])
+profi.de,wochenblatt.com##div.m-paywall__textFadeOut,div[id^="paymentprocess-"]
+topagrar.at,topagrar.com##div.paywall-package
 ! Madavor Media sites
 birdwatchingdaily.com,digitalphotopro.com,dpmag.com,jazztimes.com,outdoorphotographer.com,planeandpilotmag.com,writermag.com,##+js(cookie-remover, /^article_/)
 ! Madsack sites
-dnn.de,gnz.de,goettinger-tageblatt.de,haz.de,kn-online.de,ln-online.de,lvz.de,maz-online.de,neuepresse.de,op-marburg.de,ostsee-zeitung.de,paz-online.de,rnd.de,siegener-zeitung.de,sn-online.de,waz-online.de##+js(set, Fusion.globalContent.isPaid, false)
+dnn.de,gnz.de,goettinger-tageblatt.de,haz.de,kn-online.de,landeszeitung.de,ln-online.de,lvz.de,maz-online.de,neuepresse.de,op-marburg.de,ostsee-zeitung.de,paz-online.de,rnd.de,siegener-zeitung.de,sn-online.de,waz-online.de##+js(set, Fusion.globalContent.isPaid, false)
 ! Mediahuis Ireland
 independent.ie##+js(ra, style, div#flip-pay[style])
 ||cdn.flip-pay.com/clients/*/flip-pay.js$script,domain=belfasttelegraph.co.uk|independent.ie
@@ -377,7 +388,7 @@ knack.be,levif.be##+js(ra, class, div.article-body > div)
 /script.js$script,~third-party,domain=niagarafallsreview.ca|stcatharinesstandard.ca|thepeterboroughexaminer.com|therecord.com|thespec.com|thestar.com|wellandtribune.ca
 ! additional adblocker-fix/custom sites
 ||flowerstreatment.com^$third-party
-||substackcdn.com/min/main.bundle.js$script,domain=codebeautify.org
+||substackcdn.com/min/main.bundle.js$script,domain=codebeautify.org|jsonformatter.org|html.onlineviewer.net
 .com/webfiles/*/js/metering.js$script,third-party,domain=hbook.com|libraryjournal.com|slj.com
 aaii.com##+js(rc, fadeout, .fadeout)
 aaii.com##.greybox-signup
@@ -431,13 +442,14 @@ theguardian.com##[name="SlotBodyEnd"]
 aap.thestreet.com##+js(rc, is-paywalled, body.is-paywalled)
 realmoney.thestreet.com##+js(cookie-remover, /^PWT/)
 trailsoffroad.com##.paywall
-||tweakers.net/x/build/wedonttrack.*.js$script,~third-party
+@@||tweakers.nl/json$xmlhttprequest,domain=tweakers.net
 zvw.de##+js(rc, paywall, .paywall)
 zvw.de##.nfy-products-teaser,.nfy-banner
 ! General (amp)
 ||cdn.ampproject.org/*/amp-access-$script
 ||cdn.ampproject.org/*/amp-subscriptions-$script
 @@||cdn.ampproject.org/*/amp-access-$script,domain=cambridge.org
+@@||cdn.ampproject.org/*/amp-subscriptions-$script,domain=cmjornal.pt
 artnet.com,barrons.com,billboard.com,bloombergquint.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com,voguebusiness.com,wsj.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
 artnet.com,barrons.com,billboard.com,bloombergquint.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com,voguebusiness.com,wsj.com##[subscriptions-section="content-not-granted"]
 amp.usatoday.com,digiday.com,inc42.com,indianexpress.com,indiatoday.in,mid-day.com,newsday.com,seekingalpha.com,telegraph.co.uk##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
@@ -469,6 +481,7 @@ ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.n
 ! McClatchy Group
 amp.bnd.com,amp.charlotteobserver.com,amp.fresnobee.com,amp.kansas.com,amp.kansascity.com,amp.kentucky.com,amp.mcclatchydc.com,amp.miamiherald.com,amp.newsobserver.com,amp.sacbee.com,amp.star-telegram.com,amp.thestate.com,amp.tri-cityherald.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
 amp.bnd.com,amp.charlotteobserver.com,amp.fresnobee.com,amp.kansas.com,amp.kansascity.com,amp.kentucky.com,amp.mcclatchydc.com,amp.miamiherald.com,amp.newsobserver.com,amp.sacbee.com,amp.star-telegram.com,amp.thestate.com,amp.tri-cityherald.com##[subscriptions-section="content-not-granted"]
+amp.sacbee.com##+js(ra, subscriptions-action, div[subscriptions-action][subscriptions-display="NOT data.hasError"])
 ! Nine Entertainment (Australia)
 ||api.afr.com/graphql?query=*PaywallRuleQuery$xmlhttprequest,~third-party
 .com.au/graphql?query=*PaywallRuleQuery$xmlhttprequest,~third-party,domain=brisbanetimes.com.au|smh.com.au|theage.com.au|watoday.com.au
