@@ -51,7 +51,7 @@ jobs:
           echo $md5 >> vcheck/check_filtri.txt
           
       - name: Run CommitsWithinTime script
-        uses: AlexHolderDeveloper/CommitsWithinTime@v1.1.10
+        uses: AlexHolderDeveloper/CommitsWithinTime@v1.1.11
         id: commitswithintime
       
       - name: Get the output from CommitsWithinTime
