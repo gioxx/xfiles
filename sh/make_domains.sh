@@ -60,6 +60,6 @@ if [ "$md5_new" = "$md5_old" ]; then
 else
     echo "Different MD5, proceed with list creation."
 		echo "md5=$md5_new" >> $GITHUB_ENV
-    cat "do_upd_sort.txt" >> "domains/upd_domains.txt"
+    cat "do_upd_sort.txt" > "domains/upd_domains.txt"
     rm "do_phishingdomains.txt" "do_phishingdomains_newtoday.txt" "do_2021-07-18_nso.txt" "do_NSA-CIA-Blocklist.txt" "do_upd_nosort.txt" "do_upd_sort.txt" "do_whitelist_sort.txt" "do_antispam-it.txt"
 fi
