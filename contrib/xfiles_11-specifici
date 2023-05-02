@@ -742,9 +742,12 @@ corriere.it##DIV[id="barra_click_top"]
 corriere.it##DIV[id="testata_tkv"]
 corriere.it##IFRAME[id^="adv_rcs_"]
 corriere.it##OBJECT[id^="OAS_RMF_"]
+corrieredellacalabria.it##.ads_corriere
 corrieredellacalabria.it##.bannergroup
 corrieredellacalabria.it##.gkBcg
+corrieredellacalabria.it##.leaderboard.uk-panel
 corrieredellacalabria.it##.t3-slider-inner
+corrieredellacalabria.it##.yb-floorad
 corrieredellacalabria.it###sovrapposto
 corrieredellacalabria.it##DIV[style="position: fixed !important; top: -9px !important; text-align:center !important; z-index: 0 !important; width: 100%; height: 100%;"]
 corrieredellosport.it###EB_BODY_CURSOR
@@ -1499,6 +1502,7 @@ hyperspin.com:81/ad
 hyperspin.com##.banner-ad
 ibtimes.co.uk##.ad-container
 ibtimes.co.uk##.banner-box
+icon-icons.com###bsa-placeholder-search
 iconfinder.com##.istockphoto-banner
 iconshut.com##[id^="MarketGidScriptRoot"]
 iconspedia.com/*banner
@@ -1607,6 +1611,8 @@ ilpost.it##DIV[id="HDF_RPU_SKIN_INJECTION"]
 ilpost.it##DIV[id="NEW_EB_DIV"]
 ilquotidianodellacalabria.it##.banner_300x250
 ilquotidianodellazio.it###popup-facebook
+ilrestodelcarlino.it##[class^="Ad_watermark"]
+ilrestodelcarlino.it##[class^="ads_leaderboard-container"]
 ilrestodelcarlino.it##IMG[src*="securepubads"]
 ilsecoloxix.it##.artbanner
 ilsecoloxix.it##.googleAdSense
@@ -2363,10 +2369,16 @@ msn.com##.ad.non-empty-ad
 msn.com##.drrTopAdWrapper
 msn.com##.floatleft.emsinline.section-layout.ec-module
 msn.com##.serversidenativead
+msn.com##[class^="articlePage_bannerAd_wrapper"]
+msn.com##[class^="articlePage_eoabContent_nativeAd"]
+msn.com##[class^="galleryPage_bannerAd_wrapper"]
 msn.com##[data-aop^="bannerad"]
 msn.com##[data-aop^="toptakeoverad.ad"]
 msn.com##[data-aop="articletakeoverad_ad"]
+msn.com##[id^="mrr-topad-id"]
+msn.com##display-ads
 msn.com##DIV[data-provider="taboola"]
+msn.com##views-native-ad
 msn.it/img/it/it-it/MSNSito/Pop_OR_FullPage/
 msoutlook.info###header-banner
 muccapazzapazza.altervista.org##.banner_altervista_300X250
@@ -3264,6 +3276,7 @@ televisionando.it###bannerTop
 teliad.it/*/banner/
 temi-wordpress.net/*/maxblogpress-unblockable-popup/
 templatehelp.com/banners/
+templatemo.com##.tm_banner
 templatesbox.com/banners/
 tenforums.com##.ad-bottom-sticky-overall.adunit
 tenforums.com##.chill
