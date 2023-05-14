@@ -1,5 +1,5 @@
 ! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]
-! Version: 3.1.5.3
+! Version: 3.1.7.6
 ! General
 ||axate.io$script,third-party
 ||loader-cdn.azureedge.net^$third-party
@@ -36,6 +36,7 @@ gadget.pico.tools##+js(json-prune, locked)
 @@/wp-content/plugins/leaky-paywall-$script,~third-party
 ||abqjournal.com/*/abq-pw-manager.js$script,~third-party
 ||abril.com.br/*/abril-paywall/$script,~third-party
+adweek.com##+js(cookie-remover, /blaize_session/)
 aerzteblatt.de##div#restrictedAccessLogin
 aerzteblatt.de##+js(rc, restricted, div.restricted)
 aerzteblatt.de##+js(rc, unsharp, div.unsharp)
@@ -45,8 +46,6 @@ alternatives-economiques.fr###temp-paywall
 alternatives-economiques.fr##+js(ra, style, div[data-ae-poool], stay)
 ambito.com##+js(cookie-remover, TDNotesRead)
 ||americanaffairsjournal.org/wp-content/mu-plugins/app/src/paywall/paywall.js$script,~third-party
-americanbanker.com##+js(rc, inline-gate, .inline-gate)
-americanbanker.com##+js(rc, inline-gated, .inline-gated)
 artforum.com##+js(cookie-remover, /^/)
 ||artnet.com/paywall-ajax.php$xmlhttprequest,~third-party
 magazine.atavist.com##+js(aopr, localStorage)
@@ -225,9 +224,6 @@ parismatch.com##+js(ra, data-poool-mode, .cnt[data-poool-mode="hide"])
 philosophynow.org##+js(cookie-remover, /^/)
 public.fr###poool-container,.forbidden,#poool-widget-content
 public.fr##+js(ra, data-poool-mode, .cnt[data-poool-mode="hide"])
-puck.news##.paywall
-puck.news##+js(rc, paywall-active, body)
-puck.news##+js(ra, style, article)
 ||kinja-static.com/assets/*/regwalled-content.*.js$script,domain=qz.com
 ||reuters.com/pf/resources/dist/reuters/js/index.js$script,~third-party
 ||reuters.com/arc/subs/p.min.js$script,~third-party
@@ -320,6 +316,8 @@ bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesternda
 bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(ra, style, body[style], stay)
 bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(ra, style, div[style*="mask-image"], stay)
 bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##div.blocker,.story-generic__iframe,div.transition-all,div[id^="headlessui-dialog"]
+! Arizent
+accountingtoday.com,americanbanker.com,benefitnews.com,bondbuyer.com,dig-in.com,financial-planning.com,nationalmortgagenews.com##+js(set, contentGating.ungate, true)
 ! Blox CMS - TownNews
 /shared-content/art/tncms/user/user.js$script,~third-party
 ! Lee Enterprises Group
@@ -333,6 +331,7 @@ architecturaldigest.com,bonappetit.com,epicurious.com,gq.com,newyorker.com,vanit
 ! Crain Communications
 .com/*/js_$script,domain=adage.com|autonews.com|chicagobusiness.com|crainscleveland.com|crainsdetroit.com|crainsnewyork.com|modernhealthcare.com
 adage.com,autonews.com,chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsnewyork.com,modernhealthcare.com##+js(ra, class, body[class])
+modernhealthcare.com##+js(rc, sponsored-article, div.sponsored-article)
 ! Groupe SudOuest.fr
 sudouest.fr,charentelibre.fr,larepubliquedespyrenees.fr##div.article-premium-footer,div.footer-premium,div.article-body-wrapper.visible-not-premium,div.pub,div.ph-easy-subscription
 sudouest.fr##+js(rc, visible-premium, div.visible-premium)
@@ -355,7 +354,8 @@ iltirreno.it,lanuovasardegna.it##div.MuiSnackbar-root
 ! Hearst Communications (newspapers)
 .com/script.js$script,~third-party,domain=expressnews.com|houstonchronicle.com|sfchronicle.com
 ! Il Messaggero (+ regional)
-||utils.cedsdigital.it/js/PaywallMeter.js$script,domain=corriereadriatico.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|quotidianodipuglia.it
+||cedscdn.it/*/PaywallMeter.js$script,domain=corriereadriatico.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|quotidianodipuglia.it
+||cedsdigital.it/*/PaywallMeter.js$script,domain=corriereadriatico.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|quotidianodipuglia.it
 corriereadriatico.it,ilgazzettino.it,ilmattino.it,ilmessaggero.it,quotidianodipuglia.it##+js(ra, subscriptions-section, [subscriptions-section="content"])
 corriereadriatico.it,ilgazzettino.it,ilmattino.it,ilmessaggero.it,quotidianodipuglia.it##[subscriptions-section="content-not-granted"]
 ! Landwirtschaftsverlag
@@ -448,9 +448,6 @@ splainer.in##+js(rc, hide-section, .hide-section)
 splainer.in##.subscription-prompt
 stateaffairs.com##div.c-memberships-message
 stateaffairs.com##+js(rc, access-restricted, body.access-restricted)
-stylist.co.uk##div[data-cy="upgradeAccountPaywall"]
-stylist.co.uk##+js(ra, class|style, div.paywall)
-stylist.co.uk##+js(ra, class, div.css-tu9vsa, stay)
 ||accesstype.com/frontend/v2/accesstype.js$script,domain=swarajyamag.com
 thecricketer.com##+js(rc, premium, .premium)
 ||thedriftmag.com/wp-content/plugins/drift-paywall-plugin/public/js/drift-paywall-plugin-public.js$script,~third-party
@@ -470,8 +467,8 @@ zvw.de##.nfy-products-teaser,.nfy-banner
 ||cdn.ampproject.org/*/amp-subscriptions-$script
 @@||cdn.ampproject.org/*/amp-access-$script,domain=cambridge.org
 @@||cdn.ampproject.org/*/amp-subscriptions-$script,domain=cmjornal.pt
-artnet.com,barrons.com,billboard.com,bloombergquint.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com,voguebusiness.com,wsj.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
-artnet.com,barrons.com,billboard.com,bloombergquint.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com,voguebusiness.com,wsj.com##[subscriptions-section="content-not-granted"]
+artnet.com,barrons.com,billboard.com,bloombergquint.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,sportico.com,staradvertiser.com,theathletic.com,voguebusiness.com,wsj.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
+artnet.com,barrons.com,billboard.com,bloombergquint.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,sportico.com,staradvertiser.com,theathletic.com,voguebusiness.com,wsj.com##[subscriptions-section="content-not-granted"]
 amp.usatoday.com,digiday.com,inc42.com,indianexpress.com,indiatoday.in,mid-day.com,newsday.com,seekingalpha.com,telegraph.co.uk##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 theathletic.com##div[amp-access*="NOT granted"]
 ! French/Belgian sites
@@ -486,8 +483,8 @@ dhnet.be,lalibre.be,lavenir.net##div.ap-AdContainer,div.ap-Outbrain
 centrepresseaveyron.fr,ladepeche.fr,lindependant.fr,midi-olympique.fr,midilibre.fr,nrpyrenees.fr,petitbleu.fr##+js(ra, subscriptions-section, [subscriptions-section="content"])
 centrepresseaveyron.fr,ladepeche.fr,lindependant.fr,midi-olympique.fr,midilibre.fr,nrpyrenees.fr,petitbleu.fr##[subscriptions-section="content-not-granted"]
 ! Australia News Corp
-adelaidenow.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,theaustralian.com.au,thechronicle.com.au,themercury.com.au,weeklytimesnow.com.au##+js(ra, subscriptions-section, [subscriptions-section="content"])
-adelaidenow.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,theaustralian.com.au,thechronicle.com.au,themercury.com.au,weeklytimesnow.com.au##[subscriptions-section="content-not-granted"]
+adelaidenow.com.au,cairnspost.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,geelongadvertiser.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,theaustralian.com.au,thechronicle.com.au,themercury.com.au,townsvillebulletin.com.au,weeklytimesnow.com.au##+js(ra, subscriptions-section, [subscriptions-section="content"])
+adelaidenow.com.au,cairnspost.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,geelongadvertiser.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,theaustralian.com.au,thechronicle.com.au,themercury.com.au,townsvillebulletin.com.au,weeklytimesnow.com.au##[subscriptions-section="content-not-granted"]
 ! German sites
 augsburger-allgemeine.de,muensterschezeitung.de,mz.de,westfalen-blatt.de,wn.de,volksstimme.de##+js(ra, subscriptions-section, [subscriptions-section="content"])
 augsburger-allgemeine.de,muensterschezeitung.de,mz.de,westfalen-blatt.de,wn.de,volksstimme.de##[subscriptions-section="content-not-granted"]
