@@ -1,5 +1,5 @@
 ! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]
-! Version: 3.1.7.6
+! Version: 3.1.8.1
 ! General
 ||axate.io$script,third-party
 ||loader-cdn.azureedge.net^$third-party
@@ -400,7 +400,6 @@ artsenkrant.com,femmesdaujourdhui.be,flair.be,knack.be,kw.be,levif.be,libelle.be
 /script.js$script,~third-party,domain=niagarafallsreview.ca|stcatharinesstandard.ca|thepeterboroughexaminer.com|therecord.com|thespec.com|thestar.com|wellandtribune.ca
 ! additional adblocker-fix/custom sites
 ||flowerstreatment.com^$third-party
-||substackcdn.com/bundle/main.*.bundle.js$script,domain=codebeautify.org|jsonformatter.org|html.onlineviewer.net
 .com/webfiles/*/js/metering.js$script,third-party,domain=hbook.com|libraryjournal.com|slj.com
 20minutes.fr##+js(rc, qiota_reserve, div.qiota_reserve)
 ||20minutes.fr/v-ajax/subscribe-modal$xmlhttprequest,~third-party

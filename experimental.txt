@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202305141654
+! Version: 202305180908
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 14-05-2023
+! Last modified: 18-05-2023
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -414,7 +414,6 @@
 2conv.com##.push-offer
 2conv.com##.square-area
 2mdn.net/viewad
-3bmeteo.com##.4wNET
 3bmeteo.com##[href^="http://feed.4wnet.com/"]
 3bmeteo.com##[id^="adv_"]
 3bmeteo.com##[itemtype="http://www.schema.org/WPAdBlock"]
@@ -596,7 +595,6 @@ androidworld.it##[id^="google_ads_iframe"]
 androidworld.it##[id^="infinite-adslot"]
 androidworld.it###ligatus_content_ad
 anoopcnair.com##.dcmads
-ansa.it##.4wNET
 ansa.it##.adv
 ansa.it##.adv-4
 ansa.it##.adv728
@@ -2561,7 +2559,6 @@ milanodabere.it###wbds_plnt300x250_3
 milanodabere.it###wbds_plnt728x90_0
 milanodabere.it##A[href^="http://ib.adnxs.com/"]
 milanoevents.it##DIV[class*="td-a-rec-id-custom_ad"]
-milanolife.it##.4wNET
 milanolife.it##.item.advertising
 milanolife.it###mirago
 milanonotte.it/Advertising
@@ -2755,7 +2752,6 @@ notebookitalia.it##A[id="bglink"]
 notipedia.it/wp-content/plugins/better-stop-adblock/
 notipedia.it##[style="z-index: 21; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); opacity: 0.9;"]
 notiziarioitaliano.it/*banner*
-notizie.it##.4wNET
 notizie.it##.addoor-widget
 notizie.it##.ed-widget
 notizie.it##.wes_div
@@ -4136,7 +4132,8 @@ ziddu.com/banners
 zippyshare.com##DIV[class="center_reklamy"]
 zoezozo.it/banner_casino/
 zoomtv.me##DIV[id="memberad"]
-zpag.es##.top_bar.top_bar_ad! [NoAds X Files - Elementi bloccati]/blocking
+zpag.es##.top_bar.top_bar_ad
+! [NoAds X Files - Elementi bloccati]/blocking
 ://adv.$domain=~sky.it|~la7.it|~la7.tv|~tre.it|~tzetze.it
 ://oas.*@$domain=~youreporter.it
 *ad*.nuffnang.com.ph/*.php
@@ -4147,9 +4144,9 @@ zpag.es##.top_bar.top_bar_ad! [NoAds X Files - Elementi bloccati]/blocking
 |*/*/sendspace-pop.html$popup
 ||178.32.140.64/pv.php
 ||254a.com^$popup
-||4xcellent.com^$popup,image,~image
+||4xcellent.com^$popup,image
 ||7eer.net^$popup
-||888.com^$popup,image,~image
+||888.com^$popup,image
 ||a.kickass.to/callback/*$popup
 ||a2pub.com^$domain=junkyvideo.com
 ||action.metaffiliation.com^$popup
@@ -4222,7 +4219,7 @@ zpag.es##.top_bar.top_bar_ad! [NoAds X Files - Elementi bloccati]/blocking
 ||firedrive.com/300x250_r.php?*
 ||firedrive.com/728x90.php
 ||firstmediahub.com^$popup
-||flycell.it^$popup,image,~image
+||flycell.it^$popup,image
 ||forumfree.it/src/showads.js
 ||freewebcams.com^$popup
 ||friendlyappz.com^$popup
@@ -4279,7 +4276,7 @@ zpag.es##.top_bar.top_bar_ad! [NoAds X Files - Elementi bloccati]/blocking
 ||passepartout.net/Resources/js/jquerymeerkat13.js
 ||plugrush.com^$popup,domain=simply-hentai.com
 ||populis.com^$third-party
-||promotelefonia.it^$popup,image,~image
+||promotelefonia.it^$popup,image
 ||pub2srv.com/apu.php
 ||pubexchange.com^$3p
 ||pubted.com^$popup
@@ -4291,14 +4288,14 @@ zpag.es##.top_bar.top_bar_ad! [NoAds X Files - Elementi bloccati]/blocking
 ||rdsa2012.com^$popup
 ||readmanga.eu/$popup
 ||rev2pub.com^$third-party
-||roulettebotplus.com^$popup,image,~image
+||roulettebotplus.com^$popup,image
 ||rtax.criteo.com^$third-party
 ||s.m2pub.com^$popup
 ||saluteperme.com^$popup
 ||sex-flow.com^$popup
 ||sharelive.net/?lpid=$popup
 ||slotoaff.net/placement.do?bannertag
-||smart-call.it^$popup,image,~image
+||smart-call.it^$popup,image
 ||smartadserver.com^$third-party
 ||soluzionibio.it^$popup
 ||spheraholding.com/click_counter_special.php?*$popup
@@ -4700,7 +4697,8 @@ youtube.com##ytd-companion-slot-renderer
 ||glimtors.net^
 ||s99i.org^
 ansa.it/sito/js/cookie_wall.js$1p,script,redirect=noopjs
-twitter.com##section>div>div>*:has(path[d='M19.498 3h-15c-1.381 0-2.5 1.12-2.5 2.5v13c0 1.38 1.119 2.5 2.5 2.5h15c1.381 0 2.5-1.12 2.5-2.5v-13c0-1.38-1.119-2.5-2.5-2.5zm-3.502 12h-2v-3.59l-5.293 5.3-1.414-1.42L12.581 10H8.996V8h7v7z'])! [NoAds X Files - Filtri per blocco popup accettazione Cookie (sperimentale)]
+twitter.com##section>div>div>*:has(path[d='M19.498 3h-15c-1.381 0-2.5 1.12-2.5 2.5v13c0 1.38 1.119 2.5 2.5 2.5h15c1.381 0 2.5-1.12 2.5-2.5v-13c0-1.38-1.119-2.5-2.5-2.5zm-3.502 12h-2v-3.59l-5.293 5.3-1.414-1.42L12.581 10H8.996V8h7v7z'])
+! [NoAds X Files - Filtri per blocco popup accettazione Cookie (sperimentale)]
 @@##.qc-cmp2-container$domain=~ilbianconero.com
 @@##.qc-cmp2-main$domain=~ilbianconero.com
 @@###qc-cmp2-main$domain=~ilbianconero.com
@@ -4763,8 +4761,9 @@ ticketone.it##.optanon-show-settings-popup-wrapper
 tuttosport.com##div[class^="didomi"]
 upstory.it###CybotCookiebotDialogBodyUnderlay
 w3schools.com##.snigel-cmp-framework
-xda-developers.com###uniccmp! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]
-! Version: 3.1.7.6
+xda-developers.com###uniccmp
+! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]
+! Version: 3.1.8.1
 ! General
 ||axate.io$script,third-party
 ||loader-cdn.azureedge.net^$third-party
@@ -5165,7 +5164,6 @@ artsenkrant.com,femmesdaujourdhui.be,flair.be,knack.be,kw.be,levif.be,libelle.be
 /script.js$script,~third-party,domain=niagarafallsreview.ca|stcatharinesstandard.ca|thepeterboroughexaminer.com|therecord.com|thespec.com|thestar.com|wellandtribune.ca
 ! additional adblocker-fix/custom sites
 ||flowerstreatment.com^$third-party
-||substackcdn.com/bundle/main.*.bundle.js$script,domain=codebeautify.org|jsonformatter.org|html.onlineviewer.net
 .com/webfiles/*/js/metering.js$script,third-party,domain=hbook.com|libraryjournal.com|slj.com
 20minutes.fr##+js(rc, qiota_reserve, div.qiota_reserve)
 ||20minutes.fr/v-ajax/subscribe-modal$xmlhttprequest,~third-party
