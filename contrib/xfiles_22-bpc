@@ -1,5 +1,5 @@
 ! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]
-! Version: 3.1.8.1
+! Version: 3.1.8.2
 ! General
 ||axate.io$script,third-party
 ||loader-cdn.azureedge.net^$third-party
@@ -348,9 +348,8 @@ diariocorreo.pe,elcomercio.pe,gestion.pe##+js(ra, class|style, .paywall)
 diariocorreo.pe,elcomercio.pe,gestion.pe##+js(rc, story-contents--fade, p.story-contents--fade)
 diariocorreo.pe,elcomercio.pe,gestion.pe##div[class^="content_gpt"]
 ! Gruppo SAE
-iltirreno.it##+js(cookie-remover, /^/)
-lanuovasardegna.it##+js(cookie-remover, /^/)
-iltirreno.it,lanuovasardegna.it##div.MuiSnackbar-root
+gazzettadimodena.it,gazzettadireggio.it,iltirreno.it,lanuovaferrara.it,lanuovasardegna.it##+js(cookie-remover, /__mtr$/)
+gazzettadimodena.it,gazzettadireggio.it,iltirreno.it,lanuovaferrara.it,lanuovasardegna.it##div.MuiSnackbar-root
 ! Hearst Communications (newspapers)
 .com/script.js$script,~third-party,domain=expressnews.com|houstonchronicle.com|sfchronicle.com
 ! Il Messaggero (+ regional)

@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202305180952
+! Version: 202305191015
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 18-05-2023
+! Last modified: 19-05-2023
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -1636,7 +1636,6 @@ getemoji.com##[id^="aswift_"]
 getemoji.com##A[href*="amazon.com/Audible-Free-Trial"]
 getemoji.com##IFRAME[src^="//banners.itunes.apple.com/"]
 gfx.passwordbyphone.com/468x60/
-ghacks.net##.adsbygoogle
 ghacks.net##.column-ad
 ghacks.net##.ghacks-ad
 ghacks.net##[id^="ghacks_ad_code-"]
@@ -1901,11 +1900,12 @@ ilrestodelcarlino.it##IMG[src*="securepubads"]
 ilsecoloxix.it##.artbanner
 ilsecoloxix.it##.googleAdSense
 ilsitodellozoo.105.net/728x90
-ilsoftware.it##.adsbygoogle
 ilsoftware.it##.w_banner
 ilsoftware.it##[id^="ADleaderboard"]
 ilsoftware.it##[id^="google_ads_iframe"]
 ilsoftware.it##[id^="lwl_"]
+ilsoftware.it###ADleaderboard\ ADbottom
+ilsoftware.it###ADleaderboard\ ADtop
 ilsoftware.it###bottomADV
 ilsoftware.it###topHalfBanner
 ilsoftware.it###topLeaderBoard
@@ -2116,7 +2116,6 @@ itproportal.com##.b4nn3r
 itproportal.com##.smallCol.right
 itsfoss.com##.eaa-ad
 itsfoss.com##[id$="_DynamicAds1"]
-itstillworks.com##.adsbygoogle
 itwriting.com##[href^="https://www.sysax.com/ppc/sxitwads/"]
 iusethis.com##.adbanner
 ivwbox.de/*ad*
@@ -4152,7 +4151,6 @@ zpag.es##.top_bar.top_bar_ad
 ||action.metaffiliation.com^$popup
 ||ad-center.com^$popup
 ||ad.doubleclick.net^$~object-subrequest,third-party,domain=~mediaset.it|~imasdk.googleapis.com
-||ad6media.fr^$script,popup
 ||adblockanalytics.com^$3p
 ||adexchangedirect.com/ufp/send.php
 ||adf.ly/puopen.php?*$popup
@@ -4228,7 +4226,6 @@ zpag.es##.top_bar.top_bar_ad
 ||gamer-network.net^$popup
 ||gazzettadiparma.it/widget/banner/bannerIframe.jsp
 ||giornalegiornaliero.com^$popup
-||gloaphoo.net^$xhr,domain=send.cm
 ||golandwin.it^$popup
 ||goo.gl^$popup,domain=videomega.tv
 ||gooble.info/fs/*$popup
@@ -4309,7 +4306,6 @@ zpag.es##.top_bar.top_bar_ad
 ||targatocn.it/typo3conf/ext/openx/lib/class.tx_openx_frame.php
 ||techtimes.com/iframe_video/ad.php
 ||terraclicks.com^$popup
-||the-japan-news.com/modules/js/lib/fgp/fingerprint2.js$script,redirect=fingerprint2.js,important
 ||thebrowsergame.com^$popup,domain=firedrive.com
 ||thefreecamsecret.com^$popup
 ||thelostsheep.net^$popup
@@ -4327,7 +4323,6 @@ zpag.es##.top_bar.top_bar_ad
 ||video.notizie.it^$popup
 ||videowood.tv^$popup
 ||vidtech.cbsinteractive.com/$domain=cnet.com
-||vidtech.cbsinteractive.com^*/tracking/$script,redirect=noop.js,important
 ||vipcpms.com^$popup
 ||wagital.com/Wagital-Ads.html
 ||warthunder.com^$popup
@@ -4335,7 +4330,6 @@ zpag.es##.top_bar.top_bar_ad
 ||weblinkads.com^$popup
 ||webmail.libero.it/mail/advWallpaper.jsp
 ||widget.worldfilia.net/widget.php?*
-||widgets.outbrain.com/outbrain.js$script,redirect=widgets.outbrain.com/outbrain.js
 ||williamhill.it^$popup
 ||wwwpromoter.com^$popup
 ||xlovecam.com^$popup
@@ -4583,6 +4577,7 @@ zeroadserver.com/showBanner.php
 /px.gif?
 /show_ads_
 /wf-beacon-
+##.ad-container
 ##.adsbox
 ##.adsbygoogle
 ##.adthrive-ad
@@ -4593,6 +4588,7 @@ zeroadserver.com/showBanner.php
 ##.c_ligatus_nxn
 ##.center_ads
 ##.darla
+##.ez-sidebar-wall-ad
 ##.ezoic-ad
 ##.horizontalAd
 ##.leaderAdvert
@@ -4600,6 +4596,7 @@ zeroadserver.com/showBanner.php
 ##.Ligatus
 ##.nat-widget
 ##.native-ad-item
+##.outbrain_inread
 ##.ps-ligatus_placeholder
 ##.taboola-recommended
 ##.teads-inread
@@ -4653,7 +4650,6 @@ bergamonews.it##^script:has-text(request_ads)
 ###watch7-sidebar-ads
 ##ytd-companion-slot-renderer
 =adunit&
-||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
 ||google.com/pagead/
 ||googleads.g.doubleclick.net^$domain=youtube.com
 ||phobos.apple.com^$image,domain=youtube.com
@@ -4696,7 +4692,6 @@ youtube.com##ytd-companion-slot-renderer
 *$script,1p,domain=~kat.at|~kat.ec|~kat.eu|~kat.mn|~kat.rip|~kat.tv|~kickass.codes|~kickass.website|kat.*|katbay.*|kickass.*|kickasshydra.*|kickasskat.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*
 ||glimtors.net^
 ||s99i.org^
-ansa.it/sito/js/cookie_wall.js$1p,script,redirect=noopjs
 twitter.com##section>div>div>*:has(path[d='M19.498 3h-15c-1.381 0-2.5 1.12-2.5 2.5v13c0 1.38 1.119 2.5 2.5 2.5h15c1.381 0 2.5-1.12 2.5-2.5v-13c0-1.38-1.119-2.5-2.5-2.5zm-3.502 12h-2v-3.59l-5.293 5.3-1.414-1.42L12.581 10H8.996V8h7v7z'])
 ! [NoAds X Files - Filtri per blocco popup accettazione Cookie (sperimentale)]
 ##.as-oil-content-overlay
@@ -4760,7 +4755,7 @@ upstory.it###CybotCookiebotDialogBodyUnderlay
 w3schools.com##.snigel-cmp-framework
 xda-developers.com###uniccmp
 ! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]
-! Version: 3.1.8.1
+! Version: 3.1.8.2
 ! General
 ||axate.io$script,third-party
 ||loader-cdn.azureedge.net^$third-party
@@ -5109,9 +5104,8 @@ diariocorreo.pe,elcomercio.pe,gestion.pe##+js(ra, class|style, .paywall)
 diariocorreo.pe,elcomercio.pe,gestion.pe##+js(rc, story-contents--fade, p.story-contents--fade)
 diariocorreo.pe,elcomercio.pe,gestion.pe##div[class^="content_gpt"]
 ! Gruppo SAE
-iltirreno.it##+js(cookie-remover, /^/)
-lanuovasardegna.it##+js(cookie-remover, /^/)
-iltirreno.it,lanuovasardegna.it##div.MuiSnackbar-root
+gazzettadimodena.it,gazzettadireggio.it,iltirreno.it,lanuovaferrara.it,lanuovasardegna.it##+js(cookie-remover, /__mtr$/)
+gazzettadimodena.it,gazzettadireggio.it,iltirreno.it,lanuovaferrara.it,lanuovasardegna.it##div.MuiSnackbar-root
 ! Hearst Communications (newspapers)
 .com/script.js$script,~third-party,domain=expressnews.com|houstonchronicle.com|sfchronicle.com
 ! Il Messaggero (+ regional)
@@ -5281,17 +5275,13 @@ diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.e
 diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elnortedecastilla.es,hoy.es,ideal.es,larioja.com,lasprovincias.es,laverdad.es,lavozdigital.es##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 ! [NoAds X Files - Filtri per blocco abuso risorse CPU / Exploit]
 ://api.*/lib/native.wasm$3p
-./M5q5.js$script
-*?proxy=$script
 *$csp=worker-src 'none',domain=123moviesgo.nl|bmovies123.me|fmoviesgo.me|skytorrents.me
 *$csp=worker-src 'none',domain=alltube.tv|lewd.ninja|milujivareni.cz|subswiki.com
 *$csp=worker-src 'none',domain=flashx.pw|vidoza.net
 *$csp=worker-src 'none',domain=megapastes.com
 *$csp=worker-src 'none',domain=powvideo.net
 *$csp=worker-src 'none',domain=unblocktheship.org
-/adsensebase.js$script
 /angular8.js
-/edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||backend.dna-delivery.com^$domain=france.tv|rt.com
 ||cryweb.github.io^
 ||csgo.xyz^$doc
@@ -5310,7 +5300,6 @@ diariosur.es,diariovasco.com,elcomercio.es,elcorreo.com,eldiariomontanes.es,elno
 ||potomy.ru^$csp=worker-src 'none'
 ||protect-link.biz^$csp=worker-src 'none';
 ||revdl.com^$csp=worker-src 'none';
-||safelinkconverter.com^$script,3p
 ||sickrage.ca^$csp=worker-src 'none'
 ||sorteosrd.com^$csp=worker-src 'none'
 ||thevideo.*^$csp=worker-src 'none';
