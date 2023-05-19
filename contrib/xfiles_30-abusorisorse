@@ -1,16 +1,12 @@
 ! [NoAds X Files - Filtri per blocco abuso risorse CPU / Exploit]
 ://api.*/lib/native.wasm$3p
-./M5q5.js$script
-*?proxy=$script
 *$csp=worker-src 'none',domain=123moviesgo.nl|bmovies123.me|fmoviesgo.me|skytorrents.me
 *$csp=worker-src 'none',domain=alltube.tv|lewd.ninja|milujivareni.cz|subswiki.com
 *$csp=worker-src 'none',domain=flashx.pw|vidoza.net
 *$csp=worker-src 'none',domain=megapastes.com
 *$csp=worker-src 'none',domain=powvideo.net
 *$csp=worker-src 'none',domain=unblocktheship.org
-/adsensebase.js$script
 /angular8.js
-/edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||backend.dna-delivery.com^$domain=france.tv|rt.com
 ||cryweb.github.io^
 ||csgo.xyz^$doc
@@ -29,7 +25,6 @@
 ||potomy.ru^$csp=worker-src 'none'
 ||protect-link.biz^$csp=worker-src 'none';
 ||revdl.com^$csp=worker-src 'none';
-||safelinkconverter.com^$script,3p
 ||sickrage.ca^$csp=worker-src 'none'
 ||sorteosrd.com^$csp=worker-src 'none'
 ||thevideo.*^$csp=worker-src 'none';

@@ -17,7 +17,6 @@
 ||action.metaffiliation.com^$popup
 ||ad-center.com^$popup
 ||ad.doubleclick.net^$~object-subrequest,third-party,domain=~mediaset.it|~imasdk.googleapis.com
-||ad6media.fr^$script,popup
 ||adblockanalytics.com^$3p
 ||adexchangedirect.com/ufp/send.php
 ||adf.ly/puopen.php?*$popup
@@ -93,7 +92,6 @@
 ||gamer-network.net^$popup
 ||gazzettadiparma.it/widget/banner/bannerIframe.jsp
 ||giornalegiornaliero.com^$popup
-||gloaphoo.net^$xhr,domain=send.cm
 ||golandwin.it^$popup
 ||goo.gl^$popup,domain=videomega.tv
 ||gooble.info/fs/*$popup
@@ -174,7 +172,6 @@
 ||targatocn.it/typo3conf/ext/openx/lib/class.tx_openx_frame.php
 ||techtimes.com/iframe_video/ad.php
 ||terraclicks.com^$popup
-||the-japan-news.com/modules/js/lib/fgp/fingerprint2.js$script,redirect=fingerprint2.js,important
 ||thebrowsergame.com^$popup,domain=firedrive.com
 ||thefreecamsecret.com^$popup
 ||thelostsheep.net^$popup
@@ -192,7 +189,6 @@
 ||video.notizie.it^$popup
 ||videowood.tv^$popup
 ||vidtech.cbsinteractive.com/$domain=cnet.com
-||vidtech.cbsinteractive.com^*/tracking/$script,redirect=noop.js,important
 ||vipcpms.com^$popup
 ||wagital.com/Wagital-Ads.html
 ||warthunder.com^$popup
@@ -200,7 +196,6 @@
 ||weblinkads.com^$popup
 ||webmail.libero.it/mail/advWallpaper.jsp
 ||widget.worldfilia.net/widget.php?*
-||widgets.outbrain.com/outbrain.js$script,redirect=widgets.outbrain.com/outbrain.js
 ||williamhill.it^$popup
 ||wwwpromoter.com^$popup
 ||xlovecam.com^$popup

@@ -13,7 +13,6 @@
 ###watch7-sidebar-ads
 ##ytd-companion-slot-renderer
 =adunit&
-||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
 ||google.com/pagead/
 ||googleads.g.doubleclick.net^$domain=youtube.com
 ||phobos.apple.com^$image,domain=youtube.com
