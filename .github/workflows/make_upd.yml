@@ -82,15 +82,15 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
           
-      - name: Tweet @noadsxfiles
-        if: ${{ env.stop == 'false' }}
-        id: tweet
-        uses: snow-actions/tweet@v1.1.1
-        env:
-          CONSUMER_API_KEY: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
-          CONSUMER_API_SECRET_KEY: ${{ secrets.TWITTER_CONSUMER_API_SECRET_KEY }}
-          ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-          ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
-        with:
-          status: |
-            🆕 Nuovo rilascio di #ABPXFiles #UPD 🛡 (versione ${{ env.update }}), aggiorna la tua sottoscrizione! 👊 (novità disponibili su https://github.com/${{ github.repository }}/commit/${{ env.commitshort }})
+      #- name: Tweet @noadsxfiles
+      #  if: ${{ env.stop == 'false' }}
+      #  id: tweet
+      #  uses: snow-actions/tweet@v1.1.1
+      #  env:
+      #    CONSUMER_API_KEY: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
+      #    CONSUMER_API_SECRET_KEY: ${{ secrets.TWITTER_CONSUMER_API_SECRET_KEY }}
+      #    ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+      #    ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+      #  with:
+      #    status: |
+      #      🆕 Nuovo rilascio di #ABPXFiles #UPD 🛡 (versione ${{ env.update }}), aggiorna la tua sottoscrizione! 👊 (novità disponibili su https://github.com/${{ github.repository }}/commit/${{ env.commitshort }})
