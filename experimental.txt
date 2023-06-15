@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202305191015
+! Version: 202306151107
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 19-05-2023
+! Last modified: 15-06-2023
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -999,6 +999,7 @@ conduit-banners.com/DrawToolbar
 conosceremilano.it/of/Banner/
 consumatore.tgcom24.it###box300x190
 contacaratteri.it##.AdvTop
+convertcsv.com##.ezoic-ad
 coolsoft.altervista.org##.csmny
 coolsoft.altervista.org##.region-highlighted.region
 copertinedvd.net/PeelADS
@@ -1845,6 +1846,8 @@ ilgiornale.it##[id$="adv-5"]
 ilgiornale.it###bottombar_banner
 ilgiornale.it###vetrina
 ilgiornaledivicenza.it##DIV[id^="_fb_unit_"]
+ilgiorno.it##[class^="Ad_watermark"]
+ilgiorno.it##[class^="ads_"]
 ilive.to##.p08y2bgbbdbke
 ilive.to###ad_overlay
 illumeably.com##div.ad-label
@@ -2170,6 +2173,7 @@ knowyourmeme.com##.shemedia-ad-wrapper
 komando.com###right-ads-9
 kotaku.co.uk##.commercial.commercial--leaderboard
 kotaku.co.uk##[id^="google_ads_iframe"]
+kotaku.com##.ad-container
 krebsonsecurity.com###top-banner-image
 la7.it##.adv
 la7.it##.advertising
@@ -3591,6 +3595,8 @@ theclub.it/adv
 thegamesmachine.it###Advertisement
 thegamesmachine.it###aktia-ads
 thegamesmachine.it###takeover_gv
+theguardian.com##.ad-slot-container
+theguardian.com##.top-banner-ad-container
 theguardian.com##[id*="-ad-"]
 thehackernews.com##.dcmads
 thehackernews.com##.google.cf
@@ -3620,6 +3626,7 @@ theverge.com##.vert.vert300.hashable
 theverge.com##ASIDE
 thewindowsclub.com##.widget.ad-widget
 thewindowsclub.com##[class^="ad ad-"]
+thingiverse.com##[class^="AdCard__"]
 threadreaderapp.com##.top-ad.container
 throughput.de/images/wrb/
 thumboo.com##DIV[class="links"]
@@ -3775,6 +3782,7 @@ tunebat.com##.center-block.ad-container-box.pb-alt
 tunebat.com##.slide-in
 tunebat.com###mailchimp-popup-container
 turbolab.it##.economics-handstop-warning
+turbolab.it##.tli-economics-expected
 tuttidentro.it/*banner*
 tuttoabruzzo.it/_banner
 tuttoandroid.net##[href*="adclick"]
@@ -4639,8 +4647,10 @@ bergamonews.it##^script:has-text(request_ads)
 @@||s.ytimg.com/yts/swfbin/player-*/watch_as3.swf$object,domain=youtube.com
 @@||yimg.com^*/combo?$stylesheet,domain=yahoo.com
 @@||ytimg.com/yts/jsbin/$script
+/generate_204$~xhr
 /pagead/lvz?
 /pubads.
+/v1/log_event
 ##.video-ads
 ##.ytd-companion-slot-renderer
 ##.ytd-player-legacy-desktop-watch-ads-renderer
@@ -4650,16 +4660,25 @@ bergamonews.it##^script:has-text(request_ads)
 ###watch7-sidebar-ads
 ##ytd-companion-slot-renderer
 =adunit&
+||doubleclick.net/instream/ad_status.js$script,redirect-rule=doubleclick_instream_ad_status.js
+||doubleclick.net^
+||doubleclick.net^$xhr,redirect-rule=noop.txt
+||google.com/gen_204?
+||google.com/log?
 ||google.com/pagead/
 ||googleads.g.doubleclick.net^$domain=youtube.com
 ||phobos.apple.com^$image,domain=youtube.com
 ||static.doubleclick.net^$domain=youtube.com
 ||tpc.googlesyndication.com^
 ||www.youtube.com/get_midroll_$domain=youtube.com
+||youtube.com/api/stats/qoe?
 ||youtube.com/pagead/
+||youtube.com/ptracking?
 ||ytimg.com^*_banner$domain=youtube.com
 ||ytimg.com^*/new_watch_background$domain=youtube.com
+doubleclick_instream_ad_status.js
 marcheingol.it##IFRAME[src^="https://www.youtube.com/embed/"]
+noop.txt
 youtube.com,youtube-nocookie.com##+js(json-prune.js, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##.ad-div
 youtube.com##.carousel-offer-url-container
@@ -4667,9 +4686,15 @@ youtube.com##.masthead-ad-control
 youtube.com##.promoted-videos
 youtube.com##.watch-extra-info-column
 youtube.com##.watch-extra-info-right
+youtube.com##.ytd-ad-slot-renderer
 youtube.com##.ytd-companion-slot-renderer
+youtube.com##.ytd-display-ad-renderer
+youtube.com##.ytd-in-feed-ad-layout-renderer
+youtube.com##.ytd-page-top-ad-layout-renderer
 youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
+youtube.com##.ytd-rich-item-renderer > ytd-ad-slot-renderer
 youtube.com##.ytp-ad-progress-list
+youtube.com##[layout*="display-ad-"]
 youtube.com###ad_creative_2
 youtube.com###feed-pyv-container
 youtube.com###feedmodule-PRO
@@ -4677,16 +4702,29 @@ youtube.com###footer-ads
 youtube.com###homepage-chrome-side-promo
 youtube.com###masthead-ad
 youtube.com###merch-shelf
+youtube.com###player [class*="suggested-action-badge-icon"]:upward(.ytp-suggested-action)
+youtube.com###player-ads
 youtube.com###root > .ytd-display-ad-renderer.style-scope
 youtube.com###search-pva
 youtube.com###video-masthead
 youtube.com###watch-branded-actions
 youtube.com###watch-buy-urls
+youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig)
+youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
+youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##a[href^="http://www.youtube.com/cthru?"]
+youtube.com##a[href^="https://www.googleadservices.com/pagead/aclk?"]
 youtube.com##DIV[class*="ytd-promoted-sparkles"]
 youtube.com##DIV[id="homepage-sidebar-ads"]
+youtube.com##ytd-ad-slot-renderer
 youtube.com##ytd-companion-slot-renderer
+youtube.com##ytd-display-ad-renderer
+youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
+youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-row:has(ytd-display-ad-renderer)
 ! [NoAds X Files - Filtri sperimentali]
 *$document,csp=script-src *,domain=~kat.at|~kat.ec|~kat.mn|~kat.eu|~kat.rip|~kat.tv|~kickass.codes|~kickass.website|kat.*|katbay.*|kickass.*|kickasshydra.*|kickasskat.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*
 *$script,1p,domain=~kat.at|~kat.ec|~kat.eu|~kat.mn|~kat.rip|~kat.tv|~kickass.codes|~kickass.website|kat.*|katbay.*|kickass.*|kickasshydra.*|kickasskat.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*
@@ -4755,7 +4793,7 @@ upstory.it###CybotCookiebotDialogBodyUnderlay
 w3schools.com##.snigel-cmp-framework
 xda-developers.com###uniccmp
 ! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]
-! Version: 3.1.8.2
+! Version: 3.2.0.1
 ! General
 ||axate.io$script,third-party
 ||loader-cdn.azureedge.net^$third-party
@@ -4820,10 +4858,11 @@ bloombergadria.com##+js(ra, style, article[style])
 ||meter.bostonglobe.com/js/meter.js$script,~third-party
 cen.acs.org##+js(cookie-remover, paywall-cookie)
 cen.acs.org##.meteredBar
-challenges.fr##+js(rc, amorce, div.amorce)
+challenges.fr##div.amorce.manual
 challenges.fr##+js(ra, class|hidden, .user-paying-content)
 charliehebdo.fr##+js(ra, style, div.ch-paywalled-content)
 charliehebdo.fr##div#poool-widget
+||clicrbs.com.br/paywall-api/count/$xmlhttprequest,~third-party
 cnbc.com##div.ArticleGate-proGate
 cnbc.com##+js(ra, class|hidden, span[hidden])
 ||chronicle.com/script.js$script,~third-party
@@ -4845,6 +4884,7 @@ citywire.com##registration-widget,div.alert--locked
 connaissancedesarts.com##div.ad-container
 ||corriereobjects.it/*/js/_paywall.sjs$script,domain=corriere.it
 corrieredellosport.it##+js(cookie-remover, /paywall_articles/)
+||cdn.wyleex.com/elcronista/pw.min.js$script,domain=cronista.com
 ||crusoe.uol.com.br/diario/$inline-script
 ||crusoe.uol.com.br/edicoes/$inline-script
 crusoe.uol.com.br##div#wallcontent,div#gpt-leaderboard,div.ads_desktop,div.catchment-box
@@ -4853,6 +4893,8 @@ csmonitor.com##.paywall
 dailywire.com###post-body-text > div > div:style(height: auto !important;)
 dallasnews.com##div.sl-overlay
 dallasnews.com##+js(ra, style, div#courier-body-wrapper[style])
+defector.com##+js(cookie-remover, lede_defector_user)
+defector.com##div[class^="ContentGate_wrapper__"]
 ||dn.se/check-paywall-v2.js,~third-party
 ||ndcmediagroep.nl/js/evolok/$script,domain=dvhn.nl|lc.nl
 eastwest.eu##+js(ra, style, .paywall)
@@ -4943,7 +4985,7 @@ livelaw.in##div#subscription_paid_message,div.subscribeNow
 livemint.com##+js(rc, paywall, div.paywall)
 labusinessjournal.com##+js(cookie-remover, /^/)
 labusinessjournal.com###css-only-modals
-||lavoz.com.ar$inline-script
+||cdn.wyleex.com/lavoz/pw.min.js$script,domain=lavoz.com.ar
 lavoz.com.ar##.wrapperblock
 ||lavoz.com.ar/sites/*/paywall/losandes/pw.js$script,domain=losandes.com.ar
 loebclassics.com##+js(cookie-remover, /^/)
@@ -4962,14 +5004,17 @@ newrepublic.com##div.article-scheduled-modal
 ||nola.com/script.js$script,~third-party
 nrc.nl##+js(cookie-remover, counter)
 ||nrc.nl/paywall-api/api/zephr$xmlhttprequest,~third-party
-nrc.nl##[id$="modal__overlay"],.header__subscribe-bar,.banner
+nrc.nl##div[id$="modal__overlay"],div.header__subscribe-bar,div.banner
 ||nybooks.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
 nybooks.com##+js(rc, paywall-article, .paywall-article)
 nybooks.com##div.toast-cta
 ||nyteknik.se/*/static/js/site.min.js$script,~third-party
 nyteknik.se##+js(rc, locked-article, div.locked-article)
 ||meter-svc.nytimes.com/meter.js$xmlhttprequest,~third-party
+nytimes.com##+js(json-prune, data.user)
+!#if adguard_app_ios
 ||nytimes.com/graphql/v2$xmlhttprequest,~third-party
+!#endif
 ||mwcm.nyt.com/$script,domain=nytimes.com
 nytimes.com##div[data-testid="inline-message"],div[id^="ad-"],div.expanded-dock
 ||cooking.nytimes.com/api/*/access$xmlhttprequest,~third-party
@@ -4992,7 +5037,7 @@ rundschau-online.de##div[data-tm-placeholder],div.dm-slot
 schwaebische.de##+js(ra, style, body[style], stay)
 science.org##div.alert-read-limit
 science.org##+js(rc, alert-read-limit__overlay, body.alert-read-limit__overlay, stay)
-sciencesetavenir.fr##div.amorce
+sciencesetavenir.fr##div.amorce.manual
 sciencesetavenir.fr##+js(ra, class|hidden, .user-paying-content)
 scientificamerican.com##+js(cookie-remover, /^/)
 scmp.com##+js(ra, amp-access-hide, div.article-body[amp-access][amp-access-hide])
@@ -5056,6 +5101,7 @@ thequint.com##+js(ra, class, div#story-body-wrapper, stay)
 thesaturdaypaper.com.au##+js(cookie-remover, /^/)
 thesaturdaypaper.com.au##div.paywall-hard-always-show
 thetimes.co.uk##+js(ra, style, body[style], stay)
+thetimes.co.uk##+js(ra, style, html[style], stay)
 ||time.com/dist/meter-wall-client-js.*.js$script,~third-party
 time.com##body:style(position:relative !important)
 ||timeshighereducation.com/sites/default/files/*/js__*.js$script,~third-party
@@ -5151,6 +5197,9 @@ artsenkrant.com,femmesdaujourdhui.be,flair.be,knack.be,kw.be,levif.be,libelle.be
 !#if env_firefox
 /\.(femmesdaujourdhui|flair|knack|levif|libelle)\.be\/.+\/((\w)+(\-)+){3,}/$inline-script
 !#endif
+! TechTarget sites
+computerweekly.com,lemagit.fr,techtarget.com##+js(rc, paywall, div.paywall, stay)
+computerweekly.com,lemagit.fr,techtarget.com##p#firstP,div#inlineRegistrationWrapper
 ! TorStar sites
 /script.js$script,~third-party,domain=niagarafallsreview.ca|stcatharinesstandard.ca|thepeterboroughexaminer.com|therecord.com|thespec.com|thestar.com|wellandtribune.ca
 ! additional adblocker-fix/custom sites
@@ -5240,8 +5289,8 @@ centrepresseaveyron.fr,ladepeche.fr,lindependant.fr,midi-olympique.fr,midilibre.
 adelaidenow.com.au,cairnspost.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,geelongadvertiser.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,theaustralian.com.au,thechronicle.com.au,themercury.com.au,townsvillebulletin.com.au,weeklytimesnow.com.au##+js(ra, subscriptions-section, [subscriptions-section="content"])
 adelaidenow.com.au,cairnspost.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,geelongadvertiser.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,theaustralian.com.au,thechronicle.com.au,themercury.com.au,townsvillebulletin.com.au,weeklytimesnow.com.au##[subscriptions-section="content-not-granted"]
 ! German sites
-augsburger-allgemeine.de,muensterschezeitung.de,mz.de,westfalen-blatt.de,wn.de,volksstimme.de##+js(ra, subscriptions-section, [subscriptions-section="content"])
-augsburger-allgemeine.de,muensterschezeitung.de,mz.de,westfalen-blatt.de,wn.de,volksstimme.de##[subscriptions-section="content-not-granted"]
+augsburger-allgemeine.de,muensterschezeitung.de,westfalen-blatt.de,wn.de##+js(ra, subscriptions-section, [subscriptions-section="content"])
+augsburger-allgemeine.de,muensterschezeitung.de,westfalen-blatt.de,wn.de##[subscriptions-section="content-not-granted"]
 nw.de##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 nw.de##div.paywallOverlay
 ! Funke Mediengruppe

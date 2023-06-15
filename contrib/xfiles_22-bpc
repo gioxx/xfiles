@@ -1,5 +1,5 @@
 ! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]
-! Version: 3.1.8.2
+! Version: 3.2.0.1
 ! General
 ||axate.io$script,third-party
 ||loader-cdn.azureedge.net^$third-party
@@ -64,10 +64,11 @@ bloombergadria.com##+js(ra, style, article[style])
 ||meter.bostonglobe.com/js/meter.js$script,~third-party
 cen.acs.org##+js(cookie-remover, paywall-cookie)
 cen.acs.org##.meteredBar
-challenges.fr##+js(rc, amorce, div.amorce)
+challenges.fr##div.amorce.manual
 challenges.fr##+js(ra, class|hidden, .user-paying-content)
 charliehebdo.fr##+js(ra, style, div.ch-paywalled-content)
 charliehebdo.fr##div#poool-widget
+||clicrbs.com.br/paywall-api/count/$xmlhttprequest,~third-party
 cnbc.com##div.ArticleGate-proGate
 cnbc.com##+js(ra, class|hidden, span[hidden])
 ||chronicle.com/script.js$script,~third-party
@@ -89,6 +90,7 @@ citywire.com##registration-widget,div.alert--locked
 connaissancedesarts.com##div.ad-container
 ||corriereobjects.it/*/js/_paywall.sjs$script,domain=corriere.it
 corrieredellosport.it##+js(cookie-remover, /paywall_articles/)
+||cdn.wyleex.com/elcronista/pw.min.js$script,domain=cronista.com
 ||crusoe.uol.com.br/diario/$inline-script
 ||crusoe.uol.com.br/edicoes/$inline-script
 crusoe.uol.com.br##div#wallcontent,div#gpt-leaderboard,div.ads_desktop,div.catchment-box
@@ -97,6 +99,8 @@ csmonitor.com##.paywall
 dailywire.com###post-body-text > div > div:style(height: auto !important;)
 dallasnews.com##div.sl-overlay
 dallasnews.com##+js(ra, style, div#courier-body-wrapper[style])
+defector.com##+js(cookie-remover, lede_defector_user)
+defector.com##div[class^="ContentGate_wrapper__"]
 ||dn.se/check-paywall-v2.js,~third-party
 ||ndcmediagroep.nl/js/evolok/$script,domain=dvhn.nl|lc.nl
 eastwest.eu##+js(ra, style, .paywall)
@@ -187,7 +191,7 @@ livelaw.in##div#subscription_paid_message,div.subscribeNow
 livemint.com##+js(rc, paywall, div.paywall)
 labusinessjournal.com##+js(cookie-remover, /^/)
 labusinessjournal.com###css-only-modals
-||lavoz.com.ar$inline-script
+||cdn.wyleex.com/lavoz/pw.min.js$script,domain=lavoz.com.ar
 lavoz.com.ar##.wrapperblock
 ||lavoz.com.ar/sites/*/paywall/losandes/pw.js$script,domain=losandes.com.ar
 loebclassics.com##+js(cookie-remover, /^/)
@@ -206,14 +210,17 @@ newrepublic.com##div.article-scheduled-modal
 ||nola.com/script.js$script,~third-party
 nrc.nl##+js(cookie-remover, counter)
 ||nrc.nl/paywall-api/api/zephr$xmlhttprequest,~third-party
-nrc.nl##[id$="modal__overlay"],.header__subscribe-bar,.banner
+nrc.nl##div[id$="modal__overlay"],div.header__subscribe-bar,div.banner
 ||nybooks.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
 nybooks.com##+js(rc, paywall-article, .paywall-article)
 nybooks.com##div.toast-cta
 ||nyteknik.se/*/static/js/site.min.js$script,~third-party
 nyteknik.se##+js(rc, locked-article, div.locked-article)
 ||meter-svc.nytimes.com/meter.js$xmlhttprequest,~third-party
+nytimes.com##+js(json-prune, data.user)
+!#if adguard_app_ios
 ||nytimes.com/graphql/v2$xmlhttprequest,~third-party
+!#endif
 ||mwcm.nyt.com/$script,domain=nytimes.com
 nytimes.com##div[data-testid="inline-message"],div[id^="ad-"],div.expanded-dock
 ||cooking.nytimes.com/api/*/access$xmlhttprequest,~third-party
@@ -236,7 +243,7 @@ rundschau-online.de##div[data-tm-placeholder],div.dm-slot
 schwaebische.de##+js(ra, style, body[style], stay)
 science.org##div.alert-read-limit
 science.org##+js(rc, alert-read-limit__overlay, body.alert-read-limit__overlay, stay)
-sciencesetavenir.fr##div.amorce
+sciencesetavenir.fr##div.amorce.manual
 sciencesetavenir.fr##+js(ra, class|hidden, .user-paying-content)
 scientificamerican.com##+js(cookie-remover, /^/)
 scmp.com##+js(ra, amp-access-hide, div.article-body[amp-access][amp-access-hide])
@@ -300,6 +307,7 @@ thequint.com##+js(ra, class, div#story-body-wrapper, stay)
 thesaturdaypaper.com.au##+js(cookie-remover, /^/)
 thesaturdaypaper.com.au##div.paywall-hard-always-show
 thetimes.co.uk##+js(ra, style, body[style], stay)
+thetimes.co.uk##+js(ra, style, html[style], stay)
 ||time.com/dist/meter-wall-client-js.*.js$script,~third-party
 time.com##body:style(position:relative !important)
 ||timeshighereducation.com/sites/default/files/*/js__*.js$script,~third-party
@@ -395,6 +403,9 @@ artsenkrant.com,femmesdaujourdhui.be,flair.be,knack.be,kw.be,levif.be,libelle.be
 !#if env_firefox
 /\.(femmesdaujourdhui|flair|knack|levif|libelle)\.be\/.+\/((\w)+(\-)+){3,}/$inline-script
 !#endif
+! TechTarget sites
+computerweekly.com,lemagit.fr,techtarget.com##+js(rc, paywall, div.paywall, stay)
+computerweekly.com,lemagit.fr,techtarget.com##p#firstP,div#inlineRegistrationWrapper
 ! TorStar sites
 /script.js$script,~third-party,domain=niagarafallsreview.ca|stcatharinesstandard.ca|thepeterboroughexaminer.com|therecord.com|thespec.com|thestar.com|wellandtribune.ca
 ! additional adblocker-fix/custom sites
@@ -484,8 +495,8 @@ centrepresseaveyron.fr,ladepeche.fr,lindependant.fr,midi-olympique.fr,midilibre.
 adelaidenow.com.au,cairnspost.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,geelongadvertiser.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,theaustralian.com.au,thechronicle.com.au,themercury.com.au,townsvillebulletin.com.au,weeklytimesnow.com.au##+js(ra, subscriptions-section, [subscriptions-section="content"])
 adelaidenow.com.au,cairnspost.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,geelongadvertiser.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,theaustralian.com.au,thechronicle.com.au,themercury.com.au,townsvillebulletin.com.au,weeklytimesnow.com.au##[subscriptions-section="content-not-granted"]
 ! German sites
-augsburger-allgemeine.de,muensterschezeitung.de,mz.de,westfalen-blatt.de,wn.de,volksstimme.de##+js(ra, subscriptions-section, [subscriptions-section="content"])
-augsburger-allgemeine.de,muensterschezeitung.de,mz.de,westfalen-blatt.de,wn.de,volksstimme.de##[subscriptions-section="content-not-granted"]
+augsburger-allgemeine.de,muensterschezeitung.de,westfalen-blatt.de,wn.de##+js(ra, subscriptions-section, [subscriptions-section="content"])
+augsburger-allgemeine.de,muensterschezeitung.de,westfalen-blatt.de,wn.de##[subscriptions-section="content-not-granted"]
 nw.de##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 nw.de##div.paywallOverlay
 ! Funke Mediengruppe
