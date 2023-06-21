@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202306151107
+! Version: 202306211604
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 15-06-2023
+! Last modified: 21-06-2023
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -443,6 +443,7 @@
 87.230.55.113/adserver/
 9gag.com##.block-ad
 9gag.com##.naughty-box
+9to5google.com##.ad-container
 9to5mac.com##.ad-container
 a.abnad.net/iframe
 a.lakequincy.com/img/
@@ -1445,6 +1446,8 @@ firedrive.com##.ad_top
 firedrive.com###fdba_cont
 firedrive.com##DIV[id="fdpc_cont"]
 firedrive.com##IFRAME[src^="https://mymedia.adk2.net/"]
+fiscoetasse.com##[id^="salesmanago-Iframe_"]
+fiscoetasse.com###sm-recommendations_desktop
 fiscotasse.blogspot.it###AdSense2
 fiscotasse.blogspot.it###AdSense3
 fivemp3.com/*/banner
@@ -2229,6 +2232,7 @@ lastminute.com/*/affiliati/
 lastminute.com/lmn
 lastpass.com###ad
 latinospost.com##[id^="google_ads_iframe"]
+lazyadmin.nl##.adthrive-ad
 lduhtrp.net/image-1702946-10373600
 leganerd.com##[id^="banner_mpu"]
 leganerd.com###banner_mpu1
@@ -2437,6 +2441,8 @@ maketecheasier.com##[id^="google_ads_iframe"]
 maketecheasier.com##DIV[class="sidebar-widget in-content-ad"]
 maketecheasier.com##DIV[class="text-center clear in-content-ad"]
 makeuseof.com##.ad-current
+makeuseof.com##.ad-zone
+makeuseof.com##.ad-zone-container
 makeuseof.com##.adsninja-ad-zone
 makeuseof.com##.sidebar-banner
 makeuseof.com##[id^="div-gpt-ad"]
@@ -3153,6 +3159,7 @@ repubblica.it###ads2
 repubblica.it###adv_Skin
 repubblica.it###adv-scrollable
 repubblica.it###adv-top
+repubblica.it###adv-TopLeft
 repubblica.it###eyeDiv
 repubblica.it###superMoneyWidget-rotator
 repubblica.it##DIV[id^="adv-"]
@@ -3185,6 +3192,7 @@ rollingstone.it##[id^="mmAd"]
 rollingstone.it###result
 rollingstone.it##A[href^="http://cnfm.ad.dotandad.com/"]
 roma.corriere.it##.ob_strip_container
+roma.repubblica.it###adv-TopLeft
 romagnaoggi.it/files/banner/
 romalife.it##[id^="DotnAd_"]
 romatoday.it/images/skin_
@@ -3619,6 +3627,7 @@ theonion.com##.ad-container
 thepiratebay.org##.ad120
 thepiratebay.org##.ad468
 thepiratebay.org##.adblock
+thepythoncode.com##.ezoic-ad
 theverge.com##.adblock-whitelist-messaging__article-wrapper
 theverge.com##.m-ad
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
@@ -3897,6 +3906,7 @@ vg247.it##IMG[width="1260"][height="110"][src^="http://images.eurogamer.net/"]
 viamichelin.it/*overtureKeyword*
 viamichelin.it##.rectGdhResultDiv
 viamichelin.it###idHeaderGDH
+vice.com##.adph
 vice.com##.text-center.ad-unit
 vice.com##.vice-ad
 vice.com##[class^="ad-unit"]
