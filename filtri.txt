@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files
-! Version: 202306190322
+! Version: 202306270951
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 19-06-2023
+! Last modified: 27-06-2023
 ! Expires: 15 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -442,6 +442,7 @@
 87.230.55.113/adserver/
 9gag.com##.block-ad
 9gag.com##.naughty-box
+9to5google.com##.ad-container
 9to5mac.com##.ad-container
 a.abnad.net/iframe
 a.lakequincy.com/img/
@@ -1444,6 +1445,8 @@ firedrive.com##.ad_top
 firedrive.com###fdba_cont
 firedrive.com##DIV[id="fdpc_cont"]
 firedrive.com##IFRAME[src^="https://mymedia.adk2.net/"]
+fiscoetasse.com##[id^="salesmanago-Iframe_"]
+fiscoetasse.com###sm-recommendations_desktop
 fiscotasse.blogspot.it###AdSense2
 fiscotasse.blogspot.it###AdSense3
 fivemp3.com/*/banner
@@ -2228,6 +2231,7 @@ lastminute.com/*/affiliati/
 lastminute.com/lmn
 lastpass.com###ad
 latinospost.com##[id^="google_ads_iframe"]
+lazyadmin.nl##.adthrive-ad
 lduhtrp.net/image-1702946-10373600
 leganerd.com##[id^="banner_mpu"]
 leganerd.com###banner_mpu1
@@ -2436,6 +2440,8 @@ maketecheasier.com##[id^="google_ads_iframe"]
 maketecheasier.com##DIV[class="sidebar-widget in-content-ad"]
 maketecheasier.com##DIV[class="text-center clear in-content-ad"]
 makeuseof.com##.ad-current
+makeuseof.com##.ad-zone
+makeuseof.com##.ad-zone-container
 makeuseof.com##.adsninja-ad-zone
 makeuseof.com##.sidebar-banner
 makeuseof.com##[id^="div-gpt-ad"]
@@ -3152,6 +3158,7 @@ repubblica.it###ads2
 repubblica.it###adv_Skin
 repubblica.it###adv-scrollable
 repubblica.it###adv-top
+repubblica.it###adv-TopLeft
 repubblica.it###eyeDiv
 repubblica.it###superMoneyWidget-rotator
 repubblica.it##DIV[id^="adv-"]
@@ -3184,6 +3191,7 @@ rollingstone.it##[id^="mmAd"]
 rollingstone.it###result
 rollingstone.it##A[href^="http://cnfm.ad.dotandad.com/"]
 roma.corriere.it##.ob_strip_container
+roma.repubblica.it###adv-TopLeft
 romagnaoggi.it/files/banner/
 romalife.it##[id^="DotnAd_"]
 romatoday.it/images/skin_
@@ -3618,6 +3626,7 @@ theonion.com##.ad-container
 thepiratebay.org##.ad120
 thepiratebay.org##.ad468
 thepiratebay.org##.adblock
+thepythoncode.com##.ezoic-ad
 theverge.com##.adblock-whitelist-messaging__article-wrapper
 theverge.com##.m-ad
 theverge.com##.m-ad.m-ad__medrec.vert.vert300
@@ -3896,6 +3905,7 @@ vg247.it##IMG[width="1260"][height="110"][src^="http://images.eurogamer.net/"]
 viamichelin.it/*overtureKeyword*
 viamichelin.it##.rectGdhResultDiv
 viamichelin.it###idHeaderGDH
+vice.com##.adph
 vice.com##.text-center.ad-unit
 vice.com##.vice-ad
 vice.com##[class^="ad-unit"]
@@ -4728,9 +4738,7 @@ youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-row:has(ytd-displa
 *$document,csp=script-src *,domain=~kat.at|~kat.ec|~kat.mn|~kat.eu|~kat.rip|~kat.tv|~kickass.codes|~kickass.website|kat.*|katbay.*|kickass.*|kickasshydra.*|kickasskat.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*
 *$script,1p,domain=~kat.at|~kat.ec|~kat.eu|~kat.mn|~kat.rip|~kat.tv|~kickass.codes|~kickass.website|kat.*|katbay.*|kickass.*|kickasshydra.*|kickasskat.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*
 ||glimtors.net^
-||s99i.org^
-twitter.com##section>div>div>*:has(path[d='M19.498 3h-15c-1.381 0-2.5 1.12-2.5 2.5v13c0 1.38 1.119 2.5 2.5 2.5h15c1.381 0 2.5-1.12 2.5-2.5v-13c0-1.38-1.119-2.5-2.5-2.5zm-3.502 12h-2v-3.59l-5.293 5.3-1.414-1.42L12.581 10H8.996V8h7v7z'])
-! [NoAds X Files - Filtri per blocco popup accettazione Cookie (sperimentale)]
+||s99i.org^! [NoAds X Files - Filtri per blocco popup accettazione Cookie (sperimentale)]
 ##.as-oil-content-overlay
 ##.cookie-banner
 ##.cookie-notice-container
