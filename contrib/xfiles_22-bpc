@@ -1,11 +1,11 @@
 ! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]
-! Version: 3.3.7.7
+! Version: 3.3.9.1
 ! General
 ||axate.io$script,third-party
 ||loader-cdn.azureedge.net^$third-party
 ||blueconic.net^$third-party
 ||cdn.cxense.com^$script,third-party
-@@cdn.cxense.com^$script,domain=bizjournals.com
+@@cdn.cxense.com^$script,domain=bizjournals.com|journaldemontreal.com|journaldequebec.com
 ||ensighten.com/*/Bootstrap.js$script,third-party
 ||evolok.net^$third-party
 ||paywall.fewcents.co/static/js/paywall.js
@@ -39,11 +39,14 @@ gadget.pico.tools##+js(json-prune, locked)
 ||abril.com.br/*/*-*-*-*$inline-script
 adweek.com##+js(cookie-remover, blaize_session)
 ||ajc.com/prod/ajc/loader.min.js$script,~third-party
-.com/prod/ajc/loader.min.js$script,domain=dayton.com|daytondailynews.com|journal-news.com|springfieldnewssun.com
+! Cox First Media
+||wgchrrammzv.com/prod/ajc/loader.min.js$script,domain=dayton.com|daytondailynews.com|journal-news.com|springfieldnewssun.com
 alternatives-economiques.fr###temp-paywall
 alternatives-economiques.fr##+js(ra, style, div[data-ae-poool], stay)
 ambito.com##+js(cookie-remover, TDNotesRead)
 ||americanaffairsjournal.org/wp-content/mu-plugins/app/src/paywall/paywall.js$script,~third-party
+apollo-magazine.com##+js(cookie-remover, blaize_session)
+apollo-magazine.com,spectator.co.uk###subscribe-ribbon
 arkansasonline.com##+js(cookie-remover, blaize_session)
 artforum.com##+js(cookie-remover, /^/)
 ||artnet.com/paywall-ajax.php$xmlhttprequest,~third-party
@@ -162,6 +165,8 @@ inkl.com##div.gradient-container
 interestingengineering.com##+js(ra, class, div[class*="Product_makeBlur__"])
 interestingengineering.com##div#paywall-div
 japantimes.co.jp##+js(cookie-remover, /xbc/)
+journaldemontreal.com##+js(rc, composer-content, div.article-main-txt.composer-content)
+journaldequebec.com##+js(rc, composer-content, div.article-main-txt.composer-content)
 journaldunet.com##.reg_wall
 journaldunet.com##+js(ra, style, .entry_reg_wall)
 ||jpost.com/js/js_article.min.js$script,~third-party
@@ -268,8 +273,6 @@ sofrep.com##+js(cookie-remover, sofrep_news_ids)
 sofrep.com##+js(ra, class, div.paywall)
 sofrep.com##+js(rc, fader, div.fader)
 sofrep.com##div.non-paywall,div#paywall_wrap
-spectator.co.uk##+js(cookie-remover, blaize_session)
-spectator.co.uk###subscribe-ribbon
 spglobal.com##.article__overlay
 spglobal.com##+js(ra, class, html, stay)
 staradvertiser.com##div#hsa-paywall-overlay
@@ -394,6 +397,8 @@ topagrar.at,topagrar.com##div.paywall-package
 birdwatchingdaily.com,digitalphotopro.com,dpmag.com,jazztimes.com,outdoorphotographer.com,planeandpilotmag.com,writermag.com##+js(cookie-remover, /^article_/)
 ! Madsack sites
 dnn.de,gnz.de,goettinger-tageblatt.de,haz.de,kn-online.de,landeszeitung.de,ln-online.de,lvz.de,maz-online.de,neuepresse.de,op-marburg.de,ostsee-zeitung.de,paz-online.de,rnd.de,siegener-zeitung.de,sn-online.de,waz-online.de##+js(set, Fusion.globalContent.isPaid, false)
+! Maine Trust for Local News
+||loader.masthead.me^$script,domain=centralmaine.com|pressherald.com|sunjournal.com
 ! Mediahuis Ireland
 independent.ie##+js(ra, style, div#flip-pay[style])
 ||cdn.flip-pay.com/clients/*/flip-pay.js$script,domain=belfasttelegraph.co.uk|independent.ie
