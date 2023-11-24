@@ -1,5 +1,5 @@
 # Collect filters
-cp contrib/xfiles_* ./
+cp contrib/xfiles_* ./ && rm ./xfiles_20-sperimentali
 for f in xfiles_*; do (cat "${f}") >> filtri_tmp.txt; done
 
 # MD5 check and populate Stable
