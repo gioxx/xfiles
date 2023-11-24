@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202311241835
+! Version: 202311241842
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
 ! Last modified: 24-11-2023
@@ -4659,88 +4659,6 @@ zeroadserver.com/showBanner.php
 ! [NoAds X Files - Filtri script inline per uBlock]
 bergamonews.it##^script:has-text(checkForAdBlocker)
 bergamonews.it##^script:has-text(request_ads)
-! [NoAds X Files - YouTube]
-@@||s.ytimg.com/yts/swfbin/player-*/watch_as3.swf$object,domain=youtube.com
-@@||yimg.com^*/combo?$stylesheet,domain=yahoo.com
-@@||ytimg.com/yts/jsbin/$script
-/generate_204$~xhr
-/pagead/lvz?
-/pubads.
-/v1/log_event
-##.video-ads
-##.ytd-companion-slot-renderer
-##.ytd-player-legacy-desktop-watch-ads-renderer
-##.ytp-ad-progress-list
-###merch-shelf
-###player-ads
-###watch7-sidebar-ads
-##ytd-companion-slot-renderer
-=adunit&
-||doubleclick.net/instream/ad_status.js$script,redirect-rule=doubleclick_instream_ad_status.js
-||doubleclick.net^
-||doubleclick.net^$xhr,redirect-rule=noop.txt
-||google.com/gen_204?
-||google.com/log?
-||google.com/pagead/
-||googleads.g.doubleclick.net^$domain=youtube.com
-||phobos.apple.com^$image,domain=youtube.com
-||static.doubleclick.net^$domain=youtube.com
-||tpc.googlesyndication.com^
-||www.youtube.com/get_midroll_$domain=youtube.com
-||youtube.com/api/stats/qoe?
-||youtube.com/pagead/
-||youtube.com/ptracking?
-||ytimg.com^*_banner$domain=youtube.com
-||ytimg.com^*/new_watch_background$domain=youtube.com
-doubleclick_instream_ad_status.js
-marcheingol.it##IFRAME[src^="https://www.youtube.com/embed/"]
-noop.txt
-youtube.com,youtube-nocookie.com##+js(json-prune.js, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com##.ad-div
-youtube.com##.carousel-offer-url-container
-youtube.com##.masthead-ad-control
-youtube.com##.promoted-videos
-youtube.com##.watch-extra-info-column
-youtube.com##.watch-extra-info-right
-youtube.com##.ytd-ad-slot-renderer
-youtube.com##.ytd-companion-slot-renderer
-youtube.com##.ytd-display-ad-renderer
-youtube.com##.ytd-in-feed-ad-layout-renderer
-youtube.com##.ytd-page-top-ad-layout-renderer
-youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
-youtube.com##.ytd-rich-item-renderer > ytd-ad-slot-renderer
-youtube.com##.ytp-ad-progress-list
-youtube.com##[layout*="display-ad-"]
-youtube.com###ad_creative_2
-youtube.com###feed-pyv-container
-youtube.com###feedmodule-PRO
-youtube.com###footer-ads
-youtube.com###homepage-chrome-side-promo
-youtube.com###masthead-ad
-youtube.com###merch-shelf
-youtube.com###player [class*="suggested-action-badge-icon"]:upward(.ytp-suggested-action)
-youtube.com###player-ads
-youtube.com###root > .ytd-display-ad-renderer.style-scope
-youtube.com###search-pva
-youtube.com###video-masthead
-youtube.com###watch-branded-actions
-youtube.com###watch-buy-urls
-youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerConfig)
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds, playerResponse.playerConfig)
-youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
-youtube.com##+js(set-constant, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com##a[href^="http://www.youtube.com/cthru?"]
-youtube.com##a[href^="https://www.googleadservices.com/pagead/aclk?"]
-youtube.com##DIV[class*="ytd-promoted-sparkles"]
-youtube.com##DIV[id="homepage-sidebar-ads"]
-youtube.com##ytd-ad-slot-renderer
-youtube.com##ytd-companion-slot-renderer
-youtube.com##ytd-display-ad-renderer
-youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
-youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-row:has(ytd-display-ad-renderer)
 ! [NoAds X Files - Filtri sperimentali]
 *$document,csp=script-src *,domain=~kat.at|~kat.ec|~kat.mn|~kat.eu|~kat.rip|~kat.tv|~kickass.codes|~kickass.website|kat.*|katbay.*|kickass.*|kickasshydra.*|kickasskat.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*
 *$script,1p,domain=~kat.at|~kat.ec|~kat.eu|~kat.mn|~kat.rip|~kat.tv|~kickass.codes|~kickass.website|kat.*|katbay.*|kickass.*|kickasshydra.*|kickasskat.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*
