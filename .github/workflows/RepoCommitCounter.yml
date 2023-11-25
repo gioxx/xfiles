@@ -15,8 +15,15 @@ jobs:
       with:
         fetch-depth: 0
 
+    - name: Set Timezone
+      uses: szenius/set-timezone@v1.1
+      with:
+        timezoneLinux: "Europe/Rome"
+
+    - name: Set date and time
+      run: sh ./sh/datetime.sh
+
     - name: Count Commits
-      id: count
       run: |
         COMMIT_COUNT=$(git rev-list --count HEAD)
         echo "Commit count: $COMMIT_COUNT"
