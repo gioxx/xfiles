@@ -1,5 +1,5 @@
 ! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]
-! Version: 3.4.3.3
+! Version: 3.4.3.7
 ! General
 ||amplitude.com^$xmlhttprequest,third-party
 ||axate.io$script,third-party
@@ -332,8 +332,8 @@ thequint.com##+js(ra, class, div#story-body-wrapper, stay)
 ||thesaturdaypaper.com.au/sites/all/modules/custom/node_meter/pw.js$script,~third-party
 thesaturdaypaper.com.au##+js(cookie-remover, /^/)
 thesaturdaypaper.com.au##div.paywall-hard-always-show
-thetimes.co.uk##+js(ra, style, body[style], stay)
-thetimes.co.uk##+js(ra, style, html[style], stay)
+thetimes.co.uk##body:style(overflow: auto !important; height: 100% !important;)
+thetimes.co.uk##html:style(overflow: auto !important; height: 100% !important;)
 theweek.com##+js(rc, paywall-locker, div.paywall-locker)
 theweek.com##div.kiosq-main-layer
 thewrap.com##+js(cookie-remover, blaize_session)
@@ -371,16 +371,16 @@ european-rubber-journal.com##+js(rc, truncated, div.truncated)
 european-rubber-journal.com##div.article-overlay,div.gradient
 modernhealthcare.com##+js(rc, sponsored-article, div.sponsored-article)
 ! GEDI.it sites
+||repubblica.it/*/news/$inline-script
 ||lastampa.it/*/news/$inline-script
-lastampa.it##+js(cookie-remover, blaize_session)
-lastampa.it##aside#widgetDP,div[id^="adv"]
+ilsecoloxix.it,repubblica.it,lastampa.it##+js(cookie-remover, blaize_session)
+repubblica.it,lastampa.it##aside#widgetDP,div[id^="adv"]
 ||scripts.repubblica.it/pw/pw.js$script,domain=italian.tech|moda.it
 italian.tech,moda.it##div#ph-paywall
 italian.tech,moda.it##+js(ra, style, div#article-body, stay)
 !#if (env_firefox)
 italian.tech,moda.it##^div#ph-paywall
 !#endif
-espresso.repubblica.it##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
 ! Groupe SudOuest.fr
 sudouest.fr,charentelibre.fr,larepubliquedespyrenees.fr##div.article-premium-footer,div.footer-premium,div.article-body-wrapper.visible-not-premium,div.pub,div.ph-easy-subscription
 sudouest.fr,charentelibre.fr,larepubliquedespyrenees.fr##+js(rc, visible-premium, div.visible-premium)
