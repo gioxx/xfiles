@@ -43,8 +43,6 @@ jobs:
       - name: Prepare vCheck
         run: |
           num_of_lines=$(grep -v '^! ' "experimental.txt" | wc -l)
-          # num_of_lines=$(< "experimental.txt" wc -l)
-          # num_of_lines="$((num_of_lines - 24))"
           md5=($(md5sum experimental.txt| cut -d ' ' -f 1))
           echo $update > vcheck/check_experimental.txt
           echo $lastmodified >> vcheck/check_experimental.txt

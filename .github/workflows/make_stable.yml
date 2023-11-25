@@ -41,8 +41,7 @@ jobs:
       - name: Prepare vCheck
         if: ${{ env.stop == 'false' }}
         run: |
-          num_of_lines=$(< "filtri.txt" wc -l)
-          num_of_lines="$((num_of_lines - 24))"
+          num_of_lines=$(grep -v '^! ' "filtri.txt" | wc -l)
           md5=($(md5sum filtri.txt| cut -d ' ' -f 1))
           echo $update > vcheck/check_filtri.txt
           echo $lastmodified >> vcheck/check_filtri.txt

@@ -33,8 +33,8 @@ jobs:
           echo "! Last modified:" $lastmodified >> upd.txt
           echo "! Expires: 1 day (update frequency)" >> upd.txt
           echo "!" >> upd.txt
-          echo "! uBlock Phishing Domains blocca siti web dannosi per la tua navigazione" >> upd.txt
-          echo "! Una lista specificatamente pensata per uBlock Origin, ANCORA IN FASE DI SPERIMENTAZIONE" >> upd.txt
+          echo "! uBlock Phishing Domains blocca siti i web dannosi per la tua navigazione" >> upd.txt
+          echo "! Una lista specificatamente pensata per uBlock Origin" >> upd.txt
           echo "!" >> upd.txt
           echo "! Homepage: https://xfiles.noads.it" >> upd.txt
           echo "! Blog: https://go.gioxx.org/noads" >> upd.txt
@@ -48,8 +48,7 @@ jobs:
       - name: Prepare vCheck
         if: ${{ env.stop == 'false' }}
         run: |
-          num_of_lines=$(< "upd.txt" wc -l)
-          num_of_lines="$((num_of_lines - 13))"
+          num_of_lines=$(grep -v '^! ' "upd.txt" | wc -l)
           md5=($(md5sum upd.txt| cut -d ' ' -f 1))          
           echo $update > vcheck/check_upd.txt
           echo $lastmodified >> vcheck/check_upd.txt

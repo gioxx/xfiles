@@ -37,7 +37,7 @@ jobs:
       - name: Prepare vCheck
         if: ${{ env.stop == 'false' }}
         run: |
-          num_of_lines=$(< "domains/upd_domains.txt" wc -l)
+          num_of_lines=$(grep -v '^! ' "domains/upd_domains.txt" | wc -l)
           md5=($(md5sum domains/upd_domains.txt| cut -d ' ' -f 1))
           echo $update > vcheck/check_domains.txt
           echo $lastmodified >> vcheck/check_domains.txt

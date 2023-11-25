@@ -41,8 +41,7 @@ jobs:
       - name: Prepare vCheck
         if: ${{ env.stop == 'false' }}
         run: |
-          num_of_lines=$(< "siteblock.txt" wc -l)
-          num_of_lines="$((num_of_lines - 10))"
+          num_of_lines=$(grep -v '^! ' "siteblock.txt" | wc -l)
           md5=($(md5sum siteblock.txt| cut -d ' ' -f 1))
           echo $update > vcheck/check_siteblock.txt
           echo $lastmodified >> vcheck/check_siteblock.txt
