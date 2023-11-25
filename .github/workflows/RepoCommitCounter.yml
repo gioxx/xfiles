@@ -1,0 +1,40 @@
+name: NoAds Commit Counter
+on:
+  schedule:
+  - cron: '30 3 * * *'
+
+  workflow_dispatch:
+
+jobs:
+  noads_commitcounter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set Timezone
+        uses: szenius/set-timezone@v1.1
+        with:
+          timezoneLinux: "Europe/Rome"
+
+      - name: Set date and time
+        run: sh ./sh/datetime.sh
+
+      - name: Count Commits
+        id: count
+        run: |
+          COMMIT_COUNT=$(git rev-list --count HEAD)
+          echo $COMMIT_COUNT > vcheck/check_gh.txt
+
+      - name: Commit vCheck GH
+        run: |
+          git config --local user.email "114237374+GWall-bot@users.noreply.github.com"
+          git config --local user.name "GWall[bot]"
+          git add vcheck/check_gh.txt
+          git commit -m "Aggiornamento contatore commit del $lastmodified" -a
+      
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
