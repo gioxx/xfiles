@@ -1,5 +1,8 @@
 name: NoAds Commit Counter
 on:
+  schedule:
+  - cron: '0 4 * * *'
+  
   workflow_dispatch:
 
 jobs:
@@ -8,22 +11,26 @@ jobs:
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         fetch-depth: 0
-
-    - name: Set Git Config
-      run: |
-        git config --global user.email "actions@github.com"
-        git config --global user.name "GitHub Actions"
 
     - name: Count Commits
       id: count
       run: |
         COMMIT_COUNT=$(git rev-list --count HEAD)
         echo "Commit count: $COMMIT_COUNT"
-        echo "::set-output name=commit_count::$COMMIT_COUNT"
+        echo $COMMIT_COUNT > vcheck/check_gh.txt
 
-    - name: Use Commit Count
+    - name: Commit updated counter
       run: |
-        echo "Total commits: ${{ steps.count.outputs.commit_count }}"
+          git config --local user.email "114237374+GWall-bot@users.noreply.github.com"
+          git config --local user.name "GWall[bot]"
+          git add vcheck/check_gh.txt
+          git commit -m "Commit Counter del $lastmodified" -a
+      
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
