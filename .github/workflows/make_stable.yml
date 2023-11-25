@@ -48,15 +48,6 @@ jobs:
           echo $checkwebsite >> vcheck/check_filtri.txt
           echo $num_of_lines >> vcheck/check_filtri.txt
           echo $md5 >> vcheck/check_filtri.txt
-          
-      - name: Run CommitsWithinTime script
-        uses: AlexHolderDeveloper/CommitsWithinTime@v1.1.11
-        id: commitswithintime
-      
-      - name: Get the output from CommitsWithinTime
-        if: ${{ env.stop == 'false' }}
-        run: |
-          echo ${{ steps.commitswithintime.outputs.total-commits }} > vcheck/check_gh.txt
 
       - name: Commit Stable
         if: ${{ env.stop == 'false' }}
@@ -65,7 +56,6 @@ jobs:
           git config --local user.name "GWall[bot]"
           git add filtri.txt
           git add vcheck/check_filtri.txt
-          git add vcheck/check_gh.txt
           git commit -m "Aggiornamento Stable (GHA) $update del $lastmodified" -a
       
       - name: Push Stable

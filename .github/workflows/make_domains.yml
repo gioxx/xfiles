@@ -44,16 +44,7 @@ jobs:
           echo $checkwebsite >> vcheck/check_domains.txt
           echo $num_of_lines >> vcheck/check_domains.txt
           echo $md5 >> vcheck/check_domains.txt
-          
-      - name: Run CommitsWithinTime script
-        uses: AlexHolderDeveloper/CommitsWithinTime@v1.1.11
-        id: commitswithintime
       
-      - name: Get the output from CommitsWithinTime
-        if: ${{ env.stop == 'false' }}
-        run: |
-          echo ${{ steps.commitswithintime.outputs.total-commits }} > vcheck/check_gh.txt
-
       - name: Commit UPD Domains
         if: ${{ env.stop == 'false' }}
         run: |
@@ -61,7 +52,6 @@ jobs:
           git config --local user.name "GWall[bot]"
           git add domains/upd_domains.txt
           git add vcheck/check_domains.txt
-          git add vcheck/check_gh.txt
           git commit -m "Aggiornamento UPD Domains (GHA) $update del $lastmodified" -a
       
       - name: Push changes
