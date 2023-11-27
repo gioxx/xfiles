@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202311252226
+! Version: 202311271141
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 25-11-2023
+! Last modified: 27-11-2023
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -1303,6 +1303,7 @@ egotastic.com###foot-ad-1
 egotastic.com###head-ad-1
 ehow.com##[id^="google_ads_iframe"]
 elaborare.com/phpads/
+elevenforum.com##.gads
 email.it/*/banner/
 email.it/images/banner
 email.it/ita/sponsor/banner*
@@ -1404,6 +1405,7 @@ fcinternews.it##.banner_sx_160x600
 fcinternews.it##.sub.novis
 fcinternews.it##.tccbanner
 fcitalia.com###beEnTabInst0_tab
+fcportables.com##.popup715967wrap
 feedjit.com/serve
 feedly.com##A[class="fusionAdLink"]
 feeds.feedburner.com/~a/
@@ -3192,6 +3194,7 @@ rizonesoft.com##[id^="adswidget"]
 robertochibbaro.it##.above_content.box.pad15
 robertoiacono.it##.post-ad-top
 rocknrollradio.it/images/stories/Banneramici*/
+rockol.it##.rckl-promo
 rollingstone.it##.adbox.adsblocked
 rollingstone.it##[id^="mmAd"]
 rollingstone.it###result
@@ -4035,10 +4038,13 @@ windowscentral.com##.article-leaderboard
 windowscentral.com##.bordeaux-anchored-container
 windowscentral.com##.bordeaux-filled-slot
 windowscentral.com##.bordeaux-generated-spacer
+windowscentral.com##.dfp-leaderboard-container
+windowscentral.com##.skyscraper-inner-left
 windowscentral.com##[class^="adunit-"]
 windowscentral.com##[class^="mobile-leaderboard"]
 windowscentral.com##[class$="ad gpt"]
 windowscentral.com##[data-publisher="mobilenations1-network"]
+windowscentral.com##[id^="bordeaux-standard-ad-"]
 windowscentral.com##[id^="rcjsload_"]
 windowscentral.com##AMP-STICKY-AD
 windowscentral.com##IFRAME[id^="ad_ii_"]
@@ -4155,7 +4161,8 @@ ziddu.com/banners
 zippyshare.com##DIV[class="center_reklamy"]
 zoezozo.it/banner_casino/
 zoomtv.me##DIV[id="memberad"]
-zpag.es##.top_bar.top_bar_ad! [NoAds X Files - Elementi bloccati]/blocking
+zpag.es##.top_bar.top_bar_ad
+! [NoAds X Files - Elementi bloccati]/blocking
 ://adv.$domain=~sky.it|~la7.it|~la7.tv|~tre.it|~tzetze.it
 ://oas.*@$domain=~youreporter.it
 *ad*.nuffnang.com.ph/*.php
