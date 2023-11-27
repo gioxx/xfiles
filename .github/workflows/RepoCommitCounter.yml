@@ -1,7 +1,9 @@
 name: NoAds Commit Counter
 on:
-  schedule:
-  - cron: '0 4 * * *'
+  push:
+    paths:
+      - 'fritz/fritz_blacklist.txt'
+      - 'experimental.txt'
   
   workflow_dispatch:
 
