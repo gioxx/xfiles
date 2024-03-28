@@ -13,12 +13,12 @@ jobs:
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4.1.1
       with:
         fetch-depth: 0
 
     - name: Set Timezone
-      uses: szenius/set-timezone@v1.1
+      uses: szenius/set-timezone@v1.2
       with:
         timezoneLinux: "Europe/Rome"
 

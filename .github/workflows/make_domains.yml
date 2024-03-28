@@ -14,17 +14,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4.1.1
         with:
           fetch-depth: 1
       
       - name: Sleep Action
-        uses: juliangruber/sleep-action@v2.0.0
+        uses: juliangruber/sleep-action@v2.0.3
         with:
           time: 2m
 
       - name: Set Timezone
-        uses: szenius/set-timezone@v1.1
+        uses: szenius/set-timezone@v1.2
         with:
           timezoneLinux: "Europe/Rome"
 
