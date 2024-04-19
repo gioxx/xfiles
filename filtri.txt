@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files
-! Version: 202404011158
+! Version: 202404190303
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 01-04-2024
+! Last modified: 19-04-2024
 ! Expires: 15 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -3191,6 +3191,7 @@ reviewmeta.com##.reviewmeta-alert.alert.alert-warning.reviewmeta-extensions-aler
 revsci.net/adserver/
 riccardomasutti.com###vf59
 riccardomasutti.com##DIV[class^="bsap_"]
+ricette.giallozafferano.it##.gz-adv-slot
 ricettedalmondo.it###wvid_main
 rietilife.com##.nat-widget
 rietilife.com##.wppasrotate
@@ -3755,6 +3756,7 @@ tradingsat.com###ac25abb2
 trafficfactory.biz//banners/
 trailersland.com##DIV[ID="parentPubb"]
 trakt.tv##.top.dark
+trakt.tv##[id^="adngin"]
 trakt.tv##[id^="huckster-"]
 trakt.tv##[ID^="pw-desktop-middle"]
 trakt.tv###hu-ck-st-er-desk-top-wrapper
@@ -3763,6 +3765,7 @@ trakt.tv###hu-ck-ster-desk-top-wrapper
 trakt.tv###large-banner-ad
 trakt.tv###large-banner-bottom-ad
 trakt.tv###pw-desktop-top
+trakt.tv##a[href*="vip/advertising"]
 trakt.tv##DIV[class="grid-item hu-ck-s-t-er-grid-item col-xlg-3 col-md-4 col-sm-6"]
 trakt.tv##DIV[id^="adngin"]
 trakt.tv##DIV[id="hu-ck--st-er-desk-top-bot-tom"]
@@ -4176,7 +4179,8 @@ ziddu.com/banners
 zippyshare.com##DIV[class="center_reklamy"]
 zoezozo.it/banner_casino/
 zoomtv.me##DIV[id="memberad"]
-zpag.es##.top_bar.top_bar_ad! [NoAds X Files - Elementi bloccati]/blocking
+zpag.es##.top_bar.top_bar_ad
+! [NoAds X Files - Elementi bloccati]/blocking
 ://adv.$domain=~sky.it|~la7.it|~la7.tv|~tre.it|~tzetze.it
 ://oas.*@$domain=~youreporter.it
 *ad*.nuffnang.com.ph/*.php
@@ -4741,7 +4745,7 @@ upstory.it###CybotCookiebotDialogBodyUnderlay
 w3schools.com##.snigel-cmp-framework
 xda-developers.com###uniccmp
 ! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]
-! Version: 3.5.8.4
+! Version: 3.6.2.1
 ! General
 ||amplitude.com^$xmlhttprequest,third-party
 ||axate.io$script,third-party
@@ -4750,7 +4754,7 @@ xda-developers.com###uniccmp
 /[a-z]{1}\d{2,3}\.\w+\.(co(m|\.uk)|net|org)\/script\.js/$script,~third-party
 @@||nationalreview.com$script,xmlhttprequest,~third-party
 ||cdn.cxense.com^$script,third-party
-@@cdn.cxense.com^$script,domain=bizjournals.com|journaldemontreal.com|journaldequebec.com
+@@cdn.cxense.com^$script,domain=bizjournals.com|journaldemontreal.com|journaldequebec.com|wsj.com
 ||ensighten.com/*/Bootstrap.js$script,third-party
 ||evolok.net^$third-party
 ||fewcents.co/*/paywall*.js$script,third-party
@@ -4763,7 +4767,7 @@ xda-developers.com###uniccmp
 ||onecount.net^$third-party
 ||js.pelcro.com^$script,third-party
 ||piano.io/xbuilder/experience/execute$xmlhttprequest,third-party
-@@||piano.io^$domain=asia.nikkei.com|businessinsider.com.pl|hbr.org|japantimes.co.jp|onet.pl
+@@||piano.io^$domain=asia.nikkei.com|auto-swiat.pl|businessinsider.com.pl|forbes.pl|hbr.org|japantimes.co.jp|komputerswiat.pl|newsweek.pl|onet.pl
 ||api.pico.tools/client/query/*$xmlhttprequest,~third-party
 ||api.pico.tools/popup/null/*$xmlhttprequest,~third-party
 gadget.pico.tools##+js(json-prune, locked)
@@ -4780,7 +4784,7 @@ gadget.pico.tools##+js(json-prune, locked)
 /shared-content/art/tncms/api/access.*.js$script,~third-party
 /wp-content/*/ev-em.min.js$script,~third-party
 /wp-content/plugins/leaky-paywall/js/leaky-paywall-cookie.js$script,~third-party
-/zephr/feature$xmlhttprequest,~third-party
+/zephr/feature$xmlhttprequest
 ||abril.com.br/*/abril-paywall/$script,~third-party
 adweek.com##+js(cookie-remover, blaize_session)
 alternatives-economiques.fr###temp-paywall
@@ -4808,8 +4812,6 @@ bloomberg.com##+js(set-local-storage-item, history, $remove$)
 ||bloombergadria.com/*/news/$inline-script
 bloombergadria.com##+js(ra, style, article[style])
 ||meter.bostonglobe.com/js/meter.js$script,~third-party
-businessinsider.com.pl##+js(cookie-remover, xbc)
-businessinsider.com.pl##div#content-premium-offer
 ||businesspost.ie/api/tinypass.min.js$script,~third-party
 cartacapital.com.br##+js(rc, contentSoft, div.contentSoft)
 cartacapital.com.br##div[class^="s-freemium"],div.maggazine-add
@@ -4823,6 +4825,7 @@ charliehebdo.fr##div#poool-widget
 ||clicrbs.com.br/paywall-api/count/$xmlhttprequest,~third-party
 cnbc.com##div.ArticleGate-proGate
 cnbc.com##+js(ra, class|hidden, span[hidden])
+cnn.com##+js(set-local-storage-item, /reg_?wall/i, $remove$)
 columbian.com##+js(cookie-remover, blaize_session)
 chronicle.com,philanthropy.com##div[data-content-summary]
 chronicle.com,philanthropy.com##+js(ra, hidden|ppajfrg86rdhoubtirllb2bf1xsaknzus, div.contentBody)
@@ -4835,6 +4838,7 @@ citywire.com##+js(rc, m-media-container--locked, .m-media-container--locked)
 citywire.com##+js(rc, m-article__body--locked, .m-article__body--locked)
 citywire.com##registration-widget,div.alert--locked
 ||clarin.com/js/meter*.js$script,~third-party
+||clarin.com/js/zonda-*.js$script,~third-party
 ||codesports.com.au/*/news-story/$inline-script
 ||commentary.org/*/js/dg-locker-public.js$script,~third-party
 ||connaissancedesarts.com/wp-content/cache/*.js$script,~third-party
@@ -4849,6 +4853,8 @@ csmonitor.com##+js(aopr, localStorage)
 csmonitor.com##.paywall
 dagsavisen.no##+js(set, window.Fusion.globalContent.content_restrictions.content_code, 0)
 dailywire.com###post-body-text > div > div:style(height: auto !important;)
+discovermagazine.com##body:style(overflow: auto !important;)
+discovermagazine.com##div.fIkXwQ,div[style*="fadeIn"],div[role="button"][aria-label="Dismiss Dialog"]
 ||dn.se/check-paywall-v2.js,~third-party
 ||dwell.com/article/*?rel=plus$inline-script
 eastwest.eu##+js(ra, style, .paywall)
@@ -4981,13 +4987,15 @@ nytimes.com##div[data-testid="inline-message"],div[id^="ad-"],div#dock-container
 ||cooking.nytimes.com/api/*/access$xmlhttprequest,~third-party
 ||nzherald.co.nz/sales/public/v*/entitlements$xmlhttprequest,~third-party
 nzherald.co.nz##+js(set, Fusion.globalContent.isPremium, false)
+nzz.ch,themarket.ch##+js(rc, nzzinteraction, .nzzinteraction)
 /\/observador\.pt\/(\d{4}|especiais|opiniao)\//$inline-script
 paloaltoonline.com##+js(cookie-remover, /^/)
+pourleco.com##+js(ra, style, div[class*="article-"][style])
+pourleco.com##div[data-pleco-poool^="paywall"],div[data-pleco-transition="fade"]
 philosophynow.org##+js(cookie-remover, /^/)
 profil.at##+js(ra, class|style, div.paywall)
 profil.at##div#cfs-paywall-container,div.consentOverlay
 ||kinja-static.com/assets/*/regwalled-content.*.js$script,domain=qz.com
-||reuters.com/pf/resources/dist/reuters/js/index.js$script,~third-party
 ||reuters.com/arc/subs/p.min.js$script,~third-party
 ||revistaoeste.com/wp-content/*/js/app.*.js$script,~third-party
 revistaoeste.com##+js(rc, hidden, div.hidden[data-url])
@@ -5082,6 +5090,7 @@ unherd.com##div#premiumpreview
 ||washingtonpost.com/tetro/metering/evaluate$xmlhttprequest,~third-party
 ||account.winnipegfreepress.com/api/v*/auth/identify$xmlhttprequest,~third-party
 winnipegfreepress.com##.billboard-ad-space,.ad,.article-ad,.fixed-sky
+||wiwo.de/js/*/wt.*.js$script,~third-party
 yorkshirepost.co.uk##+js(ra, class, div.premium)
 ! Australian Community Media
 bendigoadvertiser.com.au,bordermail.com.au,canberratimes.com.au,centralwesterndaily.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,northerndailyleader.com.au,standard.net.au,theadvocate.com.au,thecourier.com.au,westernadvocate.com.au##+js(rc, subscribe-truncate, .subscribe-truncate)
@@ -5099,8 +5108,8 @@ voguebusiness.com##+js(cookie-remover, userId)
 ! Cox First Media
 ||wgchrrammzv.com/prod/ajc/loader.min.js$script,domain=dayton.com|daytondailynews.com|journal-news.com|springfieldnewssun.com
 ! Crain Communications
-.com/*/js_$script,domain=360dx.com|adage.com|autonews.com|chicagobusiness.com|crainscleveland.com|crainsdetroit.com|crainsnewyork.com|genomeweb.com|modernhealthcare.com|plasticsnews.com|precisionmedicineonline.com|rubbernews.com|sustainableplastics.com|tirebusiness.com|utech-polyurethane.com
-360dx.com,adage.com,autonews.com,chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsnewyork.com,genomeweb.com,modernhealthcare.com,plasticsnews.com,precisionmedicineonline.com,rubbernews.com,sustainableplastics.com,tirebusiness.com,utech-polyurethane.com##+js(ra, class, body[class])
+.com/*/js_$script,domain=360dx.com|adage.com|autonews.com|chicagobusiness.com|crainscleveland.com|crainsdetroit.com|crainsgrandrapids.com|crainsnewyork.com|genomeweb.com|modernhealthcare.com|plasticsnews.com|precisionmedicineonline.com|rubbernews.com|sustainableplastics.com|tirebusiness.com|utech-polyurethane.com
+360dx.com,adage.com,autonews.com,chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsgrandrapids.com,crainsnewyork.com,genomeweb.com,modernhealthcare.com,plasticsnews.com,precisionmedicineonline.com,rubbernews.com,sustainableplastics.com,tirebusiness.com,utech-polyurethane.com##+js(ra, class, body[class])
 european-rubber-journal.com##+js(rc, truncated, div.truncated)
 european-rubber-journal.com##div.article-overlay,div.gradient
 modernhealthcare.com##+js(rc, sponsored-article, div.sponsored-article)
@@ -5184,8 +5193,17 @@ curbed.com,grubstreet.com,nymag.com,thecut.com,vulture.com##div.m-ad
 /temptation/resolve$xmlhttprequest,~third-party,domain=demorgen.be|flair.nl|humo.be|libelle.nl|margriet.nl|parool.nl|trouw.nl|volkskrant.nl
 ||temptation.*/temptation.js$script,~third-party,domain=demorgen.be|flair.nl|humo.be|libelle.nl|margriet.nl|parool.nl|trouw.nl|volkskrant.nl
 @@||myprivacy-static.dpgmedia.net/consent.js$script,third-party
+@@/wrapperMessagingWithoutDetection.js$script,~third-party,domain=demorgen.be|flair.nl|humo.be|libelle.nl|margriet.nl|parool.nl|trouw.nl|volkskrant.nl
 ! DPG ADR (no scroll)
 ||temptation.*/temptation.js$script,~third-party,domain=ad.nl|bd.nl|bndestem.nl|destentor.nl|ed.nl|gelderlander.nl|pzc.nl|tubantia.nl
+! Ringier Axel Springer Polska
+businessinsider.com.pl##+js(cookie-remover, xbc)
+businessinsider.com.pl##div#content-premium-offer
+newsweek.pl##+js(ra, class|style, div.contentPremium[style])
+newsweek.pl##+js(ra, class, div.videoPremiumWrapper)
+newsweek.pl##+js(ra, class, div.embed__mainVideoWrapper)
+newsweek.pl##+js(ra, class, div#contentPremiumPlaceholder[class])
+onet.pl##+js(cookie-remover, xbc)
 ! Roularta Media Groep
 ||artsenkrant.com/js/responsive/rmgModal.js$script,~third-party
 ||artsenkrant.com/js/responsive/rmgPaywall.js$script,~third-party
@@ -5216,6 +5234,7 @@ computerweekly.com,lemagit.fr,techtarget.com##p#firstP,div#inlineRegistrationWra
 ||memberstack.com/scripts/v*/memberstack.js$script,third-party
 ||assets.guim.co.uk/assets/SignInGate*.js$script,domain=theguardian.com
 theguardian.com##[name="SlotBodyEnd"],div[data-cy="contributions-liveblog-epic"]
+@@||petametrics.com$script,domain=seekingalpha.com
 @@||sdk.privacy-center.org^$script,third-party
 !##div#didomi-host
 ##+js(rc, didomi-popup-open, body.didomi-popup-open)
