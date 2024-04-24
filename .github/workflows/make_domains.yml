@@ -24,7 +24,7 @@ jobs:
           time: 2m
 
       - name: Set Timezone
-        uses: szenius/set-timezone@v1.2
+        uses: szenius/set-timezone@v2.0
         with:
           timezoneLinux: "Europe/Rome"
 
