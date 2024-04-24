@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 1
 
       - name: Set Timezone
-        uses: szenius/set-timezone@v1.2
+        uses: szenius/set-timezone@v2.0
         with:
           timezoneLinux: "Europe/Rome"
 
@@ -56,7 +56,7 @@ jobs:
           git config --local user.name "GWall[bot]"
           git add experimental.txt
           git add vcheck/check_experimental.txt
-          git add contrib/xfiles_22-bpc
+          # git add contrib/xfiles_22-bpc
           git commit -m "Experimental $update del $lastmodified" -a
       
       - name: Push changes
