@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202406201121
+! Version: 202407042336
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 20-06-2024
+! Last modified: 04-07-2024
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -17,12 +17,12 @@
 @@||console.cloud.google.com^$document
 @@||didascaleion.it^$document
 @@||esselungaacasa.it^$document
+@@||etsy.com/dac/search2_neu/$stylesheet,domain=etsy.com
 @@||gioxx.org^$document
 @@||goodreads.com^
 @@||google.com/jsapi$script,third-party
 @@||manager.targetcircle.com^$document
-@@||noads.it^$document
-! [NoAds X Files - ADS non invasivi]
+@@||noads.it^$document! [NoAds X Files - ADS non invasivi]
 @@||facciabuco.com^$document
 ! [NoAds X Files - Domini radice bloccati]
 ||62b70ac32d4614b.com^
