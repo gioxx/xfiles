@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files
-! Version: 202407010318
+! Version: 202407190312
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 01-07-2024
+! Last modified: 19-07-2024
 ! Expires: 15 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -16,12 +16,12 @@
 @@||console.cloud.google.com^$document
 @@||didascaleion.it^$document
 @@||esselungaacasa.it^$document
+@@||etsy.com/dac/search2_neu/$stylesheet,domain=etsy.com
 @@||gioxx.org^$document
 @@||goodreads.com^
 @@||google.com/jsapi$script,third-party
 @@||manager.targetcircle.com^$document
-@@||noads.it^$document
-! [NoAds X Files - ADS non invasivi]
+@@||noads.it^$document! [NoAds X Files - ADS non invasivi]
 @@||facciabuco.com^$document
 ! [NoAds X Files - Domini radice bloccati]
 ||62b70ac32d4614b.com^
