@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files
-! Version: 202408190315
+! Version: 202409010335
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 19-08-2024
+! Last modified: 01-09-2024
 ! Expires: 15 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -984,6 +984,7 @@ commentimemorabili.it##[id^="advn_"]
 commindo-media.de/www/images
 community.spiceworks.com##.card-columns.card-columns--old
 community.spiceworks.com##.community-content--ad_card
+community.spiceworks.com##.discourse-adplugin
 community.spiceworks.com##.read-next-footer.js-read-next-footer.constrained-content.curated-items
 community.spiceworks.com##.slot-1-wrapper
 community.spiceworks.com##.sui-opt-in.join-footer
@@ -1766,6 +1767,7 @@ howtl.com##.mv-ad-box
 howto-outlook.com###header-banner
 howto-outlook.com##DIV[style="height:280px;margin-bottom:0.5em;"]
 howto-outlook.com##DIV[style="height:280px;margin-bottom:0.5em;overflow:hidden;"]
+howtogeek.com##.ad-current
 howtogeek.com##.adslot
 howtogeek.com##.adSystem_ads
 howtogeek.com##.bidtellect-native-ad
@@ -3174,6 +3176,7 @@ reallybig.spinbox.net/DA/
 realraptalk.com/banner
 realtimetv.it###mpu
 recomendedsite.com/widget/render/
+reddit.com##.relative.promotedlink
 reddit.com##[class^="sponsor-"]
 redhotcyber.com##.quads-ad-label
 rediff.com##+js(ra, onclick, [onclick^="track"])
@@ -3224,6 +3227,8 @@ robertoiacono.it##.post-ad-top
 rocknrollradio.it/images/stories/Banneramici*/
 rockol.it##.rckl-promo
 rollingstone.it##.adbox.adsblocked
+rollingstone.it##.c-ad
+rollingstone.it##.gmp
 rollingstone.it##[id^="mmAd"]
 rollingstone.it###result
 rollingstone.it##A[href^="http://cnfm.ad.dotandad.com/"]
@@ -4199,7 +4204,8 @@ ziddu.com/banners
 zippyshare.com##DIV[class="center_reklamy"]
 zoezozo.it/banner_casino/
 zoomtv.me##DIV[id="memberad"]
-zpag.es##.top_bar.top_bar_ad! [NoAds X Files - Elementi bloccati]/blocking
+zpag.es##.top_bar.top_bar_ad
+! [NoAds X Files - Elementi bloccati]/blocking
 ://adv.$domain=~sky.it|~la7.it|~la7.tv|~tre.it|~tzetze.it
 ://oas.*@$domain=~youreporter.it
 *ad*.nuffnang.com.ph/*.php
