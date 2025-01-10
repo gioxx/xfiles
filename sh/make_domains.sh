@@ -24,17 +24,17 @@ emptycheck "do_antispam-it.txt"
 # grep -v -P '^(REG|ALL)' do_whitelist.me | sort >> do_whitelist.txt
 # rm "do_whitelist.me"
 
-# cat contrib/upd_exclude >> "do_whitelist.txt"
-# sort -u -o "do_whitelist_sort.txt" "do_whitelist.txt"
-# rm "do_whitelist.txt"
-# while read line; do
-#   echo "Cerco ed elimino $line"
-#   sed -e "/$line/d" -i "do_phishingdomains.txt"
-#   sed -e "/$line/d" -i "do_phishingdomains_newtoday.txt"
-#   sed -e "/$line/d" -i "do_2021-07-18_nso.txt"
-#   sed -e "/$line/d" -i "do_NSA-CIA-Blocklist.txt"
-#   sed -e "/$line/d" -i "do_antispam-it.txt"
-# done < do_whitelist_sort.txt
+cat contrib/upd_exclude >> "do_whitelist.txt"
+sort -u -o "do_whitelist_sort.txt" "do_whitelist.txt"
+rm "do_whitelist.txt"
+while read line; do
+  echo "Cerco ed elimino $line"
+  sed -e "/$line/d" -i "do_phishingdomains.txt"
+  sed -e "/$line/d" -i "do_phishingdomains_newtoday.txt"
+  sed -e "/$line/d" -i "do_2021-07-18_nso.txt"
+  sed -e "/$line/d" -i "do_NSA-CIA-Blocklist.txt"
+  sed -e "/$line/d" -i "do_antispam-it.txt"
+done < do_whitelist_sort.txt
 
 sed -i -e 1,16d "do_NSA-CIA-Blocklist.txt"
 sed -i '/^$/d' "do_phishingdomains.txt"
@@ -61,6 +61,5 @@ else
     echo "Different MD5, proceed with list creation."
 		echo "md5=$md5_new" >> $GITHUB_ENV
     cat "do_upd_sort.txt" > "domains/upd_domains.txt"
-    # rm "do_phishingdomains.txt" "do_phishingdomains_newtoday.txt" "do_2021-07-18_nso.txt" "do_NSA-CIA-Blocklist.txt" "do_upd_nosort.txt" "do_upd_sort.txt" "do_whitelist_sort.txt" "do_antispam-it.txt"
-    rm "do_phishingdomains.txt" "do_phishingdomains_newtoday.txt" "do_2021-07-18_nso.txt" "do_NSA-CIA-Blocklist.txt" "do_upd_nosort.txt" "do_upd_sort.txt" "do_antispam-it.txt"
+    rm "do_phishingdomains.txt" "do_phishingdomains_newtoday.txt" "do_2021-07-18_nso.txt" "do_NSA-CIA-Blocklist.txt" "do_upd_nosort.txt" "do_upd_sort.txt" "do_whitelist_sort.txt" "do_antispam-it.txt"
 fi
