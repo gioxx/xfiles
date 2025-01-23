@@ -2,7 +2,7 @@ wget -c "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/mast
 wget -c "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-NEW-today.txt" -O "do_phishingdomains_newtoday.txt"
 wget -c "https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt" -O "do_2021-07-18_nso.txt"
 wget -c "https://raw.githubusercontent.com/noads-it/NSA-CIA-Blocklist/main/HOSTS/HOSTS" -O "do_NSA-CIA-Blocklist.txt"
-wget -c "https://raw.githubusercontent.com/marco-acorte/antispam-it/main/antispam-it.txt" -O "do_antispam-it.txt"
+wget -c "https://raw.githubusercontent.com/marco-acorte/antispam-it/main/antispam-domains.txt" -O "do_antispam-it.txt"
 # wget -c "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/whitelist.me/whitelist.me" -O "do_whitelist.me"
 
 emptycheck () {
