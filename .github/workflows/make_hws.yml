@@ -23,9 +23,12 @@ jobs:
       - name: Set date and time
         run: bash ./sh/datetime.sh
 
+      - name: Make Stable
+        run: bash ./sh/make_hws.sh
+
       - name: Prepare list header
         run: |
-          cat <<EOF > siteblock.txt
+          cat <<EOF > siteblock_tmp.txt
           [Adblock Plus 2.8]
           ! Title: NoAds X Files: HWS Harmful WebSites
           ! Version: $update
@@ -37,9 +40,8 @@ jobs:
           ! Hosting: GitHub.com
           !
           EOF
-
-      - name: Make Stable
-        run: bash ./sh/make_hws.sh
+          cat siteblock.txt >> siteblock_tmp.txt
+          mv siteblock_tmp.txt siteblock.txt
 
       - name: Prepare vCheck
         if: env.stop != 'true'
