@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Array of files and URLs
 declare -A files=(
     ["blackbook.txt"]="https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt"
