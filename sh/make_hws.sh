@@ -1,83 +1,69 @@
-wget -c "https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt" -O "blackbook.txt"
-wget -c "https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt" -O "2021-07-18_nso.txt"
-wget -c "https://raw.githubusercontent.com/noads-it/NSA-CIA-Blocklist/main/HOSTS/HOSTS" -O "NSA-CIA-Blocklist.txt"
-# wget -c "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/whitelist.me/whitelist.me" -O "whitelist.me"
+# Array of files and URLs
+declare -A files=(
+    ["blackbook.txt"]="https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt"
+    ["2021-07-18_nso.txt"]="https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt"
+    ["NSA-CIA-Blocklist.txt"]="https://raw.githubusercontent.com/noads-it/NSA-CIA-Blocklist/main/HOSTS/HOSTS"
+)
 
-emptycheck () {
-	if [ -s $1 ]
-	then
-		echo "$1 is not empty, go forward!"
-	else
-		echo "$1 is empty, stop HWS creation process."
-		exit
-	fi
-}
-
-emptycheck "blackbook.txt"
-emptycheck "2021-07-18_nso.txt"
-emptycheck "NSA-CIA-Blocklist.txt"
-# test -s "whitelist.me" || exit 1
-# grep -v -P '^(REG|ALL)' "whitelist.me" | sort >> "whitelist.txt"
-# rm "whitelist.me"
+# Download files
+for file in "${!files[@]}"; do
+    echo "Downloading ${file} ..."
+    wget -q --show-progress --retry-connrefused --timeout=10 -c "${files[$file]}" -O "$file"
+    if [[ ! -s "$file" ]]; then
+        echo "Error: $file empty or not downloaded correctly!"
+        exit 1
+    fi
+done
 
 cp "contrib/siteblock_contrib" "hws_contrib.txt"
 
-cat "contrib/upd_exclude" >> "whitelist.txt"
-sort -u -o "whitelist_sort.txt" "whitelist.txt"
-rm "whitelist.txt"
-while read line; do
-	echo "Cerco ed elimino $line"
-	sed -e "/$line/d" -i "blackbook.txt"
-	sed -e "/$line/d" -i "2021-07-18_nso.txt"
-	sed -e "/$line/d" -i "NSA-CIA-Blocklist.txt"
+if [[ -f "contrib/upd_exclude" ]]; then
+    sort -u "contrib/upd_exclude" -o "whitelist_sort.txt"
+else
+    touch "whitelist_sort.txt"
+fi
+
+# Removes whitelist domains from files
+while read -r line; do
+    echo "Deleting: $line"
+    for file in "${!files[@]}"; do
+        sed -i "/$line/d" "$file"
+    done
 done < "whitelist_sort.txt"
 
-#	Remove header and blank lines from 3rd-party lists
-#	Credits:	https://unix.stackexchange.com/questions/37790/how-do-i-delete-the-first-n-lines-of-an-ascii-file-using-shell-commands
-#           https://www.cyberciti.biz/faq/using-sed-to-delete-empty-lines/
-sed -i -e 1,3d "hws_contrib.txt"
-sed -i -e 1,16d "NSA-CIA-Blocklist.txt"
-sed -i '/^$/d' "blackbook.txt"
-sed -i '/^$/d' "hws_contrib.txt"
+# Cleaning headers and blank lines
+sed -i -e '1,3d' "hws_contrib.txt"
+sed -i -e '1,16d' "NSA-CIA-Blocklist.txt"
+sed -i '/^$/d' "blackbook.txt" "hws_contrib.txt"
 
-#	Remove "0.0.0.0" (from each line) and latest two lines from NSA-CIA-Blocklist
-#	Credits:	https://stackoverflow.com/a/13380679/2220346
-#           https://www.baeldung.com/linux/remove-last-n-lines-of-file
-#				    https://stackoverflow.com/a/3806107/2220346
+# Removes "0.0.0.0" at the beginning of the lines and the last 2 lines from the NSA-CIA-Blocklist
 head -n -2 "NSA-CIA-Blocklist.txt" > "NSA-CIA-Blocklist_tmp.txt" && mv "NSA-CIA-Blocklist_tmp.txt" "NSA-CIA-Blocklist.txt"
-sed -e 's/^........//' -i "NSA-CIA-Blocklist.txt"
+sed -i 's/^........//' "NSA-CIA-Blocklist.txt"
 
-#	Prepend "||" and append "^" for each line
-#	Credits:	https://stackoverflow.com/questions/2869669/in-bash-how-do-i-add-a-string-after-each-line-in-a-file
-sed -e 's/$/^/' -i "blackbook.txt"
-sed -e 's/$/^/' -i "hws_contrib.txt"
-sed -e 's/$/^/' -i "2021-07-18_nso.txt"
-sed -e 's/$/^/' -i "NSA-CIA-Blocklist.txt"
-sed -e 's/^/||/' -i "blackbook.txt"
-sed -e 's/^/||/' -i "hws_contrib.txt"
-sed -e 's/^/||/' -i "2021-07-18_nso.txt"
-sed -e 's/^/||/' -i "NSA-CIA-Blocklist.txt"
+# Adds prefixes and suffixes to domains
+for file in "${!files[@]}" "hws_contrib.txt"; do
+    sed -i -e 's/^/||/' -e 's/$/^/' "$file"
+done
 
-# Collect filters
-cat "blackbook.txt" "hws_contrib.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" >> "siteblock_nosort.txt"
-sort -o "siteblock_sort.txt" "siteblock_nosort.txt"
-uniq "siteblock_sort.txt" "siteblock_sort_tmp.txt" && mv "siteblock_sort_tmp.txt" "siteblock_sort.txt"
-
-# Pulizia caratteri di troppo
+# Merges all files, sorts and removes duplicates, cleans up initial, final, and multiple spaces
+cat "${!files[@]}" "hws_contrib.txt" > "siteblock_nosort.txt"
+sort -u "siteblock_nosort.txt" -o "siteblock_sort.txt"
 sed -i 's/^[ \t]*//;s/[ \t]*$//;s/[ \t]\+/ /g' "siteblock_sort.txt"
 
-# MD5 check and populate HWS
-echo "stop=false" >> $GITHUB_ENV
-md5_new=$(md5sum siteblock_sort.txt| cut -d ' ' -f 1)
+# MD5 check to verify changes
+echo "stop=false" >> "$GITHUB_ENV"
+md5_new=$(md5sum siteblock_sort.txt | cut -d ' ' -f 1)
 md5_old=$(sed -n '5p' vcheck/check_siteblock.txt)
+
 echo "MD5 old: $md5_old"
 echo "MD5 new: $md5_new"
-if [ "$md5_new" = "$md5_old" ]; then
-		echo "stop=true" >> $GITHUB_ENV
-    echo "Same MD5, skip list creation."
+
+if [[ "$md5_new" == "$md5_old" ]]; then
+    echo "stop=true" >> "$GITHUB_ENV"
+    echo "No changes detected, process finished."
 else
-    echo "Different MD5, proceed with list creation."
-		echo "md5=$md5_new" >> $GITHUB_ENV
-		cat "siteblock_sort.txt" >> "siteblock.txt"
-		rm "blackbook.txt" "hws_contrib.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" "siteblock_nosort.txt" "siteblock_sort.txt" "whitelist_sort.txt"
+    echo "Updated list, creating siteblock.txt"
+    echo "md5=$md5_new" >> "$GITHUB_ENV"
+    cp "siteblock_sort.txt" "siteblock.txt"
+    rm -f "${!files[@]}" "hws_contrib.txt" "siteblock_nosort.txt" "siteblock_sort.txt" "whitelist_sort.txt"
 fi
