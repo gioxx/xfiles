@@ -28,6 +28,7 @@ jobs:
 
       - name: Prepare list header
         run: |
+          touch siteblock.txt
           cat <<EOF > siteblock_tmp.txt
           [Adblock Plus 2.8]
           ! Title: NoAds X Files: HWS Harmful WebSites
