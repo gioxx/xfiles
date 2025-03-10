@@ -36,7 +36,7 @@ jobs:
           echo "!" >> siteblock.txt
 
       - name: Make Stable
-        run: sh ./sh/make_hws.sh
+        run: bash ./sh/make_hws.sh
 
       - name: Prepare vCheck
         if: ${{ env.stop == 'false' }}
