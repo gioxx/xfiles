@@ -63,6 +63,9 @@ cat "blackbook.txt" "hws_contrib.txt" "2021-07-18_nso.txt" "NSA-CIA-Blocklist.tx
 sort -o "siteblock_sort.txt" "siteblock_nosort.txt"
 uniq "siteblock_sort.txt" "siteblock_sort_tmp.txt" && mv "siteblock_sort_tmp.txt" "siteblock_sort.txt"
 
+# Pulizia caratteri di troppo
+sed -i 's/^[ \t]*//;s/[ \t]*$//;s/[ \t]\+/ /g' "siteblock_sort.txt"
+
 # MD5 check and populate HWS
 echo "stop=false" >> $GITHUB_ENV
 md5_new=$(md5sum siteblock_sort.txt| cut -d ' ' -f 1)
