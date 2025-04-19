@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files
-! Version: 202504010347
+! Version: 202504190326
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 01-04-2025
+! Last modified: 19-04-2025
 ! Expires: 15 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -1017,6 +1017,7 @@ contacaratteri.it##.AdvTop
 contacaratteri.it###AdvMiddle
 contacaratteri.it###AdvTop
 convertcsv.com##.ezoic-ad
+coolors.co##.carbon-cad
 coolsoft.altervista.org##.csmny
 coolsoft.altervista.org##.region-highlighted.region
 copertinedvd.net/PeelADS
@@ -1491,6 +1492,7 @@ flickr.com###sihp-lrec
 flickr.com##DIV[id="ad-block"]
 flightradar24.com##.ad-manager-wrapper
 flightradar24.com##.adPaneContainer
+flightradar24.com###primisAdContainer
 flightradar24.com###responsiveBottomPanel.desktop
 fling.com/*/f_scrollers
 fogliata.net###switch_pp_override_1_521763\.10747717746
@@ -1500,6 +1502,7 @@ fontawesome.com###carbonads
 fontvillage.com/bannerads
 food24.ilsole24ore.com###bannerTop
 forbes.com##.top-ad-container
+forbes.com##.vestpocket
 forbes.com##[id^="google_ads_iframe"]
 forensicfocus.com###top_ad-sense
 fortune.com##.ad.ad-container.ad-wrapper.desktop-ad.tablet-ad.karma-ad
@@ -1808,6 +1811,7 @@ hwupgrade.it##DIV[id="adv728"]
 hwupgrade.it##DIV[id="top300x250-container"]
 hyperspin.com:81/ad
 hyperspin.com##.banner-ad
+iaconet.com###ads-slot
 ibtimes.co.uk##.ad-container
 ibtimes.co.uk##.banner-box
 icon-icons.com###bsa-placeholder-search
@@ -1988,6 +1992,7 @@ imgur.com##.BottomAd-container
 imgur.com##.PrimisPlayerContainer
 imgur.com###awesome-ad
 imgur.com##a[href^="http://ad.doubleclick.net"]
+immediato.net##.sour-intext
 immobiliare.it##.box_search_left.colonna_pubblicita_dx
 immobiliare.it###sponsorBoxes
 imore.com###banneradspace
@@ -2165,6 +2170,7 @@ j.gs###rf
 jalopnik.com##.connatix-main-container
 jalopnik.com##.js_sticky-top-ad
 jaxov.com##.ad-header
+jetphotos.com###adv
 jippii.ch/var/bannerz/
 jobrapido.it##DIV[class="banner bottom-box"]
 jobrapido.it##DIV[class="banner box"]
@@ -2189,6 +2195,8 @@ katproxy.com##.advertising
 katproxy.com##.botmarg10px
 katproxy.com##[id^="MarketGidScriptRoot"]
 kbalertz.com/*/ads/
+kdnuggets.com##[id^="post-header-ad"]
+kdnuggets.com###ad_wrapper
 keepvid.com##.ada
 keepvid.com##.adb
 keepvid.com##DIV[class="add"]
@@ -3361,6 +3369,7 @@ sky.it##DIV[class="adv"]
 sky.it##DIV[class="advHeader"]
 skypefun.net###banner
 skypefun.net###menu
+slashdot.org##.adwrap
 slidetomac.com##[id^="google_ads_iframe_"]
 slidetomac.com###ad_300
 slidetomac.com###ad_300_mid
@@ -4190,6 +4199,7 @@ yourinspirationweb.com##.popupWrap
 yourlifeupdated.it##.wp_bannerize.group
 yourtemplate.net/advertising
 youserials.com/*banner*
+yro.slashdot.org##.adwrap
 ytmp3.cc##DIV[id="ad"]
 yuvutu.com/*/advertising/
 yuvutu.com/*/flash_advertising/
