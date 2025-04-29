@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202504151147
+! Version: 202504291725
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 15-04-2025
+! Last modified: 29-04-2025
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -4438,7 +4438,7 @@ ad*.liverail.com/$domain=~reachadv.it
 ad*.neodatagroup.com$domain=~rai.tv|~rai.it|~raiplay.it
 adisfy.com/iAd.php
 adright.it/rgt.html
-ads.*/*$domain=~mail.yahoo.com|~docs.yahoo.com|~finance.yahoo.com|~teleradiopadrepio.it|~tzetze.it|~reachadv.it|~mediaset.it
+ads.*/*$domain=~mail.yahoo.com|~docs.yahoo.com|~finance.yahoo.com|~teleradiopadrepio.it|~tzetze.it|~reachadv.it|~mediaset.it|~khinsider.com
 adsedo.com/phpadsnew/adframe.php
 adspeed.net/ad.php$domain=~altroconsumo.it
 adstogo.com/*/serve.pl
