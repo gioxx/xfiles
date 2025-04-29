@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files
-! Version: 202504190326
+! Version: 202504291727
 ! X Files migliora la tua navigazione quotidiana!
-! Last modified: 19-04-2025
+! Last modified: 29-04-2025
 ! Expires: 15 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -4437,7 +4437,7 @@ ad*.liverail.com/$domain=~reachadv.it
 ad*.neodatagroup.com$domain=~rai.tv|~rai.it|~raiplay.it
 adisfy.com/iAd.php
 adright.it/rgt.html
-ads.*/*$domain=~mail.yahoo.com|~docs.yahoo.com|~finance.yahoo.com|~teleradiopadrepio.it|~tzetze.it|~reachadv.it|~mediaset.it
+ads.*/*$domain=~mail.yahoo.com|~docs.yahoo.com|~finance.yahoo.com|~teleradiopadrepio.it|~tzetze.it|~reachadv.it|~mediaset.it|~khinsider.com
 adsedo.com/phpadsnew/adframe.php
 adspeed.net/ad.php$domain=~altroconsumo.it
 adstogo.com/*/serve.pl
