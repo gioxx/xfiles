@@ -1,3 +1,5 @@
+> <img src="https://xfiles.noads.it/img/xfiles_neg_icon23.png" alt="NoAds X Files banner" width="180"/>
+
 # NoAds X Files – [xfiles.noads.it](https://xfiles.noads.it)
 
 [![NoAds Stable](https://github.com/gioxx/xfiles/actions/workflows/make_stable.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_stable.yml)
