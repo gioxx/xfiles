@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202506091100
+! Version: 202506091106
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
 ! Last modified: 09-06-2025
@@ -9,7 +9,6 @@
 ! Blog: https://go.gioxx.org/noads
 ! Hosting: GitHub.com
 !
-! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]
 ! [NoAds X Files - Whitelist]/whitelist
 @@||adv.ilsole24ore.it/crossdomain.xml$object-subrequest,domain=la7.it|la7.tv|~sky.it
 @@||assistenza.sky.it^$document
