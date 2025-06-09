@@ -21,7 +21,7 @@ jobs:
         run: sudo timedatectl set-timezone Europe/Rome
 
       - name: Set date and time
-        run: bash ./sh/datetime.sh
+        run: bash ./sh/parts/datetime.sh
 
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y jq

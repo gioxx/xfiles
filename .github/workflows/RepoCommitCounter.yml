@@ -23,7 +23,7 @@ jobs:
         timezoneLinux: "Europe/Rome"
 
     - name: Set date and time
-      run: sh ./sh/datetime.sh
+      run: sh ./sh/parts/datetime.sh
 
     - name: Count Commits
       run: |
