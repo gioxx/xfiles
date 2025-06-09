@@ -23,7 +23,10 @@ jobs:
       - name: Set date and time
         run: bash ./sh/datetime.sh
 
-      - name: Make Stable
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Make Stable (HWS Build)
         run: bash ./sh/make_hws.sh
 
       - name: Prepare list header
