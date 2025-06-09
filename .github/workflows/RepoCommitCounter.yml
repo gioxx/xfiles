@@ -1,4 +1,6 @@
 name: NoAds Commit Counter
+permissions:
+  contents: write
 on:
   push:
     paths:
