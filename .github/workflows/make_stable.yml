@@ -3,6 +3,7 @@ name: NoAds Stable
 on:
   schedule:
     - cron: '0 0 */18 * *'
+
   workflow_dispatch:
 
 jobs:
@@ -12,56 +13,52 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 1
 
-      - name: Set timezone
+      - name: Set Timezone
         uses: szenius/set-timezone@v2.0
         with:
           timezoneLinux: "Europe/Rome"
 
       - name: Set date and time
-        run: |
-          source ./sh/parts/datetime.sh
-          echo "update=$update" >> "$GITHUB_ENV"
-          echo "lastmodified=$lastmodified" >> "$GITHUB_ENV"
-          echo "checkwebsite=$checkwebsite" >> "$GITHUB_ENV"
+        run: bash ./sh/parts/datetime.sh
 
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Make Stable
+      - name: Build Stable list
         run: bash ./sh/make_stable.sh
 
-      - name: Prepend list header
+      - name: Prepend header
         if: env.stop != 'true'
         run: |
-          {
-            echo "[Adblock Plus 2.8]"
-            echo "! Title: NoAds X Files"
-            echo "! Version: ${{ env.update }}"
-            echo "! X Files migliora la tua navigazione quotidiana!"
-            echo "! Last modified: ${{ env.lastmodified }}"
-            echo "! Expires: 15 days"
-            echo "! Homepage: https://xfiles.noads.it"
-            echo "! Blog: https://go.gioxx.org/noads"
-            echo "! Hosting: GitHub.com"
-            echo "!"
-            cat filtri.txt
-          } > filtri_final.txt
-          mv filtri_final.txt filtri.txt
+          cat <<EOF > header_stable.txt
+          [Adblock Plus 2.8]
+          ! Title: NoAds X Files
+          ! Version: $update
+          ! X Files migliora la tua navigazione quotidiana!
+          ! Last modified: $lastmodified
+          ! Expires: 15 days
+          ! Homepage: https://xfiles.noads.it
+          ! Blog: https://go.gioxx.org/noads
+          ! Hosting: GitHub.com
+          !
+          EOF
+          cat filtri.txt >> header_stable.txt
+          mv header_stable.txt filtri.txt
 
       - name: Prepare vCheck
         if: env.stop != 'true'
         run: |
           num_of_lines=$(grep -v '^! ' "filtri.txt" | wc -l)
           md5=$(md5sum filtri.txt | cut -d ' ' -f 1)
+
           cat <<EOF > vcheck/check_filtri.txt
-          ${{ env.update }}
-          ${{ env.lastmodified }}
-          ${{ env.checkwebsite }}
+          $update
+          $lastmodified
+          $checkwebsite
           $num_of_lines
           $md5
           EOF
@@ -69,14 +66,14 @@ jobs:
       - name: Commit Stable
         if: env.stop != 'true'
         run: |
-          git config --local user.name "GWall[bot]"
           git config --local user.email "114237374+GWall-bot@users.noreply.github.com"
+          git config --local user.name "GWall[bot]"
           git add filtri.txt vcheck/check_filtri.txt
-          git diff --cached --quiet || git commit -m "Aggiornamento Stable (GHA) ${{ env.update }} del ${{ env.lastmodified }}"
+          git diff --cached --quiet || git commit -m "Aggiornamento Stable (GHA) $update del $lastmodified"
 
       - name: Push Stable
         if: env.stop != 'true'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref_name }}
+          branch: ${{ github.ref }}
