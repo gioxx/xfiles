@@ -25,13 +25,16 @@ jobs:
       - name: Set date and time
         run: bash ./sh/parts/datetime.sh
 
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y jq
+
       - name: Make Stable
         run: bash ./sh/make_stable.sh
 
       - name: Prepare list header
         if: env.stop != 'true'
         run: |
-          cp filtri.txt filtri_tmp_core.txt
+          cp filtri.txt filtri_content.txt
           cat <<EOF > filtri.txt
           [Adblock Plus 2.8]
           ! Title: NoAds X Files
@@ -44,8 +47,8 @@ jobs:
           ! Hosting: GitHub.com
           !
           EOF
-          cat filtri_tmp_core.txt >> filtri.txt
-          rm filtri_tmp_core.txt
+          cat filtri_content.txt >> filtri.txt
+          rm filtri_content.txt
 
       - name: Prepare vCheck
         if: env.stop != 'true'
