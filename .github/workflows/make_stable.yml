@@ -1,13 +1,16 @@
 name: NoAds Stable
+
 on:
   schedule:
-  - cron: '0 0 */18 * *'
+    - cron: '0 0 */18 * *'
 
   workflow_dispatch:
 
 jobs:
   noads_stable:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v4.2.2
@@ -20,45 +23,54 @@ jobs:
           timezoneLinux: "Europe/Rome"
 
       - name: Set date and time
-        run: sh ./sh/parts/datetime.sh
-
-      - name: Prepare list header
-        run: |
-          echo "[Adblock Plus 2.8]" > filtri.txt
-          echo "! Title: NoAds X Files" >> filtri.txt
-          echo "! Version:" $update >> filtri.txt
-          echo "! X Files migliora la tua navigazione quotidiana!" >> filtri.txt
-          echo "! Last modified:" $lastmodified >> filtri.txt
-          echo "! Expires: 15 days" >> filtri.txt
-          echo "! Homepage: https://xfiles.noads.it" >> filtri.txt
-          echo "! Blog: https://go.gioxx.org/noads" >> filtri.txt
-          echo "! Hosting: GitHub.com" >> filtri.txt
-          echo "!" >> filtri.txt
+        run: bash ./sh/parts/datetime.sh
 
       - name: Make Stable
-        run: sh ./sh/make_stable.sh
+        run: bash ./sh/make_stable.sh
+
+      - name: Prepare list header
+        if: env.stop != 'true'
+        run: |
+          cp filtri.txt filtri_tmp_core.txt
+          cat <<EOF > filtri.txt
+          [Adblock Plus 2.8]
+          ! Title: NoAds X Files
+          ! Version: $update
+          ! X Files migliora la tua navigazione quotidiana!
+          ! Last modified: $lastmodified
+          ! Expires: 15 days
+          ! Homepage: https://xfiles.noads.it
+          ! Blog: https://go.gioxx.org/noads
+          ! Hosting: GitHub.com
+          !
+          EOF
+          cat filtri_tmp_core.txt >> filtri.txt
+          rm filtri_tmp_core.txt
 
       - name: Prepare vCheck
-        if: ${{ env.stop == 'false' }}
+        if: env.stop != 'true'
         run: |
           num_of_lines=$(grep -v '^! ' "filtri.txt" | wc -l)
-          md5=($(md5sum filtri.txt| cut -d ' ' -f 1))
-          echo $update > vcheck/check_filtri.txt
-          echo $lastmodified >> vcheck/check_filtri.txt
-          echo $checkwebsite >> vcheck/check_filtri.txt
-          echo $num_of_lines >> vcheck/check_filtri.txt
-          echo $md5 >> vcheck/check_filtri.txt
+          md5=$(md5sum filtri.txt | cut -d ' ' -f 1)
+
+          cat <<EOF > vcheck/check_filtri.txt
+          $update
+          $lastmodified
+          $checkwebsite
+          $num_of_lines
+          $md5
+          EOF
 
       - name: Commit Stable
-        if: ${{ env.stop == 'false' }}
+        if: env.stop != 'true'
         run: |
           git config --local user.email "114237374+GWall-bot@users.noreply.github.com"
           git config --local user.name "GWall[bot]"
-          git add filtri.txt
-          git add vcheck/check_filtri.txt
-          git commit -m "Aggiornamento Stable (GHA) $update del $lastmodified" -a
-      
+          git add filtri.txt vcheck/check_filtri.txt
+          git diff --cached --quiet || git commit -m "Aggiornamento Stable (GHA) $update del $lastmodified"
+
       - name: Push Stable
+        if: env.stop != 'true'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
