@@ -14,4 +14,9 @@ for file in "$@"; do
         head -n -2 "$file" > tmp && mv tmp "$file"
         sed -i 's/^........//' "$file"
     fi
+
+    # Phishing DB header removal if applicable
+    if [[ "$file" == *"phishingdomains.txt" ]]; then
+        sed -i -e '1,3d' "$file"
+    fi
 done
