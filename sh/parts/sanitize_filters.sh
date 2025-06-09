@@ -5,10 +5,13 @@ for file in "$@"; do
     [[ ! -f "$file" ]] && continue
     echo "Sanitizing filter syntax in: $file"
 
-    # Remove leading/trailing quotes and whitespace
-    sed -i 's/^"//; s/"$//' "$file"                         # removes quotation marks
-    sed -i 's/^[[:space:]]*//; s/[[:space:]]*$//' "$file"   # spaces / tabs
+    sed -i '/^#/d' "$file"
 
-    # Also clean up common malformed entries
-    sed -i 's/||http:/||https?:/g' "$file"  # if useful (avoids duplication)
+    sed -i 's/"//g' "$file"
+    sed -i 's/^[[:space:]]*//;s/[[:space:]]*$//' "$file"
+    sed -i 's/[[:space:]]\+/ /g' "$file"
+
+    sed -i 's/$/^/' "$file"
+    sed -i 's/^/||/' "$file"
 done
+
