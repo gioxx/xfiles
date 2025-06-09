@@ -1,4 +1,4 @@
-> <img src="https://xfiles.noads.it/img/xfiles_neg_icon23.png" alt="NoAds X Files banner" width="180"/>
+> <img src="https://xfiles.noads.it/img/xfiles_shadow_icon23.png" alt="NoAds X Files banner" width="180"/>
 
 # NoAds X Files – [xfiles.noads.it](https://xfiles.noads.it)
 
