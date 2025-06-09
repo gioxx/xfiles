@@ -1,29 +1,28 @@
 #!/bin/bash
 source "$(dirname "$0")/../lib/error_handler.sh"
 
-echo "Merging lists and finalizing ..."
+OUTPUT="$1"       # example: domains/upd_domains.txt
+VCHECK="$2"       # example: vcheck/check_domains.txt
+shift 2
+INPUT_FILES=("$@")
 
-cat "2021-07-18_nso.txt" "NSA-CIA-Blocklist.txt" "hws_contrib.txt" urlhaus_list.txt viriback_list.txt > siteblock_nosort.txt
-sort -u siteblock_nosort.txt -o siteblock_sort.txt
-
-# Cleanup spacing
-sed -i 's/||[ \t]*/||/g' siteblock_sort.txt
-sed -i 's/[ \t]*\^/\^/g' siteblock_sort.txt
-
-# MD5 logic
 echo "stop=false" >> "$GITHUB_ENV"
-md5_new=$(md5sum siteblock_sort.txt | cut -d ' ' -f 1)
-md5_old=$(sed -n '5p' vcheck/check_siteblock.txt)
+
+cat "${INPUT_FILES[@]}" > tmp_nosort.txt
+sort -u tmp_nosort.txt -o tmp_sort.txt
+
+md5_new=$(md5sum tmp_sort.txt | cut -d ' ' -f 1)
+md5_old=$(sed -n '5p' "$VCHECK" 2>/dev/null || echo "NONE")
 
 echo "MD5 old: $md5_old"
 echo "MD5 new: $md5_new"
 
 if [[ "$md5_new" == "$md5_old" ]]; then
     echo "stop=true" >> "$GITHUB_ENV"
-    echo "No changes detected"
+    echo "Same MD5, skipping update"
 else
-    cp siteblock_sort.txt siteblock.txt
     echo "md5=$md5_new" >> "$GITHUB_ENV"
-    rm -f 2021-07-18_nso.txt NSA-CIA-Blocklist.txt hws_contrib.txt \
-          urlhaus.* viriback.* siteblock_nosort.txt siteblock_sort.txt whitelist_sort.txt
+    cp tmp_sort.txt "$OUTPUT"
+    echo "Output written to $OUTPUT"
+    rm -f "${INPUT_FILES[@]}" tmp_nosort.txt tmp_sort.txt whitelist_sort.txt
 fi
