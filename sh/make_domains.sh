@@ -3,7 +3,6 @@ wget -c "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/mast
 wget -c "https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt" -O "do_2021-07-18_nso.txt"
 wget -c "https://raw.githubusercontent.com/noads-it/NSA-CIA-Blocklist/main/HOSTS/HOSTS" -O "do_NSA-CIA-Blocklist.txt"
 wget -c "https://raw.githubusercontent.com/marco-acorte/antispam-it/main/antispam-domains.txt" -O "do_antispam-it.txt"
-# wget -c "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/whitelist.me/whitelist.me" -O "do_whitelist.me"
 
 emptycheck () {
   if [ -s $1 ]
@@ -20,9 +19,6 @@ emptycheck "do_phishingdomains_newtoday.txt"
 emptycheck "do_2021-07-18_nso.txt"
 emptycheck "do_NSA-CIA-Blocklist.txt"
 emptycheck "do_antispam-it.txt"
-# test -s "do_whitelist.me" || exit 1
-# grep -v -P '^(REG|ALL)' do_whitelist.me | sort >> do_whitelist.txt
-# rm "do_whitelist.me"
 
 cat contrib/upd_exclude >> "do_whitelist.txt"
 sort -u -o "do_whitelist_sort.txt" "do_whitelist.txt"
