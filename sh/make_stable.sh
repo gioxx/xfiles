@@ -21,6 +21,6 @@ if [[ "$md5_new" == "$md5_old" ]]; then
 else
   echo "Different MD5, proceed with list creation."
   echo "md5=$md5_new" >> "$GITHUB_ENV"
-  cat filtri_tmp.txt >> filtri.txt
+  cat filtri_tmp.txt > filtri.txt
   rm -f filtri_tmp.txt xfiles_*
 fi

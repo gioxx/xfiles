@@ -47,6 +47,7 @@ jobs:
           !
           EOF
           cat filtri.txt >> header_stable.txt
+          rm filtri.txt
           mv header_stable.txt filtri.txt
 
       - name: Prepare vCheck
