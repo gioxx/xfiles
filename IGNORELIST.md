@@ -1,9 +1,9 @@
-# ABP X Files: Report Ignore List
+# NoAds X Files: Report Ignore List
 Lista di siti web ignorati e non analizzati in caso di segnalazione.
  - **Info**:
    https://github.com/gioxx/xfiles/wiki/Domande-per-partire#cos%C3%A8-la-ignore-list
  - **Supporto**: https://github.com/gioxx/xfiles/issues/new
- - **Ultimo update**: 26/11/18 (mera correzione stilistica)
+ - **Ultimo update**: 09/06/2025 (mera correzione stilistica)
 
 ----------
 
