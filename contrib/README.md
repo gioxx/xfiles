@@ -30,9 +30,6 @@ Contengono i filtri in maniera più ordinata, raccolti per specifico scopo. Coll
 - [xfiles_21-idcac](/contrib/xfiles_21-idcac): aggiungere filtri in grado di bloccare gli avvisi di accettazione Cookie contenuti nei domini visitati. È una base dati ancora giovane e sperimentale, in continua evoluzione.
 - [xfiles_30-abusorisorse](/contrib/xfiles_30-abusorisorse): aggiungere filtri che impediscono a elementi contenuti nei domini di fare abuso di risorse del PC che li sta navigando, ne parlavo nell'articolo https://gioxx.org/2018/02/27/nocoin-il-cryptojacking-e-ormai-argomento-comune (sono filtri integrati direttamente in X Files da quando ho dismesso il modulo **NoCoin**).
 
-La lista [xfiles_22-bpc](/contrib/xfiles_22-bpc) costituisce un nuovo esperimento portato a bordo di X Files. Si tratta dei filtri di blocco paywall resi pubblici da [Bypass Paywalls Clean](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters) (https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/blob/main/bpc-paywall-filter.txt), dedicati a chi non vuole usare ulteriori estensioni sul proprio browser ma riscontra difficoltà nell'accedere alcuni contenuti online. La lista viene ottenuta / generata automaticamente e non va modificata manualmente.
-
-
 ## NoFacebookAds (NFA)
 
 Se vuoi includere un nuovo filtro all'interno del modulo **NoFacebookAds** puoi:
