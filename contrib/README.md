@@ -1,49 +1,57 @@
-# Come contribuire direttamente?
+# 🤝 Come contribuire direttamente?
 
-All'interno di questa cartella si trovano tutti i singoli file che permettono la costruzione delle liste filtri **X Files**, **NoFacebookAds** (NFA), **Harmful WebSites** (HWS) e **uBlock Phishing Domains** (UPD).
+Questa cartella contiene tutti i file che contribuiscono alla costruzione delle liste filtri **X Files**, **NoFacebookAds (NFA)**, **Harmful WebSites (HWS)** e **uBlock Phishing Domains (UPD)**.
 
-* [X Files (modulo principale)](#x-files-modulo-principale)
-  + [Basi dati specifiche](#basi-dati-specifiche)
-* [NoFacebookAds (NFA)](#nofacebookads-nfa)
-* [Harmful WebSites & uBlock Phishing Domains (HWS, UPD)](#harmful-websites--ublock-phishing-domains-hws-upd)
-  + [Eccezioni](#eccezioni)
+Puoi partecipare proponendo nuove regole tramite [una nuova issue](https://github.com/gioxx/xfiles/issues/new/choose) oppure modificando direttamente i file *contrib* più rilevanti.
 
-## X Files (modulo principale)
+## 📦 X Files (modulo principale)
 
-Se vuoi includere un nuovo filtro all'interno del modulo principale di **X Files** puoi:
+Per proporre filtri destinati al modulo principale **X Files**:
 
-- [creare una nuova issue](https://github.com/gioxx/xfiles/issues/new/choose) e descrivermi il problema così da poterlo analizzare e creare eventualmente filtri ad-hoc.
-- Inserirlo tu stesso nella lista [xfiles_contrib](/contrib/xfiles_contrib), che contiene gli elementi proposti dagli utilizzatori di lista che non sono ancora stati catalogati nelle basi dati specifiche.
+- ➕ Apri una [issue GitHub](https://github.com/gioxx/xfiles/issues/new/choose) descrivendo il problema.
+- ✍️ Aggiungi direttamente i filtri in [`xfiles_contrib`](/contrib/xfiles_contrib), file utilizzato per raccogliere suggerimenti e regole ancora da categorizzare.
 
-### Basi dati specifiche
+### 📚 Basi dati specifiche
 
-Contengono i filtri in maniera più ordinata, raccolti per specifico scopo. Collaborare attivamente allo sviluppo di queste basi dati vuol dire mettere mano ai singoli file (che vengono poi usati per modellare la lista X Files principale) e:
+Puoi anche proporre modifiche alle basi dati tematiche, che vengono aggregate per generare la lista stabile:
 
-- [xfiles_00-whitelist](/contrib/xfiles_00-whitelist): aggiungere un elemento / dominio da ignorare completamente.
-- [xfiles_01-adsnoninvasivi](/contrib/xfiles_01-adsnoninvasivi): aggiungere un elemento / dominio alle esclusioni della lista, utile per quei siti web che non propongono elementi pubblicitari invasivi e utilizzano metodi di protezione da Adblocker per evitare che l'utente riesca a visitarli.
-- [xfiles_10-rootdomains](/contrib/xfiles_10-rootdomains): aggiungere un dominio specifico utilizzato per il caricamento di risorse pubblicitarie. Da qualche anno a questa parte è più difficile inserirne di nuovi ma è una buona base storica alla quale fare affidamento.
-- [xfiles_11-specifici](/contrib/xfiles_11-specifici): aggiungere specifici elementi di domini da bloccare. È la base dati certamente più modificata (da diverso tempo a questa parte).
-- [xfiles_12-elementibloccati](/contrib/xfiles_12-elementibloccati): aggiungere specifici elementi di domini terze parti (e non solo) da bloccare. Utile nel caso in cui i domini visitati vadano a caricare risorse da un sito web esterno, popup, ecc.
-- [xfiles_13-elementinascosti](/contrib/xfiles_13-elementinascosti): aggiungere modifiche estetiche. Utile nel caso in cui alcuni domini propongano importanti spazi vuoti dopo aver bloccato fonti pubblicitarie (ma non solo).
-- [xfiles_14-ublockscripts](/contrib/xfiles_14-ublockscripts): aggiungere filtri inline compatibili con uBlock, che permettono quindi di bloccare determinate richieste dei siti web (come i check per l'uso di Adblocker, per esempio).
-- [xfiles_20-sperimentali](/contrib/xfiles_20-sperimentali): aggiungere filtri da testare prima del rilascio della versione stabile del modulo X Files principale (ne fa quindi largo uso la lista "[eXperimental](https://github.com/gioxx/xfiles/blob/master/experimental.txt)").
-- [xfiles_21-idcac](/contrib/xfiles_21-idcac): aggiungere filtri in grado di bloccare gli avvisi di accettazione Cookie contenuti nei domini visitati. È una base dati ancora giovane e sperimentale, in continua evoluzione.
-- [xfiles_30-abusorisorse](/contrib/xfiles_30-abusorisorse): aggiungere filtri che impediscono a elementi contenuti nei domini di fare abuso di risorse del PC che li sta navigando, ne parlavo nell'articolo https://gioxx.org/2018/02/27/nocoin-il-cryptojacking-e-ormai-argomento-comune (sono filtri integrati direttamente in X Files da quando ho dismesso il modulo **NoCoin**).
+| File | Descrizione |
+|------|-------------|
+| [`xfiles_00-whitelist`](/contrib/xfiles_00-whitelist) | Domini o elementi da ignorare. |
+| [`xfiles_01-adsnoninvasivi`](/contrib/xfiles_01-adsnoninvasivi) | Pubblicità non invasive da escludere dal blocco. |
+| [`xfiles_10-rootdomains`](/contrib/xfiles_10-rootdomains) | Domini radice usati per fini pubblicitari. |
+| [`xfiles_11-specifici`](/contrib/xfiles_11-specifici) | Regole mirate per blocchi specifici. |
+| [`xfiles_12-elementibloccati`](/contrib/xfiles_12-elementibloccati) | Elementi esterni (es. popup, tracciamenti). |
+| [`xfiles_13-elementinascosti`](/contrib/xfiles_13-elementinascosti) | Filtri cosmetici per nascondere spazi vuoti o banner. |
+| [`xfiles_14-ublockscripts`](/contrib/xfiles_14-ublockscripts) | Script inline compatibili con uBlock Origin. |
+| [`xfiles_20-sperimentali`](/contrib/xfiles_20-sperimentali) | Nuovi filtri in fase di test per la lista eXperimental. |
+| [`xfiles_21-idcac`](/contrib/xfiles_21-idcac) | Blocca popup di accettazione Cookie. |
+| [`xfiles_30-abusorisorse`](/contrib/xfiles_30-abusorisorse) | Contro abuso CPU/risorse locali, erede del modulo *NoCoin*. |
 
-## NoFacebookAds (NFA)
+---
 
-Se vuoi includere un nuovo filtro all'interno del modulo **NoFacebookAds** puoi:
+## 📘 NoFacebookAds (NFA)
 
-- [creare una nuova issue](https://github.com/gioxx/xfiles/issues/new/choose) e descrivermi il problema così da poterlo analizzare e creare eventualmente filtri ad-hoc.
-- Inserirlo tu stesso nella lista [nfa](/contrib/nfa), che contiene gli elementi scritti da me o proposti dagli utilizzatori del modulo.
+Per proporre filtri destinati alla lista **NoFacebookAds**:
 
-## Harmful WebSites & uBlock Phishing Domains (HWS, UPD)
+- 📩 Apri una [issue GitHub](https://github.com/gioxx/xfiles/issues/new/choose).
+- ✍️ Oppure modifica direttamente [`nfa`](/contrib/nfa), file che raccoglie tutte le regole create o suggerite per bloccare le pubblicità su Facebook.
 
-Se vuoi includere un nuovo filtro all'interno dei moduli **Harmful WebSites** e/o **uBlock Phishing Domains** puoi:
+---
 
-- [creare una nuova issue](https://github.com/gioxx/xfiles/issues/new/choose) e descrivermi il problema così da poterlo analizzare e creare eventualmente filtri ad-hoc.
-- Inserirlo tu stesso nella lista [siteblock_contrib](/contrib/siteblock_contrib), che contiene gli elementi scritti da me o proposti dagli utilizzatori dei due moduli.
+## 🛡 Harmful WebSites & uBlock Phishing Domains (HWS / UPD)
 
-### Eccezioni
+Per segnalare URL o domini pericolosi da includere nei moduli **HWS** e/o **UPD**:
 
-Dato che possono esistere casi di falso positivo all'interno delle liste HWS / UPD, è stata creata una base dati ad-hoc che permette di elencare una serie di domini da ripulire da ambo le liste prima dei rilasci ufficiali, [upd_exclude](/contrib/upd_exclude).
+- 📩 Apri una [issue GitHub](https://github.com/gioxx/xfiles/issues/new/choose).
+- ✍️ Oppure modifica direttamente [`siteblock_contrib`](/contrib/siteblock_contrib), contenente URL sospetti o segnalazioni da parte della community.
+
+### ⚠️ Eccezioni / Whitelist
+
+In caso di **falsi positivi** rilevati nei moduli HWS o UPD, puoi segnalare i domini da escludere modificando il file:
+
+- [`upd_exclude`](/contrib/upd_exclude): verranno rimossi automaticamente dalle liste finali in fase di compilazione.
+
+---
+
+💡 *Ogni contributo è prezioso. Grazie per sostenere il progetto X Files!*
