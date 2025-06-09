@@ -1,6 +1,6 @@
 <img src="https://xfiles.noads.it/img/xfiles_shadow_icon23.png" alt="NoAds X Files banner" width="180"/>
 
-# NoAds X Files – [xfiles.noads.it](https://xfiles.noads.it)
+# [xfiles.noads.it](https://xfiles.noads.it)
 
 [![NoAds Stable](https://github.com/gioxx/xfiles/actions/workflows/make_stable.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_stable.yml)
 [![ABP eXperimental Files](https://github.com/gioxx/xfiles/actions/workflows/make_experimental.yml/badge.svg)](https://github.com/gioxx/xfiles/actions/workflows/make_experimental.yml)
@@ -26,7 +26,7 @@ Le liste X Files sono compatibili con:
 - **uBlock Origin** (raccomandato insieme a Firefox, su Google Chrome è ormai molto limitato e la versione "Lite" non permette l'uso delle liste X Files)
 - **AdBlock**
 
-### ✅ Consiglio personale
+### ✅ Consiglio personale (non richiesto)
 Uso **uBlock Origin** su Firefox per la sua leggerezza e potenza. Puoi installarlo da:
 
 - [Firefox Add-ons](https://addons.mozilla.org/it/firefox/addon/ublock-origin)

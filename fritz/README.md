@@ -1,3 +1,5 @@
+<img src="https://xfiles.noads.it/img/xfiles_shadow_icon23.png" alt="NoAds X Files banner" width="180"/>
+
 # 📡 Lista per FRITZ!Box
 
 Questa è una versione apposita della lista **NoAds X Files**, pensata per l'utilizzo con i dispositivi **FRITZ!Box** prodotti da AVM.

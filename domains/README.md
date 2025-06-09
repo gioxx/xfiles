@@ -1,3 +1,5 @@
+<img src="https://xfiles.noads.it/img/xfiles_shadow_icon23.png" alt="NoAds X Files banner" width="180"/>
+
 # 🌐 UPD: Domains Only
 
 Questa versione ridotta del modulo **UPD (uBlock Phishing Domains)** contiene **esclusivamente i domini**, estratti e formattati senza sintassi specifica per Adblock/uBlock.

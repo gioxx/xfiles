@@ -1,3 +1,5 @@
+<img src="https://xfiles.noads.it/img/xfiles_shadow_icon23.png" alt="NoAds X Files banner" width="180"/>
+
 # 🤝 Come contribuire direttamente?
 
 Questa cartella contiene tutti i file che contribuiscono alla costruzione delle liste filtri **X Files**, **NoFacebookAds (NFA)**, **Harmful WebSites (HWS)** e **uBlock Phishing Domains (UPD)**.
