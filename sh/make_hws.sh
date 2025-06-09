@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+source "$(dirname "$0")/../lib/error_handler.sh"
 
 bash ./sh/parts/fetch_sources.sh
 bash ./sh/parts/process_urlhaus.sh

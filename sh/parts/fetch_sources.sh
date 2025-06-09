@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+source "$(dirname "$0")/../lib/error_handler.sh"
 
 declare -A files=(
     ["2021-07-18_nso.txt"]="https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt"

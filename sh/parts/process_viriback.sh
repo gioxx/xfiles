@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+source "$(dirname "$0")/../lib/error_handler.sh"
 
 echo "Processing Viriback CSV ..."
 wget -q -O viriback.csv "https://tracker.viriback.com/dump.php"
