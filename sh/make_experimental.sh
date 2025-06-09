@@ -7,6 +7,8 @@ cp contrib/xfiles_* ./
 bash ./sh/parts/clean_header_blank.sh xfiles_22-bpc 6
 bash ./sh/parts/merge_and_finalize.sh experimental.txt vcheck/check_experimental.txt xfiles_*
 
-if [[ "${stop}" != "true" ]]; then
+if grep -q '^stop=true' "$GITHUB_ENV"; then
+  echo "No update needed, skipping header prepend."
+else
   bash ./sh/parts/prepend_header.sh experimental.txt "! [NoAds X Files - Filtri per blocco Paywall (sperimentale)]"
 fi
