@@ -72,9 +72,8 @@ L'intero progetto **NoAds X Files** (inclusi: tutte le liste ufficiali e sperime
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-> La licenza garantisce libertà d’uso, modifica e ridistribuzione, purché venga mantenuta la stessa licenza anche nei derivati.
->
-> 📄 Maggiori informazioni su: [https://www.gnu.org/licenses/gpl-3.0](https://www.gnu.org/licenses/gpl-3.0)
+La licenza garantisce libertà d’uso, modifica e ridistribuzione, purché venga mantenuta la stessa licenza anche nei derivati.  
+📄 Maggiori informazioni su: [https://www.gnu.org/licenses/gpl-3.0](https://www.gnu.org/licenses/gpl-3.0)
 
 > Please note: **NoAds X Files follows an "Italian policy"**. No support is offered for websites outside the Italian web ecosystem.
 
