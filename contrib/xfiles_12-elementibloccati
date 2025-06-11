@@ -1,6 +1,7 @@
 ! [NoAds X Files - Elementi bloccati]/blocking
 ://adv.$domain=~sky.it|~la7.it|~la7.tv|~tre.it|~tzetze.it
 ://oas.*@$domain=~youreporter.it
+*$script,redirect-rule=noopjs,from=corriere.it
 *ad*.nuffnang.com.ph/*.php
 /?rb=*&zoneid=$xmlhttprequest,3p
 /banner.php
@@ -247,7 +248,7 @@ codigobarras.com/*ad_tpl.php*
 commindo-media-ressourcen.de/*ai.php
 comuni.it/*/phpads/adview.php
 content.bannerconnect.net/rmtag3.js
-corriere.it/gazzetta/adv/*preroll.mp4
+corriere.it##+js(addEventListener-defuser, adb)
 corrieredellosport.it/*advertising*$domain=~autosprint.corrieredellosport.it
 counter.sexplaza.nu/counter.php
 cpm.biz/ad_special.php
