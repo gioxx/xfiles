@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202506091106
+! Version: 202506111015
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 09-06-2025
+! Last modified: 11-06-2025
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -1666,6 +1666,7 @@ getemoji.com##[id*="ad_banner"]
 getemoji.com##[id^="aswift_"]
 getemoji.com##A[href*="amazon.com/Audible-Free-Trial"]
 getemoji.com##IFRAME[src^="//banners.itunes.apple.com/"]
+getgreenshot.org##.ga-skscrpr
 gfx.passwordbyphone.com/468x60/
 ghacks.net##.column-ad
 ghacks.net##.ghacks-ad
@@ -1933,6 +1934,8 @@ ilquotidianodellazio.it###popup-facebook
 ilrestodelcarlino.it##[class^="Ad_watermark"]
 ilrestodelcarlino.it##[class^="ads_leaderboard-container"]
 ilrestodelcarlino.it##IMG[src*="securepubads"]
+ilriformista.it##.gptslot
+ilriformista.it##.player_evolution
 ilsecoloxix.it##.artbanner
 ilsecoloxix.it##.googleAdSense
 ilsitodellozoo.105.net/728x90
@@ -4223,9 +4226,11 @@ ziddu.com/banners
 zippyshare.com##DIV[class="center_reklamy"]
 zoezozo.it/banner_casino/
 zoomtv.me##DIV[id="memberad"]
-zpag.es##.top_bar.top_bar_ad! [NoAds X Files - Elementi bloccati]/blocking
+zpag.es##.top_bar.top_bar_ad
+! [NoAds X Files - Elementi bloccati]/blocking
 ://adv.$domain=~sky.it|~la7.it|~la7.tv|~tre.it|~tzetze.it
 ://oas.*@$domain=~youreporter.it
+*$script,redirect-rule=noopjs,from=corriere.it
 *ad*.nuffnang.com.ph/*.php
 /?rb=*&zoneid=$xmlhttprequest,3p
 /banner.php
@@ -4472,7 +4477,7 @@ codigobarras.com/*ad_tpl.php*
 commindo-media-ressourcen.de/*ai.php
 comuni.it/*/phpads/adview.php
 content.bannerconnect.net/rmtag3.js
-corriere.it/gazzetta/adv/*preroll.mp4
+corriere.it##+js(addEventListener-defuser, adb)
 corrieredellosport.it/*advertising*$domain=~autosprint.corrieredellosport.it
 counter.sexplaza.nu/counter.php
 cpm.biz/ad_special.php
