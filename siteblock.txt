@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files: HWS Harmful WebSites
-! Version: 202507160623
+! Version: 202507170622
 ! Harmful WebSites blocca siti web potenzialmente dannosi per la tua navigazione
-! Last modified: 16-07-2025
+! Last modified: 17-07-2025
 ! Expires: 2 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -6874,6 +6874,7 @@
 ||||http://179.43.187.84/login^^
 ||||http://179.43.187.95:443/admin/console/^^
 ||||http://179.60.147.176/panel/login.php^^
+||||http://179.60.149.213/auth/login/^^
 ||||http://179.61.251.93:8888/supershell/login/^^
 ||||http://18.134.206.231^^
 ||||http://18.141.202.110^^
@@ -7305,6 +7306,7 @@
 ||||http://185.29.8.100/aristo/Panel/panel/admin.php^^
 ||||http://185.29.8.42/bagwell/Panel/panel/admin.php^^
 ||||http://185.39.17.122/som9unr/Login.php^^
+||||http://185.39.19.164/auth/login/^^
 ||||http://185.4.65.203/fghfdghsdfg/login.php^^
 ||||http://185.4.65.70/panel/login.php^^
 ||||http://185.43.4.227/index.php^^
@@ -7447,6 +7449,7 @@
 ||||http://192.9.233.124:8888/supershell/login/^^
 ||||http://192.95.6.196/23112022new/autorizar.php^^
 ||||http://192.99.251.51:3000/#/login^^
+||||http://193.105.134.245/auth/login/^^
 ||||http://193.106.175.43^^
 ||||http://193.106.191.122/f8dfksdj3/Login.php^^
 ||||http://193.106.191.201/panelis/Login.php^^
@@ -9114,7 +9117,9 @@
 ||||http://5.196.214.131/login^^
 ||||http://5.196.93.222/login/?next=/^^
 ||||http://5.199.166.68^^
+||||http://5.199.173.205:8888/supershell/login/^^
 ||||http://5.23.53.115/login.php^^
+||||http://5.252.155.81/auth/login/^^
 ||||http://5.253.38.46/login.php^^
 ||||http://5.253.41.224:8888/supershell/login/^^
 ||||http://5.35.99.214^^
