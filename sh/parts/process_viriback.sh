@@ -2,9 +2,6 @@
 source "$(dirname "$0")/../lib/error_handler.sh"
 
 echo "Processing Viriback CSV ..."
-# wget -q -O viriback.csv "https://tracker.viriback.com/dump.php"
-# tail -n +2 viriback.csv | cut -d',' -f2 \
-#   | sed -e 's/^/||/' -e 's/$/^/' > viriback_list.txt
 
 # Download the CSV file with retries
 attempts=3
@@ -16,8 +13,9 @@ for i in $(seq 1 $attempts); do
 done
 
 if [ $success -ne 1 ] || [ ! -s viriback.csv ]; then
-  echo "Failed to download viriback.csv after $attempts attempts or file is empty."
-  exit 1
+  echo "Warning: viriback.csv not downloaded after $attempts or the file is empty. I continue without Viriback data."
+  touch viriback_list.txt
+  exit 0
 fi
 
 tail -n +2 viriback.csv | cut -d',' -f2 \
