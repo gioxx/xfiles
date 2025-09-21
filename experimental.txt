@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202506111015
+! Version: 202509211705
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 11-06-2025
+! Last modified: 21-09-2025
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -1182,6 +1182,8 @@ diretta.it###banner-top
 diretta.it##DIV[class="banner menu-banner"]
 diretta.it##DIV[class="banner"]
 direttastreaming.com##IFRAME[name="trovadeal"]
+diritto.it##.exmp-interval-ad
+diritto.it##.wp-block-maggiolidxp-block-injected-tools
 diritto24.ilsole24ore.com##.advHeader
 dissapore.com##.adv
 dissapore.com##.article__adv
@@ -2796,6 +2798,7 @@ nintendolife.com##[data-dfp-sizes="728x90,960x250,1260x110"]
 nintendolife.com##[id^="google_ads_iframe"]
 nintendolife.com##[id^="NL_MPU_"][data-dfp-sizes="300x250"]
 nintendon.it##[id^="div-gpt-ad"]
+nmac.to##[id^="advads-"]
 nod32-free-keys.blogspot.com###nnadsfoot
 nodemailer.com###carbonads
 nolabnoparty.com##.ad-cell
