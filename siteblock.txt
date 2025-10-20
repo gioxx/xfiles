@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files: HWS Harmful WebSites
-! Version: 202510190554
+! Version: 202510200555
 ! Harmful WebSites blocca siti web potenzialmente dannosi per la tua navigazione
-! Last modified: 19-10-2025
+! Last modified: 20-10-2025
 ! Expires: 2 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -6576,6 +6576,7 @@
 ||||http://166.108.206.56:8888/supershell/login/^^
 ||||http://166.88.225.57^^
 ||||http://167.114.144.194:8888/supershell/login/^^
+||||http://167.172.107.164:8888/supershell/login/^^
 ||||http://167.172.170.114:9828/login.php^^
 ||||http://167.172.170.114:9999/login.php^^
 ||||http://167.172.69.255:443/admin/console/^^
@@ -6818,6 +6819,7 @@
 ||||http://176.123.8.254/yGffCsfFs/login.php^^
 ||||http://176.124.200.101/auth^^
 ||||http://176.124.205.162/pages/login.php^^
+||||http://176.124.206.73^^
 ||||http://176.124.210.153/auth^^
 ||||http://176.124.214.54/auth^^
 ||||http://176.124.216.38/auth^^
@@ -8706,6 +8708,8 @@
 ||||http://45.130.145.152/auth/login^^
 ||||http://45.131.2.163^^
 ||||http://45.131.2.192^^
+||||http://45.131.64.67/vst/dns.php^^
+||||http://45.131.64.67/vst/test.php^^
 ||||http://45.132.19.118/index.php^^
 ||||http://45.132.19.147/index.php^^
 ||||http://45.132.19.181/index.php^^
