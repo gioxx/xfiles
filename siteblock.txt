@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files: HWS Harmful WebSites
-! Version: 202512280506
+! Version: 202512290507
 ! Harmful WebSites blocca siti web potenzialmente dannosi per la tua navigazione
-! Last modified: 28-12-2025
+! Last modified: 29-12-2025
 ! Expires: 2 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -8641,6 +8641,7 @@
 ||||http://38.46.30.192:8888/supershell/login/^^
 ||||http://38.47.101.176:8888/supershell/login/^^
 ||||http://38.47.220.202:8081/login^^
+||||http://38.47.238.110:8888/supershell/login/^^
 ||||http://38.54.23.133:8888/supershell/login/^^
 ||||http://38.54.23.68:8888/supershell/login/^^
 ||||http://38.54.40.156:8888/supershell/login/^^
@@ -8893,6 +8894,7 @@
 ||||http://45.145.228.9:8888/supershell/login/^^
 ||||http://45.145.229.102:8888/supershell/login/^^
 ||||http://45.145.229.203:8888/supershell/login/^^
+||||http://45.145.42.226/^^
 ||||http://45.145.42.229^^
 ||||http://45.147.178.44/pages/login.php^^
 ||||http://45.147.198.62/login.php^^
@@ -10303,6 +10305,7 @@
 ||||http://91.215.85.37^^
 ||||http://91.215.85.38:1234/^^
 ||||http://91.215.85.42:3003/^^
+||||http://91.215.85.42:3003/login^^
 ||||http://91.217.177.121^^
 ||||http://91.224.92.176^^
 ||||http://91.224.92.194^^
@@ -16909,11 +16912,13 @@
 ||||https://173.212.204.171/account/login^^
 ||||https://176.65.141.143/^^
 ||||https://179.43.141.100:444/panel/adm.php^^
+||||https://179.43.176.30/login^^
 ||||https://179.43.190.2/x656v767x^^
 ||||https://18.222.227.101/login^^
 ||||https://18.233.30.106^^
 ||||https://18.235.126.195/^^
 ||||https://1827.webhost-02.my-host.network/login.php^^
+||||https://185.11.61.143:45051/^^
 ||||https://185.136.170.192/admin.php^^
 ||||https://185.172.128.140/admin^^
 ||||https://185.172.128.141/admin^^
@@ -16955,6 +16960,7 @@
 ||||https://37.221.120.142/login^^
 ||||https://37.221.120.155/login^^
 ||||https://3erb3a9.top/d1zK3flPWA/administration/Login.php^^
+||||https://41.216.188.41/login^^
 ||||https://44.196.101.127^^
 ||||https://44.205.115.29^^
 ||||https://44.217.89.101/^^
