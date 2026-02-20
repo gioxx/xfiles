@@ -5,13 +5,20 @@ OUTPUT="$1"       # example: domains/upd_domains.txt
 VCHECK="$2"       # example: vcheck/check_domains.txt
 shift 2
 INPUT_FILES=("$@")
+TMP_NOSORT="tmp_nosort.txt"
+TMP_SORT="tmp_sort.txt"
+
+cleanup_tmp() {
+    rm -f "$TMP_NOSORT" "$TMP_SORT" whitelist_sort.txt
+}
+trap cleanup_tmp EXIT
 
 echo "stop=false" >> "$GITHUB_ENV"
 
-cat "${INPUT_FILES[@]}" > tmp_nosort.txt
-sort -u tmp_nosort.txt -o tmp_sort.txt
+cat "${INPUT_FILES[@]}" > "$TMP_NOSORT"
+sort -u "$TMP_NOSORT" -o "$TMP_SORT"
 
-md5_new=$(md5sum tmp_sort.txt | cut -d ' ' -f 1)
+md5_new=$(md5sum "$TMP_SORT" | cut -d ' ' -f 1)
 md5_old=$(sed -n '5p' "$VCHECK" 2>/dev/null || echo "NONE")
 
 echo "MD5 old: $md5_old"
@@ -22,7 +29,7 @@ if [[ "$md5_new" == "$md5_old" ]]; then
     echo "Same MD5, skipping update"
 else
     echo "md5=$md5_new" >> "$GITHUB_ENV"
-    cp tmp_sort.txt "$OUTPUT"
+    cp "$TMP_SORT" "$OUTPUT"
     echo "Output written to $OUTPUT"
-    rm -f "${INPUT_FILES[@]}" tmp_nosort.txt tmp_sort.txt whitelist_sort.txt
+    rm -f "${INPUT_FILES[@]}"
 fi

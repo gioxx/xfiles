@@ -6,14 +6,14 @@ for file in "$@"; do
     echo "Sanitizing filter syntax in: $file"
 
     # Delete comments
-    sed -i '/^#/d' "$file"
+    sed_inplace '/^#/d' "$file"
 
     # Remove quotation marks and whitespace
-    sed -i 's/"//g' "$file"
-    sed -i 's/^[[:space:]]*//;s/[[:space:]]*$//' "$file"
-    sed -i 's/[[:space:]]\+/ /g' "$file"
+    sed_inplace 's/"//g' "$file"
+    sed_inplace 's/^[[:space:]]*//;s/[[:space:]]*$//' "$file"
+    sed_inplace 's/[[:space:]]\+/ /g' "$file"
 
     # Add || at the beginning and ^ at the end, if missing
-    sed -i 's/$/^/' "$file"
-    sed -i 's/^/||/' "$file"
+    sed_inplace 's/$/^/' "$file"
+    sed_inplace 's/^/||/' "$file"
 done

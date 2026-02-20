@@ -4,6 +4,7 @@ trap 'echo "❌ Error on line $LINENO. Last command: $BASH_COMMAND"' ERR
 
 cp contrib/xfiles_* ./ && rm -f ./xfiles_20-sperimentali
 
+: > filtri_tmp.txt
 for f in xfiles_*; do
   cat "$f" >> filtri_tmp.txt
 done

@@ -12,6 +12,6 @@ while read -r line; do
 
     for file in "${FILES[@]}"; do
         [[ -f "$file" ]] || continue
-        sed -i "/$safe_line/d" "$file"
+        sed_inplace "/$safe_line/d" "$file"
     done
 done < "whitelist_sort.txt"

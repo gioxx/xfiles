@@ -19,4 +19,4 @@ if [ $success -ne 1 ] || [ ! -s viriback.csv ]; then
 fi
 
 tail -n +2 viriback.csv | cut -d',' -f2 \
-  | sed -e 's/^/||/' -e 's/$/^/' > viriback_list.txt
+  | sed '/^$/d' > viriback_list.txt
