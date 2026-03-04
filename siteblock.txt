@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files: HWS Harmful WebSites
-! Version: 202603030523
+! Version: 202603040519
 ! Harmful WebSites blocca siti web potenzialmente dannosi per la tua navigazione
-! Last modified: 03-03-2026
+! Last modified: 04-03-2026
 ! Expires: 2 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -2517,6 +2517,7 @@
 ||http://114.55.100.165:8888/supershell/login/^
 ||http://114.55.250.233:8888/supershell/login/^
 ||http://114.55.28.140:18088/supershell/login/^
+||http://114.66.58.11:8888/supershell/login/^
 ||http://115.120.242.123:8888/supershell/login/^
 ||http://115.190.31.168:8888/supershell/login/^
 ||http://115.227.22.82:8001/supershell/login/^
@@ -3984,6 +3985,7 @@
 ||http://185.196.10.34/b8sdjsdkS/Login.php^
 ||http://185.196.10.54^
 ||http://185.196.11.155/t8rku9ms/Login.php^
+||http://185.196.11.203^
 ||http://185.196.11.251/pages/login.php^
 ||http://185.196.8.126/h9fmdW7/Login.php^
 ||http://185.196.8.176/7jshasdS/Login.php^
@@ -5844,6 +5846,7 @@
 ||http://45.32.207.9/panel/admin.php^
 ||http://45.32.232.29/^
 ||http://45.32.42.214:8888/supershell/login/^
+||http://45.32.50.118:8888/supershell/login/^
 ||http://45.32.52.248:8888/supershell/login/^
 ||http://45.32.79.170/auth^
 ||http://45.32.87.173:8888/supershell/login/^
