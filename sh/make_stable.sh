@@ -2,10 +2,14 @@
 set -euo pipefail
 trap 'echo "❌ Error on line $LINENO. Last command: $BASH_COMMAND"' ERR
 
+source "$(dirname "$0")/lib/xfiles_section_header.sh"
+
 cp contrib/xfiles_* ./ && rm -f ./xfiles_20-sperimentali
 
 : > filtri_tmp.txt
 for f in xfiles_*; do
+  [[ -f "$f" ]] || continue
+  emit_xfiles_section_header "$f" >> filtri_tmp.txt
   cat "$f" >> filtri_tmp.txt
 done
 

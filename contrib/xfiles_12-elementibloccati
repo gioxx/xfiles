@@ -1,4 +1,3 @@
-! [NoAds X Files - Elementi bloccati]/blocking
 ://adv.$domain=~sky.it|~la7.it|~la7.tv|~tre.it|~tzetze.it
 ://oas.*@$domain=~youreporter.it
 *$script,redirect-rule=noopjs,from=corriere.it

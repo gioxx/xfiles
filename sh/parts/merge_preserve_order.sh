@@ -1,5 +1,6 @@
 #!/bin/bash
 source "$(dirname "$0")/../lib/error_handler.sh"
+source "$(dirname "$0")/../lib/xfiles_section_header.sh"
 
 OUTPUT="$1"       # example: experimental.txt
 VCHECK="$2"       # example: vcheck/check_experimental.txt
@@ -11,7 +12,9 @@ echo "Merging files in original order (no sorting or dedup)..."
 rm -f "$OUTPUT" tmp_merge.txt
 
 for f in "${INPUT_FILES[@]}"; do
-    [[ -f "$f" ]] && cat "$f" >> tmp_merge.txt
+    [[ -f "$f" ]] || continue
+    emit_xfiles_section_header "$f" >> tmp_merge.txt
+    cat "$f" >> tmp_merge.txt
 done
 
 cp tmp_merge.txt "$OUTPUT"
