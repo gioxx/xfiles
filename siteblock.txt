@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files: HWS Harmful WebSites
-! Version: 202604090635
+! Version: 202604100638
 ! Harmful WebSites blocca siti web potenzialmente dannosi per la tua navigazione
-! Last modified: 09-04-2026
+! Last modified: 10-04-2026
 ! Expires: 2 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -5844,6 +5844,7 @@
 ||http://45.204.212.53:8888/supershell/login/^
 ||http://45.204.218.173^
 ||http://45.205.2.53:8888/supershell/login/^
+||http://45.205.2.56:8888/supershell/login/^
 ||http://45.207.197.39:8888/supershell/login/^
 ||http://45.207.212.160^
 ||http://45.207.212.81^
@@ -6723,6 +6724,7 @@
 ||http://77.91.84.147/auth^
 ||http://77.91.85.73/auth^
 ||http://77.91.97.162/g93kdwj3S/Login.php^
+||http://77.91.97.186/login.html^
 ||http://77.91.97.22/^
 ||http://777.com.xsph.ru/^
 ||http://78.111.89.2^
@@ -7525,6 +7527,7 @@
 ||http://94.23.247.129/login/?next=/^
 ||http://94.232.249.157/hb9IvshS03/Login.php^
 ||http://94.232.249.206/panel/login.php^
+||http://94.249.230.102/pages/login.php^
 ||http://94.250.250.206/login^
 ||http://94.72.98.157/pages/login.php^
 ||http://95.140.158.196/auth^
