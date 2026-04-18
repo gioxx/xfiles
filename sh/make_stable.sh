@@ -4,12 +4,28 @@ trap 'echo "❌ Error on line $LINENO. Last command: $BASH_COMMAND"' ERR
 
 source "$(dirname "$0")/lib/xfiles_section_header.sh"
 
+append_xfiles_section() {
+  local target_file="$1"
+  local source_file="$2"
+
+  if [[ -s "$target_file" ]]; then
+    local file_size last_byte_hex
+    file_size=$(wc -c < "$target_file")
+    last_byte_hex=$(dd if="$target_file" bs=1 count=1 skip=$((file_size - 1)) 2>/dev/null | od -An -t x1 | tr -d ' \n')
+    if [[ "$last_byte_hex" != "0a" ]]; then
+      printf '\n' >> "$target_file"
+    fi
+  fi
+
+  emit_xfiles_section_header "$source_file" >> "$target_file"
+}
+
 cp contrib/xfiles_* ./ && rm -f ./xfiles_20-sperimentali
 
 : > filtri_tmp.txt
 for f in xfiles_*; do
   [[ -f "$f" ]] || continue
-  emit_xfiles_section_header "$f" >> filtri_tmp.txt
+  append_xfiles_section filtri_tmp.txt "$f"
   cat "$f" >> filtri_tmp.txt
 done
 

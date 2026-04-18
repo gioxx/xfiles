@@ -2,6 +2,22 @@
 source "$(dirname "$0")/../lib/error_handler.sh"
 source "$(dirname "$0")/../lib/xfiles_section_header.sh"
 
+append_xfiles_section() {
+    local target_file="$1"
+    local source_file="$2"
+
+    if [[ -s "$target_file" ]]; then
+        local file_size last_byte_hex
+        file_size=$(wc -c < "$target_file")
+        last_byte_hex=$(dd if="$target_file" bs=1 count=1 skip=$((file_size - 1)) 2>/dev/null | od -An -t x1 | tr -d ' \n')
+        if [[ "$last_byte_hex" != "0a" ]]; then
+            printf '\n' >> "$target_file"
+        fi
+    fi
+
+    emit_xfiles_section_header "$source_file" >> "$target_file"
+}
+
 OUTPUT="$1"       # example: experimental.txt
 VCHECK="$2"       # example: vcheck/check_experimental.txt
 shift 2
@@ -13,7 +29,7 @@ rm -f "$OUTPUT" tmp_merge.txt
 
 for f in "${INPUT_FILES[@]}"; do
     [[ -f "$f" ]] || continue
-    emit_xfiles_section_header "$f" >> tmp_merge.txt
+    append_xfiles_section tmp_merge.txt "$f"
     cat "$f" >> tmp_merge.txt
 done
 
