@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files: HWS Harmful WebSites
-! Version: 202604180635
+! Version: 202604190639
 ! Harmful WebSites blocca siti web potenzialmente dannosi per la tua navigazione
-! Last modified: 18-04-2026
+! Last modified: 19-04-2026
 ! Expires: 2 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -4031,6 +4031,7 @@
 ||http://185.209.22.86/^
 ||http://185.209.22.86/index.php^
 ||http://185.209.30.141^
+||http://185.211.100.50:5000/login^
 ||http://185.212.128.141/www/login.php^
 ||http://185.212.131.115/www/login.php^
 ||http://185.215.113.100/^
@@ -4139,6 +4140,7 @@
 ||http://185.225.75.76/login.php^
 ||http://185.228.1.237:8888/supershell/login/^
 ||http://185.228.232.72/auth.php^
+||http://185.228.83.217:8443/login^
 ||http://185.23.182.196:8888/supershell/login/^
 ||http://185.231.71.17/login^
 ||http://185.231.71.62/^
@@ -5170,6 +5172,7 @@
 ||http://217.21.76.148/gas/login.php^
 ||http://217.217.255.48:8080/^
 ||http://217.28.222.103^
+||http://217.60.38.147/pages/login.php^
 ||http://217.64.114.179/africa/logs/omc.php^
 ||http://217.64.114.181/primone/logs/omc.php^
 ||http://217.77.13.65:8888/supershell/login/^
@@ -7541,6 +7544,7 @@
 ||http://94.23.247.129/login/?next=/^
 ||http://94.232.249.157/hb9IvshS03/Login.php^
 ||http://94.232.249.206/panel/login.php^
+||http://94.232.46.16:8081/login^
 ||http://94.249.230.102/pages/login.php^
 ||http://94.250.250.206/login^
 ||http://94.72.98.157/pages/login.php^
