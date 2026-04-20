@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files: HWS Harmful WebSites
-! Version: 202604190639
+! Version: 202604200644
 ! Harmful WebSites blocca siti web potenzialmente dannosi per la tua navigazione
-! Last modified: 19-04-2026
+! Last modified: 20-04-2026
 ! Expires: 2 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -2791,6 +2791,7 @@
 ||http://138.124.91.167^
 ||http://138.201.128.124:81^
 ||http://138.201.198.8/auth^
+||http://138.226.236.215:8080/^
 ||http://139.155.134.117:8888/supershell/login/^
 ||http://139.159.144.245:8888/supershell/login/^
 ||http://139.159.236.228:8888/supershell/login/^
