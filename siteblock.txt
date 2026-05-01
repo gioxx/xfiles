@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files: HWS Harmful WebSites
-! Version: 202604300652
+! Version: 202605010657
 ! Harmful WebSites blocca siti web potenzialmente dannosi per la tua navigazione
-! Last modified: 30-04-2026
+! Last modified: 01-05-2026
 ! Expires: 2 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -5167,6 +5167,7 @@
 ||http://217.114.43.131^
 ||http://217.12.201.112:443/admin/console/^
 ||http://217.138.205.178/webpanel/login.php^
+||http://217.145.227.150/stealer/public/login.php^
 ||http://217.154.22.37:8080/^
 ||http://217.160.212.175/panel/admin.php^
 ||http://217.195.207.156:8081/login^
@@ -6075,6 +6076,7 @@
 ||http://47.236.98.169:8801/supershell/login/^
 ||http://47.237.171.208:8080/^
 ||http://47.237.97.169:8888/supershell/login/^
+||http://47.238.118.2:8888/supershell/login/^
 ||http://47.238.178.207:8888/supershell/login/^
 ||http://47.238.226.140:8888/supershell/login/^
 ||http://47.238.238.211:8888/supershell/login/^
@@ -6586,6 +6588,7 @@
 ||http://66.63.187.70/pages/login.php^
 ||http://66.63.187.72:3000/login^
 ||http://66.85.157.122/cv/PvqDq929BSx_A_D_M1n_a.php^
+||http://66.97.39.94:8080/^
 ||http://66eff2f0.myjino.ru/login^
 ||http://67.205.129.1^
 ||http://67.205.163.232:8080/^
