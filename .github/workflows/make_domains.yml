@@ -23,7 +23,7 @@ jobs:
       
       - name: Sleep Action
         if: github.event_name == 'schedule'
-        uses: juliangruber/sleep-action@v2.0.3
+        uses: juliangruber/sleep-action@v2.0.4
         with:
           time: 2m
         
