@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files: HWS Harmful WebSites
-! Version: 202607010711
+! Version: 202607020704
 ! Harmful WebSites blocca siti web potenzialmente dannosi per la tua navigazione
-! Last modified: 01-07-2026
+! Last modified: 02-07-2026
 ! Expires: 2 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -3088,10 +3088,25 @@
 ||http://154.219.120.101:8888/supershell/login/^
 ||http://154.219.121.252:8888/supershell/login/^
 ||http://154.219.123.95:8888/supershell/login/^
+||http://154.220.120.241:8888/supershell/login/^
+||http://154.220.121.45:8888/supershell/login/^
+||http://154.220.122.109:8888/supershell/login/^
+||http://154.220.122.114:8888/supershell/login/^
+||http://154.220.122.117:8888/supershell/login/^
+||http://154.220.123.168:8888/supershell/login/^
+||http://154.220.123.180:8888/supershell/login/^
+||http://154.220.123.186:8888/supershell/login/^
+||http://154.220.123.188:8888/supershell/login/^
 ||http://154.220.61.17:8888/supershell/login/^
 ||http://154.220.61.22:8888/supershell/login/^
 ||http://154.220.61.26:8888/supershell/login/^
 ||http://154.220.61.9:8888/supershell/login/^
+||http://154.220.92.163:8888/supershell/login/^
+||http://154.220.92.165:8888/supershell/login/^
+||http://154.220.92.166:8888/supershell/login/^
+||http://154.220.94.45:8888/supershell/login/^
+||http://154.220.94.48:8888/supershell/login/^
+||http://154.220.95.112:8888/supershell/login/^
 ||http://154.222.18.152:8888/supershell/login/^
 ||http://154.222.227.127:8888/supershell/login/^
 ||http://154.222.24.202:8888/supershell/login/^
