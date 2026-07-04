@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files: HWS Harmful WebSites
-! Version: 202607030849
+! Version: 202607040835
 ! Harmful WebSites blocca siti web potenzialmente dannosi per la tua navigazione
-! Last modified: 03-07-2026
+! Last modified: 04-07-2026
 ! Expires: 2 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -3099,6 +3099,7 @@
 ||http://154.220.122.117:8888/supershell/login/^
 ||http://154.220.122.122:8888/supershell/login/^
 ||http://154.220.123.168:8888/supershell/login/^
+||http://154.220.123.171:8888/supershell/login/^
 ||http://154.220.123.180:8888/supershell/login/^
 ||http://154.220.123.186:8888/supershell/login/^
 ||http://154.220.123.188:8888/supershell/login/^
@@ -3114,6 +3115,7 @@
 ||http://154.220.92.185:8888/supershell/login/^
 ||http://154.220.94.41:8888/supershell/login/^
 ||http://154.220.94.45:8888/supershell/login/^
+||http://154.220.94.46:8888/supershell/login/^
 ||http://154.220.94.48:8888/supershell/login/^
 ||http://154.220.94.55:8888/supershell/login/^
 ||http://154.220.95.112:8888/supershell/login/^
@@ -5155,6 +5157,7 @@
 ||http://212.192.246.242/rut/panel/admin.php^
 ||http://212.192.246.93/PL341/panel/admin.php^
 ||http://212.193.11.40/login.php^
+||http://212.193.23.223:8089^
 ||http://212.193.30.115/auth^
 ||http://212.193.30.181/panel/admin.php^
 ||http://212.193.30.21/auth^
