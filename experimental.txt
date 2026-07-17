@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202606301047
+! Version: 202607171221
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 30-06-2026
+! Last modified: 17-07-2026
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -582,7 +582,6 @@ amazon.it###sponsoredLinks
 amelya.com/*banners*
 amministrazione.payclick.it/banner/*
 amp.ilgiornale.it##.banner
-amp.tgcom24.mediaset.it##.ad
 amp24.ilsole24ore.com##div.ad-wrapper
 andreagaleazzi.com##DIV[class="am-adv am-adv-default am-adv-skin"]
 androidauthority.com##.ad-banner
@@ -2657,8 +2656,6 @@ mmosite.com##DIV[class="top_banner"]
 mmosite.com##DIV[id="ad_url_div"]
 mobile.hdblog.it##.gad_container
 mobile.sportmediaset.it##[id^="spaceBanner_rn_"]
-mobile.tgcom24.it##.spaceBanner
-mobile.tgcom24.it###spaceBanner_rn_*
 mobileworld.it##.tw-adv-slot
 mobileworld.it##[id^="google_ads_iframe"]
 mockbox.net##.banneritem
@@ -3657,13 +3654,14 @@ tg24.sky.it###leaderboard-container
 tg24.sky.it###skinadvdx
 tg24.sky.it###skinadvsx
 tg24.sky.it##DIV[class="adskin__div"]
-tgcom.mediaset.it##.ad300
-tgcom.mediaset.it##.adagio300x250
-tgcom.mediaset.it##.box300x190
-tgcom.mediaset.it##.sp300x250
-tgcom.mediaset.it##.stripadv
+tgcom24.mediaset.it##.ad
+tgcom24.mediaset.it##.ad300
+tgcom24.mediaset.it##.adagio300x250
 tgcom24.mediaset.it##.adv
+tgcom24.mediaset.it##.box300x190
+tgcom24.mediaset.it##.sp300x250
 tgcom24.mediaset.it##.spaceBanner
+tgcom24.mediaset.it##.stripadv
 tgcom24.mediaset.it##[id^="dam"][style^="position: fixed"]
 tgcom24.mediaset.it##[id^="mmAdD"]
 tgcom24.mediaset.it###stripadv
