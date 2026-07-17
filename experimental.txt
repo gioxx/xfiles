@@ -1,5 +1,5 @@
 [Adblock Plus 2.8]
-! Version: 202607171221
+! Version: 202607171226
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
 ! Last modified: 17-07-2026
@@ -4857,3 +4857,5 @@ tasma.ru##+js(aopw, decodeURIComponent)
 tomadivx.tv##+js(aopr, WebAssembly)
 tubettajat.net##+js(aopr, miner)
 ! [NoAds X Files - Contributi dagli utenti]
+italialife24.it##.striscia-ads
+rietilife.com##div[id^="agenz-"]
