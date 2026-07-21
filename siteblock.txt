@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files: HWS Harmful WebSites
-! Version: 202607200833
+! Version: 202607210815
 ! Harmful WebSites blocca siti web potenzialmente dannosi per la tua navigazione
-! Last modified: 20-07-2026
+! Last modified: 21-07-2026
 ! Expires: 2 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -2569,6 +2569,9 @@
 ||http://117.72.9.31:8888/supershell/login/^
 ||http://118.107.21.101:8888/supershell/login/^
 ||http://118.107.244.100:50555^
+||http://118.107.45.29:50555^
+||http://118.107.45.70:50555^
+||http://118.107.45.73:50555^
 ||http://118.123.1.178:8888/supershell/login/^
 ||http://118.178.89.212:8888/supershell/login/^
 ||http://118.193.45.52:8088/supershell/login/^
@@ -2891,6 +2894,7 @@
 ||http://142.202.240.84:8080^
 ||http://142.202.242.185^
 ||http://142.93.11.96/login/?next=/^
+||http://143.110.142.104:8888/supershell/login/^
 ||http://143.110.216.12/admin/login.php^
 ||http://143.198.109.200^
 ||http://143.198.138.49^
@@ -3491,6 +3495,7 @@
 ||http://165.232.153.139^
 ||http://165.232.186.202:443/admin/console/^
 ||http://165.232.41.54:8888/supershell/login/^
+||http://165.245.188.69:8888/supershell/login/^
 ||http://166.108.206.56:8888/supershell/login/^
 ||http://166.88.225.57^
 ||http://167.114.144.194:8888/supershell/login/^
@@ -3689,6 +3694,7 @@
 ||http://175.27.215.181:8888/supershell/login/^
 ||http://175.27.229.102:8888/supershell/login/^
 ||http://175.27.243.173:8888/supershell/login/^
+||http://176.100.37.216/pages/login.php^
 ||http://176.100.42.11/^
 ||http://176.111.174.114/Hnq8vS/login.php^
 ||http://176.111.174.118/pp/Panel/index.php^
@@ -5067,6 +5073,7 @@
 ||http://206.237.0.49:8888/supershell/login/^
 ||http://206.237.29.177:8888/supershell/login/^
 ||http://206.237.4.161:8888/supershell/login/^
+||http://206.238.68.123:8889/supershell/login/^
 ||http://206.245.167.38:9999/supershell/login/^
 ||http://206.81.22.85:8888/supershell/login/^
 ||http://206.81.7.57/login^
@@ -5688,6 +5695,7 @@
 ||http://43.163.240.112:8888/supershell/login/^
 ||http://43.164.1.146:8082/login/index^
 ||http://43.173.100.69:8888/supershell/login/^
+||http://43.173.114.89:9999/supershell/login/^
 ||http://43.198.100.247:8888/supershell/login/^
 ||http://43.224.227.246^
 ||http://43.224.248.117:8888/supershell/login/^
