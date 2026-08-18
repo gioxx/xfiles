@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
-! Version: 202607211417
+! Version: 202608181001
 ! Title: ABP eXperimental Files: the unstable list
 ! Fork sperimentale di X Files, si consiglia di usare la lista Stable!
-! Last modified: 21-07-2026
+! Last modified: 18-08-2026
 ! Expires: 8 hours
 ! Homepage: https://xfiles.noads.it
 ! Home: https://xfiles.noads.it
@@ -4859,9 +4859,12 @@ tubettajat.net##+js(aopr, miner)
 ! [NoAds X Files - Contributi dagli utenti]
 ##.elementor-widget-wp-widget-adrotate_widgets
 italialife24.it##.striscia-ads
-laprovinciaviterbo.it##img[src*="banner"]
-rietilife.com##div[id^="agenz-"]
-laprovinciarieti.it##img[src*="banner"]
-laprovinciaviterbo.it##img[src*="banner"]
 laprovinciafrosinone.it##img[src*="banner"]
 laprovincialatina.it##img[src*="banner"]
+laprovinciarieti.it##img[src*="banner"]
+laprovinciaviterbo.it##img[src*="banner"]
+laprovinciaviterbo.it##img[src*="banner"]
+redhotcyber.com###rhc-mid-adrotate
+redhotcyber.com###rhc-mid-wrapper
+redhotcyber.com###rhc-top-wrapper
+rietilife.com##div[id^="agenz-"]
