@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files: HWS Harmful WebSites
-! Version: 202609261048
+! Version: 202609271130
 ! Harmful WebSites blocca siti web potenzialmente dannosi per la tua navigazione
-! Last modified: 26-09-2026
+! Last modified: 27-09-2026
 ! Expires: 2 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -5622,6 +5622,7 @@
 ||http://39.109.117.207^
 ||http://39.97.52.57:8888/supershell/login/^
 ||http://39.98.115.22:8888/supershell/login/^
+||http://39.98.120.223:8082/login/index^
 ||http://39.98.201.125:8888/supershell/login/^
 ||http://39.98.204.142:8888/supershell/login/^
 ||http://39.99.32.24:8888/supershell/login/^
@@ -6136,6 +6137,7 @@
 ||http://47.103.27.212:8888/supershell/login/^
 ||http://47.105.117.209:83/supershell/login/^
 ||http://47.105.117.209:8888/supershell/login/^
+||http://47.105.68.108:8082/login/index^
 ||http://47.106.171.201:8888/supershell/login/^
 ||http://47.108.130.170:8888/supershell/login/^
 ||http://47.108.136.43:8888/supershell/login/^
@@ -6941,6 +6943,7 @@
 ||http://8.130.34.53:8888/supershell/login/^
 ||http://8.130.67.89:8888/supershell/login/^
 ||http://8.130.89.132:8888/supershell/login/^
+||http://8.133.234.121:8082/login/index^
 ||http://8.134.126.121:8086/login/index^
 ||http://8.134.211.144:8888/supershell/login/^
 ||http://8.134.69.22:8888/supershell/login/^
@@ -13959,6 +13962,7 @@
 ||https://1312stealer.ru/login^
 ||https://140.143.242.109:8082/login/index^
 ||https://143.198.246.239/panel/login.php^
+||https://146.103.112.159/^
 ||https://151.248.116.197/onion.php^
 ||https://157.173.205.223:8080/auth^
 ||https://158.94.210.148/^
@@ -14007,6 +14011,7 @@
 ||https://196.196.41.173/admin.php^
 ||https://207.244.251.87:8080/auth^
 ||https://209.145.55.141:8080/auth^
+||https://23.160.168.51:5173/^
 ||https://23.20.237.225^
 ||https://23.224.143.170:888/^
 ||https://23.227.193.141/accounts/login/?next=/main/dashboard^
@@ -14064,6 +14069,7 @@
 ||https://82.66.185.138:4443/login.php^
 ||https://87.120.84.133:5173/^
 ||https://87.254.9.5/login.php^
+||https://89.124.118.165/^
 ||https://89.32.41.134/uadmin/adm.php^
 ||https://91.92.249.158^
 ||https://91.92.254.42/login^
