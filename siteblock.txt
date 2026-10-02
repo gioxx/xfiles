@@ -1,8 +1,8 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files: HWS Harmful WebSites
-! Version: 202610011226
+! Version: 202610021202
 ! Harmful WebSites blocca siti web potenzialmente dannosi per la tua navigazione
-! Last modified: 01-10-2026
+! Last modified: 02-10-2026
 ! Expires: 2 days
 ! Homepage: https://xfiles.noads.it
 ! Blog: https://go.gioxx.org/noads
@@ -6125,6 +6125,7 @@
 ||http://46.29.238.39/login/?next=/^
 ||http://46.29.239.26^
 ||http://46.30.41.6/anubis/login.php^
+||http://46.8.102.144:8888/supershell/login/^
 ||http://46.8.122.216:8888/supershell/login/^
 ||http://46.8.229.59/h9fmdW5/Login.php^
 ||http://47.100.0.152:8888/supershell/login/^
@@ -7045,6 +7046,7 @@
 ||http://81.161.229.12/login.php^
 ||http://81.161.229.227/auth^
 ||http://81.161.229.236/login/?next=/^
+||http://81.169.151.12:8888/supershell/login/^
 ||http://81.177.180.138/anubis/login.php^
 ||http://81.177.180.205/login^
 ||http://81.177.181.154/login^
@@ -7125,6 +7127,7 @@
 ||http://84.38.130.177/roth/azo/Panel/panel/admin.php^
 ||http://84.38.130.67/primfour/logs/omc.php^
 ||http://85.115.189.157/^
+||http://85.120.255.76:3000^
 ||http://85.130.116.122:8085/^
 ||http://85.158.108.135:5050/login^
 ||http://85.192.40.131/auth/login^
