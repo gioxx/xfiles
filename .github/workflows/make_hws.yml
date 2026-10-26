@@ -27,6 +27,8 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Make Stable (HWS Build)
+        env:
+          URLHAUS_AUTH_KEY: ${{ secrets.URLHAUS_AUTH_KEY }}
         run: bash ./sh/make_hws.sh
 
       - name: Prepare list header
